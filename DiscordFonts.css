@@ -12,7 +12,7 @@ width: 2px;
 background: 0 0
 }
 ::-webkit-scrollbar-thumb {
-background: #1473cc
+background: #677fd2
 }
 .blog-pager,
 .comments,
@@ -27,7 +27,7 @@ a.quickedit {
 display: none;
 }
 body {
-background: #c7ceea5e;
+background: #f0f8ff;
 font-family: var(--font-primary);
 font-size: 17px;
 font-weight: 400;
@@ -127,7 +127,6 @@ box-shadow:0 8px 20px 0 rgba(0,0,0,.15);
 transform: scale(1.01);
 }
 .DiscordFonts span {
-color: #d66ee2;
 font-weight: 900;
 position: absolute;
 padding: 0 5px;
@@ -225,9 +224,6 @@ width: 250px;
 margin-right: -260px;
 right: 0;
 top: 15%;
-background-image: linear-gradient(
-109.6deg
-, rgba(116,18,203,1) 11.2%, rgba(230,46,131,1) 91.2% );
 color: #fff;
 padding: 5px 10px;
 border-radius: 10px;
@@ -305,25 +301,6 @@ animation-name: slide
 animation-name: reveal;
 animation-direction: reverse
 }
-#load-more {
-font-size: 20px;
-padding: 12px 35px;
-border: 2px solid #ad3cb1;
-color: #cc46c5;
-margin: 10px 0 5px 0;
-cursor: pointer;
-background: #fff;
-text-align: center;
-width: 80%;
-outline: 0;
-border-radius: 3px
-}
-#load-more:hover {
-background-image: linear-gradient(
-109.6deg
-, rgba(116,18,203,1) 11.2%, rgba(230,46,131,1) 91.2% );
-color: #fff
-}
 .infinite-scroll-last {
 font-size: 20px;
 margin: 2px 0;
@@ -361,7 +338,6 @@ overflow: hidden;
 text-align: center;
 height: auto;
 background: var(--primary-color);
-background-image: linear-gradient( 109.6deg,  rgba(116,18,203,1) 11.2%, rgba(230,46,131,1) 91.2% );
 max-width: 100%;
 box-shadow: 2px 2px 20px 2px #0000002e
 }
@@ -507,7 +483,6 @@ width: 150px
 appearance: none;
 width: 20px;
 height: 20px;
-background-image: linear-gradient( 109.6deg,  rgba(116,18,203,1) 11.2%, rgba(230,46,131,1) 91.2% );
 border-radius: 50%;
 cursor: pointer;
 transition: .3s cubic-bezier(.075, .82, .165, 1)
