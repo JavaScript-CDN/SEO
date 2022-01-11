@@ -339,7 +339,6 @@ overflow: hidden;
 text-align: center;
 height: auto;
 background-image: linear-gradient( 109.6deg,  rgba(102 125 209) 11.2%, rgba(239 239 239) 91.2% );
-background: var(--primary-color);
 max-width: 100%;
 box-shadow: 2px 2px 20px 2px #0000002e
 }
