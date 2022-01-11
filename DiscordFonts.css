@@ -509,9 +509,6 @@ justify-content: center;
 flex-wrap: wrap;
 align-items: center
 }
-.other-platform img {
-margin: 0
-}
 .other-platform>a {
 border: none
 }
