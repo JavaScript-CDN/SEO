@@ -1,4 +1,5 @@
 :root {
+--primary-color: linear-gradient(to right, #6698d1, #fb94ff);
 --font-primary: "poppins", sans-serif
 }
 * {
@@ -226,7 +227,7 @@ right: 0;
 top: 15%;
 color: #fff;
 padding: 5px 10px;
-border-radius: 10px;
+border-radius: 6px;
 z-index: 99999;
 background-image: linear-gradient( 109.6deg,  rgba(102 125 209) 11.2%, rgba(239 239 239) 91.2% );
 box-shadow: 0 0 20px 0 rgb(0 0 0 / 32%);
