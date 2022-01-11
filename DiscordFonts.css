@@ -229,7 +229,6 @@ color: #fff;
 padding: 5px 10px;
 border-radius: 6px;
 z-index: 99999;
-background-image: linear-gradient( 109.6deg,  rgba(102 125 209) 11.2%, rgba(239 239 239) 91.2% );
 box-shadow: 0 0 20px 0 rgb(0 0 0 / 32%);
 transition: margin-right 0.3s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -339,7 +338,6 @@ justify-content: space-around;
 overflow: hidden;
 text-align: center;
 height: auto;
-background-image: linear-gradient( 109.6deg,  rgba(102 125 209) 11.2%, rgba(239 239 239) 91.2% );
 max-width: 100%;
 box-shadow: 2px 2px 20px 2px #0000002e
 }
