@@ -11,7 +11,7 @@ width: 2px;
 background: 0 0
 }
 ::-webkit-scrollbar-thumb {
-background: #677fd2
+background: #1473cc
 }
 .blog-pager,
 .comments,
@@ -102,7 +102,7 @@ z-index: 999
 color: #404a58;
 padding: 0 5px;
 text-align: left;
-font-size: 20px
+font-size: 18px
 }
 .DiscordFonts {
 overflow: hidden;
@@ -126,7 +126,7 @@ box-shadow:0 8px 20px 0 rgba(0,0,0,.15);
 transform: scale(1.01);
 }
 .DiscordFonts span {
-color: #677fd2;
+color: #d66ee2;
 font-weight: 900;
 position: absolute;
 padding: 0 5px;
@@ -224,9 +224,9 @@ width: 250px;
 margin-right: -260px;
 right: 0;
 top: 15%;
-color: #fff;
+color: #000000;
 padding: 5px 10px;
-border-radius: 6px;
+border-radius: 7px;
 z-index: 99999;
 box-shadow: 0 0 20px 0 rgb(0 0 0 / 32%);
 transition: margin-right 0.3s cubic-bezier(0.23, 1, 0.32, 1);
@@ -237,7 +237,6 @@ margin-right: 0 !important;
 .copied span {
 float: left;
 width: 100%;
-font-variant-caps: all-small-caps;
 text-align: center;
 letter-spacing: 2px;
 }
@@ -301,6 +300,22 @@ animation-name: slide
 animation-name: reveal;
 animation-direction: reverse
 }
+#load-more {
+font-size: 20px;
+padding: 12px 35px;
+border: 2px solid #ad3cb1;
+color: #cc46c5;
+margin: 10px 0 5px 0;
+cursor: pointer;
+background: #fff;
+text-align: center;
+width: 80%;
+outline: 0;
+border-radius: 3px
+}
+#load-more:hover {
+color: #fff
+}
 .infinite-scroll-last {
 font-size: 20px;
 margin: 2px 0;
@@ -337,6 +352,7 @@ justify-content: space-around;
 overflow: hidden;
 text-align: center;
 height: auto;
+background: var(--primary-color);
 max-width: 100%;
 box-shadow: 2px 2px 20px 2px #0000002e
 }
@@ -402,7 +418,7 @@ width: 100%;
     margin-bottom: 0;
     display: block;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     font-family: montserrat,sans-serif;
     letter-spacing: 1px;
@@ -448,6 +464,20 @@ padding: 0 10px;
 margin: 15px auto;
 max-width: 100%
 }
+
+
+.site-header {
+background-image: linear-gradient(
+109.6deg
+, rgb(102 152 209) 11.2%, rgb(251 148 255) 91.2% );
+}
+.copied {
+background-image: linear-gradient(
+109.6deg
+, rgb(251 148 255) 11.2%, rgb(102 152 209) 91.2% );
+}
+
+
 .settings {
 float: right
 }
@@ -482,6 +512,9 @@ width: 150px
 appearance: none;
 width: 20px;
 height: 20px;
+background-image: linear-gradient(
+109.6deg
+, rgb(251 148 255) 11.2%, rgb(102 152 209) 91.2% );
 border-radius: 50%;
 cursor: pointer;
 transition: .3s cubic-bezier(.075, .82, .165, 1)
@@ -506,15 +539,16 @@ justify-content: center;
 flex-wrap: wrap;
 align-items: center
 }
+.other-platform img {
+margin: 0
+}
 .other-platform>a {
 border: none
 }
 
 .loadmore {
-text-align: center;
-display: none
+text-align: center
 }
-
 .toggle-nav {
 font-size: 25px;
 cursor: pointer;
@@ -663,9 +697,45 @@ box-shadow: 0 -5px 10px 0 #0000001a
 margin-bottom:20px;
 }
 footer {
-padding: 1em 1em 0 1em
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #ffe6b4;
+    padding-bottom: 50px;
 }
+h1 {
+    text-align: center;
 }
+h1 {
+    font-size: 2.3em;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+@media only screen and (max-width: 600px){
+h1 {
+    font-size: 1.5em;
+    color: #000;
+ }
+}
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+.container {
+    width: 100%;
+  }
+ }
+
+@media only screen and (max-width: 970px){
+.container {
+    max-width: 100%;
+  }
+}
+
 .resp-sharing-button__icon,
 .resp-sharing-button__link {
 display: inline-block;
@@ -829,43 +899,3 @@ display:none; }
 display:none; }
 .status-msg-hidden {visibility:hidden;
 display:none; }
-
-footer {
-    width: 100%;
-    float: left;
-    text-align: center;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    background: #ffe6b4;
-    padding-bottom: 50px;
-}
-h1 {
-    text-align: center;
-}
-h1 {
-    font-size: 2.3em;
-    color: #000;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
-@media only screen and (max-width: 600px){
-h1 {
-    font-size: 1.5em;
-    color: #000;
- }
-}
-.container {
-    max-width: 970px;
-    margin: 0 auto;
-    text-align: center;
-}
-@media only screen and (max-width: 600px){
-.container {
-    width: 100%;
-  }
- }
-
-@media only screen and (max-width: 970px){
-.container {
-    max-width: 100%;
-  }
-}
