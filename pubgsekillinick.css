@@ -126,7 +126,7 @@ box-shadow:0 8px 20px 0 rgba(0,0,0,.15);
 transform: scale(1.01);
 }
 .pubgsekillinick span {
-color: #8ee9e363;
+color: #b095eb;
 font-weight: 900;
 position: absolute;
 padding: 0 5px;
@@ -467,7 +467,7 @@ max-width: 100%
 
 
 .site-header {
-background-image:   linear-gradient( 109.6deg , rgb(104, 242, 242) 11.2%, rgb(84 127 244) 91.2% );
+background-image:   linear-gradient( 109.6deg , rgb(244, 171, 118) 11.2%, rgb(84, 214, 244) 91.2% );
 }
 }
 .copied {
