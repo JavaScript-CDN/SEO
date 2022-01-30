@@ -99,7 +99,7 @@ z-index: 999
 }
 .DiscordFont,
 .herofontsrecentlist {
-color: #e97de3;
+color: #404a58;
 padding: 0 5px;
 text-align: left;
 font-size: 18px
@@ -126,7 +126,7 @@ box-shadow:0 8px 20px 0 rgba(0,0,0,.15);
 transform: scale(1.01);
 }
 .NamaFF span {
-color: #fee140;
+color: #e97de3;
 font-weight: 900;
 position: absolute;
 padding: 0 5px;
