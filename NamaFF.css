@@ -468,12 +468,12 @@ max-width: 100%
 
 .site-header {
 background-image: linear-gradient( 
-109.6deg , rgb(0 219 222) 11.2%, rgb(252 0 255) 91.2% );
+109.6deg , rgb(217 175 217) 11.2%, rgb(151 217 225) 91.2% );
 }
 .copied {
 background-image: linear-gradient(
 109.6deg
-, rgb(252 0 255) 11.2%, rgb(0 219 222) 91.2% );
+, rgb(151 217 225) 11.2%, rgb(217 175 217) 91.2% );
 }
 
 
@@ -513,7 +513,7 @@ width: 20px;
 height: 20px;
 background-image: linear-gradient(
 109.6deg
-, rgb(252 0 255) 11.2%, rgb(0 219 222) 91.2% );
+, rgb(151 217 225) 11.2%, rgb(217 175 217) 91.2% );
 border-radius: 50%;
 cursor: pointer;
 transition: .3s cubic-bezier(.075, .82, .165, 1)
