@@ -468,15 +468,10 @@ max-width: 100%
 
 .site-header {
 background-image:   linear-gradient( 109.6deg , rgb(244, 171, 118) 11.2%, rgb(84, 214, 244) 91.2% );
-}
-}
 .copied {
-background-image: linear-gradient(
-109.6deg
-, rgb(84 127 244) 11.2%, rgb(240 245 245) 91.2% );
+background-image: linear-gradient( 109.6deg , rgb(84, 214, 244) 11.2%, rgb(244, 171, 118) 91.2% );
 }
-
-
+}
 .settings {
 float: right
 }
