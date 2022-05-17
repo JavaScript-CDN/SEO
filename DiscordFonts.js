@@ -1,5575 +1,5728 @@
-var _0x187c56 = _0x2856,
-    normal = _0x187c56(0xb4),
-    default_text = _0x187c56(0x5a);
+var _0x77b2=["abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890","Discord Fonts"];
+var normal=_0x77b2[0];
+var default_text=_0x77b2[1]
 
-function applyCharMap(_0x3593fc, _0x3c857c) {
-    var _0x9cc90b = _0x187c56;
-    let _0x2eba9c = '';
-    for (let _0x38d6a5 of _0x3c857c[_0x9cc90b(0x3d3)]('')) {
-        if (_0x3593fc[_0x38d6a5] !== undefined) _0x2eba9c += _0x3593fc[_0x38d6a5];
-        else {
-            if (_0x3593fc[_0x38d6a5[_0x9cc90b(0x187)]()] !== undefined) _0x2eba9c += _0x3593fc[_0x38d6a5[_0x9cc90b(0x187)]()];
-            else _0x2eba9c += _0x38d6a5;
+function applyCharMap(_0x59eex3, _0x59eex4) {
+    let _0x59eex5 = "";
+    for (let _0x59eex6 of _0x59eex4["split"]("")) {
+        if (_0x59eex3[_0x59eex6] !== undefined) {
+            _0x59eex5 += _0x59eex3[_0x59eex6]
+        } else {
+            if (_0x59eex3[_0x59eex6["toLowerCase"]()] !== undefined) {
+                _0x59eex5 += _0x59eex3[_0x59eex6["toLowerCase"]()]
+            } else {
+                _0x59eex5 += _0x59eex6
+            }
         }
     }
-    return _0x2eba9c;
+    return _0x59eex5
 }
 
-function invertedSquaresCharMapFun(_0x54a082) {
-    return applyCharMap(invertedSquaresCharMap, _0x54a082);
+function invertedSquaresCharMapFun(_0x59eex4) {
+    return applyCharMap(invertedSquaresCharMap, _0x59eex4)
 }
 
-function wideTextCharMapFun(_0x34724b) {
-    return applyCharMap(wideTextCharMap, _0x34724b);
+function wideTextCharMapFun(_0x59eex4) {
+    return applyCharMap(wideTextCharMap, _0x59eex4)
 }
 
-function squaresCharMapFun(_0xafecf5) {
-    return applyCharMap(squaresCharMap, _0xafecf5);
+function squaresCharMapFun(_0x59eex4) {
+    return applyCharMap(squaresCharMap, _0x59eex4)
 }
 
-function subscriptCharMapFun(_0x1cc8b9) {
-    return applyCharMap(subscriptCharMap, _0x1cc8b9);
+function subscriptCharMapFun(_0x59eex4) {
+    return applyCharMap(subscriptCharMap, _0x59eex4)
 }
 
-function bentTextCharMapFun(_0x3d5568) {
-    return applyCharMap(bentTextCharMap, _0x3d5568);
+function bentTextCharMapFun(_0x59eex4) {
+    return applyCharMap(bentTextCharMap, _0x59eex4)
 }
 
-function neonCharMapFun(_0x26389e) {
-    return applyCharMap(neonCharMap, _0x26389e);
+function neonCharMapFun(_0x59eex4) {
+    return applyCharMap(neonCharMap, _0x59eex4)
 }
 
-function futureAlienCharMapFun(_0x525de7) {
-    return applyCharMap(futureAlienCharMap, _0x525de7);
+function futureAlienCharMapFun(_0x59eex4) {
+    return applyCharMap(futureAlienCharMap, _0x59eex4)
 }
 
-function squiggleCharMapFun(_0x9ef357) {
-    return applyCharMap(squiggleCharMap, _0x9ef357);
+function squiggleCharMapFun(_0x59eex4) {
+    return applyCharMap(squiggleCharMap, _0x59eex4)
 }
 
-function squiggle2CharMapFun(_0x164b5f) {
-    return applyCharMap(squiggle2CharMap, _0x164b5f);
+function squiggle2CharMapFun(_0x59eex4) {
+    return applyCharMap(squiggle2CharMap, _0x59eex4)
 }
 
-function squiggle3CharMapFun(_0x4e6998) {
-    return applyCharMap(squiggle3CharMap, _0x4e6998);
+function squiggle3CharMapFun(_0x59eex4) {
+    return applyCharMap(squiggle3CharMap, _0x59eex4)
 }
 
-function squiggle4CharMapFun(_0x4c7361) {
-    return applyCharMap(squiggle4CharMap, _0x4c7361);
+function squiggle4CharMapFun(_0x59eex4) {
+    return applyCharMap(squiggle4CharMap, _0x59eex4)
 }
 
-function squiggle5CharMapFun(_0x40e703) {
-    return applyCharMap(squiggle5CharMap, _0x40e703);
+function squiggle5CharMapFun(_0x59eex4) {
+    return applyCharMap(squiggle5CharMap, _0x59eex4)
 }
 
-function squiggle6CharMapFun(_0x50e56e) {
-    return applyCharMap(squiggle6CharMap, _0x50e56e);
+function squiggle6CharMapFun(_0x59eex4) {
+    return applyCharMap(squiggle6CharMap, _0x59eex4)
 }
 
-function boldCharMapFun(_0x274b8a) {
-    return applyCharMap(boldCharMap, _0x274b8a);
+function boldCharMapFun(_0x59eex4) {
+    return applyCharMap(boldCharMap, _0x59eex4)
 }
 
-function oldEnglishCharMapFun(_0x324268) {
-    return applyCharMap(oldEnglishCharMap, _0x324268);
+function oldEnglishCharMapFun(_0x59eex4) {
+    return applyCharMap(oldEnglishCharMap, _0x59eex4)
 }
 
-function medievalCharMapFun(_0xa1a033) {
-    return applyCharMap(medievalCharMap, _0xa1a033);
+function medievalCharMapFun(_0x59eex4) {
+    return applyCharMap(medievalCharMap, _0x59eex4)
 }
 
-function cursiveCharMapFun(_0xb32270) {
-    return applyCharMap(cursiveCharMap, _0xb32270);
+function cursiveCharMapFun(_0x59eex4) {
+    return applyCharMap(cursiveCharMap, _0x59eex4)
 }
 
-function doubleStruckCharMapFun(_0x3f1198) {
-    return applyCharMap(doubleStruckCharMap, _0x3f1198);
+function doubleStruckCharMapFun(_0x59eex4) {
+    return applyCharMap(doubleStruckCharMap, _0x59eex4)
 }
 
-function italicCharMapFun(_0x55f486) {
-    return applyCharMap(italicCharMap, _0x55f486);
+function italicCharMapFun(_0x59eex4) {
+    return applyCharMap(italicCharMap, _0x59eex4)
 }
 
-function boldItalicCharMapFun(_0x23a79f) {
-    return applyCharMap(boldItalicCharMap, _0x23a79f);
+function boldItalicCharMapFun(_0x59eex4) {
+    return applyCharMap(boldItalicCharMap, _0x59eex4)
 }
 
-function monospaceCharMapFun(_0x45aad1) {
-    return applyCharMap(monospaceCharMap, _0x45aad1);
+function monospaceCharMapFun(_0x59eex4) {
+    return applyCharMap(monospaceCharMap, _0x59eex4)
 }
 
-function upperAnglesCharMapFun(_0x47fc06) {
-    return applyCharMap(upperAnglesCharMap, _0x47fc06);
+function upperAnglesCharMapFun(_0x59eex4) {
+    return applyCharMap(upperAnglesCharMap, _0x59eex4)
 }
 
-function greekCharMapFun(_0xa9ffef) {
-    return applyCharMap(greekCharMap, _0xa9ffef);
+function greekCharMapFun(_0x59eex4) {
+    return applyCharMap(greekCharMap, _0x59eex4)
 }
 
-function symbolsCharMapFun(_0x382759) {
-    return applyCharMap(symbolsCharMap, _0x382759);
+function symbolsCharMapFun(_0x59eex4) {
+    return applyCharMap(symbolsCharMap, _0x59eex4)
 }
 
-function currencyCharMapFun(_0x34fbae) {
-    return applyCharMap(currencyCharMap, _0x34fbae);
+function currencyCharMapFun(_0x59eex4) {
+    return applyCharMap(currencyCharMap, _0x59eex4)
 }
 
-function asianStyleCharMapFun(_0x3326ea) {
-    return applyCharMap(asianStyleCharMap, _0x3326ea);
+function asianStyleCharMapFun(_0x59eex4) {
+    return applyCharMap(asianStyleCharMap, _0x59eex4)
 }
 
-function asianStyle2CharMapFun(_0x57e4a4) {
-    return applyCharMap(asianStyle2CharMap, _0x57e4a4);
+function asianStyle2CharMapFun(_0x59eex4) {
+    return applyCharMap(asianStyle2CharMap, _0x59eex4)
 }
 var luni = new Lunicode();
-luni[_0x187c56(0x1e6)][_0x187c56(0x19)][_0x187c56(0x152)]['maxHeight'] = 0xa;
+luni["tools"]["creepify"]["options"]["maxHeight"] = 10;
 
-function crazyWithFlourishOrSymbols(_0x2e6596) {
-    var _0x1f524a = _0x187c56;
-    if (Math[_0x1f524a(0xe6)]() < 0.7) return wrapInSymbols(crazifyText(_0x2e6596), 0x2);
-    else return wrapInFlourish(crazifyText(_0x2e6596), 0x2);
+function crazyWithFlourishOrSymbols(_0x59eex4) {
+    if (Math["random"]() < 0.7) {
+        return wrapInSymbols(crazifyText(_0x59eex4), 2)
+    } else {
+        return wrapInFlourish(crazifyText(_0x59eex4), 2)
+    }
 }
 
-function illuminati(_0x321ea6) {
-    var _0x21ce29 = _0x187c56;
-    return applyCharMap(doubleStruckCharMap, _0x21ce29(0x219) + _0x321ea6 + _0x21ce29(0x3b4));
+function illuminati(_0x59eex4) {
+    return applyCharMap(doubleStruckCharMap, "\u10e6\u22b1\u2665" + _0x59eex4 + "\u2602\ufe0f\u22b1\u10e6")
 }
 
-function textgun(_0x44e8a4) {
-    var _0x4715b1 = _0x187c56;
-    return _0x4715b1(0x479) + _0x44e8a4[_0x4715b1(0x3d3)]('')['join'](_0x4715b1(0x131)) + _0x4715b1(0x1d9);
+function textgun(_0x59eex4) {
+    return "\u2584\ufe3b\u30c7" + _0x59eex4["split"]("")["join"]("&#823;") + "\u2550\u2550\u2501\u4e00"
 }
 
-function minigame(_0x3ea6bd) {
-    var _0x2d3ffc = _0x187c56;
-    return _0x2d3ffc(0x40e) + luni[_0x2d3ffc(0x1e6)][_0x2d3ffc(0xc5)][_0x2d3ffc(0x2f7)](_0x3ea6bd) + _0x2d3ffc(0x205);
+function minigame(_0x59eex4) {
+    return "\u2605\u5f61[" + luni["tools"]["tiny"]["encode"](_0x59eex4) + "]\u5f61\u2605"
 }
 
-function pubggame1(_0x49caa9) {
-    return applyCharMap(cursiveCharMap, '༒☬' + _0x49caa9 + '☬༒');
+function pubggame1(_0x59eex4) {
+    return applyCharMap(cursiveCharMap, "\u0f12\u262c" + _0x59eex4 + "\u262c\u0f12")
 }
 
-function pubggame2(_0x1fa883) {
-    var _0x5ef0c5 = _0x187c56;
-    return applyCharMap(cursiveCharMap, _0x5ef0c5(0x2fc) + _0x1fa883 + '༻༒۝');
+function pubggame2(_0x59eex4) {
+    return applyCharMap(monospaceCharMap, "\u0fd7\u265b" + _0x59eex4 + "\u265b\u0fd7")
 }
 
-function pubggame3(_0x1a2b1b) {
-    var _0x59ac20 = _0x187c56;
-    return applyCharMap(invertedSquaresCharMap, _0x59ac20(0x82) + _0x1a2b1b + _0x59ac20(0x316));
+function pubggame3(_0x59eex4) {
+    return applyCharMap(invertedSquaresCharMap, "\ua9c1\ud808\udd9c" + _0x59eex4 + "\ud808\udd9c\ua9c2")
 }
 
-function bricks(_0x576c55) {
-    var _0x49095a = _0x187c56;
-    return applyCharMap(squaresCharMap, _0x49095a(0x1cc) + _0x576c55 + _0x49095a(0x2a1));
+function bricks(_0x59eex4) {
+    return applyCharMap(squaresCharMap, "\u30c4\u4e97" + _0x59eex4 + "\u4e97\u30c4")
 }
 
-function bigrus(_0x1d38eb) {
-    var _0x2cef46 = _0x187c56;
-    return applyCharMap(boldItalicCharMap, _0x2cef46(0x272) + _0x1d38eb + '♥࿐٭');
+function bigrus(_0x59eex4) {
+    return applyCharMap(boldItalicCharMap, "\u066d\u1da6\u1db0\u1d48\u1b44" + _0x59eex4 + "\u2665\u0fd0\u066d")
 }
 
-function strikeThrough(_0x3597a5) {
-    var _0x25a306 = _0x187c56;
-    return _0x3597a5[_0x25a306(0x3d3)]('')[_0x25a306(0x211)]('̶') + '̶';
+function strikeThrough(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u0336") + "\u0336"
 }
 
-function tildeStrikeThrough(_0x2dd208) {
-    var _0x530072 = _0x187c56;
-    return _0x2dd208[_0x530072(0x3d3)]('')[_0x530072(0x211)]('̴') + '̴';
+function tildeStrikeThrough(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u0334") + "\u0334"
 }
 
-function underline(_0x2888e6) {
-    var _0x34113c = _0x187c56;
-    return _0x2888e6['split']('')[_0x34113c(0x211)]('̲') + '̲';
+function underline(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u0332") + "\u0332"
 }
 
-function doubleUnderline(_0x21c6cb) {
-    var _0x34a5aa = _0x187c56;
-    return _0x21c6cb[_0x34a5aa(0x3d3)]('')[_0x34a5aa(0x211)]('̳') + '̳';
+function doubleUnderline(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u0333") + "\u0333"
 }
 
-function slashThrough(_0x1aad90) {
-    var _0x2398bc = _0x187c56;
-    return _0x1aad90['split']('')[_0x2398bc(0x211)]('̷') + '̷';
+function slashThrough(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u0337") + "\u0337"
 }
 
-function stinky(_0x484854) {
-    var _0x292a53 = _0x187c56;
-    return _0x484854[_0x292a53(0x3d3)]('')[_0x292a53(0x211)]('̾') + '̾';
+function stinky(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u033e") + "\u033e"
 }
 
-function heartsBetween(_0x36e033) {
-    var _0x4d06f2 = _0x187c56;
-    return _0x36e033['split']('')[_0x4d06f2(0x211)]('♥');
+function heartsBetween(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u2665")
 }
 
-function arrowBelow(_0x4f472d) {
-    var _0x3033f7 = _0x187c56;
-    return _0x4f472d['split']('')[_0x3033f7(0x211)]('͎') + '͎';
+function arrowBelow(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u034e") + "\u034e"
 }
 
-function crossAboveBelow(_0x3aa008) {
-    var _0x33d90e = _0x187c56;
-    return _0x3aa008['split']('')[_0x33d90e(0x211)]('͓̽') + '͓̽';
+function crossAboveBelow(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u033d\u0353") + "\u033d\u0353"
 }
 const wingdingsCharMap = {
-    0x0: _0x187c56(0x3aa),
-    0x1: '📂︎',
-    0x2: '📄︎',
-    0x3: _0x187c56(0xf8),
-    0x4: _0x187c56(0x3d2),
-    0x5: _0x187c56(0x1a3),
-    0x6: '⌛︎',
-    0x7: '🖮︎',
-    0x8: _0x187c56(0x83),
-    0x9: _0x187c56(0x23c),
-    '!': '✏︎',
-    '\x22': '✂︎',
-    '#': '✁︎',
-    '$': _0x187c56(0x2c4),
-    '%': _0x187c56(0x377),
-    '&': _0x187c56(0x24d),
-    '\x27': _0x187c56(0x3ee),
-    '(': _0x187c56(0x2fe),
-    ')': '✆︎',
-    '*': _0x187c56(0x3cf),
-    '+': _0x187c56(0x2ad),
-    ',': _0x187c56(0x3e1),
-    '-': _0x187c56(0xb0),
-    '.': '📬︎',
-    '/': _0x187c56(0x36e),
-    ':': _0x187c56(0x4b0),
-    ';': '🖴︎',
-    '<': '🖫︎',
-    '=': _0x187c56(0x4ad),
-    '>': '✇︎',
-    '?': '✍︎',
-    'A': '✌︎',
-    'B': _0x187c56(0x59),
-    'C': _0x187c56(0x417),
-    'D': _0x187c56(0x11a),
-    'E': '☜︎',
-    'F': '☞︎',
-    'G': '☝︎',
-    'H': '☟︎',
-    'I': '✋︎',
-    'J': '☺︎',
-    'K': _0x187c56(0x262),
-    'L': '☹︎',
-    'M': _0x187c56(0xf5),
-    'N': '☠︎',
-    'O': '⚐︎',
-    'P': _0x187c56(0x166),
-    'Q': '✈︎',
-    'R': '☼︎',
-    'S': '💧︎',
-    'T': '❄︎',
-    'U': _0x187c56(0xd6),
-    'V': '✞︎',
-    'W': _0x187c56(0x2ba),
-    'X': '✠︎',
-    'Y': '✡︎',
-    'Z': '☪︎',
-    '[': '☯︎',
-    '\x5c': 'ॐ︎',
-    ']': '☸︎',
-    '^': '♈︎',
-    '_': '♉︎',
-    '`': '♊︎',
-    'a': '♋︎',
-    'b': '♌︎',
-    'c': '♍︎',
-    'd': '♎︎',
-    'e': '♏︎',
-    'f': '♐︎',
-    'g': '♑︎',
-    'h': '♒︎',
-    'i': '♓︎',
-    'j': '🙰',
-    'k': '🙵',
-    'l': '●︎',
-    'm': '❍︎',
-    'n': '■︎',
-    'o': '□︎',
-    'p': '◻︎',
-    'q': '❑︎',
-    'r': '❒︎',
-    's': '⬧︎',
-    't': '⧫︎',
-    'u': '◆︎',
-    'v': '❖︎',
-    'w': '⬥︎',
-    'x': '⌧︎',
-    'y': '⍓︎',
-    'z': '⌘︎',
-    '{': '❀︎',
-    '|': '✿︎',
-    '}': '❝︎',
-    '~': '❞︎',
-    '\x20': '▯︎',
-    '€': '⓪︎',
-    '\x20': '①︎',
-    '‚': '②︎',
-    'ƒ': '③︎',
-    '„': '④︎',
-    '…': '⑤︎',
-    '†': '⑥︎',
-    '‡': '⑦︎',
-    'ˆ': '⑧︎',
-    '‰': '⑨︎',
-    'Š': '⑩︎',
-    '‹': '⓿︎',
-    'Œ': '❶︎',
-    '\x20': '❷︎',
-    'Ž': '❸︎',
-    '\x20': '❹︎',
-    '\x20': '❺︎',
-    '‘': '❻︎',
-    '’': '❼︎',
-    '“': '❽︎',
-    '”': '❾︎',
-    '•': '❿︎',
-    '–': '◻︎',
-    '—': '◻︎',
-    '˜': '◻︎',
-    '™': '◻︎',
-    'š': '◻︎',
-    '›': '◻︎',
-    'œ': '◻︎',
-    '\x20': '◻︎',
-    'ž': '·︎',
-    'Ÿ': '•︎',
-    '¡': '○︎',
-    '¢': '⭕︎',
-    '£': '◻︎',
-    '¤': '◉︎',
-    '¥': '◎︎',
-    '¦': '◻︎',
-    '§': '▪︎',
-    '¨': '◻︎',
-    '©': '◻︎',
-    'ª': '✦︎',
-    '«': '★︎',
-    '¬': '✶︎',
-    '®': '✹︎',
-    '¯': '✵︎',
-    '°': '◻︎',
-    '±': '⌖︎',
-    '²': '⟡︎',
-    '³': '⌑︎',
-    '´': '◻︎',
-    'µ': '✪︎',
-    '¶': '✰︎',
-    '·': _0x187c56(0x67),
-    '¸': _0x187c56(0x30d),
-    '¹': _0x187c56(0x256),
-    'º': _0x187c56(0x3af),
-    '»': '🕔︎',
-    '¼': _0x187c56(0x134),
-    '½': '🕖︎',
-    '¾': _0x187c56(0x9c),
-    '¿': _0x187c56(0x478),
-    'À': _0x187c56(0x418),
-    'Á': _0x187c56(0x49e),
-    'Â': '🕛︎',
-    'Ã': '◻︎',
-    'Ä': '◻︎',
-    'Å': '◻︎',
-    'Æ': '◻︎',
-    'Ç': '◻︎',
-    'È': '◻︎',
-    'É': '◻︎',
-    'Ê': '◻︎',
-    'Ë': '◻︎',
-    'Ì': '◻︎',
-    'Í': '◻︎',
-    'Î': '◻︎',
-    'Ï': '◻︎',
-    'Ð': '◻︎',
-    'Ñ': '◻︎',
-    'Ò': '◻︎',
-    'Ó': '◻︎',
-    'Ô': '◻︎',
-    'Õ': '⌫︎',
-    'Ö': '⌦︎',
-    '×': '◻︎',
-    'Ø': '➢︎',
-    'Ù': '◻︎',
-    'Ú': '◻︎',
-    'Û': '◻︎',
-    'Ü': '➲︎',
-    'Ý': '◻︎',
-    'Þ': '◻︎',
-    'ß': '◻︎',
-    'à': '◻︎',
-    'á': '◻︎',
-    'â': '◻︎',
-    'ã': '◻︎',
-    'ä': '◻︎',
-    'å': '◻︎',
-    'æ': '◻︎',
-    'ç': '◻︎',
-    'è': '➔︎',
-    'é': '◻︎',
-    'ê': '◻︎',
-    'ë': '◻︎',
-    'ì': '◻︎',
-    'í': '◻︎',
-    'î': '◻︎',
-    'ï': '⇦︎',
-    'ð': '⇨︎',
-    'ñ': '⇧︎',
-    'ò': '⇩︎',
-    'ó': '⬄︎',
-    'ô': '⇳︎',
-    'õ': '⬀︎',
-    'ö': '⬁︎',
-    '÷': '⬃︎',
-    'ø': '⬂︎',
-    'ù': '▭︎',
-    'ú': '▫︎',
-    'û': '✗︎',
-    'ü': '✓︎',
-    'ý': '☒︎',
-    'þ': '☑︎',
-    'ÿ': '◻︎'
+    0: "\ud83d\udcc1\ufe0e",
+    1: "\ud83d\udcc2\ufe0e",
+    2: "\ud83d\udcc4\ufe0e",
+    3: "\ud83d\uddcf\ufe0e",
+    4: "\ud83d\uddd0\ufe0e",
+    5: "\ud83d\uddc4\ufe0e",
+    6: "\u231b\ufe0e",
+    7: "\ud83d\uddae\ufe0e",
+    8: "\ud83d\uddb0\ufe0e",
+    9: "\ud83d\uddb2\ufe0e",
+    "!": "\u270f\ufe0e",
+    '\"': "\u2702\ufe0e",
+    "#": "\u2701\ufe0e",
+    $: "\ud83d\udc53\ufe0e",
+    "%": "\ud83d\udd6d\ufe0e",
+    "&": "\ud83d\udd6e\ufe0e",
+    "\'": "\ud83d\udd6f\ufe0e",
+    "(": "\ud83d\udd7f\ufe0e",
+    ")": "\u2706\ufe0e",
+    "*": "\ud83d\udd82\ufe0e",
+    "+": "\ud83d\udd83\ufe0e",
+    ",": "\ud83d\udcea\ufe0e",
+    "-": "\ud83d\udceb\ufe0e",
+    ".": "\ud83d\udcec\ufe0e",
+    "/": "\ud83d\udced\ufe0e",
+    ":": "\ud83d\uddb3\ufe0e",
+    ";": "\ud83d\uddb4\ufe0e",
+    "<": "\ud83d\uddab\ufe0e",
+    "=": "\ud83d\uddac\ufe0e",
+    ">": "\u2707\ufe0e",
+    "?": "\u270d\ufe0e",
+    A: "\u270c\ufe0e",
+    B: "\ud83d\udc4c\ufe0e",
+    C: "\ud83d\udc4d\ufe0e",
+    D: "\ud83d\udc4e\ufe0e",
+    E: "\u261c\ufe0e",
+    F: "\u261e\ufe0e",
+    G: "\u261d\ufe0e",
+    H: "\u261f\ufe0e",
+    I: "\u270b\ufe0e",
+    J: "\u263a\ufe0e",
+    K: "\ud83d\ude10\ufe0e",
+    L: "\u2639\ufe0e",
+    M: "\ud83d\udca3\ufe0e",
+    N: "\u2620\ufe0e",
+    O: "\u2690\ufe0e",
+    P: "\ud83c\udff1\ufe0e",
+    Q: "\u2708\ufe0e",
+    R: "\u263c\ufe0e",
+    S: "\ud83d\udca7\ufe0e",
+    T: "\u2744\ufe0e",
+    U: "\ud83d\udd46\ufe0e",
+    V: "\u271e\ufe0e",
+    W: "\ud83d\udd48\ufe0e",
+    X: "\u2720\ufe0e",
+    Y: "\u2721\ufe0e",
+    Z: "\u262a\ufe0e",
+    "[": "\u262f\ufe0e",
+    "\\": "\u0950\ufe0e",
+    "]": "\u2638\ufe0e",
+    "^": "\u2648\ufe0e",
+    _: "\u2649\ufe0e",
+    "`": "\u264a\ufe0e",
+    a: "\u264b\ufe0e",
+    b: "\u264c\ufe0e",
+    c: "\u264d\ufe0e",
+    d: "\u264e\ufe0e",
+    e: "\u264f\ufe0e",
+    f: "\u2650\ufe0e",
+    g: "\u2651\ufe0e",
+    h: "\u2652\ufe0e",
+    i: "\u2653\ufe0e",
+    j: "\ud83d\ude70",
+    k: "\ud83d\ude75",
+    l: "\u25cf\ufe0e",
+    m: "\u274d\ufe0e",
+    n: "\u25a0\ufe0e",
+    o: "\u25a1\ufe0e",
+    p: "\u25fb\ufe0e",
+    q: "\u2751\ufe0e",
+    r: "\u2752\ufe0e",
+    s: "\u2b27\ufe0e",
+    t: "\u29eb\ufe0e",
+    u: "\u25c6\ufe0e",
+    v: "\u2756\ufe0e",
+    w: "\u2b25\ufe0e",
+    x: "\u2327\ufe0e",
+    y: "\u2353\ufe0e",
+    z: "\u2318\ufe0e",
+    "{": "\u2740\ufe0e",
+    "|": "\u273f\ufe0e",
+    "}": "\u275d\ufe0e",
+    "~": "\u275e\ufe0e",
+    " ": "\u25af\ufe0e",
+    "\u20ac": "\u24ea\ufe0e",
+    " ": "\u2460\ufe0e",
+    "\u201a": "\u2461\ufe0e",
+    ƒ: "\u2462\ufe0e",
+    "\u201e": "\u2463\ufe0e",
+    "\u2026": "\u2464\ufe0e",
+    "\u2020": "\u2465\ufe0e",
+    "\u2021": "\u2466\ufe0e",
+    ˆ: "\u2467\ufe0e",
+    "\u2030": "\u2468\ufe0e",
+    Š: "\u2469\ufe0e",
+    "\u2039": "\u24ff\ufe0e",
+    Œ: "\u2776\ufe0e",
+    " ": "\u2777\ufe0e",
+    Ž: "\u2778\ufe0e",
+    " ": "\u2779\ufe0e",
+    " ": "\u277a\ufe0e",
+    "\u2018": "\u277b\ufe0e",
+    "\u2019": "\u277c\ufe0e",
+    "\u201c": "\u277d\ufe0e",
+    "\u201d": "\u277e\ufe0e",
+    "\u2022": "\u277f\ufe0e",
+    "\u2013": "\u25fb\ufe0e",
+    "\u2014": "\u25fb\ufe0e",
+    "\u02dc": "\u25fb\ufe0e",
+    "\u2122": "\u25fb\ufe0e",
+    š: "\u25fb\ufe0e",
+    "\u203a": "\u25fb\ufe0e",
+    œ: "\u25fb\ufe0e",
+    " ": "\u25fb\ufe0e",
+    ž: "\xB7\ufe0e",
+    Ÿ: "\u2022\ufe0e",
+    "\xA1": "\u25cb\ufe0e",
+    "\xA2": "\u2b55\ufe0e",
+    "\xA3": "\u25fb\ufe0e",
+    "\xA4": "\u25c9\ufe0e",
+    "\xA5": "\u25ce\ufe0e",
+    "\xA6": "\u25fb\ufe0e",
+    "\xA7": "\u25aa\ufe0e",
+    "\xA8": "\u25fb\ufe0e",
+    "\xA9": "\u25fb\ufe0e",
+    ª: "\u2726\ufe0e",
+    "\xAB": "\u2605\ufe0e",
+    "\xAC": "\u2736\ufe0e",
+    "\xAE": "\u2739\ufe0e",
+    "\xAF": "\u2735\ufe0e",
+    "\xB0": "\u25fb\ufe0e",
+    "\xB1": "\u2316\ufe0e",
+    "\xB2": "\u27e1\ufe0e",
+    "\xB3": "\u2311\ufe0e",
+    "\xB4": "\u25fb\ufe0e",
+    µ: "\u272a\ufe0e",
+    "\xB6": "\u2730\ufe0e",
+    "\xB7": "\ud83d\udd50\ufe0e",
+    "\xB8": "\ud83d\udd51\ufe0e",
+    "\xB9": "\ud83d\udd52\ufe0e",
+    º: "\ud83d\udd53\ufe0e",
+    "\xBB": "\ud83d\udd54\ufe0e",
+    "\xBC": "\ud83d\udd55\ufe0e",
+    "\xBD": "\ud83d\udd56\ufe0e",
+    "\xBE": "\ud83d\udd57\ufe0e",
+    "\xBF": "\ud83d\udd58\ufe0e",
+    À: "\ud83d\udd59\ufe0e",
+    Á: "\ud83d\udd5a\ufe0e",
+    Â: "\ud83d\udd5b\ufe0e",
+    Ã: "\u25fb\ufe0e",
+    Ä: "\u25fb\ufe0e",
+    Å: "\u25fb\ufe0e",
+    Æ: "\u25fb\ufe0e",
+    Ç: "\u25fb\ufe0e",
+    È: "\u25fb\ufe0e",
+    É: "\u25fb\ufe0e",
+    Ê: "\u25fb\ufe0e",
+    Ë: "\u25fb\ufe0e",
+    Ì: "\u25fb\ufe0e",
+    Í: "\u25fb\ufe0e",
+    Î: "\u25fb\ufe0e",
+    Ï: "\u25fb\ufe0e",
+    Ð: "\u25fb\ufe0e",
+    Ñ: "\u25fb\ufe0e",
+    Ò: "\u25fb\ufe0e",
+    Ó: "\u25fb\ufe0e",
+    Ô: "\u25fb\ufe0e",
+    Õ: "\u232b\ufe0e",
+    Ö: "\u2326\ufe0e",
+    "\xD7": "\u25fb\ufe0e",
+    Ø: "\u27a2\ufe0e",
+    Ù: "\u25fb\ufe0e",
+    Ú: "\u25fb\ufe0e",
+    Û: "\u25fb\ufe0e",
+    Ü: "\u27b2\ufe0e",
+    Ý: "\u25fb\ufe0e",
+    Þ: "\u25fb\ufe0e",
+    ß: "\u25fb\ufe0e",
+    à: "\u25fb\ufe0e",
+    á: "\u25fb\ufe0e",
+    â: "\u25fb\ufe0e",
+    ã: "\u25fb\ufe0e",
+    ä: "\u25fb\ufe0e",
+    å: "\u25fb\ufe0e",
+    æ: "\u25fb\ufe0e",
+    ç: "\u25fb\ufe0e",
+    è: "\u2794\ufe0e",
+    é: "\u25fb\ufe0e",
+    ê: "\u25fb\ufe0e",
+    ë: "\u25fb\ufe0e",
+    ì: "\u25fb\ufe0e",
+    í: "\u25fb\ufe0e",
+    î: "\u25fb\ufe0e",
+    ï: "\u21e6\ufe0e",
+    ð: "\u21e8\ufe0e",
+    ñ: "\u21e7\ufe0e",
+    ò: "\u21e9\ufe0e",
+    ó: "\u2b04\ufe0e",
+    ô: "\u21f3\ufe0e",
+    õ: "\u2b00\ufe0e",
+    ö: "\u2b01\ufe0e",
+    "\xF7": "\u2b03\ufe0e",
+    ø: "\u2b02\ufe0e",
+    ù: "\u25ad\ufe0e",
+    ú: "\u25ab\ufe0e",
+    û: "\u2717\ufe0e",
+    ü: "\u2713\ufe0e",
+    ý: "\u2612\ufe0e",
+    þ: "\u2611\ufe0e",
+    ÿ: "\u25fb\ufe0e"
 };
 
-function wingdings(_0x1cf1fb) {
-    var _0x126d8b = _0x187c56;
-    return _0x1cf1fb[_0x126d8b(0x3d3)]('')[_0x126d8b(0x21e)](function(_0x53a706) {
-        return wingdingsCharMap[_0x53a706] ? wingdingsCharMap[_0x53a706] : _0x53a706;
-    })[_0x126d8b(0x211)]('');
+function wingdings(_0x59eex4) {
+    return _0x59eex4["split"]("")["map"](function(_0x59eex37) {
+        return wingdingsCharMap[_0x59eex37] ? wingdingsCharMap[_0x59eex37] : _0x59eex37
+    })["join"]("")
 }
 const vaporwaveCharMap = {
-    '\x20': '\u3000',
-    '`': '`',
-    0x1: '１',
-    0x2: '２',
-    0x3: '３',
-    0x4: '４',
-    0x5: '５',
-    0x6: '６',
-    0x7: '７',
-    0x8: '８',
-    0x9: '９',
-    0x0: '０',
-    '-': '－',
-    '=': '＝',
-    '~': '~',
-    '!': '！',
-    '@': '＠',
-    '#': '＃',
-    '$': '＄',
-    '%': '％',
-    '^': '^',
-    '&': '＆',
-    '*': '＊',
-    '(': '（',
-    ')': '）',
-    '_': '_',
-    '+': '＋',
-    'q': 'ｑ',
-    'w': 'ｗ',
-    'e': 'ｅ',
-    'r': 'ｒ',
-    't': 'ｔ',
-    'y': 'ｙ',
-    'u': 'ｕ',
-    'i': 'ｉ',
-    'o': 'ｏ',
-    'p': 'ｐ',
-    '[': '[',
-    ']': ']',
-    '\x5c': '\x5c',
-    'Q': 'Ｑ',
-    'W': 'Ｗ',
-    'E': 'Ｅ',
-    'R': 'Ｒ',
-    'T': 'Ｔ',
-    'Y': 'Ｙ',
-    'U': 'Ｕ',
-    'I': 'Ｉ',
-    'O': 'Ｏ',
-    'P': 'Ｐ',
-    '{': '{',
-    '}': '}',
-    '|': '|',
-    'a': 'ａ',
-    's': 'ｓ',
-    'd': 'ｄ',
-    'f': 'ｆ',
-    'g': 'ｇ',
-    'h': 'ｈ',
-    'j': 'ｊ',
-    'k': 'ｋ',
-    'l': 'ｌ',
-    ';': '；',
-    '\x27': '＇',
-    'A': 'Ａ',
-    'S': 'Ｓ',
-    'D': 'Ｄ',
-    'F': 'Ｆ',
-    'G': 'Ｇ',
-    'H': 'Ｈ',
-    'J': 'Ｊ',
-    'K': 'Ｋ',
-    'L': 'Ｌ',
-    ':': '：',
-    '\x22': '\x22',
-    'z': 'ｚ',
-    'x': 'ｘ',
-    'c': 'ｃ',
-    'v': 'ｖ',
-    'b': 'ｂ',
-    'n': 'ｎ',
-    'm': 'ｍ',
-    ',': '，',
-    '.': '．',
-    '/': '／',
-    'Z': 'Ｚ',
-    'X': 'Ｘ',
-    'C': 'Ｃ',
-    'V': 'Ｖ',
-    'B': 'Ｂ',
-    'N': 'Ｎ',
-    'M': 'Ｍ',
-    '<': '<',
-    '>': '>',
-    '?': '？'
+    " ": "\u3000",
+    "`": "`",
+    1: "\uff11",
+    2: "\uff12",
+    3: "\uff13",
+    4: "\uff14",
+    5: "\uff15",
+    6: "\uff16",
+    7: "\uff17",
+    8: "\uff18",
+    9: "\uff19",
+    0: "\uff10",
+    "-": "\uff0d",
+    "=": "\uff1d",
+    "~": "~",
+    "!": "\uff01",
+    "@": "\uff20",
+    "#": "\uff03",
+    $: "\uff04",
+    "%": "\uff05",
+    "^": "^",
+    "&": "\uff06",
+    "*": "\uff0a",
+    "(": "\uff08",
+    ")": "\uff09",
+    _: "_",
+    "+": "\uff0b",
+    q: "\uff51",
+    w: "\uff57",
+    e: "\uff45",
+    r: "\uff52",
+    t: "\uff54",
+    y: "\uff59",
+    u: "\uff55",
+    i: "\uff49",
+    o: "\uff4f",
+    p: "\uff50",
+    "[": "[",
+    "]": "]",
+    "\\": "\\",
+    Q: "\uff31",
+    W: "\uff37",
+    E: "\uff25",
+    R: "\uff32",
+    T: "\uff34",
+    Y: "\uff39",
+    U: "\uff35",
+    I: "\uff29",
+    O: "\uff2f",
+    P: "\uff30",
+    "{": "{",
+    "}": "}",
+    "|": "|",
+    a: "\uff41",
+    s: "\uff53",
+    d: "\uff44",
+    f: "\uff46",
+    g: "\uff47",
+    h: "\uff48",
+    j: "\uff4a",
+    k: "\uff4b",
+    l: "\uff4c",
+    ";": "\uff1b",
+    "\'": "\uff07",
+    A: "\uff21",
+    S: "\uff33",
+    D: "\uff24",
+    F: "\uff26",
+    G: "\uff27",
+    H: "\uff28",
+    J: "\uff2a",
+    K: "\uff2b",
+    L: "\uff2c",
+    ":": "\uff1a",
+    '\"': '\"',
+    z: "\uff5a",
+    x: "\uff58",
+    c: "\uff43",
+    v: "\uff56",
+    b: "\uff42",
+    n: "\uff4e",
+    m: "\uff4d",
+    ",": "\uff0c",
+    ".": "\uff0e",
+    "/": "\uff0f",
+    Z: "\uff3a",
+    X: "\uff38",
+    C: "\uff23",
+    V: "\uff36",
+    B: "\uff22",
+    N: "\uff2e",
+    M: "\uff2d",
+    "<": "<",
+    ">": ">",
+    "?": "\uff1f"
 };
 
-function _0x2856(_0x16b41f, _0x2856b3) {
-    var _0x331361 = _0x16b4();
-    return _0x2856 = function(_0x6d115, _0x296551) {
-        _0x6d115 = _0x6d115 - 0x0;
-        var _0x43e7e1 = _0x331361[_0x6d115];
-        return _0x43e7e1;
-    }, _0x2856(_0x16b41f, _0x2856b3);
-}
-
-function vaporwaveText(_0x126009) {
-    var _0x28f63d = _0x187c56,
-        _0x35f58d = _0x126009['split']('\x20')[_0x28f63d(0x5f)];
-    _0x126009 = applyCharMap(vaporwaveCharMap, _0x126009);
-    var _0x19cc1c = getAsianChars(Math[_0x28f63d(0x376)](0x3, _0x35f58d));
-    if (_0x35f58d > 0x6) _0x19cc1c = _0x19cc1c[_0x28f63d(0x3d3)]('')[_0x28f63d(0x21e)](_0x216b0a => _0x216b0a + ['', ''][Math[_0x28f63d(0x368)](Math[_0x28f63d(0xe6)]() * 0.6)])[_0x28f63d(0x211)]('');
-    var _0x70ad14 = [];
-    return _0x70ad14[_0x28f63d(0x302)](_0x126009), _0x70ad14[_0x28f63d(0x211)]();
-}
-
-function vaporwaveText1(_0x14c9c1) {
-    var _0x5ac309 = _0x187c56,
-        _0x51ee27 = _0x14c9c1[_0x5ac309(0x3d3)]('\x20')[_0x5ac309(0x5f)];
-    _0x14c9c1 = applyCharMap(vaporwaveCharMap, _0x14c9c1);
-    var _0x4dcada = getAsianChars(Math[_0x5ac309(0x376)](0x3, _0x51ee27));
-    if (_0x51ee27 > 0x6) _0x4dcada = _0x4dcada[_0x5ac309(0x3d3)]('')[_0x5ac309(0x21e)](_0x16483f => _0x16483f + ['', ''][Math[_0x5ac309(0x368)](Math[_0x5ac309(0xe6)]() * 0.6)])[_0x5ac309(0x211)]('');
-    var _0x40b238 = [];
-    return _0x40b238[_0x5ac309(0x302)](_0x14c9c1[_0x5ac309(0x9f)](/　/g, '░')[_0x5ac309(0x9f)](/ａｅ/, 'æ')[_0x5ac309(0x9f)](/Ａ/g, 'Λ')[_0x5ac309(0x9f)](/Ｅ/g, function() {
-        var _0x25e6e3 = _0x5ac309;
-        return Math[_0x25e6e3(0xe6)]() > 0.5 ? 'Ξ' : 'Σ';
-    })['replace'](/Ｏ/g, '♢')), _0x40b238[_0x5ac309(0x211)]();
-}
-
-function vaporwaveText2(_0x1bb1a7) {
-    var _0x5e4bfb = _0x187c56,
-        _0x226f7b = _0x1bb1a7[_0x5e4bfb(0x3d3)]('\x20')['length'];
-    _0x1bb1a7 = applyCharMap(vaporwaveCharMap, _0x1bb1a7);
-    var _0x4b6268 = getAsianChars(Math['max'](0x3, _0x226f7b));
-    if (_0x226f7b > 0x6) _0x4b6268 = _0x4b6268['split']('')[_0x5e4bfb(0x21e)](_0x3b5990 => _0x3b5990 + ['', ''][Math['round'](Math[_0x5e4bfb(0xe6)]() * 0.6)])[_0x5e4bfb(0x211)]('');
-    var _0x4ef559 = [];
-    return _0x4ef559[_0x5e4bfb(0x302)]('【\ufeff' + _0x1bb1a7 + '】'), _0x4ef559[_0x5e4bfb(0x211)]();
-}
-
-function getAsianChars(_0x17da6f) {
-    var _0xae8b5e = _0x187c56;
-    if (!_0x17da6f) _0x17da6f = 0x1;
-    var _0x37087f = _0xae8b5e(0x441),
-        _0x271511 = '';
-    for (var _0x19f40b = 0x0; _0x19f40b < _0x17da6f; _0x19f40b++) {
-        _0x271511 += _0x37087f[Math[_0xae8b5e(0x4bd)](Math[_0xae8b5e(0xe6)]() * _0x37087f[_0xae8b5e(0x5f)])];
+function vaporwaveText(_0x59eex4) {
+    var _0x59eex3a = _0x59eex4["split"](" ")["length"];
+    _0x59eex4 = applyCharMap(vaporwaveCharMap, _0x59eex4);
+    var _0x59eex3b = getAsianChars(Math["max"](3, _0x59eex3a));
+    if (_0x59eex3a > 6) {
+        _0x59eex3b = _0x59eex3b["split"]("")["map"]((_0x59eex6) => {
+            return _0x59eex6 + ["", ""][Math["round"](Math["random"]() * 0.6)]
+        })["join"]("")
     }
-    return _0x271511;
+    var _0x59eex3c = [];
+    _0x59eex3c["push"](_0x59eex4);
+    return _0x59eex3c["join"]()
 }
-const flourishArray = [_0x187c56(0x442), _0x187c56(0x3b1), _0x187c56(0xb9), '⚔️\x20[[text]]\x20⚔️', _0x187c56(0x10b), '♪ღ♪*•.¸¸.•*¨¨*•.♪\x20[[text]]\x20♪ღ♪*•.¸¸.•*¨¨*•.♪ღ♪', _0x187c56(0x465), '(\x20ﾟ∀ﾟ)ﾉ【[[text]]】', _0x187c56(0x343), '[[text]]\x20☜(`o´)', '⎝⎝✧GͥOͣDͫ✧⎠⎠\x20[[text]]\x20⎝⎝✧GͥOͣDͫ✧⎠⎠', _0x187c56(0x2de), _0x187c56(0x440), _0x187c56(0xf1), _0x187c56(0x323), '¯_(\x20͡°\x20͜ʖ\x20͡°)_/¯\x20[[text]]\x20¯_(\x20͡°\x20͜ʖ\x20͡°)_/¯', _0x187c56(0x16c), _0x187c56(0x240), _0x187c56(0x2bb), _0x187c56(0x16b), _0x187c56(0x16a), _0x187c56(0x9a), '▌│█║▌║▌║\x20[[text]]\x20║▌║▌║█│▌', _0x187c56(0x505), _0x187c56(0xcc), _0x187c56(0x124), _0x187c56(0x2d7), _0x187c56(0xa6), _0x187c56(0x20d), '¸„.-•~¹°”ˆ˜¨\x20[[text]]\x20¨˜ˆ”°¹~•-.„¸', _0x187c56(0x277), _0x187c56(0x27), _0x187c56(0x363), _0x187c56(0x361), _0x187c56(0x1e7), _0x187c56(0x38), _0x187c56(0x29d), _0x187c56(0x111), _0x187c56(0x30f), '¸„.-•~¹°”ˆ˜¨\x20[[text]]\x20¨˜ˆ”°¹~•-.„¸', _0x187c56(0x20d), '••¤(`×[¤\x20[[text]]\x20¤]×´)¤••', _0x187c56(0x110), _0x187c56(0x36c), _0x187c56(0x141), _0x187c56(0x4ed), '¸,ø¤º°`°º¤ø,¸\x20[[text]]\x20¸,ø¤º°`°º¤ø,¸', _0x187c56(0x460), ',-*\x27\x20^\x20\x27~*-.,_,.-*~\x20[[text]]\x20~*-.,_,.-*~\x27\x20^\x20\x27*-,', _0x187c56(0x24a), '↤↤↤↤↤\x20[[text]]\x20↦↦↦↦↦', _0x187c56(0x4ce), _0x187c56(0x483), _0x187c56(0x24c), _0x187c56(0x425), _0x187c56(0x210), '▀▄▀▄▀▄\x20[[text]]\x20▄▀▄▀▄▀', '(-_-)\x20[[text]]\x20(-_-)', _0x187c56(0x361), '-漫~*\x27¨¯¨\x27*·舞~\x20[[text]]\x20~舞*\x27¨¯¨\x27*·~漫-', _0x187c56(0x19f), _0x187c56(0xa6), '••.•´¯`•.••\x20[[text]]\x20••.•´¯`•.••', _0x187c56(0x141), _0x187c56(0x24e), _0x187c56(0x1da), _0x187c56(0x419), _0x187c56(0x3d5), _0x187c56(0x3b7), '∙∙·▫▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ\x20[[text]]\x20ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫ₒₒ▫ᵒᴼᵒ▫▫·∙∙', _0x187c56(0x1ff), 'ஜ۩۞۩ஜ\x20[[text]]\x20ஜ۩۞۩ஜ', _0x187c56(0xa3), _0x187c56(0x54), _0x187c56(0x12d), _0x187c56(0x4ec), _0x187c56(0x25c), _0x187c56(0x344)];
 
-function wrapInFlourish(_0x5b120b) {
-    var _0x3c6fa6 = _0x187c56;
-    return flourishArray[Math[_0x3c6fa6(0x4bd)](Math['random']() * flourishArray[_0x3c6fa6(0x5f)])]['replace'](_0x3c6fa6(0x28e), _0x5b120b);
+function vaporwaveText1(_0x59eex4) {
+    var _0x59eex3a = _0x59eex4["split"](" ")["length"];
+    _0x59eex4 = applyCharMap(vaporwaveCharMap, _0x59eex4);
+    var _0x59eex3b = getAsianChars(Math["max"](3, _0x59eex3a));
+    if (_0x59eex3a > 6) {
+        _0x59eex3b = _0x59eex3b["split"]("")["map"]((_0x59eex6) => {
+            return _0x59eex6 + ["", ""][Math["round"](Math["random"]() * 0.6)]
+        })["join"]("")
+    }
+    var _0x59eex3c = [];
+    _0x59eex3c["push"](_0x59eex4["replace"](/　/g, "\u2591")["replace"](/ａｅ/, "\xE6")["replace"](/Ａ/g, "\u039b")["replace"](/Ｅ/g, function() {
+        return Math["random"]() > 0.5 ? "\u039e" : "\u03a3"
+    })["replace"](/Ｏ/g, "\u2662"));
+    return _0x59eex3c["join"]()
 }
 
-function Flourishlist(_0x43e208, _0x4c06f6) {
-    var _0x267385 = _0x187c56;
-    return flourishArray[_0x43e208][_0x267385(0x9f)](_0x267385(0x28e), _0x4c06f6);
+function vaporwaveText2(_0x59eex4) {
+    var _0x59eex3a = _0x59eex4["split"](" ")["length"];
+    _0x59eex4 = applyCharMap(vaporwaveCharMap, _0x59eex4);
+    var _0x59eex3b = getAsianChars(Math["max"](3, _0x59eex3a));
+    if (_0x59eex3a > 6) {
+        _0x59eex3b = _0x59eex3b["split"]("")["map"]((_0x59eex6) => {
+            return _0x59eex6 + ["", ""][Math["round"](Math["random"]() * 0.6)]
+        })["join"]("")
+    }
+    var _0x59eex3c = [];
+    _0x59eex3c["push"]("\u3010\ufeff" + _0x59eex4 + "\u3011");
+    return _0x59eex3c["join"]()
 }
 
-function wrapInSymbols(_0x57ca0e, _0x116e1e) {
-    return randomSymbols(_0x116e1e) + '\x20\x20' + _0x57ca0e + '\x20\x20' + randomSymbols(_0x116e1e);
+function getAsianChars(_0x59eex40) {
+    if (!_0x59eex40) {
+        _0x59eex40 = 1
+    }
+    var _0x59eex41 = "\u30ea\u30b5\u30d5\u30e9\u30f3\u30af\u73fe\u4ee3\u306e\u30b3\u30f3\u30d4\u30e5\u7af9\u5185 \u307e\u308a\u3084\u82e5\u8005\u304c\u5c65\u304f\u6d41\u884c\u306e\u30b9\u30cb\u30fc\u30ab\u30fc\u771f\u591c\u4e2d\u306e\u30c9\u30a2\u30db\u30c3\u30c8\u30c9\u30c3\u30b0\u30de\u30b9\u30bf\u30fc\u30b9\u30c8\u30e9\u30a4\u30ab\u30fc\u30bd\u30cb\u30fc\u30d6\u30ae\u65b0\u3057\u3044\u65e5\u306e\u8a95\u751f\u30e9\u30a4\u30d5 - \u30d2\u30b9\u30a4\u84b8\u6c17\u6ce2 \u7121\u7dda\u30a0\u30a1\u30a2\u30a3\u30a4\u30a5\u30a6\u30a7\u30a8\u30a9\u30aa\u30ab\u30ac\u30ad\u30ae\u30af\u30b0\u30b1\u30b2\u30b3\u30b4\u30b5\u30b6\u30b7\u30b8\u30b9\u30ba\u30bb\u30bc\u30bd\u30be\u30bf\u30c0\u30c1\u30c2\u30c3\u30c4\u30c5\u30c6\u30c7\u30c8\u30c9\u30ca\u30cb\u30cc\u30cd\u30ce\u30cf\u30d0\u30d1\u30d2\u30d3\u30d4\u30d5\u30d6\u30d7\u30d8\u30d9\u30da\u30db\u30dc\u30dd\u30de\u30df\u30e0\u30e1\u30e2\u30e3\u30e4\u30e5\u30e6\u30e7\u30e8\u30e9\u30ea\u30eb\u30ec\u30ed\u30ee\u30ef\u30f0\u30f1\u30f2\u30f3\u30f4\u30f5\u30f6\u30f7\u30f8\u30f9\u30fa\u30fb\u30fc\u30fd\u30fe\u30ff\u3041\u3042\u3043\u3044\u3045\u3046\u3047\u3048\u3049\u304a\u304b\u304c\u304d\u304e\u304f\u3050\u3051\u3052\u3053\u3054\u3055\u3056\u3057\u3058\u3059\u305a\u305b\u305c\u305d\u305e\u305f\u3060\u3061\u3062\u3063\u3064\u3065\u3066\u3067\u3068\u3069\u306a\u306b\u306c\u306d\u306e\u306f\u3070\u3071\u3072\u3073\u3074\u3075\u3076\u3077\u3078\u3079\u307a\u307b\u307c\u307d\u307e\u307f\u3080\u3081\u3082\u3083\u3084\u3085\u3086\u3087\u3088\u3089\u308a\u308b\u308c\u308d\u308e\u308f\u3090\u3091\u3092\u3093\u3094\u3095\u3096\u3099\u309a\u309b\u309c\u309d\u309e\u309f\u4e9c\u54c0\u6328\u611b\u66d6\u60aa\u63e1\u5727\u6271\u5b9b\u5d50\u5b89\u6848\u6697\u4ee5\u8863\u4f4d\u56f2\u533b\u4f9d\u59d4\u5a01\u70ba\u754f\u80c3\u5c09\u7570\u79fb\u840e\u5049\u6905\u5f59\u610f\u9055\u7dad\u6170\u907a\u7def\u57df\u80b2\u58f1\u9038\u8328\u828b\u5f15\u5370\u56e0\u54bd\u59fb\u54e1\u9662\u6deb\u9670\u98f2\u96a0\u97fb\u53f3\u5b87\u7fbd\u96e8\u5504\u9b31\u755d\u6d66\u904b\u96f2\u6c38\u6cf3\u82f1\u6620\u6804\u55b6\u8a60\u5f71\u92ed\u885b\u6613\u75ab\u76ca\u6db2\u99c5\u60a6\u8d8a\u8b01\u95b2\u5186\u5ef6\u6cbf\u708e\u6028\u5bb4\u5a9b\u63f4\u5712\u7159\u733f\u9060\u925b\u5869\u6f14\u7e01\u8276\u6c5a\u738b\u51f9\u592e\u5fdc\u5f80\u62bc\u65fa\u6b27\u6bb4\u685c\u7fc1\u5965\u6a2a\u5ca1\u5c4b\u5104\u61b6\u81c6\u865e\u4e59\u4ffa\u5378\u97f3\u6069\u6e29\u7a4f\u4e0b\u5316\u706b\u52a0\u53ef\u4eee\u4f55\u82b1\u4f73\u4fa1\u679c\u6cb3\u82db\u79d1";
+    var _0x59eex42 = "";
+    for (var _0x59eex43 = 0; _0x59eex43 < _0x59eex40; _0x59eex43++) {
+        _0x59eex42 += _0x59eex41[Math["floor"](Math["random"]() * _0x59eex41["length"])]
+    }
+    return _0x59eex42
 }
+const flourishArray = ["\ua9c1\u0f12\u262c [[text]] \u262c\u0f12\ua9c2", "\u25e5\ua9c1\u0f51 [[text]] \u0f4c\ua9c2\u25e4", "\u2605\xB7.\xB7\xB4\xAF`\xB7.\xB7\u2605 [[text]] \u2605\xB7.\xB7\xB4\xAF`\xB7.\xB7\u2605", "\u2694\ufe0f [[text]] \u2694\ufe0f", "\ua9c1\u0f12\u0f3b\u262c\u0f51 [[text]] \u0f4c\u262c\u0f3a\u0f12\ua9c2", "\u266a\u10e6\u266a*\u2022.\xB8\xB8.\u2022*\xA8\xA8*\u2022.\u266a [[text]] \u266a\u10e6\u266a*\u2022.\xB8\xB8.\u2022*\xA8\xA8*\u2022.\u266a\u10e6\u266a", "\u25e5\ua9c1\u0f51 \u0950\u5350[[text]] \u5350\u0950 \u0f4c\ua9c2\u25e4", "( \uff9f\u2200\uff9f)\uff89\u3010[[text]]\u3011", "\u10e6\u01aa(\u02c6\u25e1\u02c6)\u0283\u2661 [[text]] \u2661\u01aa(\u02c6\u25e1\u02c6)\u0283\u266a", "[[text]] \u261c(`o\xB4)", "\u239d\u239d\u2727G\u0365O\u0363D\u036b\u2727\u23a0\u23a0 [[text]] \u239d\u239d\u2727G\u0365O\u0363D\u036b\u2727\u23a0\u23a0", "<:::::[]=\xA4 [[text]] (\u2580\u033f\u033f\u0139\u032f\u033f\u033f\u2580\u033f \u033f)", "\uff61*\uff9f.*.\uff61(\u3063 \u141b )\u3063\u2702\u2570\u22c3\u256f [[text]]", "\u2517(^o^ )\u2513\u4e09 [[text]] \u4e09 \u2517(^o^ )\u2513", "(\u3145\ua20d\ufe43\ua20d)* [[text]] *(\ua20d\ufe43\ua20d\u3145)\u2661", "\xAF_( \u0361\xB0 \u035c\u0296 \u0361\xB0)_/\xAF [[text]] \xAF_( \u0361\xB0 \u035c\u0296 \u0361\xB0)_/\xAF", "\u0b67(\u2022\u0300\u15dd\u2022\u0301)\u0aed [[text]] \u0b67(\u21c0\u2038\u21bc\u2036)\u0aed", "\u2581 \u2582 \u2584 \u2585 \u2586 \u2587 \u2588 [[text]] \u2588 \u2587 \u2586 \u2585 \u2584 \u2582 \u2581", "\xB0\xB0\xB0\xB7.\xB0\xB7..\xB7\xB0\xAF\xB0\xB7._.\xB7 [[text]] \xB7._.\xB7\xB0\xAF\xB0\xB7.\xB7\xB0 .\xB7\xB0\xB0\xB0", "\xB8,\xF8\xA4\xBA\xB0`\xB0\xBA\xA4\xF8,\xB8\xB8,\xF8\xA4\xBA\xB0 [[text]] \xB0\xBA\xA4\xF8,\xB8\xB8,\xF8\xA4\xBA\xB0`\xB0\xBA\xA4\xF8,\xB8", "\u0131ll\u0131ll\u0131 [[text]] \u0131ll\u0131ll\u0131", "\u2022?((\xAF\xB0\xB7._.\u2022 [[text]] \u2022._.\xB7\xB0\xAF))\u061f\u2022", "\u258c\u2502\u2588\u2551\u258c\u2551\u258c\u2551 [[text]] \u2551\u258c\u2551\u258c\u2551\u2588\u2502\u258c", "\xD7\xBA\xB0\u201d\u02dc`\u201d\xB0\xBA\xD7 [[text]] \xD7\xBA\xB0\u201d\u02dc`\u201d\xB0\xBA\xD7", "\u2022]\u2022\u2022\xB4\xBA\xB4\u2022\xBB [[text]] \xAB\u2022\xB4\xBA\xB4\u2022\u2022[\u2022", "*\u2022.\xB8\u2661 [[text]] \u2661\xB8.\u2022*", "\u2570\u2606\u2606 [[text]] \u2606\u2606\u256e", ".\u2022\xB0\xA4*(\xAF`\u2605\xB4\xAF)*\xA4\xB0 [[text]] \xB0\xA4*(\xAF\xB4\u2605`\xAF)*\xA4\xB0\u2022.", "(\xAF\xB4\u2022._.\u2022 [[text]] \u2022._.\u2022\xB4\xAF)", "\xB8\u201e.-\u2022~\xB9\xB0\u201d\u02c6\u02dc\xA8 [[text]] \xA8\u02dc\u02c6\u201d\xB0\xB9~\u2022-.\u201e\xB8", "\u2591\u2592\u2593\u2588 [[text]] \u2588\u2593\u2592\u2591", "\u2591\u2592\u2593\u2588\u25ba\u2500\u2550  [[text]] \u2550\u2500\u25c4\u2588\u2593\u2592\u2591", "\u2605\u5f61 [[text]] \u5f61\u2605", "\u2022\xB4\xAF`\u2022. [[text]] .\u2022\xB4\xAF`\u2022", "\xA7.\u2022\xB4\xA8\'\xB0\xF7\u2022..\xD7 [[text]] \xD7,.\u2022\xB4\xA8\'\xB0\xF7\u2022..\xA7", "\u2022\xB0\xAF`\u2022\u2022 [[text]] \u2022\u2022\xB4\xAF\xB0\u2022", "(\xAF`*\u2022.\xB8,\xA4\xB0\xB4\u273f.\uff61.:* [[text]] *.:\uff61.\u273f`\xB0\xA4,\xB8.\u2022*\xB4\xAF)", "|!\xA4*\'~``~\'*\xA4!| [[text]] |!\xA4*\'~``~\'*\xA4!|", "\u2022._.\u2022\u2022\xB4\xAF``\u2022.\xB8\xB8.\u2022` [[text]] `\u2022.\xB8\xB8.\u2022\xB4\xB4\xAF`\u2022\u2022._.\u2022", "\xB8\u201e.-\u2022~\xB9\xB0\u201d\u02c6\u02dc\xA8 [[text]] \xA8\u02dc\u02c6\u201d\xB0\xB9~\u2022-.\u201e\xB8", "(\xAF\xB4\u2022._.\u2022 [[text]] \u2022._.\u2022\xB4\xAF)", "\u2022\u2022\xA4(`\xD7[\xA4 [[text]] \xA4]\xD7\xB4)\xA4\u2022\u2022", "\u2022\xB4\xAF`\u2022\xBB [[text]] \xAB\u2022\xB4\xAF`\u2022", " .o0\xD7X\xD70o. [[text]] .o0\xD7X\xD70o.", "\xA4\xB8\xB8.\u2022\xB4\xAF`\u2022\xB8\xB8.\u2022..>> [[text]] <<..\u2022.\xB8\xB8\u2022\xB4\xAF`\u2022.\xB8\xB8\xA4", "\u2014(\u2022\u2022\xF7[ [[text]] ]\xF7\u2022\u2022)\u2014", "\xB8,\xF8\xA4\xBA\xB0`\xB0\xBA\xA4\xF8,\xB8 [[text]] \xB8,\xF8\xA4\xBA\xB0`\xB0\xBA\xA4\xF8,\xB8", "`\u2022.\xB8\xB8.\u2022\xB4\xB4\xAF`\u2022\u2022._.\u2022 [[text]] \u2022._.\u2022\u2022`\xAF\xB4\xB4\u2022.\xB8\xB8.\u2022`", ",-*\' ^ \'~*-.,_,.-*~ [[text]] ~*-.,_,.-*~\' ^ \'*-,", "`\u2022.,\xB8\xB8,.\u2022\xB4\xAF [[text]] \xAF`\u2022.,\xB8\xB8,.\u2022\xB4", "\u21a4\u21a4\u21a4\u21a4\u21a4 [[text]] \u21a6\u21a6\u21a6\u21a6\u21a6", "\u27b6\u27b6\u27b6\u27b6\u27b6 [[text]] \u27b7\u27b7\u27b7\u27b7\u27b7", "\u21ab\u21ab\u21ab\u21ab\u21ab [[text]] \u21ac\u21ac\u21ac\u21ac\u21ac", "\xB7.\xB8\xB8.\xB7\u2669\u266a\u266b [[text]] \u266b\u266a\u2669\xB7.\xB8\xB8.\xB7", "\u3010\uff61_\uff61\u3011 [[text]] \u3010\uff61_\uff61\u3011", "]|I{\u2022------\xBB [[text]] \xAB------\u2022}I|[", "\u2580\u2584\u2580\u2584\u2580\u2584 [[text]] \u2584\u2580\u2584\u2580\u2584\u2580", "(-_-) [[text]] (-_-)", "\u2022\xB4\xAF`\u2022. [[text]] .\u2022\xB4\xAF`\u2022", "-\u6f2b~*\'\xA8\xAF\xA8\'*\xB7\u821e~ [[text]] ~\u821e*\'\xA8\xAF\xA8\'*\xB7~\u6f2b-", "\u0e51\u06de\u0e51,\xB8\xB8,\xF8\xA4\xBA\xB0`\xB0\u0e51\u06e9 [[text]] \u0e51\u06e9 ,\xB8\xB8,\xF8\xA4\xBA\xB0`\xB0\u0e51\u06de\u0e51", ".\u2022\xB0\xA4*(\xAF`\u2605\xB4\xAF)*\xA4\xB0 [[text]] \xB0\xA4*(\xAF\xB4\u2605`\xAF)*\xA4\xB0\u2022.", "\u2022\u2022.\u2022\xB4\xAF`\u2022.\u2022\u2022 [[text]] \u2022\u2022.\u2022\xB4\xAF`\u2022.\u2022\u2022", "\xA4\xB8\xB8.\u2022\xB4\xAF`\u2022\xB8\xB8.\u2022..>> [[text]] <<..\u2022.\xB8\xB8\u2022\xB4\xAF`\u2022.\xB8\xB8\xA4", "\u25e6\u2022\u25cf\u25c9\u273f [[text]] \u273f\u25c9\u25cf\u2022\u25e6", "\ua9c1\ud80c\ude88\ud808\udd9c [[text]] \ud808\udd9c\ud80c\ude89\ua9c2", "\u255a\xBB\u2605\xAB\u255d [[text]] \u255a\xBB\u2605\xAB\u255d", "\u2af7 [[text]] \u2af8", "-\xB7=\xBB\u2021\xAB=\xB7- [[text]] -\xB7=\xBB\u2021\xAB=\xB7-", "\u2219\u2219\xB7\u25ab\u25ab\u1d52\u1d3c\u1d52\u25ab\u2092\u2092\u25ab\u1d52\u1d3c\u1d52\u25ab\u2092\u2092\u25ab\u1d52\u1d3c\u1d52 [[text]] \u1d52\u1d3c\u1d52\u25ab\u2092\u2092\u25ab\u1d52\u1d3c\u1d52\u25ab\u2092\u2092\u25ab\u1d52\u1d3c\u1d52\u25ab\u25ab\xB7\u2219\u2219", "\xB8\xB8\u266c\xB7\xAF\xB7\u2669\xB8\xB8\u266a\xB7\xAF\xB7\u266b\xB8\xB8 [[text]] \xB8\xB8\u266b\xB7\xAF\xB7\u266a\xB8\xB8\u2669\xB7\xAF\xB7\u266c\xB8\xB8", "\u0b9c\u06e9\u06de\u06e9\u0b9c [[text]] \u0b9c\u06e9\u06de\u06e9\u0b9c", "\xA4 (\xAF\xB4\u2606\u272d.\xB8_)\xA4 [[text]] \xA4(_\xB8.\u272d\u2606\xB4\xAF) \xA4", "(\xAF`\xB7.\xB8\xB8.\xB7\xB4\xAF`\xB7.\xB8\xB8.-> [[text]] <-.\xB8\xB8.\xB7\xB4\xAF`\xB7.\xB8\xB8.\xB7\xB4\xAF)", "\u273f.\uff61.:* \u2606:**:. [[text]] .:**:.\u2606*.:\uff61.\u273f", ".\u2022\u266b\u2022\u266c\u2022 [[text]] \u2022\u266c\u2022\u266b\u2022.", "\u10e6(\xAF`\u25d5\u203f\u25d5\xB4\xAF) \u266b \u266a \u266b [[text]] \u266b \u266a \u266b (\xAF`\u25d5\u203f\u25d5\xB4\xAF)\u10e6", "\xAB-(\xAF`v\xB4\xAF)-\xAB [[text]] \xBB-(\xAF`v\xB4\xAF)-\xBB"];
 
-function firework(_0x2f3e39) {
-    return _0x2f3e39['split']('')['join']('҉') + '҉';
+function wrapInFlourish(_0x59eex4) {
+    return flourishArray[Math["floor"](Math["random"]() * flourishArray["length"])]["replace"]("[[text]]", _0x59eex4)
 }
 
-function weirdBox(_0x162065) {
-    var _0x2a61a9 = _0x187c56;
-    return _0x162065[_0x2a61a9(0x9f)](/([^\s])/g, _0x2a61a9(0x24));
+function Flourishlist(_0x59eex47, _0x59eex4) {
+    return flourishArray[_0x59eex47]["replace"]("[[text]]", _0x59eex4)
 }
 
-function curlybrackets(_0xf68114) {
-    var _0x3382f8 = _0x187c56;
-    return _0xf68114[_0x3382f8(0x9f)](/([^\s])/g, _0x3382f8(0xb1));
+function wrapInSymbols(_0x59eex4, _0x59eex47) {
+    return randomSymbols(_0x59eex47) + "  " + _0x59eex4 + "  " + randomSymbols(_0x59eex47)
 }
 
-function singlewavyJoiner(_0x26c1fb) {
-    var _0x52810b = _0x187c56;
-    return '〜' + _0x26c1fb[_0x52810b(0x3d3)]('')[_0x52810b(0x211)]('∿') + '〜';
+function firework(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u0489") + "\u0489"
 }
 
-function thickBox(_0x52c037) {
-    var _0x52ef10 = _0x187c56;
-    return _0x52c037['replace'](/([^\s])/g, _0x52ef10(0x4ea));
+function weirdBox(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "[\u0305\u0332$1]")
 }
 
-function zigzagJoiner(_0x120d21) {
-    var _0x506112 = _0x187c56;
-    return _0x120d21[_0x506112(0x9f)](/([^\s])/g, '⦚$1⦚');
+function curlybrackets(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u29fc$1&#828;\u29fd")
 }
 
-function hashJoiner(_0x56937b) {
-    var _0x384531 = _0x187c56;
-    return _0x56937b[_0x384531(0x3d3)]('')[_0x384531(0x211)]('⨳');
+function singlewavyJoiner(_0x59eex4) {
+    return "\u301c" + _0x59eex4["split"]("")["join"]("\u223f") + "\u301c"
 }
 
-function starJoiner(_0xac3c78) {
-    var _0x3de6eb = _0x187c56;
-    return _0xac3c78[_0x3de6eb(0x9f)](/([^\s])/g, _0x3de6eb(0x4d7));
+function thickBox(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u27e6$1\u27e7")
 }
 
-function connectedJoiner(_0x4e0826) {
-    var _0x5f0405 = _0x187c56;
-    return _0x4e0826[_0x5f0405(0x3d3)]('')[_0x5f0405(0x211)]('⊶');
+function zigzagJoiner(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u299a$1\u299a")
 }
 
-function arrowjoin(_0x116914) {
-    var _0xb2272f = _0x187c56;
-    return _0x116914[_0xb2272f(0x9f)](/([^\s])/g, _0xb2272f(0x4c8));
+function hashJoiner(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u2a33")
 }
 
-function dotBoxtwo(_0x2d2170) {
-    var _0x19803e = _0x187c56;
-    return _0x2d2170['split']('')[_0x19803e(0x211)](_0x19803e(0x32c));
+function starJoiner(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u299a$1\u299a")
 }
 
-function dotBox(_0x1841d7) {
-    var _0x32cc78 = _0x187c56;
-    return _0x1841d7[_0x32cc78(0x9f)](/([^\s])/g, _0x32cc78(0x420));
+function connectedJoiner(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("\u22b6")
 }
 
-function diametricBox(_0x1edd17) {
-    var _0x28fef6 = _0x187c56;
-    return _0x1edd17[_0x28fef6(0x9f)](/([^\s])/g, _0x28fef6(0x34));
+function arrowjoin(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u298f$1&#x302;\u298e")
 }
 
-function arrowBox(_0x24bd88) {
-    var _0x40abc8 = _0x187c56;
-    return _0x24bd88[_0x40abc8(0x9f)](/([^\s])/g, _0x40abc8(0xf9));
+function dotBoxtwo(_0x59eex4) {
+    return _0x59eex4["split"]("")["join"]("&#778; \u2af6")
 }
 
-function littleSparkles(_0x13f427) {
-    var _0x2d2c90 = _0x187c56;
-    return _0x2d2c90(0x11b) + _0x13f427 + _0x2d2c90(0x4df);
+function dotBox(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\ua70d$1\ua709")
 }
 
-function kirbyHug(_0x451937) {
-    var _0x28a5fa = _0x187c56;
-    return _0x28a5fa(0x2a0) + _0x451937 + '\x20♥';
+function diametricBox(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u2991$1\u2992")
 }
 
-function dottyJoiner(_0x184b1c) {
-    var _0x20b0c4 = _0x187c56;
-    return '░' + _0x184b1c[_0x20b0c4(0x3d3)]('')[_0x20b0c4(0x211)]('░') + '░';
+function arrowBox(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u298f$1\u298e")
 }
 
-function wavyJoiner(_0x59d978) {
-    var _0x5adc0a = _0x187c56;
-    return '≋' + _0x59d978[_0x5adc0a(0x3d3)]('')[_0x5adc0a(0x211)]('≋') + '≋';
+function littleSparkles(_0x59eex4) {
+    return "\u02dc\u201d*\xB0\u2022.\u02dc\u201d*\xB0\u2022 " + _0x59eex4 + " \u2022\xB0*\u201d\u02dc.\u2022\xB0*\u201d\u02dc"
 }
 
-function diametricAngleFrame(_0x2c07a2) {
-    var _0x2fbdce = _0x187c56;
-    return _0x2c07a2['replace'](/([^\s])/g, _0x2fbdce(0x2c3));
+function kirbyHug(_0x59eex4) {
+    return "(\u3063\u25d4\u25e1\u25d4)\u3063 \u2665 " + _0x59eex4 + " \u2665"
 }
 
-function thickBlockFramed(_0x82ce4b) {
-    var _0x314360 = _0x187c56;
-    return _0x82ce4b[_0x314360(0x9f)](/([^\s])/g, '【$1】');
+function dottyJoiner(_0x59eex4) {
+    return "\u2591" + _0x59eex4["split"]("")["join"]("\u2591") + "\u2591"
 }
 
-function star0(_0x523fbc) {
-    var _0x277db5 = _0x187c56;
-    return applyCharMap(italicCharMap, _0x277db5(0x10f) + _0x523fbc + '★彡');
+function wavyJoiner(_0x59eex4) {
+    return "\u224b" + _0x59eex4["split"]("")["join"]("\u224b") + "\u224b"
 }
 
-function star1(_0x869cc8) {
-    var _0x2e113f = _0x187c56;
-    return applyCharMap(monospaceCharMap, _0x2e113f(0x106) + _0x869cc8 + _0x2e113f(0x2e8));
+function diametricAngleFrame(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u300e$1\u300f")
 }
 
-function star2(_0xf0fd06) {
-    var _0x3be890 = _0x187c56;
-    return applyCharMap(currencyCharMap, '\x20ıllıllı⭐🌟' + _0xf0fd06 + _0x3be890(0x48d));
+function thickBlockFramed(_0x59eex4) {
+    return _0x59eex4["replace"](/([^\s])/g, "\u3010$1\u3011")
 }
 
-function star3(_0x505d44) {
-    var _0x3b501e = _0x187c56;
-    return applyCharMap(monospaceCharMap, _0x3b501e(0x176) + _0x505d44 + '★★•╯');
+function star0(_0x59eex4) {
+    return applyCharMap(italicCharMap, "\u30df\u2605 " + _0x59eex4 + "\u2605\u5f61")
 }
 
-function star4(_0x3c0b0b) {
-    var _0x1eaf38 = _0x187c56;
-    return applyCharMap(squaresCharMap, '`✵•.¸,✵°✵.｡.✰\x20\x20' + _0x3c0b0b + _0x1eaf38(0x239));
+function star1(_0x59eex4) {
+    return applyCharMap(monospaceCharMap, "\ua9c1\u2022\u22b9\u066d" + _0x59eex4 + "\u066d\u22b9\u2022\ua9c2")
 }
 
-function star5(_0x141ae0) {
-    var _0x3d2ee6 = _0x187c56;
-    return applyCharMap(doubleStruckCharMap, _0x3d2ee6(0x144) + _0x141ae0 + _0x3d2ee6(0x2d1));
+function star2(_0x59eex4) {
+    return applyCharMap(currencyCharMap, " \u0131ll\u0131ll\u0131\u2b50\ud83c\udf1f" + _0x59eex4 + "\ud83c\udf1f\u2b50\u0131ll\u0131ll\u0131")
 }
 
-function star6(_0x140583) {
-    var _0x606dae = _0x187c56;
-    return applyCharMap(invertedSquaresCharMap, '¨˜ˆ”°⍣~•✡⊹٭„¸\x20\x20' + _0x140583 + _0x606dae(0x4fd));
+function star3(_0x59eex4) {
+    return applyCharMap(monospaceCharMap, "\u2570\u2022\u2605\u2605 " + _0x59eex4 + "\u2605\u2605\u2022\u256f")
 }
 
-function star7(_0x1fc222) {
-    var _0x4491f0 = _0x187c56;
-    return applyCharMap(asianStyleCharMap, _0x4491f0(0x4fd) + _0x1fc222 + _0x4491f0(0x164));
+function star4(_0x59eex4) {
+    return applyCharMap(squaresCharMap, "`\u2735\u2022.\xB8,\u2735\xB0\u2735.\uff61.\u2730  " + _0x59eex4 + "\u2730.\uff61.\u2735\xB0\u2735,\xB8.\u2022\u2735\xB4")
 }
 
-function star8(_0x3727be) {
-    var _0x420f16 = _0x187c56;
-    return applyCharMap(asianStyle2CharMap, _0x420f16(0x17d) + _0x3727be + '★⡀.•☆•.★');
+function star5(_0x59eex4) {
+    return applyCharMap(doubleStruckCharMap, "\xB7.\u2605\xB7.\xB7\xB4\xAF`\xB7.\xB7\u2605" + _0x59eex4 + "\u2605\xB7.\xB7\xB4\xAF`\xB7.\xB7\u2605.\xB7")
 }
 
-function star9(_0x76829d) {
-    var _0xb9859 = _0x187c56;
-    return applyCharMap(neonCharMap, _0xb9859(0x359) + _0x76829d + _0xb9859(0xab));
+function star6(_0x59eex4) {
+    return applyCharMap(invertedSquaresCharMap, "\xA8\u02dc\u02c6\u201d\xB0\u2363~\u2022\u2721\u22b9\u066d\u201e\xB8  " + _0x59eex4 + "\xB8\u201e\u066d\u22b9\u2721\u2022~\u2363\xB0\u201d\u02c6\u02dc\xA8")
 }
 
-function star10(_0xb51139) {
-    var _0xeef71c = _0x187c56;
-    return applyCharMap(squiggle6CharMap, _0xeef71c(0x359) + _0xb51139 + _0xeef71c(0xab));
+function star7(_0x59eex4) {
+    return applyCharMap(asianStyleCharMap, "\xB8\u201e\u066d\u22b9\u2721\u2022~\u2363\xB0\u201d\u02c6\u02dc\xA8" + _0x59eex4 + "\xA8\u02dc\u02c6\u201d\xB0\u2363~\u2022\u2721\u22b9\u066d\u201e\xB8")
 }
 
-function heart0(_0x18160b) {
-    var _0x4d4b2c = _0x187c56;
-    return applyCharMap(squiggle5CharMap, _0x4d4b2c(0x2ed) + _0x18160b + _0x4d4b2c(0x11e));
+function star8(_0x59eex4) {
+    return applyCharMap(asianStyle2CharMap, "\u2605\xB8.\u2022\u2606\u2022.\xB8\u2605 " + _0x59eex4 + "\u2605\u2840.\u2022\u2606\u2022.\u2605")
 }
 
-function heart1(_0x5ee7a9) {
-    var _0x542bbc = _0x187c56;
-    return applyCharMap(futureAlienCharMap, _0x542bbc(0x20f) + _0x5ee7a9 + _0x542bbc(0x57));
+function star9(_0x59eex4) {
+    return applyCharMap(neonCharMap, "\u066d\u22b9\xA4.\u2022\u2a33\u2022.*\u2606\u272c " + _0x59eex4 + "\u272c\u2606*.\u2022\u2a33\u2022.\xA4\u22b9\u066d")
 }
 
-function heart2(_0x6069d0) {
-    var _0x8214a = _0x187c56;
-    return applyCharMap(boldCharMap, _0x8214a(0xf) + _0x6069d0 + _0x8214a(0x423));
+function star10(_0x59eex4) {
+    return applyCharMap(squiggle6CharMap, "\u066d\u22b9\xA4.\u2022\u2a33\u2022.*\u2606\u272c " + _0x59eex4 + "\u272c\u2606*.\u2022\u2a33\u2022.\xA4\u22b9\u066d")
 }
 
-function heart3(_0x5cb186) {
-    var _0x22298f = _0x187c56;
-    return applyCharMap(firework, '♡〜ლ(๑癶\x20' + _0x5cb186 + _0x22298f(0x3b6));
+function heart0(_0x59eex4) {
+    return applyCharMap(squiggle5CharMap, "(\u25cd\u2022\u1d17\u2022\u25cd) \u30df\ud83d\udc96 " + _0x59eex4 + "\ud83d\udc96\u5f61")
 }
 
-function heart4(_0x38cbc7) {
-    var _0x5d8e12 = _0x187c56;
-    return applyCharMap(symbolsCharMap, _0x5d8e12(0x250) + _0x38cbc7 + _0x5d8e12(0x233));
+function heart1(_0x59eex4) {
+    return applyCharMap(futureAlienCharMap, "\u0df4\u2764\ufe0f\u0df4  " + _0x59eex4 + "\u0df4\u2764\ufe0f\u0df4")
 }
 
-function heart5(_0x1a2986) {
-    var _0xed57a0 = _0x187c56;
-    return applyCharMap(bentTextCharMap, '🌸ξξ(∵❤◡❤∵)ξξ·¯·♩¸\x20' + _0x1a2986 + _0xed57a0(0x157));
+function heart2(_0x59eex4) {
+    return applyCharMap(boldCharMap, "\ud83d\udc96\xB4 *\u2022.\xB8\u2665\xB8.\u2022** " + _0x59eex4 + "**\u2022.\xB8\u2665\xB8.\u2022*\xB4\ud83d\udc96")
 }
 
-function heart6(_0x4cd3cf) {
-    var _0x3b80a0 = _0x187c56;
-    return applyCharMap(upperAnglesCharMap, '♥╣[-_-]╠♥' + _0x4cd3cf + _0x3b80a0(0x3c3));
+function heart3(_0x59eex4) {
+    return applyCharMap(firework, "\u2661\u301c\u10da(\u0e51\u7676 " + _0x59eex4 + "\u7676\u0e51)\u10da\u301c\u2661")
 }
 
-function heart7(_0x39da51) {
-    var _0x5f3d41 = _0x187c56;
-    return applyCharMap(boldCharMap, 'ミミ◦❧◦°˚°◦.¸¸◦°´❤*•.¸♥\x20\x20' + _0x39da51 + _0x5f3d41(0xa7));
+function heart4(_0x59eex4) {
+    return applyCharMap(symbolsCharMap, "\u25e6\u2022\u25cf\u2764\u2661 " + _0x59eex4 + "\u2661\u2764\u25cf\u2022\u25e6")
 }
 
-function emoticon0(_0x140cd2) {
-    var _0xdd4ced = _0x187c56;
-    return applyCharMap(oldEnglishCharMap, _0xdd4ced(0x3b0) + _0x140cd2 + '(｀∀´)Ψ');
+function heart5(_0x59eex4) {
+    return applyCharMap(bentTextCharMap, "\ud83c\udf38\u03be\u03be(\u2235\u2764\u25e1\u2764\u2235)\u03be\u03be\xB7\xAF\xB7\u2669\xB8 " + _0x59eex4 + "\xB8\u2669\xB7\xAF\xB7\u03be\u03be(\u2235\u2764\u25e1\u2764\u2235)\u03be\u03be\ud83c\udf38")
 }
 
-function emoticon1(_0xa49984) {
-    var _0x4bd3fc = _0x187c56;
-    return applyCharMap(squiggle6CharMap, _0x4bd3fc(0x11d) + _0xa49984 + ')');
+function heart6(_0x59eex4) {
+    return applyCharMap(upperAnglesCharMap, "\u2665\u2563[-_-]\u2560\u2665" + _0x59eex4 + "\u2665\u2563[-_-]\u2560\u2665")
 }
 
-function emoticon2(_0x35f03e) {
-    var _0x5859a7 = _0x187c56;
-    return applyCharMap(boldCharMap, _0x5859a7(0x171) + _0x35f03e + '');
+function heart7(_0x59eex4) {
+    return applyCharMap(boldCharMap, "\u30df\u30df\u25e6\u2767\u25e6\xB0\u02da\xB0\u25e6.\xB8\xB8\u25e6\xB0\xB4\u2764*\u2022.\xB8\u2665  " + _0x59eex4 + "\u2665\xB8.\u2022*\u2764\xB4\xB0\u25e6\xB8\xB8.\u25e6\xB0\u02da\xB0\u25e6\u2619\u25e6\u5f61\u5f61")
 }
 
-function emoticon3(_0x363767) {
-    return applyCharMap(squiggle5CharMap, '(☝◞‸◟)☞' + _0x363767 + '');
+function emoticon0(_0x59eex4) {
+    return applyCharMap(oldEnglishCharMap, "\u5f61(\u273f\u2579\u25e1\u2579) " + _0x59eex4 + "(\uff40\u2200\xB4)\u03a8")
 }
 
-function emoticon4(_0x3ae019) {
-    var _0x34dfdc = _0x187c56;
-    return applyCharMap(cursiveCharMap, _0x34dfdc(0x456) + _0x3ae019 + _0x34dfdc(0x494));
+function emoticon1(_0x59eex4) {
+    return applyCharMap(squiggle6CharMap, "\u0449\uff08\uff9f\u0414\uff9f\u0449\uff09 < " + _0x59eex4 + ")")
 }
 
-function emoticon5(_0x18ccf7) {
-    var _0x3a5677 = _0x187c56;
-    return applyCharMap(squiggle3CharMap, _0x3a5677(0x49b) + _0x18ccf7 + _0x3a5677(0x32e));
+function emoticon2(_0x59eex4) {
+    return applyCharMap(boldCharMap, "\u261e\xF3 \u035c\u3064\xF2\u261e  " + _0x59eex4 + "")
 }
 
-function emoticon6(_0x3ccd96) {
-    var _0x230695 = _0x187c56;
-    return applyCharMap(wideTextCharMap, _0x230695(0x413) + _0x3ccd96 + _0x230695(0x4a8));
+function emoticon3(_0x59eex4) {
+    return applyCharMap(squiggle5CharMap, "(\u261d\u25de\u2038\u25df)\u261e" + _0x59eex4 + "")
 }
 
-function emoticon7(_0x279d9e) {
-    var _0x1c9220 = _0x187c56;
-    return applyCharMap(squiggle2CharMap, '(人◕‿◕)' + _0x279d9e + _0x1c9220(0x34d));
+function emoticon4(_0x59eex4) {
+    return applyCharMap(cursiveCharMap, "(\u3065\uff61\u25d5\u203f\u203f\u25d5\uff61)\u3065 " + _0x59eex4 + " \u0669(\u02d8\u25e1\u02d8)\u06f6")
 }
 
-function thankyou0(_0x47d174) {
-    var _0x504220 = _0x187c56;
-    return applyCharMap(doubleStruckCharMap, _0x504220(0x28f) + _0x47d174 + _0x504220(0x299));
+function emoticon5(_0x59eex4) {
+    return applyCharMap(squiggle3CharMap, "\ud83c\udf18\u203f\ud83c\udf18  " + _0x59eex4 + "(\u273f\u30d8\u1d25\u30d8)")
 }
 
-function thankyou1(_0x362b3d) {
-    var _0x2e06c3 = _0x187c56;
-    return applyCharMap(cursiveCharMap, _0x2e06c3(0x4e0) + _0x362b3d + _0x2e06c3(0x4e0));
+function emoticon6(_0x59eex4) {
+    return applyCharMap(wideTextCharMap, "(^\u25bd^)  " + _0x59eex4 + "(\u273f^\u25bd^)")
 }
 
-function thankyou2(_0xa2d4a0) {
-    var _0x4e5dfb = _0x187c56;
-    return applyCharMap(doubleStruckCharMap, _0x4e5dfb(0x2ce) + _0xa2d4a0 + _0x4e5dfb(0x304));
+function emoticon7(_0x59eex4) {
+    return applyCharMap(squiggle2CharMap, "(\u4eba\u25d5\u203f\u25d5)" + _0x59eex4 + "(\u2022\u25e1\u2022)")
 }
 
-function thankyou3(_0xa07c60) {
-    var _0x17a055 = _0x187c56;
-    return applyCharMap(upperAnglesCharMap, _0x17a055(0x2cc) + _0xa07c60 + '');
+function thankyou0(_0x59eex4) {
+    return applyCharMap(doubleStruckCharMap, "(\uff65\u03c9\uff65)\u266a" + _0x59eex4 + "\u266a(\uff65\u03c9\uff65)\uff89")
 }
 
-function thankyou4(_0x3a56d8) {
-    var _0x21b883 = _0x187c56;
-    return applyCharMap(squiggle2CharMap, _0x21b883(0x434) + _0x3a56d8 + '');
+function thankyou1(_0x59eex4) {
+    return applyCharMap(cursiveCharMap, "(*\u02ca\u15dc\u02cb*)" + _0x59eex4 + "(*\u02ca\u15dc\u02cb*)")
 }
 
-function thankyou5(_0x305b00) {
-    var _0x5efc76 = _0x187c56;
-    return applyCharMap(asianStyleCharMap, _0x5efc76(0x4f) + _0x305b00 + _0x5efc76(0x3a7));
+function thankyou2(_0x59eex4) {
+    return applyCharMap(doubleStruckCharMap, "(*\u309d\u03c9\u30fb)" + _0x59eex4 + "(\u03c9\u30fb*\u309d)")
 }
 
-function thankyou6(_0x394a40) {
-    var _0x29aca6 = _0x187c56;
-    return applyCharMap(medievalCharMap, _0x29aca6(0x415) + _0x394a40 + '.:｡+ﾟ');
+function thankyou3(_0x59eex4) {
+    return applyCharMap(upperAnglesCharMap, "<(_ _*)>" + _0x59eex4 + "")
 }
 
-function thankyou7(_0x2dfbdb) {
-    var _0xf6aada = _0x187c56;
-    return applyCharMap(neonCharMap, _0xf6aada(0x2ce) + _0x2dfbdb + _0xf6aada(0x2ce));
+function thankyou4(_0x59eex4) {
+    return applyCharMap(squiggle2CharMap, "\u2605\u2312(\u25cf\u309d\u03c9\u30fb)" + _0x59eex4 + "")
 }
 
-function sad0(_0x2a1109) {
-    var _0x65d05d = _0x187c56;
-    return applyCharMap(squiggle5CharMap, _0x65d05d(0x487) + _0x2a1109 + _0x65d05d(0x308));
+function thankyou5(_0x59eex4) {
+    return applyCharMap(asianStyleCharMap, "\uff9f\uff65:,\uff61\u2605\uff3c(^-^ )\u266a" + _0x59eex4 + "\u266a( ^-^)/\u2605,\uff61\uff65:\uff65\uff9f")
 }
 
-function sad1(_0x2ed156) {
-    var _0x312d99 = _0x187c56;
-    return applyCharMap(monospaceCharMap, _0x312d99(0x4b6) + _0x2ed156 + '\x20(︶︹︺)');
+function thankyou6(_0x59eex4) {
+    return applyCharMap(medievalCharMap, "+\uff61:.\uff9f\u30fd(*\xB4\u2200)\uff89\uff9f" + _0x59eex4 + ".:\uff61+\uff9f")
 }
 
-function sad2(_0x29c2bf) {
-    var _0x38714b = _0x187c56;
-    return applyCharMap(squiggleCharMap, _0x38714b(0x85) + _0x29c2bf + _0x38714b(0x222));
+function thankyou7(_0x59eex4) {
+    return applyCharMap(neonCharMap, "(*\u309d\u03c9\u30fb)" + _0x59eex4 + "(*\u309d\u03c9\u30fb)")
 }
 
-function sad3(_0x2d5508) {
-    var _0x44f2fd = _0x187c56;
-    return applyCharMap(italicCharMap, _0x44f2fd(0x23b) + _0x2d5508 + _0x44f2fd(0x36b));
+function sad0(_0x59eex4) {
+    return applyCharMap(squiggle5CharMap, "(\u25d5\ufe3f\u25d5\u273f) " + _0x59eex4 + " (\u0e51\u2032\xB0\ufe3f\xB0\u0e51)")
 }
 
-function sad4(_0x4f20af) {
-    var _0x420daa = _0x187c56;
-    return applyCharMap(squiggle3CharMap, '(ಥ\x20͜ʖಥ)\x20' + _0x4f20af + _0x420daa(0x76));
+function sad1(_0x59eex4) {
+    return applyCharMap(monospaceCharMap, "\u250f\u0f3c \u25c9 \u256d\u256e \u25c9\u0f3d\u2513 " + _0x59eex4 + " (\ufe36\ufe39\ufe3a)")
 }
 
-function sad5(_0x550bb6) {
-    var _0x649483 = _0x187c56;
-    return applyCharMap(bentTextCharMap, _0x649483(0x519) + _0x550bb6 + _0x649483(0x101));
+function sad2(_0x59eex4) {
+    return applyCharMap(squiggleCharMap, "(\u2688\u0325\u0325\u0325\u0325\u0325\u0301\u2322\u2688\u0325\u0325\u0325\u0325\u0325\u0300)" + _0x59eex4 + " (\u2688\u0325\u0325\u0325\u0325\u0325\u0301\u2322\u2688\u0325\u0325\u0325\u0325\u0325\u0300)")
 }
 
-function sad6(_0x1cbdd1) {
-    var _0x4be327 = _0x187c56;
-    return applyCharMap(medievalCharMap, _0x4be327(0x3f1) + _0x1cbdd1 + _0x4be327(0x2f8));
+function sad3(_0x59eex4) {
+    return applyCharMap(italicCharMap, "( \u25d4 \u0296\u032f \u25d4 ) " + _0x59eex4 + " ( \u25d4 \u0296\u032f \u25d4 )")
 }
 
-function sad7(_0x31d19c) {
-    var _0x2cc38a = _0x187c56;
-    return applyCharMap(symbolsCharMap, _0x2cc38a(0x309) + _0x31d19c + _0x2cc38a(0xa9));
+function sad4(_0x59eex4) {
+    return applyCharMap(squiggle3CharMap, "(\u0ca5 \u035c\u0296\u0ca5) " + _0x59eex4 + " \u0669\ua4b0\xB4\xB7\u2322\u2022\uff40\ua4b1\u06f6\u207c\xB3\u208c\u2083")
 }
 
-function cuteText1(_0x4d9b0a) {
-    var _0x1a9a88 = _0x187c56;
-    return applyCharMap(italicCharMap, _0x1a9a88(0x424) + _0x4d9b0a + _0x1a9a88(0x424));
+function sad5(_0x59eex4) {
+    return applyCharMap(bentTextCharMap, "(o\ua1a4\ufe35\ua1a4o) " + _0x59eex4 + " \u25cf\ufe3f\u25cf")
 }
 
-function cuteText2(_0xa7bfec) {
-    var _0x423824 = _0x187c56;
-    return applyCharMap(squiggle5CharMap, _0x423824(0x2b0) + _0xa7bfec + _0x423824(0x226));
+function sad6(_0x59eex4) {
+    return applyCharMap(medievalCharMap, "(\u2032\ufe3f\u2035\uff61)" + _0x59eex4 + "(|||\u275b\ufe35\u275b.)")
 }
 
-function cuteText3(_0x705dbb) {
-    var _0x571dc9 = _0x187c56;
-    return applyCharMap(oldEnglishCharMap, _0x571dc9(0xf7) + _0x705dbb + _0x571dc9(0x36f));
+function sad7(_0x59eex4) {
+    return applyCharMap(symbolsCharMap, "(.\ufe52\ufe20\u208b\ufe52\ufe21.) \uff9f\ud83d\ude33\u2639" + _0x59eex4 + "\u2666\ud83d\udc7a \uff08\uff08\u25cf\xB4\u2227\uff40\u25cf\uff09\uff09")
 }
 
-function cuteText4(_0x2d3f0d) {
-    var _0x589ca3 = _0x187c56;
-    return applyCharMap(squiggleCharMap, _0x589ca3(0x527) + _0x2d3f0d + _0x589ca3(0xa5));
+function cuteText1(_0x59eex4) {
+    return applyCharMap(italicCharMap, "\ud83d\udc98\ud83c\udf80" + _0x59eex4 + "\ud83d\udc98\ud83c\udf80")
 }
 
-function cuteText5(_0x4d95d1) {
-    return applyCharMap(cursiveCharMap, '🎯🍧' + _0x4d95d1 + '💜💘');
+function cuteText2(_0x59eex4) {
+    return applyCharMap(squiggle5CharMap, "\ud83d\udc3f \ud83c\udf80" + _0x59eex4 + " \ud83c\udf80 \ud83d\udc3f")
 }
 
-function fullCrazy1(_0x33e8d4) {
-    var _0x481a40 = _0x187c56;
-    return applyCharMap(boldCharMap, '◥꧁ད\x20ॐ卐' + _0x33e8d4 + _0x481a40(0x3a5));
+function cuteText3(_0x59eex4) {
+    return applyCharMap(oldEnglishCharMap, "\ud83d\udc23\u2656" + _0x59eex4 + " \ud83c\udf80 \ud83c\udf52")
 }
 
-function fullCrazy2(_0x13f1df) {
-    var _0xf0176f = _0x187c56;
-    return applyCharMap(squiggleCharMap, _0xf0176f(0x1b5) + _0x13f1df + '\x20¤]×´)¤••');
+function cuteText4(_0x59eex4) {
+    return applyCharMap(squiggleCharMap, "\ud83d\udc7b\u0d60" + _0x59eex4 + "\u2605\uff61 \ud83c\udf80")
 }
 
-function fullCrazy3(_0x12b174) {
-    var _0x4a8435 = _0x187c56;
-    return applyCharMap(doubleStruckCharMap, _0x4a8435(0x3d6) + _0x12b174 + _0x4a8435(0x31c));
+function cuteText5(_0x59eex4) {
+    return applyCharMap(cursiveCharMap, "\ud83c\udfaf\ud83c\udf67" + _0x59eex4 + "\ud83d\udc9c\ud83d\udc98")
 }
 
-function fullCrazy4(_0x4e37c9) {
-    return applyCharMap(currencyCharMap, '.o0×X×0o.\x20' + _0x4e37c9 + '\x20.o0×X×0o.\x20');
+function fullCrazy1(_0x59eex4) {
+    return applyCharMap(boldCharMap, "\u25e5\ua9c1\u0f51 \u0950\u5350" + _0x59eex4 + " \u5350\u0950 \u0f4c\ua9c2\u25e4")
 }
 
-function fullCrazy5(_0x4ff817) {
-    var _0x3e7cc5 = _0x187c56;
-    return applyCharMap(wideTextCharMap, _0x3e7cc5(0x378) + _0x4ff817 + _0x3e7cc5(0x52));
+function fullCrazy2(_0x59eex4) {
+    return applyCharMap(squiggleCharMap, "\u2022\u2022\xA4(`\xD7[\xA4 " + _0x59eex4 + " \xA4]\xD7\xB4)\xA4\u2022\u2022")
 }
 
-function crazyWithFlourishOrSymbols3(_0xf258f) {
-    return applyCharMap(italicCharMap, '⎝⎝✧GͥOͣDͫ✧⎠⎠' + _0xf258f + '\x20⎝⎝✧GͥOͣDͫ✧⎠⎠');
+function fullCrazy3(_0x59eex4) {
+    return applyCharMap(doubleStruckCharMap, "\u2014(\u2022\u2022\xF7[ " + _0x59eex4 + " ]\xF7\u2022\u2022)\u2014 ")
 }
 
-function crazyWithFlourishOrSymbols4(_0xa3bc20) {
-    var _0x562320 = _0x187c56;
-    return applyCharMap(asianStyle2CharMap, _0x562320(0x3cc) + _0xa3bc20 + _0x562320(0x360));
+function fullCrazy4(_0x59eex4) {
+    return applyCharMap(currencyCharMap, ".o0\xD7X\xD70o. " + _0x59eex4 + " .o0\xD7X\xD70o. ")
 }
 
-function crazyWithFlourishOrSymbols1(_0x129a2c) {
-    return applyCharMap(italicCharMap, '⫷\x20\x20' + _0x129a2c + '\x20⫸');
+function fullCrazy5(_0x59eex4) {
+    return applyCharMap(wideTextCharMap, "\u2022\u25cf\u25c9\u273f " + _0x59eex4 + " \u273f\u25c9\u25cf\u2022\u25e6")
 }
 
-function _0x16b4() {
-    var _0x3b01ee = ['x&#830;', 'p&#866;', '.lunitoolsmirrorencode', '&#41508;', '&Omega;', '&#120442;&#823;', 'E&#846;', 'W&#828;', 'C&#866;', '&#1044;', '(づ｡◕‿‿◕｡)づ', 'X&#846;', '&omega;', 't&#829;&#851;', 'r&#826;', '💖´\x20*•.¸♥¸.•**\x20', '(｡◕‿◕｡)', '1&#828;', '&#576;', '7&#830;', 'v&#829;&#851;', '2&#857;', 'px}\x20</style>', 'f&#830;', '&#613;', 'creepify', '❀◕‿◕❀', '&#548;', '&#638;', 'W&#799;', '.doubleStruckCharMap', '.heart5', '6&#838;', '.zigzagJoiner', '★·.·´¯`·.·★\x20', 'S&#866;', '[̲̅$1]', 'A&#799;', '&#41346;', '░▒▓█►─═\x20\x20[[text]]\x20═─◄█▓▒░', '&otilde;', '6&#866;', '&phi;', 'n&#857;', '9&#826;', 'D&#829;&#851;', '&#276;', '������', '&#1050;', 'j&#866;', '&#1333;', '&#8857;', '⦑$1⦒', '&#41120;', 's17', 'Z&#866;', '•°¯`••\x20[[text]]\x20••´¯°•', 's&#826;', '&thorn;', 'G&#799;', '9&#846;', 'G&#838;', '.result-s18', 'd&#829;&#851;', '<style>\x20//\x20Discord\x20Fonts\x20by\x20:DiscordFonts@gmail.com\x20</style>', 'F&#866;', '】〗〙〛］', '&#10125;', '&#3057;', '&#2792;', 'm&#838;', '&#262;', '.wrap4', 'H&#829;&#851;', 'ᵔ⌣ᵔ', 'U&#830;', '&dagger;', '$2$1', '.thickBlockFramed', 'ﾟ･:,｡★＼(^-^\x20)♪', '0&#829;&#851;', '&#42150;', '\x20✿◉●•◦', '&#4315;', '(¯`·.¸¸.·´¯`·.¸¸.->\x20[[text]]\x20<-.¸¸.·´¯`·.¸¸.·´¯)', 'function', '&#41204;', '෴❤️෴', 'e&#830;', '👌︎', 'Discord\x20Fonts', 'val', '.illuminati', '^ㅂ^', '&#1377;', 'length', 'w&#846;', 'f&#846;', '&#1048;', '&#2799;', '\x20»-(¯`v´¯)-»', 'k&#799;', '&#120825;&#823;', '🕐︎', '(^▽^)', 'textarea', '&#9736;', '.crazyWithFlourishOrSymbols3', '<%=\x20version\x20%>', '#fontSize', '&#1141;', '&#41686;', 'E&#829;&#851;', 't&#828;', 'V&#830;', '.italicCharMap', 'w&#799;', 'U&#826;', '\x20٩꒰´·⌢•｀꒱۶⁼³₌₃', '.doubleUnderline', '&#2798;', '&#1331;', 'i&#857;', 'C&#857;', '8&#828;', '&#41426;', '.star10', '4&#830;', '.result-s4', '&#1051;', '꧁𓊈𒆜', '🖰︎', 'P&#799;', '(⚈̥̥̥̥̥́⌢⚈̥̥̥̥̥̀)', 'q&#838;', '&#1348;', '&alpha;', '&#1139;', 'q&#828;', '&#41005;', '«-(¯`v´¯)-«\x20', 'e&#846;', 'o&#857;', '&#4335;', '.thankyou0', 'w&#829;&#851;', 'm&#826;', 'U&#846;', 'z&#857;', 'G&#866;', '&#120469;&#823;', 'a&#866;', 'y&#857;', '&#3588;', '•?((¯°·._.•\x20[[text]]\x20•._.·°¯))؟•', '&Mu;', '🕗︎', '═─◄█▓▒░', 'J&#866;', 'replace', 'x&#838;', '&#41863;', 'B&#838;', '¤\x20(¯´☆✭.¸_)¤\x20[[text]]\x20¤(_¸.✭☆´¯)\x20¤', '.emoticon5', '★｡\x20🎀', '.•°¤*(¯`★´¯)*¤°\x20[[text]]\x20°¤*(¯´★`¯)*¤°•.', '♥¸.•*❤´°◦¸¸.◦°˚°◦☙◦彡彡', '&#989;', '♦👺\x20（（●´∧｀●））', '&#41707;', '✬☆*.•⨳•.¤⊹٭', 'value', '&#423;', '&#327;', 'i&#830;', '📫︎', '⧼$1&#828;⧽', 'N&#826;', '&#9791;', 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', '6&#846;', '&#4325;', '0&#826;', '&#1337;', '★·.·´¯`·.·★\x20[[text]]\x20★·.·´¯`·.·★', '&#258;', '&forall;', 'ready', '0&#857;', '&#1350;', 'P&#828;', 'Q&#866;', '.lunisquares', 'd&#799;', 'i&#866;', 'V&#857;', 'tiny', '&#1192;', '&upsilon;', '&#1351;', '&#9773;', 'N&#846;', '.dottyJoiner', '•]••´º´•»\x20[[text]]\x20«•´º´••[•', 'X&#838;', 'P&#826;', '.star1', 'l&#846;', 'M&#828;', 'S&#828;', '&#4306;', 'a&#830;', '.sad1', '🕆︎', 'H&#866;', 'u&#828;', 's31', 'D&#846;', '.o0×X×0o.\x20', '&#2790;', '.•°¤*(¯`★´¯)*¤°\x20', 'z&#828;', '&#7918;', '&#412;', '.fullCrazy4', '.copied', '&#120473;&#823;', '&#409;', 'H&#828;', 'random', '&#2670;', 'z&#830;', 'O&#866;', 'h&#866;', '&#120463;&#823;', 'r&#829;&#851;', '.result-s16', 'a&#828;', 'Q&#829;&#851;', 'b&#828;', '┗(^o^\x20)┓三\x20[[text]]\x20三\x20┗(^o^\x20)┓', '9&#830;', '.thankyou5', 'Q&#857;', '💣︎', '&epsilon;', '🐣♖', '🗏︎', '⦏$1⦎', 'k&#828;', 'Q&#830;', 's22', '&Lambda;', 'c&#857;', '&#1356;', '&#356;', '\x20●︿●', '&#408;', 'g&#866;', 'w&#826;', 'l&#826;', '꧁•⊹٭', 'N&#857;', '.heart4', '&#1397;', '8&#846;', '꧁༒༻☬ད\x20[[text]]\x20ཌ☬༺༒꧂', '&#374;', '&#377;', 'D&#826;', 'ミ★\x20', '•´¯`•»\x20[[text]]\x20«•´¯`•', '|!¤*\x27~``~\x27*¤!|\x20[[text]]\x20|!¤*\x27~``~\x27*¤!|', 'init', 'o&#838;', '&#41648;', 'g&#828;', 'f&#799;', '&#435;', '&#41556;', '3&#829;&#851;', '👎︎', '˜”*°•.˜”*°•\x20', '&#12579;', 'щ（ﾟДﾟщ）\x20<\x20', '💖彡', '.vaporwaveText1', 'c&#826;', '&#1059;', '&#120448;&#823;', '7&#857;', '*•.¸♡\x20[[text]]\x20♡¸.•*', 'g&#829;&#851;', '.fullCrazy2', 'e&#799;', '&#1291;', '&#625;', '.cursiveCharMap', 't&#799;', '.crazyWithFlourishOrSymbols1', '✿.｡.:*\x20☆:**:.\x20[[text]]\x20.:**:.☆*.:｡.✿', 'l&#866;', 'K&#828;', '&#4310;', '&#823;', '&#120479;&#823;', 'T&#799;', '🕕︎', '&#308;', '••¤(`×', '&#5597;', '&#10123;', '&#42159;', '.underline', '&#120474;&#823;', 'Q&#838;', 'v&#838;', 'I&#828;', 'z&#829;&#851;', '•?((¯°·._.•\x20', '¤¸¸.•´¯`•¸¸.•..>>\x20[[text]]\x20<<..•.¸¸•´¯`•.¸¸¤', 'u&#799;', '&#41766;', '·.★·.·´¯`·.·★', 'C&#799;', '&#391;', '&#943;', '.strikeThrough', 'd&#857;', '4&#857;', 'F&#830;', '&#41295;', 'M&#799;', 'N&#829;&#851;', '&#642;', 's24', '&#120470;&#823;', 'options', 'input', 'B&#857;', 't&#857;', 'X&#828;', '¸♩·¯·ξξ(∵❤◡❤∵)ξξ🌸', '&#1179;', 'R&#829;&#851;', 'A&#857;', '&#120444;&#823;', '&#41571;', 'I&#857;', '&#355;', 'undefined', '&#41823;', 'A&#866;', '&#120478;&#823;', 'q&#829;&#851;', '¨˜ˆ”°⍣~•✡⊹٭„¸', 'E&#838;', '🏱︎', '&#9834;', '&#5616;', '&#1178;', 'ıllıllı\x20[[text]]\x20ıllıllı', '¸,ø¤º°`°º¤ø,¸¸,ø¤º°\x20[[text]]\x20°º¤ø,¸¸,ø¤º°`°º¤ø,¸', '୧(•̀ᗝ•́)૭\x20[[text]]\x20୧(⇀‸↼‶)૭', '&#41126;', 'S&#826;', '&#1084;', '&#41754;', '☞ó\x20͜つò☞\x20\x20', '&#12425;', '7&#829;&#851;', 'p&#838;', '.sad3', '╰•★★\x20', '&#10003;', '&#1342;', '&#120480;&#823;', '&#41203;', 'Y&#857;', '&#418;', '★¸.•☆•.¸★\x20', '&#998;', 'p&#826;', '&#41240;', '&#315;', '&#41079;', '.result-s31', '&euro;', 'P&#829;&#851;', 'L&#826;', 'toLowerCase', '4&#799;', '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧', 'b&#829;&#851;', 's&#799;', 'q&#826;', '.superscriptCharMap', 'i&#826;', 'D&#857;', '-漫~*\x27¨¯¨\x27*·舞~\x20', 'toUpperCase', 'N&#866;', 't&#866;', '.sad2', '&#477;', 's30', 'r&#866;', '&#645;', 'h&#829;&#851;', '░▒▓█►─═', '&#41706;', '.result-s26', 'fromCharCode', '&#9815;', '๑۞๑,¸¸,ø¤º°`°๑۩\x20[[text]]\x20๑۩\x20,¸¸,ø¤º°`°๑۞๑', '`•.,¸¸,.•´¯\x20', '&#120468;&#823;', 'z&#866;', '🗄︎', 'j&#857;', '&#618;', '&#344;', '6&#829;&#851;', 'q&#857;', '.bigrus', 'Y&#826;', 's20', 'b&#866;', 'x&#846;', 'P&#838;', '.thankyou3', '&#1082;', 'copied-show', 'G&#826;', '^ㅅ^', '.slashThrough', '••¤(`×[¤\x20', 's&#828;', 'b&#857;', 'p&#830;', '&#270;', 'B&#830;', 'b&#846;', '&#120831;&#823;', 'T&#866;', '&Gamma;', 'D&#799;', '&#41804;', '3&#799;', 'randomization', 'C&#829;&#851;', '6&#799;', 's&#857;', '&#1090;', 'innerText', '4&#846;', '&#4308;', 'j&#826;', '&#120481;&#823;', 'ツﻬஐﻬ', '&#1352;', 'n&#826;', 'g&#838;', '&#429;', 'h&#846;', '&#120824;&#823;', '&#1359;', 'k&#826;', '4&#838;', '&#1097;', 'q&#799;', '.hashJoiner', '══━一', '꧁𓊈𒆜\x20[[text]]\x20𒆜𓊉꧂', 'U&#799;', 'R&#857;', 'E&#830;', '.diametricBox', '&#447;', '&#413;', '&#1340;', '&#5615;', '&#40984;', '4&#829;&#851;', '&#120445;&#823;', 'tools', '§.•´¨\x27°÷•..×\x20[[text]]\x20×,.•´¨\x27°÷•..§', '&#5556;', '&#1112;', 'U&#866;', '&#549;', '&#545;', 'exports', 'L&#830;', '&#351;', '&#311;', '&#1062;', '&#350;', 's14', '&#40996;', 'y&#866;', '&#2414;', 'Z&#846;', '&#120439;&#823;', 'N&#830;', '.asianStyleCharMap', 'n&#799;', '&#272;', '1&#838;', 's10', '¸¸♬·¯·♩¸¸♪·¯·♫¸¸\x20[[text]]\x20¸¸♫·¯·♪¸¸♩·¯·♬¸¸', 'z&#838;', '&#653;', '&#434;', '4&#828;', '&#41141;', ']彡★', '◕‿◕', '&#490;', 'squares', '&#394;', '&#372;', '&#4331;', 'diacriticsBottom', '(¯´•._.•\x20[[text]]\x20•._.•´¯)', '&#1180;', '෴❤️෴\x20\x20', ']|I{•------»\x20[[text]]\x20«------•}I|[', 'join', '&#268;', '&#296;', '&#42148;', 's&#846;', 'E&#857;', 'J&#838;', '&#595;', 'ღ⊱♥', 'd&#830;', 'g&#846;', '—(••÷', '.star7', 'map', '.boldCharMap', 'D&#828;', '&ETH;', '\x20(⚈̥̥̥̥̥́⌢⚈̥̥̥̥̥̀)', 'h&#799;', 'y&#838;', '&#41105;', '\x20🎀\x20🐿', '.cuteText', '4&#866;', '.result-s5', 'd&#828;', '.thankyou4', '&#670;', '&#120437;&#823;', '.emoticon4', 'W&#857;', '&#5229;', '&#420;', '§.•´¨\x27°÷•..×\x20', '♡❤●•◦', 'b&#830;', 'l&#830;', '&#41007;', '▌│█║▌║▌║\x20', '9&#866;', '✰.｡.✵°✵,¸.•✵´', '&#120435;&#823;', '(\x20◔\x20ʖ̯\x20◔\x20)\x20', '🖲︎', 'j&#799;', 'W&#826;', '&iuml;', '▁\x20▂\x20▄\x20▅\x20▆\x20▇\x20█\x20[[text]]\x20█\x20▇\x20▆\x20▅\x20▄\x20▂\x20▁', 'S&#829;&#851;', '&#9796;', '&#403;', '.cuteText2', '&#41433;', '&#987;', 'B&#846;', '&#1041;', '.tildeStrikeThrough', '`•.,¸¸,.•´¯\x20[[text]]\x20¯`•.,¸¸,.•´', 'p&#829;&#851;', '·.¸¸.·♩♪♫\x20[[text]]\x20♫♪♩·.¸¸.·', '🕮︎', '◦•●◉✿\x20[[text]]\x20✿◉●•◦', '.result-s10', '◦•●❤♡\x20', '&#1193;', 'X&#829;&#851;', 'x&#866;', 'q&#866;', '&#42131;', '🕒︎', ']|I{•------»\x20', '&#12552;', 'V&#826;', '&#323;', '&#1202;', 'ღ(¯`◕‿◕´¯)\x20♫\x20♪\x20♫\x20[[text]]\x20♫\x20♪\x20♫\x20(¯`◕‿◕´¯)ღ', '&#10127;', 'k&#838;', '(≧◡≦)', '&#996;', '9&#828;', '😐︎', '&#41733;', '6&#828;', '.DiscordFonts', '&#41712;', '.heart3', '7&#846;', '&#972;', 'J&#799;', '&scaron;', '•]••´º´•»\x20', 'C&#846;', '.result-s11', 'g&#830;', '&#41016;', 'f&#829;&#851;', '٭ᶦᶰᵈ᭄', '&#4317;', '&#592;', '&#654;', '.emoticon7', '░▒▓█\x20[[text]]\x20█▓▒░', '.heartsBetween', 'K&#866;', 'mapInverse', '.currencyCharMap', '&chi;', '.star5', '&#1085;', '&#41833;', 'i&#799;', '&#41392;', 'ஜ۩۞۩ஜ', 'Q&#826;', '&eta;', 'C&#838;', 'P&#866;', '&#1138;', 'p&#799;', 'nodeType', 'E&#866;', '&#1046;', '&#9739;', 'createElement', '[[text]]', '(･ω･)♪', 'w&#857;', 'K&#830;', '&#647;', 'a&#857;', '&#120436;&#823;', '&#416;', '&#120822;&#823;', '&#988;', '&#120446;&#823;', '♪(･ω･)ﾉ', '&micro;', 'N&#828;', '&#1506;', '(¯`*•.¸,¤°´✿.｡.:*\x20[[text]]\x20*.:｡.✿`°¤,¸.•*´¯)', '&#10124;', '&#x', '(っ◔◡◔)っ\x20♥\x20', 'ﻬஐﻬツ', '6&#857;', '&#41076;', '&#9790;', '5&#838;', 'O&#799;', '.dotBox', '.crazyWithFlourishOrSymbols', 'G&#830;', '&#120438;&#823;', '&#1072;', 'F&#846;', '🖃︎', '(/◔◡◔)/', '&#292;', '🐿\x20🎀', 'f&#857;', '&#42181;', '.emoticon3', '&#65434;', 'c&#829;&#851;', '&sigmaf;', '&#41708;', '&#41660;', '&#9687;', '🕈︎', '°°°·.°·..·°¯°·._.·\x20[[text]]\x20·._.·°¯°·.·°\x20.·°°°', 'H&#838;', '.result-s30', '.heart7', 'L&#857;', '&#41008;', 'M&#846;', 'L&#866;', '『$1』', '👓︎', '.starJoiner', '#Sk-text', '&#41029;', 'Y&#866;', '.sad5', '&#41991;', '&#1213;', '<(_\x20_*)>', '&#41427;', '(*ゝω・)', 'Z&#828;', 'd&#846;', '★·.·´¯`·.·★.·', 'a&#799;', '0&#799;', '&#41532;', 'q&#830;', '.sad0', '╰☆☆\x20[[text]]\x20☆☆╮', 'l&#828;', 'v&#799;', 'S&#846;', 's12', '&beta;', 'j&#830;', '<:::::[]=¤\x20[[text]]\x20(▀̿̿Ĺ̯̿̿▀̿\x20̿)', '.boldItalicCharMap', '\x20⋆\x20', '&#1344;', '&#41155;', '&#484;', '&#5290;', '&#120453;&#823;', '☽≫≻≽≿⋝⋟⋑⊃⊐⊒⫸》＞❯❱', '&#406;', '٭⊹•꧂', '&oplus;', 'K&#826;', '2&#799;', '&#1087;', '(◍•ᴗ•◍)\x20ミ💖\x20', '&#646;', '9&#799;', 'D&#866;', 'ஜ۩۞۩ஜ\x20', '&#42130;', 'O&#830;', '●‿●', '&#1347;', '&#400;', 'encode', '(|||❛︵❛.)', '&#120472;&#823;', '.emoticon0', 'W&#866;', '۝༒༺', '&#974;', '🕿︎', 'click', 'T&#829;&#851;', '&#120828;&#823;', 'push', 'W&#829;&#851;', '(ω・*ゝ)', 'T&#830;', '.result-s13', '1&#829;&#851;', '\x20(๑′°︿°๑)', '(.﹒︠₋﹒︡.)\x20ﾟ😳☹', '.star6', 'e&#857;', 'a&#829;&#851;', '🕑︎', '5&#866;', '•._.••´¯``•.¸¸.•`\x20[[text]]\x20`•.¸¸.•´´¯`••._.•', '&#1111;', 'diacriticsMiddle', '3&#830;', 'f&#828;', '&#1071;', 'M&#866;', '𒆜𓊉꧂', '.wrap3', '&#9812;', '7&#838;', '&#1105;', 'w&#828;', '\x20]÷••)—\x20', 'M&#857;', '&#310;', '(⌒‿⌒)', '8&#799;', '&#669;', '&#10130;', '(ㅅꈍ﹃ꈍ)*\x20[[text]]\x20*(ꈍ﹃ꈍㅅ)♡', '5&#829;&#851;', '&#313;', '&#40974;', '&#5610;', 't&#838;', '&#120457;&#823;', '.emoticon2', 'reverse', '&#778;\x20⫶', 'L&#828;', '(✿ヘᴥヘ)', '&#1078;', '6&#826;', 'c&#830;', '⁀‿⁀', 'I&#846;', 'A&#838;', '&#5845;', 'g&#799;', '&#633;', '&#3648;', '&iota;', '&#41575;', '&#42180;', '×º°”˜`”°º×\x20', '.dotBoxtwo', '.text', '&#340;', '&ugrave;', '&#1065;', '&#9837;', 'ღƪ(ˆ◡ˆ)ʃ♡\x20[[text]]\x20♡ƪ(ˆ◡ˆ)ʃ♪', '«-(¯`v´¯)-«\x20[[text]]\x20»-(¯`v´¯)-»', 'R&#846;', '✨✩✪✫✬✭✮✯✰✦✱✲✳✴✵✶✷֍֎✸✹✺✻✼✽✾✿❀❁❂❃❄★☆＊', '&#1063;', 'amd', 'Z&#799;', '&#20057;', 'location', '&#120449;&#823;', '(•◡•)', 'getHTML', '&#120455;&#823;', '.result-s19', 't&#826;', '&#41976;', 'g&#857;', 'C&#828;', '7&#866;', 'z&#826;', 'A&#828;', '&#941;', '٭⊹¤.•⨳•.*☆✬\x20', 'A&#826;', '&#428;', 'k&#857;', 'top', 'y&#829;&#851;', '&#19973;', '¯_(\x20͡°\x20͜ʖ\x20͡°)_/¯', '•´¯`•.\x20[[text]]\x20.•´¯`•', '&#5167;', '★彡\x20[[text]]\x20彡★', 'P&#857;', '&#1047;', '&#4357;', '8&#826;', 'round', 'S&#799;', 'v&#826;', '\x20(\x20◔\x20ʖ̯\x20◔\x20)', '\x20.o0×X×0o.\x20[[text]]\x20.o0×X×0o.', 'addEventListener', '📭︎', '\x20🎀\x20🍒', '.result-s9', '&#41081;', 'flip', '&#1043;', '\x20▂\x20▄\x20▅\x20▆\x20▇\x20█\x20', 'E&#826;', 'max', '🕭︎', '•●◉✿\x20', 'k&#846;', '.result-s21', 'V&#866;', '&#8355;', '&#1056;', '.squiggle2CharMap', '&#358;', '(人◕‿◕)', '&#41949;', '٩(˘◡˘)۶', '&Oslash;', '&psi;', '🌘‿🌘', '.squiggle3CharMap', '&#1130;', 'T&#838;', 'S&#838;', 'G&#846;', '.asianStyle2CharMap', 'body', '.star3', '0&#830;', '.fullCrazy5', 'c&#846;', '&#9730;', 'a&#846;', '.sad6', 'N&#799;', '.wideTextCharMap', '&#120454;&#823;', 'j&#846;', '&#1223;', 'm&#846;', 'u&#826;', '.result-s7', '&#41037;', 'v&#846;', '.arrowjoin', '&fnof;', 'X&#857;', '&part;', '&#1095;', '.fullCrazy3', '2&#830;', '\x20卐ॐ\x20ཌ꧂◤', '&#40983;', '♪(\x20^-^)/★,｡･:･ﾟ', '.thankyou7', 'A&#846;', '📁︎', '&#438;', '&#336;', '&#541;', '&#120482;&#823;', '🕓︎', '彡(✿╹◡╹)\x20', '◥꧁ད\x20[[text]]\x20ཌ꧂◤', 'F&#829;&#851;', '.squiggle4CharMap', '♥⊱ღ', 'remove', '癶๑)ლ〜♡', '-·=»‡«=·-\x20[[text]]\x20-·=»‡«=·-', 'c&#799;', '.fullCrazy', '&#41555;', 'u&#829;&#851;', '.wingdings', '&#1358;', '&sigma;', '.neonCharMap', '&rho;', 'G&#857;', '&#5620;', '♥╣[-_-]╠♥', '.crazyWithFlourishOrSymbols4', ']\x20𒆜𓊉꧂', '&#1064;', 'B&#826;', 'u&#846;', '.star0', '&#9835;', '&#1210;', '¯_(\x20͡°\x20͜ʖ\x20͡°)_/¯\x20\x20', 'd&#838;', '&#1049;', '🖂︎', 'o&#826;', '.cuteText4', '🗐︎', 'split', 'm&#799;', '⫷\x20[[text]]\x20⫸', '—(••÷[\x20', '&#1349;', 'f&#866;', '.symbolsCharMap', '&#404;', '.cuteText5', '&#1074;', 'M&#830;', '3&#826;', 'J&#846;', '(y)', '📪︎', 's23', 'W&#846;', 'html', '&#3182;', '.arrowBox', 'J&#826;', '.result-s22', '&#5205;', '&#286;', 'c&#828;', 'ᵔᴥᵔ', '.singlewavyJoiner', '🕯︎', '•°¯`••\x20', 'Q&#799;', '(′︿‵｡)', '&#385;', 's(^‿^)-b', '&#120443;&#823;', 'diacriticsTop', 'M&#826;', '&#942;', '.wrap5', 'H&#826;', '&#41751;', 'a&#826;', 'Q&#846;', 'a&#838;', '&#8627;', '&#381;', 'V&#838;', '&#41807;', '\x20\x20🎀\x20\x20', '°°°·.°·..·°¯°·._.·\x20', '&#41731;', '&#65420;', '¸,ø¤º°`°º¤ø,¸¸,ø¤º°\x20', '&#1073;', '&#41080;', 'b&#799;', '&#295;', 'Y&#828;', 'M&#829;&#851;', '.greekCharMap', '★彡[', 'q&#846;', 'Y&#846;', '.futureAlienCharMap', '&#614;', '(^▽^)\x20\x20', '.pubggame1', '+｡:.ﾟヽ(*´∀)ﾉﾟ', '¸,ø¤º°`°º¤ø,¸\x20', '👍︎', '🕙︎', '╚»★«╝\x20[[text]]\x20╚»★«╝', '&#120827;&#823;', '&#1131;', 'classList', 'hasOwnProperty', '&#985;', 'm&#829;&#851;', '꜍$1꜉', '&#5609;', '.sad4', '**•.¸♥¸.•*´💖', '💘🎀', '【｡_｡】\x20[[text]]\x20【｡_｡】', '1&#846;', '.wavyJoiner', 'r&#838;', '&#627;', 'O&#826;', '(ɔ◔‿◔)ɔ', 'T&#857;', '&#1079;', '&#1330;', 'm&#828;', 'F&#826;', 'trim', '.wrap1', 'y&#799;', '★⌒(●ゝω・)', 'K&#846;', '5&#828;', 'K&#829;&#851;', '&#1360;', '&#5196;', 'o&#830;', '.curlybrackets', '&#401;', '&#341;', '&#120462;&#823;', 'e&#838;', '｡*ﾟ.*.｡(っ\x20ᐛ\x20)っ✂╰⋃╯\x20[[text]]', 'リサフランク現代のコンピュ竹内\x20まりや若者が履く流行のスニーカー真夜中のドアホットドッグマスターストライカーソニーブギ新しい日の誕生ライフ\x20-\x20ヒスイ蒸気波\x20無線゠ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺ・ーヽヾヿぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ゙゚゛゜ゝゞゟ亜哀挨愛曖悪握圧扱宛嵐安案暗以衣位囲医依委威為畏胃尉異移萎偉椅彙意違維慰遺緯域育壱逸茨芋引印因咽姻員院淫陰飲隠韻右宇羽雨唄鬱畝浦運雲永泳英映栄営詠影鋭衛易疫益液駅悦越謁閲円延沿炎怨宴媛援園煙猿遠鉛塩演縁艶汚王凹央応往押旺欧殴桜翁奥横岡屋億憶臆虞乙俺卸音恩温穏下化火加可仮何花佳価果河苛科', '꧁༒☬\x20[[text]]\x20☬༒꧂', '&#608;', 'https://www.discordfonts.com/?=', '&#41674;', '◠◡◠', 'U&#828;', 's18', '&#1028;', 'R&#828;', '&#41045;', '.littleSparkles', 'global', '╚»★«╝', '&#2797;', 'U&#829;&#851;', '&szlig;', 'v&#830;', '&#4318;', '&#8134;', 'querySelector', '(づ｡◕‿‿◕｡)づ\x20', '&#321;', 'E&#828;', '0&#838;', '&#120441;&#823;', '.connectedJoiner', 't&#830;', '&Uacute;', '&#41769;', 'o&#829;&#851;', '`•.¸¸.•´´¯`••._.•\x20[[text]]\x20•._.••`¯´´•.¸¸.•`', '&#5511;', 'e&#829;&#851;', 'C&#826;', '&#407;', '◥꧁ད\x20ॐ卐[[text]]\x20卐ॐ\x20ཌ꧂◤', 'charCodeAt', '&#7433;', 'U&#857;', 'G&#828;', 'add', 'pop', 'u&#838;', '&nu;', '.lunitoolsflipencode', 'F&#857;', '๑۞๑,¸¸,ø¤º°`°๑۩\x20', 'Z&#826;', '5&#830;', '&#1076;', '.result-s1', 'test', '.sad7', 's13', '🕘︎', '▄︻デ', '.thickBox', '.thankyou2', '&#4329;', '&#120475;&#823;', 's29', '3&#828;', '.cuteText3', 'Z&#857;', '&#41246;', '↫↫↫↫↫\x20[[text]]\x20↬↬↬↬↬', '&#9442;', 'm&#830;', '&#2794;', '(◕︿◕✿)\x20', '&#3619;', '&#387;', '2&#838;', '&#291;', '.star2', '🌟⭐ıllıllı', '.crazyWithFlourishOrSymbols2', '&#5500;', 'u&#857;', 'D&#830;', 'x&#799;', '&#3923;', '\x20٩(˘◡˘)۶', '.result-s25', '&#1338;', '▀▄▀▄▀▄\x20', 'L&#799;', 'o&#866;', '.thankyou6', '🌘‿🌘\x20\x20', 'object', 'toString', '🕚︎', 'X&#830;', '&#1060;', '&#120465;&#823;', '&#586;', '&#4327;', 's&#829;&#851;', 'R&#799;', '&kappa;', '&#42128;', '(✿^▽^)', '.bentTextCharMap', 'I&#830;', 'c&#838;', '2&#866;', '🖬︎', 'l&#799;', 'charAt', '🖳︎', '.crazyWithFlourishOrSymbols5', 'W&#830;', '7&#826;', 'maxHeight', 'u&#830;', '┏༼\x20◉\x20╭╮\x20◉༽┓\x20', '.clear', '&#42171;', '.result-s3', '&#120456;&#823;', '.vaporwaveText', '&#5262;', 'floor', 'p&#846;', 'r&#799;', '••.•´¯`•.••\x20', 'X&#866;', 'o&#799;', '&#1185;', '&#4330;', 's15', '1&#826;', '&#5198;', '⦏$1&#x302;⦎', '.squaresCharMap', '&#41157;', '.result-s27', '&#615;', 'v&#857;', '➶➶➶➶➶\x20[[text]]\x20➷➷➷➷➷', '&#639;', '.oldEnglishCharMap', '.squiggle5CharMap', '&#5029;', 'V&#828;', '7&#828;', '&#2749;', 'H&#830;', '⦚$1⦚', '`•.¸¸.•´´¯`••._.•\x20', '&#23610;', 'bottom', '.result-s24', '&#596;', 'y&#830;', '8&#866;', '\x20•°*”˜.•°*”˜', '(*ˊᗜˋ*)', 'z&#846;', '.heart0', 'k&#866;', '&#5397;', '&#411;', '&#392;', '&#120447;&#823;', '.arrowBelow', '▁\x20▂\x20▄\x20▅\x20▆\x20▇\x20█\x20', '⟦$1⟧', '&#1094;', '.•♫•♬•\x20[[text]]\x20•♬•♫•.', '—(••÷[\x20[[text]]\x20]÷••)—', '5&#799;', '&#41296;', '╚»★«╝\x20', '&yen;', 'j&#828;', 's21', 'I&#866;', '.firework', 's26', '&#41266;', '&#1031;', 'V&#799;', '&#42014;', '.monospaceCharMap', '&#120461;&#823;', '¸„٭⊹✡•~⍣°”ˆ˜¨', '.result-s17', '&#10081;', '&#41922;', '&#7990;', '&#8984;', 'F&#828;', 'x&#828;', '×º°”˜`”°º×\x20[[text]]\x20×º°”˜`”°º×', '6&#830;', 'u&#866;', '&#346;', '&#5741;', '&#4336;', 'T&#826;', 'T&#846;', '&#1488;', '&#120829;&#823;', '(¯´•._.•\x20', '5&#857;', 'I&#799;', '&#652;', 'S&#830;', 'r&#857;', '&Xi;', '5&#846;', '.crossAboveBelow', '&#10122;', '(oꆤ︵ꆤo)\x20', 's25', '9&#838;', '1&#799;', 'G&#829;&#851;', '&#8467;', 'h&#838;', 'l&#857;', 'R&#830;', '&#607;', '&#41042;', '&#7828;', 'B&#829;&#851;', 'y&#828;', '👻ൠ', 'e&#826;', 'b&#838;', '\x20\x20█\x20▇\x20▆\x20▅\x20▄\x20▂▁', 'P&#830;'];
-    _0x16b4 = function() {
-        return _0x3b01ee;
-    };
-    return _0x16b4();
+function crazyWithFlourishOrSymbols3(_0x59eex4) {
+    return applyCharMap(italicCharMap, "\u239d\u239d\u2727G\u0365O\u0363D\u036b\u2727\u23a0\u23a0" + _0x59eex4 + " \u239d\u239d\u2727G\u0365O\u0363D\u036b\u2727\u23a0\u23a0")
 }
 
-function crazyWithFlourishOrSymbols2(_0x59a79b) {
-    var _0x50aabb = _0x187c56;
-    return applyCharMap(boldItalicCharMap, _0x50aabb(0x8c) + _0x59a79b + _0x50aabb(0x64));
+function crazyWithFlourishOrSymbols4(_0x59eex4) {
+    return applyCharMap(asianStyle2CharMap, "\xAF_( \u0361\xB0 \u035c\u0296 \u0361\xB0)_/\xAF  " + _0x59eex4 + "\xAF_( \u0361\xB0 \u035c\u0296 \u0361\xB0)_/\xAF")
 }
 
-function crazyWithFlourishOrSymbols5(_0x3a351c) {
-    var _0x2dac41 = _0x187c56;
-    return applyCharMap(squaresCharMap, _0x2dac41(0x2f1) + _0x3a351c + _0x2dac41(0x282));
+function crazyWithFlourishOrSymbols1(_0x59eex4) {
+    return applyCharMap(italicCharMap, "\u2af7  " + _0x59eex4 + " \u2af8")
 }
 
-function wrap1(_0x176dee) {
-    var _0x30895e = _0x187c56;
-    return applyCharMap(boldCharMap, _0x30895e(0x19a) + [_0x176dee] + _0x30895e(0x9d));
+function crazyWithFlourishOrSymbols2(_0x59eex4) {
+    return applyCharMap(boldItalicCharMap, "\xAB-(\xAF`v\xB4\xAF)-\xAB " + _0x59eex4 + " \xBB-(\xAF`v\xB4\xAF)-\xBB")
 }
 
-function wrap2(_0x1453f7) {
-    var _0x3ea69a = _0x187c56;
-    return applyCharMap(cursiveCharMap, _0x3ea69a(0x374) + [_0x1453f7] + _0x3ea69a(0x52a));
+function crazyWithFlourishOrSymbols5(_0x59eex4) {
+    return applyCharMap(squaresCharMap, "\u0b9c\u06e9\u06de\u06e9\u0b9c " + _0x59eex4 + "\u0b9c\u06e9\u06de\u06e9\u0b9c")
 }
 
-function wrap3(_0x19884f) {
-    var _0x2656ea = _0x187c56;
-    return applyCharMap(boldItalicCharMap, _0x2656ea(0x237) + [_0x19884f] + '\x20║▌║▌║█│▌');
+function wrap1(_0x59eex4) {
+    return applyCharMap(boldCharMap, "\u2591\u2592\u2593\u2588\u25ba\u2500\u2550" + [_0x59eex4] + "\u2550\u2500\u25c4\u2588\u2593\u2592\u2591")
 }
 
-function wrap4(_0x446f81) {
-    var _0x202f93 = _0x187c56;
-    return applyCharMap(neonCharMap, _0x202f93(0x82) + [_0x446f81] + _0x202f93(0x3c5));
+function wrap2(_0x59eex4) {
+    return applyCharMap(cursiveCharMap, " \u2582 \u2584 \u2585 \u2586 \u2587 \u2588 " + [_0x59eex4] + "  \u2588 \u2587 \u2586 \u2585 \u2584 \u2582\u2581")
 }
 
-function wrap5(_0x2279ae) {
-    var _0x45f440 = _0x187c56;
-    return applyCharMap(boldItalicCharMap, _0x45f440(0x4f0) + [_0x2279ae] + _0x45f440(0x44e));
+function wrap3(_0x59eex4) {
+    return applyCharMap(boldItalicCharMap, "\u258c\u2502\u2588\u2551\u258c\u2551\u258c\u2551 " + [_0x59eex4] + " \u2551\u258c\u2551\u258c\u2551\u2588\u2502\u258c")
+}
+
+function wrap4(_0x59eex4) {
+    return applyCharMap(neonCharMap, "\ua9c1\ud80c\ude88\ud808\udd9c" + [_0x59eex4] + "] \ud808\udd9c\ud80c\ude89\ua9c2")
+}
+
+function wrap5(_0x59eex4) {
+    return applyCharMap(boldItalicCharMap, "\u255a\xBB\u2605\xAB\u255d " + [_0x59eex4] + "\u255a\xBB\u2605\xAB\u255d")
 }
 var newtext = {
-    's1': {
-        0x1: _0x187c56(0x88),
-        0x2: _0x187c56(0x130),
-        0x3: _0x187c56(0x4e6),
-        0x4: '&#1283;',
-        0x5: _0x187c56(0x2cb),
-        0x6: _0x187c56(0xa8),
-        0x7: '&#608;',
-        0x8: _0x187c56(0x128),
-        0x9: _0x187c56(0x339),
-        0xa: '&#669;',
-        0xb: _0x187c56(0xe4),
-        0xc: _0x187c56(0x198),
-        0xd: _0x187c56(0x129),
-        0xe: _0x187c56(0x429),
-        0xf: _0x187c56(0x3be),
-        0x10: '&rho;',
-        0x11: _0x187c56(0x41e),
-        0x12: _0x187c56(0x1c),
-        0x13: _0x187c56(0x14f),
-        0x14: '&#410;',
-        0x15: _0x187c56(0xc7),
-        0x16: '&#651;',
-        0x17: '&#623;',
-        0x18: 'x',
-        0x19: _0x187c56(0x4a3),
-        0x1a: _0x187c56(0x1eb),
-        0x1b: 'A',
-        0x1c: 'B',
-        0x1d: 'C',
-        0x1e: 'D',
-        0x1f: 'E',
-        0x20: 'F',
-        0x21: 'G',
-        0x22: 'H',
-        0x23: 'I',
-        0x24: 'J',
-        0x25: 'K',
-        0x26: 'L',
-        0x27: 'M',
-        0x28: 'N',
-        0x29: 'O',
-        0x2a: 'P',
-        0x2b: 'Q',
-        0x2c: 'R',
-        0x2d: 'S',
-        0x2e: 'T',
-        0x2f: 'U',
-        0x30: 'V',
-        0x31: 'W',
-        0x32: 'X',
-        0x33: 'Y',
-        0x34: 'Z',
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s1: {
+        1: "&alpha;",
+        2: "&#4310;",
+        3: "&#392;",
+        4: "&#1283;",
+        5: "&#1213;",
+        6: "&#989;",
+        7: "&#608;",
+        8: "&#1291;",
+        9: "&iota;",
+        10: "&#669;",
+        11: "&#409;",
+        12: "&#645;",
+        13: "&#625;",
+        14: "&#627;",
+        15: "&sigma;",
+        16: "&rho;",
+        17: "&#985;",
+        18: "&#638;",
+        19: "&#642;",
+        20: "&#410;",
+        21: "&upsilon;",
+        22: "&#651;",
+        23: "&#623;",
+        24: "x",
+        25: "&#4327;",
+        26: "&#549;",
+        27: "A",
+        28: "B",
+        29: "C",
+        30: "D",
+        31: "E",
+        32: "F",
+        33: "G",
+        34: "H",
+        35: "I",
+        36: "J",
+        37: "K",
+        38: "L",
+        39: "M",
+        40: "N",
+        41: "O",
+        42: "P",
+        43: "Q",
+        44: "R",
+        45: "S",
+        46: "T",
+        47: "U",
+        48: "V",
+        49: "W",
+        50: "X",
+        51: "Y",
+        52: "Z",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's2': {
-        0x1: _0x187c56(0x401),
-        0x2: '&#9837;',
-        0x3: _0x187c56(0x2a4),
-        0x4: _0x187c56(0x2b9),
-        0x5: _0x187c56(0x184),
-        0x6: _0x187c56(0x297),
-        0x7: _0x187c56(0x4ff),
-        0x8: _0x187c56(0x242),
-        0x9: _0x187c56(0x19e),
-        0xa: _0x187c56(0x167),
-        0xb: '&#1008;',
-        0xc: _0x187c56(0x3fe),
-        0xd: '&#9812;',
-        0xe: _0x187c56(0x3ca),
-        0xf: '&#8857;',
-        0x10: _0x187c56(0x3c0),
-        0x11: _0x187c56(0xc9),
-        0x12: '&#9736;',
-        0x13: _0x187c56(0x484),
-        0x14: _0x187c56(0x391),
-        0x15: _0x187c56(0x28c),
-        0x16: _0x187c56(0x177),
-        0x17: _0x187c56(0xc),
-        0x18: _0x187c56(0x502),
-        0x19: '&#9791;',
-        0x1a: '&#9761;',
-        0x1b: _0x187c56(0x401),
-        0x1c: _0x187c56(0x342),
-        0x1d: _0x187c56(0x2a4),
-        0x1e: _0x187c56(0x2b9),
-        0x1f: '&euro;',
-        0x20: '&#988;',
-        0x21: _0x187c56(0x4ff),
-        0x22: _0x187c56(0x242),
-        0x23: _0x187c56(0x19e),
-        0x24: '&#9834;',
-        0x25: '&#1008;',
-        0x26: _0x187c56(0x3fe),
-        0x27: _0x187c56(0x318),
-        0x28: _0x187c56(0x3ca),
-        0x29: _0x187c56(0x33),
-        0x2a: '&rho;',
-        0x2b: _0x187c56(0xc9),
-        0x2c: _0x187c56(0x6a),
-        0x2d: _0x187c56(0x484),
-        0x2e: _0x187c56(0x391),
-        0x2f: _0x187c56(0x28c),
-        0x30: _0x187c56(0x177),
-        0x31: _0x187c56(0xc),
-        0x32: '&#8984;',
-        0x33: _0x187c56(0xb3),
-        0x34: '&#9761;',
-        0x35: _0x187c56(0x518),
-        0x36: _0x187c56(0x138),
-        0x37: _0x187c56(0x29e),
-        0x38: _0x187c56(0x43),
-        0x39: '&#10126;',
-        0x3a: _0x187c56(0x25d),
-        0x3b: '&#10128;',
-        0x3c: '&#10129;',
-        0x3d: _0x187c56(0x322),
-        0x3e: '&#9450;'
+    s2: {
+        1: "&#41807;",
+        2: "&#9837;",
+        3: "&#9790;",
+        4: "&#9687;",
+        5: "&euro;",
+        6: "&#988;",
+        7: "&#10081;",
+        8: "&#9796;",
+        9: "&#9815;",
+        10: "&#9834;",
+        11: "&#1008;",
+        12: "&#8627;",
+        13: "&#9812;",
+        14: "&#9835;",
+        15: "&#8857;",
+        16: "&rho;",
+        17: "&#9773;",
+        18: "&#9736;",
+        19: "&#9442;",
+        20: "&#9730;",
+        21: "&#9739;",
+        22: "&#10003;",
+        23: "&omega;",
+        24: "&#8984;",
+        25: "&#9791;",
+        26: "&#9761;",
+        27: "&#41807;",
+        28: "&#9837;",
+        29: "&#9790;",
+        30: "&#9687;",
+        31: "&euro;",
+        32: "&#988;",
+        33: "&#10081;",
+        34: "&#9796;",
+        35: "&#9815;",
+        36: "&#9834;",
+        37: "&#1008;",
+        38: "&#8627;",
+        39: "&#9812;",
+        40: "&#9835;",
+        41: "&#8857;",
+        42: "&rho;",
+        43: "&#9773;",
+        44: "&#9736;",
+        45: "&#9442;",
+        46: "&#9730;",
+        47: "&#9739;",
+        48: "&#10003;",
+        49: "&omega;",
+        50: "&#8984;",
+        51: "&#9791;",
+        52: "&#9761;",
+        53: "&#10122;",
+        54: "&#10123;",
+        55: "&#10124;",
+        56: "&#10125;",
+        57: "&#10126;",
+        58: "&#10127;",
+        59: "&#10128;",
+        60: "&#10129;",
+        61: "&#10130;",
+        62: "&#9450;"
     },
-    's3': {
-        0x1: _0x187c56(0xba),
-        0x2: _0x187c56(0x2dc),
-        0x3: _0x187c56(0x212),
-        0x4: '&#270;',
-        0x5: '&#276;',
-        0x6: _0x187c56(0x37f),
-        0x7: _0x187c56(0x3ea),
-        0x8: _0x187c56(0x2af),
-        0x9: _0x187c56(0x213),
-        0xa: _0x187c56(0x135),
-        0xb: _0x187c56(0x31e),
-        0xc: _0x187c56(0x325),
-        0xd: '&#1052;',
-        0xe: _0x187c56(0x25a),
-        0xf: _0x187c56(0x3ac),
-        0x10: _0x187c56(0x37d),
-        0x11: 'Q',
-        0x12: _0x187c56(0x33f),
-        0x13: _0x187c56(0x508),
-        0x14: _0x187c56(0x100),
-        0x15: _0x187c56(0x45d),
-        0x16: 'V',
-        0x17: _0x187c56(0x20a),
-        0x18: '&#1046;',
-        0x19: _0x187c56(0x10c),
-        0x1a: '&#377;',
-        0x1b: _0x187c56(0xba),
-        0x1c: '&beta;',
-        0x1d: _0x187c56(0x212),
-        0x1e: _0x187c56(0x1b9),
-        0x1f: _0x187c56(0x2e),
-        0x20: _0x187c56(0x37f),
-        0x21: _0x187c56(0x3ea),
-        0x22: _0x187c56(0x2af),
-        0x23: _0x187c56(0x213),
-        0x24: _0x187c56(0x135),
-        0x25: '&#310;',
-        0x26: _0x187c56(0x325),
-        0x27: '&#1052;',
-        0x28: '&#323;',
-        0x29: _0x187c56(0x3ac),
-        0x2a: _0x187c56(0x37d),
-        0x2b: 'Q',
-        0x2c: _0x187c56(0x33f),
-        0x2d: '&#346;',
-        0x2e: _0x187c56(0x100),
-        0x2f: _0x187c56(0x45d),
-        0x30: 'V',
-        0x31: _0x187c56(0x20a),
-        0x32: _0x187c56(0x28b),
-        0x33: _0x187c56(0x10c),
-        0x34: _0x187c56(0x10d),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s3: {
+        1: "&#258;",
+        2: "&beta;",
+        3: "&#268;",
+        4: "&#270;",
+        5: "&#276;",
+        6: "&#358;",
+        7: "&#286;",
+        8: "&#292;",
+        9: "&#296;",
+        10: "&#308;",
+        11: "&#310;",
+        12: "&#313;",
+        13: "&#1052;",
+        14: "&#323;",
+        15: "&#336;",
+        16: "&#1056;",
+        17: "Q",
+        18: "&#340;",
+        19: "&#346;",
+        20: "&#356;",
+        21: "&Uacute;",
+        22: "V",
+        23: "&#372;",
+        24: "&#1046;",
+        25: "&#374;",
+        26: "&#377;",
+        27: "&#258;",
+        28: "&beta;",
+        29: "&#268;",
+        30: "&#270;",
+        31: "&#276;",
+        32: "&#358;",
+        33: "&#286;",
+        34: "&#292;",
+        35: "&#296;",
+        36: "&#308;",
+        37: "&#310;",
+        38: "&#313;",
+        39: "&#1052;",
+        40: "&#323;",
+        41: "&#336;",
+        42: "&#1056;",
+        43: "Q",
+        44: "&#340;",
+        45: "&#346;",
+        46: "&#356;",
+        47: "&Uacute;",
+        48: "V",
+        49: "&#372;",
+        50: "&#1046;",
+        51: "&#374;",
+        52: "&#377;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's4': {
-        0x1: _0x187c56(0x274),
-        0x2: 'q',
-        0x3: _0x187c56(0x4dc),
-        0x4: 'p',
-        0x5: _0x187c56(0x195),
-        0x6: _0x187c56(0x522),
-        0x7: _0x187c56(0x489),
-        0x8: _0x187c56(0x18),
-        0x9: '&#7433;',
-        0xa: _0x187c56(0x1c),
-        0xb: _0x187c56(0x22c),
-        0xc: 'l',
-        0xd: '&#623;',
-        0xe: 'u',
-        0xf: 'o',
-        0x10: 'd',
-        0x11: 'b',
-        0x12: _0x187c56(0x337),
-        0x13: 's',
-        0x14: _0x187c56(0x292),
-        0x15: 'n',
-        0x16: _0x187c56(0x512),
-        0x17: _0x187c56(0x201),
-        0x18: 'x',
-        0x19: _0x187c56(0x275),
-        0x1a: 'z',
-        0x1b: '&#592;',
-        0x1c: 'q',
-        0x1d: _0x187c56(0x4dc),
-        0x1e: 'p',
-        0x1f: _0x187c56(0x195),
-        0x20: _0x187c56(0x522),
-        0x21: _0x187c56(0x489),
-        0x22: _0x187c56(0x18),
-        0x23: _0x187c56(0x467),
-        0x24: _0x187c56(0x1c),
-        0x25: _0x187c56(0x22c),
-        0x26: 'l',
-        0x27: '&#623;',
-        0x28: 'u',
-        0x29: 'o',
-        0x2a: 'd',
-        0x2b: 'b',
-        0x2c: _0x187c56(0x337),
-        0x2d: 's',
-        0x2e: '&#647;',
-        0x2f: 'n',
-        0x30: _0x187c56(0x512),
-        0x31: '&#653;',
-        0x32: 'x',
-        0x33: _0x187c56(0x275),
-        0x34: 'z',
-        0x35: _0x187c56(0x2e7),
-        0x36: _0x187c56(0x366),
-        0x37: _0x187c56(0x2f6),
-        0x38: _0x187c56(0x11c),
-        0x39: _0x187c56(0x246),
-        0x3a: '9',
-        0x3b: '&#12581;',
-        0x3c: '8',
-        0x3d: '6',
-        0x3e: '0'
+    s4: {
+        1: "&#592;",
+        2: "q",
+        3: "&#596;",
+        4: "p",
+        5: "&#477;",
+        6: "&#607;",
+        7: "&#387;",
+        8: "&#613;",
+        9: "&#7433;",
+        10: "&#638;",
+        11: "&#670;",
+        12: "l",
+        13: "&#623;",
+        14: "u",
+        15: "o",
+        16: "d",
+        17: "b",
+        18: "&#633;",
+        19: "s",
+        20: "&#647;",
+        21: "n",
+        22: "&#652;",
+        23: "&#653;",
+        24: "x",
+        25: "&#654;",
+        26: "z",
+        27: "&#592;",
+        28: "q",
+        29: "&#596;",
+        30: "p",
+        31: "&#477;",
+        32: "&#607;",
+        33: "&#387;",
+        34: "&#613;",
+        35: "&#7433;",
+        36: "&#638;",
+        37: "&#670;",
+        38: "l",
+        39: "&#623;",
+        40: "u",
+        41: "o",
+        42: "d",
+        43: "b",
+        44: "&#633;",
+        45: "s",
+        46: "&#647;",
+        47: "n",
+        48: "&#652;",
+        49: "&#653;",
+        50: "x",
+        51: "&#654;",
+        52: "z",
+        53: "&#406;",
+        54: "&#4357;",
+        55: "&#400;",
+        56: "&#12579;",
+        57: "&#987;",
+        58: "9",
+        59: "&#12581;",
+        60: "8",
+        61: "6",
+        62: "0"
     },
-    's5': {
-        0x1: '&Delta;',
-        0x2: '&beta;',
-        0x3: _0x187c56(0x47),
-        0x4: _0x187c56(0x1fc),
-        0x5: _0x187c56(0x184),
-        0x6: _0x187c56(0x37c),
-        0x7: _0x187c56(0x2e3),
-        0x8: '&#294;',
-        0x9: _0x187c56(0x464),
-        0xa: '&#308;',
-        0xb: _0x187c56(0x20e),
-        0xc: _0x187c56(0x457),
-        0xd: _0x187c56(0x9b),
-        0xe: _0x187c56(0xae),
-        0xf: _0x187c56(0x383),
-        0x10: _0x187c56(0x231),
-        0x11: _0x187c56(0x4),
-        0x12: _0x187c56(0x1a6),
-        0x13: _0x187c56(0x1f2),
-        0x14: _0x187c56(0x37f),
-        0x15: '&#7918;',
-        0x16: 'V',
-        0x17: _0x187c56(0x20a),
-        0x18: _0x187c56(0x28b),
-        0x19: _0x187c56(0x4f1),
-        0x1a: _0x187c56(0x3ff),
-        0x1b: '&Delta;',
-        0x1c: _0x187c56(0x2dc),
-        0x1d: _0x187c56(0x47),
-        0x1e: _0x187c56(0x1fc),
-        0x1f: _0x187c56(0x184),
-        0x20: _0x187c56(0x37c),
-        0x21: _0x187c56(0x2e3),
-        0x22: '&#294;',
-        0x23: _0x187c56(0x464),
-        0x24: _0x187c56(0x135),
-        0x25: _0x187c56(0x20e),
-        0x26: _0x187c56(0x457),
-        0x27: _0x187c56(0x9b),
-        0x28: _0x187c56(0xae),
-        0x29: _0x187c56(0x383),
-        0x2a: _0x187c56(0x231),
-        0x2b: _0x187c56(0x4),
-        0x2c: '&#344;',
-        0x2d: _0x187c56(0x1f2),
-        0x2e: _0x187c56(0x37f),
-        0x2f: _0x187c56(0xdf),
-        0x30: 'V',
-        0x31: _0x187c56(0x20a),
-        0x32: _0x187c56(0x28b),
-        0x33: _0x187c56(0x4f1),
-        0x34: _0x187c56(0x3ff),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s5: {
+        1: "&Delta;",
+        2: "&beta;",
+        3: "&#262;",
+        4: "&#272;",
+        5: "&euro;",
+        6: "&#8355;",
+        7: "&#484;",
+        8: "&#294;",
+        9: "&#407;",
+        10: "&#308;",
+        11: "&#1180;",
+        12: "&#321;",
+        13: "&Mu;",
+        14: "&#327;",
+        15: "&Oslash;",
+        16: "&#420;",
+        17: "&Omega;",
+        18: "&#344;",
+        19: "&#350;",
+        20: "&#358;",
+        21: "&#7918;",
+        22: "V",
+        23: "&#372;",
+        24: "&#1046;",
+        25: "&yen;",
+        26: "&#381;",
+        27: "&Delta;",
+        28: "&beta;",
+        29: "&#262;",
+        30: "&#272;",
+        31: "&euro;",
+        32: "&#8355;",
+        33: "&#484;",
+        34: "&#294;",
+        35: "&#407;",
+        36: "&#308;",
+        37: "&#1180;",
+        38: "&#321;",
+        39: "&Mu;",
+        40: "&#327;",
+        41: "&Oslash;",
+        42: "&#420;",
+        43: "&Omega;",
+        44: "&#344;",
+        45: "&#350;",
+        46: "&#358;",
+        47: "&#7918;",
+        48: "V",
+        49: "&#372;",
+        50: "&#1046;",
+        51: "&yen;",
+        52: "&#381;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's6': {
-        0x1: _0x187c56(0x88),
-        0x2: _0x187c56(0x218),
-        0x3: _0x187c56(0x78),
-        0x4: _0x187c56(0x3a1),
-        0x5: _0x187c56(0xf6),
-        0x6: _0x187c56(0x39f),
-        0x7: _0x187c56(0x443),
-        0x8: _0x187c56(0x412),
-        0x9: _0x187c56(0x338),
-        0xa: _0x187c56(0x321),
-        0xb: '&#1185;',
-        0xc: _0x187c56(0x51e),
-        0xd: '&#625;',
-        0xe: _0x187c56(0x429),
-        0xf: _0x187c56(0x3be),
-        0x10: _0x187c56(0x3c0),
-        0x11: _0x187c56(0x2a),
-        0x12: _0x187c56(0x45),
-        0x13: _0x187c56(0x488),
-        0x14: '&#429;',
-        0x15: '&micro;',
-        0x16: '&#1141;',
-        0x17: _0x187c56(0xc),
-        0x18: _0x187c56(0x50d),
-        0x19: '&#4327;',
-        0x1a: '&#438;',
-        0x1b: '&alpha;',
-        0x1c: _0x187c56(0x218),
-        0x1d: _0x187c56(0x78),
-        0x1e: _0x187c56(0x3a1),
-        0x1f: _0x187c56(0xf6),
-        0x20: _0x187c56(0x39f),
-        0x21: _0x187c56(0x443),
-        0x22: _0x187c56(0x412),
-        0x23: _0x187c56(0x338),
-        0x24: _0x187c56(0x321),
-        0x25: _0x187c56(0x4c3),
-        0x26: _0x187c56(0x51e),
-        0x27: _0x187c56(0x129),
-        0x28: _0x187c56(0x429),
-        0x29: _0x187c56(0x3be),
-        0x2a: _0x187c56(0x3c0),
-        0x2b: '&phi;',
-        0x2c: '&#2792;',
-        0x2d: _0x187c56(0x488),
-        0x2e: _0x187c56(0x1d0),
-        0x2f: _0x187c56(0x29a),
-        0x30: _0x187c56(0x6e),
-        0x31: _0x187c56(0xc),
-        0x32: _0x187c56(0x50d),
-        0x33: _0x187c56(0x4a3),
-        0x34: _0x187c56(0x3ab),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s6: {
+        1: "&alpha;",
+        2: "&#595;",
+        3: "&#2798;",
+        4: "&part;",
+        5: "&epsilon;",
+        6: "&fnof;",
+        7: "&#608;",
+        8: "&#614;",
+        9: "&#3648;",
+        10: "&#669;",
+        11: "&#1185;",
+        12: "&#8467;",
+        13: "&#625;",
+        14: "&#627;",
+        15: "&sigma;",
+        16: "&rho;",
+        17: "&phi;",
+        18: "&#2792;",
+        19: "&#3619;",
+        20: "&#429;",
+        21: "&micro;",
+        22: "&#1141;",
+        23: "&omega;",
+        24: "&#1488;",
+        25: "&#4327;",
+        26: "&#438;",
+        27: "&alpha;",
+        28: "&#595;",
+        29: "&#2798;",
+        30: "&part;",
+        31: "&epsilon;",
+        32: "&fnof;",
+        33: "&#608;",
+        34: "&#614;",
+        35: "&#3648;",
+        36: "&#669;",
+        37: "&#1185;",
+        38: "&#8467;",
+        39: "&#625;",
+        40: "&#627;",
+        41: "&sigma;",
+        42: "&rho;",
+        43: "&phi;",
+        44: "&#2792;",
+        45: "&#3619;",
+        46: "&#429;",
+        47: "&micro;",
+        48: "&#1141;",
+        49: "&omega;",
+        50: "&#1488;",
+        51: "&#4327;",
+        52: "&#438;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's7': {
-        0x1: _0x187c56(0x421),
-        0x2: '&#5623;',
-        0x3: '&#5205;',
-        0x4: _0x187c56(0x327),
-        0x5: _0x187c56(0x3c2),
-        0x6: _0x187c56(0x1e8),
-        0x7: _0x187c56(0x2e3),
-        0x8: _0x187c56(0x48f),
-        0x9: _0x187c56(0x4d2),
-        0xa: '&#5262;',
-        0xb: _0x187c56(0x335),
-        0xc: _0x187c56(0x2e4),
-        0xd: _0x187c56(0x168),
-        0xe: _0x187c56(0x4c7),
-        0xf: _0x187c56(0x137),
-        0x10: '&#5229;',
-        0x11: '&#586;',
-        0x12: _0x187c56(0x461),
-        0x13: _0x187c56(0x4e4),
-        0x14: '&#19973;',
-        0x15: _0x187c56(0x439),
-        0x16: _0x187c56(0x362),
-        0x17: '&#5615;',
-        0x18: _0x187c56(0x509),
-        0x19: _0x187c56(0x117),
-        0x1a: _0x187c56(0x34a),
-        0x1b: _0x187c56(0x421),
-        0x1c: '&#5623;',
-        0x1d: _0x187c56(0x3e9),
-        0x1e: _0x187c56(0x327),
-        0x1f: '&#5620;',
-        0x20: _0x187c56(0x1e8),
-        0x21: '&#484;',
-        0x22: _0x187c56(0x48f),
-        0x23: _0x187c56(0x4d2),
-        0x24: _0x187c56(0x4bc),
-        0x25: '&#5845;',
-        0x26: _0x187c56(0x2e4),
-        0x27: _0x187c56(0x168),
-        0x28: _0x187c56(0x4c7),
-        0x29: '&#5597;',
-        0x2a: _0x187c56(0x230),
-        0x2b: _0x187c56(0x4a2),
-        0x2c: _0x187c56(0x461),
-        0x2d: '&#5397;',
-        0x2e: _0x187c56(0x35f),
-        0x2f: _0x187c56(0x439),
-        0x30: _0x187c56(0x362),
-        0x31: _0x187c56(0x1e2),
-        0x32: '&#5741;',
-        0x33: _0x187c56(0x117),
-        0x34: _0x187c56(0x34a),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s7: {
+        1: "&#5609;",
+        2: "&#5623;",
+        3: "&#5205;",
+        4: "&#5610;",
+        5: "&#5620;",
+        6: "&#5556;",
+        7: "&#484;",
+        8: "&#5500;",
+        9: "&#5029;",
+        10: "&#5262;",
+        11: "&#5845;",
+        12: "&#5290;",
+        13: "&#5616;",
+        14: "&#5198;",
+        15: "&#5597;",
+        16: "&#5229;",
+        17: "&#586;",
+        18: "&#5511;",
+        19: "&#5397;",
+        20: "&#19973;",
+        21: "&#5196;",
+        22: "&#5167;",
+        23: "&#5615;",
+        24: "&#5741;",
+        25: "&#435;",
+        26: "&#20057;",
+        27: "&#5609;",
+        28: "&#5623;",
+        29: "&#5205;",
+        30: "&#5610;",
+        31: "&#5620;",
+        32: "&#5556;",
+        33: "&#484;",
+        34: "&#5500;",
+        35: "&#5029;",
+        36: "&#5262;",
+        37: "&#5845;",
+        38: "&#5290;",
+        39: "&#5616;",
+        40: "&#5198;",
+        41: "&#5597;",
+        42: "&#5229;",
+        43: "&#586;",
+        44: "&#5511;",
+        45: "&#5397;",
+        46: "&#19973;",
+        47: "&#5196;",
+        48: "&#5167;",
+        49: "&#5615;",
+        50: "&#5741;",
+        51: "&#435;",
+        52: "&#20057;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's8': {
-        0x1: _0x187c56(0x53),
-        0x2: '&#4329;',
-        0x3: _0x187c56(0x1c9),
-        0x4: _0x187c56(0x20b),
-        0x5: _0x187c56(0x453),
-        0x6: 'f',
-        0x7: _0x187c56(0x4c4),
-        0x8: 'h',
-        0x9: _0x187c56(0x501),
-        0xa: _0x187c56(0xb6),
-        0xb: _0x187c56(0x4a6),
-        0xc: 'l',
-        0xd: _0x187c56(0x273),
-        0xe: '&#8134;',
-        0xf: _0x187c56(0x28),
-        0x10: '&rho;',
-        0x11: '&#4306;',
-        0x12: _0x187c56(0x1be),
-        0x13: _0x187c56(0x50a),
-        0x14: _0x187c56(0x493),
-        0x15: _0x187c56(0xc7),
-        0x16: '&#8023;',
-        0x17: 'w',
-        0x18: _0x187c56(0x8f),
-        0x19: '&#4327;',
-        0x1a: _0x187c56(0x12),
-        0x1b: _0x187c56(0x53),
-        0x1c: _0x187c56(0x47c),
-        0x1d: _0x187c56(0x1c9),
-        0x1e: _0x187c56(0x20b),
-        0x1f: _0x187c56(0x453),
-        0x20: 'f',
-        0x21: _0x187c56(0x4c4),
-        0x22: 'h',
-        0x23: '&#7990;',
-        0x24: '&#4325;',
-        0x25: _0x187c56(0x4a6),
-        0x26: 'l',
-        0x27: '&#4317;',
-        0x28: _0x187c56(0x454),
-        0x29: _0x187c56(0x28),
-        0x2a: _0x187c56(0x3c0),
-        0x2b: _0x187c56(0xd3),
-        0x2c: _0x187c56(0x1be),
-        0x2d: '&#4336;',
-        0x2e: _0x187c56(0x493),
-        0x2f: _0x187c56(0xc7),
-        0x30: '&#8023;',
-        0x31: 'w',
-        0x32: _0x187c56(0x8f),
-        0x33: _0x187c56(0x4a3),
-        0x34: _0x187c56(0x12),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s8: {
+        1: "&#4315;",
+        2: "&#4329;",
+        3: "&#4308;",
+        4: "&#4331;",
+        5: "&#4318;",
+        6: "f",
+        7: "&#4330;",
+        8: "h",
+        9: "&#7990;",
+        10: "&#4325;",
+        11: "&kappa;",
+        12: "l",
+        13: "&#4317;",
+        14: "&#8134;",
+        15: "&otilde;",
+        16: "&rho;",
+        17: "&#4306;",
+        18: "&Gamma;",
+        19: "&#4336;",
+        20: "&#3923;",
+        21: "&upsilon;",
+        22: "&#8023;",
+        23: "w",
+        24: "&#4335;",
+        25: "&#4327;",
+        26: "&#576;",
+        27: "&#4315;",
+        28: "&#4329;",
+        29: "&#4308;",
+        30: "&#4331;",
+        31: "&#4318;",
+        32: "f",
+        33: "&#4330;",
+        34: "h",
+        35: "&#7990;",
+        36: "&#4325;",
+        37: "&kappa;",
+        38: "l",
+        39: "&#4317;",
+        40: "&#8134;",
+        41: "&otilde;",
+        42: "&rho;",
+        43: "&#4306;",
+        44: "&Gamma;",
+        45: "&#4336;",
+        46: "&#3923;",
+        47: "&upsilon;",
+        48: "&#8023;",
+        49: "w",
+        50: "&#4335;",
+        51: "&#4327;",
+        52: "&#576;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's9': {
-        0x1: '&#940;',
-        0x2: _0x187c56(0x3dc),
-        0x3: _0x187c56(0x2b6),
-        0x4: '&#545;',
-        0x5: _0x187c56(0x358),
-        0x6: '&#1171;',
-        0x7: _0x187c56(0x48b),
-        0x8: _0x187c56(0x40a),
-        0x9: _0x187c56(0x147),
-        0xa: _0x187c56(0x1e9),
-        0xb: '&#311;',
-        0xc: _0x187c56(0x181),
-        0xd: _0x187c56(0x16f),
-        0xe: _0x187c56(0x3f7),
-        0xf: _0x187c56(0x269),
-        0x10: '&rho;',
-        0x11: 'q',
-        0x12: '&#341;',
-        0x13: _0x187c56(0x1ef),
-        0x14: _0x187c56(0x15e),
-        0x15: _0x187c56(0x340),
-        0x16: _0x187c56(0x46d),
-        0x17: _0x187c56(0x2fd),
-        0x18: 'x',
-        0x19: _0x187c56(0x3a2),
-        0x1a: '&#382;',
-        0x1b: '&#940;',
-        0x1c: '&#1074;',
-        0x1d: _0x187c56(0x2b6),
-        0x1e: _0x187c56(0x1ec),
-        0x1f: _0x187c56(0x358),
-        0x20: '&#1171;',
-        0x21: _0x187c56(0x48b),
-        0x22: '&#295;',
-        0x23: _0x187c56(0x147),
-        0x24: _0x187c56(0x1e9),
-        0x25: _0x187c56(0x1f0),
-        0x26: _0x187c56(0x181),
-        0x27: '&#1084;',
-        0x28: _0x187c56(0x3f7),
-        0x29: '&#972;',
-        0x2a: _0x187c56(0x3c0),
-        0x2b: 'q',
-        0x2c: _0x187c56(0x43d),
-        0x2d: _0x187c56(0x1ef),
-        0x2e: '&#355;',
-        0x2f: _0x187c56(0x340),
-        0x30: _0x187c56(0x46d),
-        0x31: _0x187c56(0x2fd),
-        0x32: 'x',
-        0x33: _0x187c56(0x3a2),
-        0x34: '&#382;',
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s9: {
+        1: "&#940;",
+        2: "&#1074;",
+        3: "&sigmaf;",
+        4: "&#545;",
+        5: "&#941;",
+        6: "&#1171;",
+        7: "&#291;",
+        8: "&#295;",
+        9: "&#943;",
+        10: "&#1112;",
+        11: "&#311;",
+        12: "&#315;",
+        13: "&#1084;",
+        14: "&#942;",
+        15: "&#972;",
+        16: "&rho;",
+        17: "q",
+        18: "&#341;",
+        19: "&#351;",
+        20: "&#355;",
+        21: "&ugrave;",
+        22: "&nu;",
+        23: "&#974;",
+        24: "x",
+        25: "&#1095;",
+        26: "&#382;",
+        27: "&#940;",
+        28: "&#1074;",
+        29: "&sigmaf;",
+        30: "&#545;",
+        31: "&#941;",
+        32: "&#1171;",
+        33: "&#291;",
+        34: "&#295;",
+        35: "&#943;",
+        36: "&#1112;",
+        37: "&#311;",
+        38: "&#315;",
+        39: "&#1084;",
+        40: "&#942;",
+        41: "&#972;",
+        42: "&rho;",
+        43: "q",
+        44: "&#341;",
+        45: "&#351;",
+        46: "&#355;",
+        47: "&ugrave;",
+        48: "&nu;",
+        49: "&#974;",
+        50: "x",
+        51: "&#1095;",
+        52: "&#382;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's10': {
-        0x1: _0x187c56(0xaa),
-        0x2: _0x187c56(0x2e2),
-        0x3: _0x187c56(0x352),
-        0x4: _0x187c56(0x44b),
-        0x5: _0x187c56(0x160),
-        0x6: _0x187c56(0x180),
-        0x7: '&#41037;',
-        0x8: '&#42075;',
-        0x9: '&#41105;',
-        0xa: _0x187c56(0x8b),
-        0xb: _0x187c56(0x3a6),
-        0xc: _0x187c56(0x2f2),
-        0xd: _0x187c56(0x523),
-        0xe: _0x187c56(0x371),
-        0xf: _0x187c56(0x26),
-        0x10: _0x187c56(0x15c),
-        0x11: _0x187c56(0x408),
-        0x12: '&#42131;',
-        0x13: _0x187c56(0x170),
-        0x14: _0x187c56(0x2b2),
-        0x15: '&#41991;',
-        0x16: '&#41949;',
-        0x17: _0x187c56(0x4ef),
-        0x18: _0x187c56(0x2cd),
-        0x19: '&#42015;',
-        0x1a: '&#41076;',
-        0x1b: _0x187c56(0xaa),
-        0x1c: _0x187c56(0x2e2),
-        0x1d: '&#41976;',
-        0x1e: _0x187c56(0x44b),
-        0x1f: _0x187c56(0x160),
-        0x20: _0x187c56(0x180),
-        0x21: _0x187c56(0x39c),
-        0x22: '&#42075;',
-        0x23: _0x187c56(0x225),
-        0x24: _0x187c56(0x8b),
-        0x25: _0x187c56(0x3a6),
-        0x26: '&#42130;',
-        0x27: _0x187c56(0x523),
-        0x28: '&#41081;',
-        0x29: _0x187c56(0x26),
-        0x2a: '&#41571;',
-        0x2b: '&#41080;',
-        0x2c: _0x187c56(0x255),
-        0x2d: '&#41754;',
-        0x2e: '&#42181;',
-        0x2f: '&#41991;',
-        0x30: _0x187c56(0x381),
-        0x31: _0x187c56(0x4ef),
-        0x32: _0x187c56(0x2cd),
-        0x33: '&#42015;',
-        0x34: _0x187c56(0x2a3),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s10: {
+        1: "&#41707;",
+        2: "&#41155;",
+        3: "&#41976;",
+        4: "&#41045;",
+        5: "&#41823;",
+        6: "&#41240;",
+        7: "&#41037;",
+        8: "&#42075;",
+        9: "&#41105;",
+        10: "&#41005;",
+        11: "&#40983;",
+        12: "&#42130;",
+        13: "&#41042;",
+        14: "&#41081;",
+        15: "&#41346;",
+        16: "&#41571;",
+        17: "&#41080;",
+        18: "&#42131;",
+        19: "&#41754;",
+        20: "&#42181;",
+        21: "&#41991;",
+        22: "&#41949;",
+        23: "&#41296;",
+        24: "&#41427;",
+        25: "&#42015;",
+        26: "&#41076;",
+        27: "&#41707;",
+        28: "&#41155;",
+        29: "&#41976;",
+        30: "&#41045;",
+        31: "&#41823;",
+        32: "&#41240;",
+        33: "&#41037;",
+        34: "&#42075;",
+        35: "&#41105;",
+        36: "&#41005;",
+        37: "&#40983;",
+        38: "&#42130;",
+        39: "&#41042;",
+        40: "&#41081;",
+        41: "&#41346;",
+        42: "&#41571;",
+        43: "&#41080;",
+        44: "&#42131;",
+        45: "&#41754;",
+        46: "&#42181;",
+        47: "&#41991;",
+        48: "&#41949;",
+        49: "&#41296;",
+        50: "&#41427;",
+        51: "&#42015;",
+        52: "&#41076;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's11': {
-        0x1: _0x187c56(0x9),
-        0x2: _0x187c56(0x248),
-        0x3: 'C',
-        0x4: 'D',
-        0x5: _0x187c56(0x515),
-        0x6: 'F',
-        0x7: 'G',
-        0x8: 'H',
-        0x9: 'I',
-        0xa: 'J',
-        0xb: '&#1180;',
-        0xc: 'L',
-        0xd: 'M',
-        0xe: _0x187c56(0x62),
-        0xf: '&#1060;',
-        0x10: 'P',
-        0x11: _0x187c56(0x207),
-        0x12: _0x187c56(0x314),
-        0x13: 'S',
-        0x14: _0x187c56(0x1be),
-        0x15: _0x187c56(0x1f1),
-        0x16: 'V',
-        0x17: _0x187c56(0x341),
-        0x18: '&#1046;',
-        0x19: _0x187c56(0x121),
-        0x1a: 'Z',
-        0x1b: _0x187c56(0x9),
-        0x1c: _0x187c56(0x248),
-        0x1d: 'C',
-        0x1e: 'D',
-        0x1f: _0x187c56(0x515),
-        0x20: 'F',
-        0x21: 'G',
-        0x22: 'H',
-        0x23: 'I',
-        0x24: 'J',
-        0x25: _0x187c56(0x20e),
-        0x26: 'L',
-        0x27: 'M',
-        0x28: _0x187c56(0x62),
-        0x29: _0x187c56(0x4a0),
-        0x2a: 'P',
-        0x2b: '&#490;',
-        0x2c: _0x187c56(0x314),
-        0x2d: 'S',
-        0x2e: _0x187c56(0x1be),
-        0x2f: _0x187c56(0x1f1),
-        0x30: 'V',
-        0x31: _0x187c56(0x341),
-        0x32: _0x187c56(0x28b),
-        0x33: _0x187c56(0x121),
-        0x34: 'Z',
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s11: {
+        1: "&#1044;",
+        2: "&#1041;",
+        3: "C",
+        4: "D",
+        5: "&Xi;",
+        6: "F",
+        7: "G",
+        8: "H",
+        9: "I",
+        10: "J",
+        11: "&#1180;",
+        12: "L",
+        13: "M",
+        14: "&#1048;",
+        15: "&#1060;",
+        16: "P",
+        17: "&#490;",
+        18: "&#1071;",
+        19: "S",
+        20: "&Gamma;",
+        21: "&#1062;",
+        22: "V",
+        23: "&#1065;",
+        24: "&#1046;",
+        25: "&#1059;",
+        26: "Z",
+        27: "&#1044;",
+        28: "&#1041;",
+        29: "C",
+        30: "D",
+        31: "&Xi;",
+        32: "F",
+        33: "G",
+        34: "H",
+        35: "I",
+        36: "J",
+        37: "&#1180;",
+        38: "L",
+        39: "M",
+        40: "&#1048;",
+        41: "&#1060;",
+        42: "P",
+        43: "&#490;",
+        44: "&#1071;",
+        45: "S",
+        46: "&Gamma;",
+        47: "&#1062;",
+        48: "V",
+        49: "&#1065;",
+        50: "&#1046;",
+        51: "&#1059;",
+        52: "Z",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's12': {
-        0x1: _0x187c56(0x401),
-        0x2: _0x187c56(0x404),
-        0x3: '&#41555;',
-        0x4: _0x187c56(0x270),
-        0x5: _0x187c56(0x160),
-        0x6: _0x187c56(0xa1),
-        0x7: _0x187c56(0x2c7),
-        0x8: _0x187c56(0x4ca),
-        0x9: _0x187c56(0x1f4),
-        0xa: _0x187c56(0x8b),
-        0xb: _0x187c56(0x1e3),
-        0xc: _0x187c56(0x2f2),
-        0xd: _0x187c56(0x204),
-        0xe: _0x187c56(0x3),
-        0xf: _0x187c56(0x16d),
-        0x10: _0x187c56(0x15c),
-        0x11: _0x187c56(0x281),
-        0x12: _0x187c56(0x19b),
-        0x13: _0x187c56(0x3fa),
-        0x14: _0x187c56(0x33b),
-        0x15: '&#40974;',
-        0x16: _0x187c56(0x56),
-        0x17: _0x187c56(0x14c),
-        0x18: _0x187c56(0x2b8),
-        0x19: _0x187c56(0x45e),
-        0x1a: _0x187c56(0x2a3),
-        0x1b: _0x187c56(0x401),
-        0x1c: _0x187c56(0x404),
-        0x1d: _0x187c56(0x3ba),
-        0x1e: '&#41016;',
-        0x1f: _0x187c56(0x160),
-        0x20: _0x187c56(0xa1),
-        0x21: _0x187c56(0x2c7),
-        0x22: _0x187c56(0x4ca),
-        0x23: '&#40996;',
-        0x24: _0x187c56(0x8b),
-        0x25: _0x187c56(0x1e3),
-        0x26: _0x187c56(0x2f2),
-        0x27: _0x187c56(0x204),
-        0x28: _0x187c56(0x3),
-        0x29: '&#41126;',
-        0x2a: _0x187c56(0x15c),
-        0x2b: _0x187c56(0x281),
-        0x2c: _0x187c56(0x19b),
-        0x2d: '&#41751;',
-        0x2e: _0x187c56(0x33b),
-        0x2f: _0x187c56(0x326),
-        0x30: _0x187c56(0x56),
-        0x31: _0x187c56(0x14c),
-        0x32: '&#41660;',
-        0x33: _0x187c56(0x45e),
-        0x34: '&#41076;',
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s12: {
+        1: "&#41807;",
+        2: "&#41731;",
+        3: "&#41555;",
+        4: "&#41016;",
+        5: "&#41823;",
+        6: "&#41863;",
+        7: "&#41029;",
+        8: "&#41157;",
+        9: "&#40996;",
+        10: "&#41005;",
+        11: "&#40984;",
+        12: "&#42130;",
+        13: "&#41141;",
+        14: "&#41508;",
+        15: "&#41126;",
+        16: "&#41571;",
+        17: "&#41392;",
+        18: "&#41706;",
+        19: "&#41751;",
+        20: "&#42180;",
+        21: "&#40974;",
+        22: "&#41204;",
+        23: "&#41295;",
+        24: "&#41660;",
+        25: "&#41769;",
+        26: "&#41076;",
+        27: "&#41807;",
+        28: "&#41731;",
+        29: "&#41555;",
+        30: "&#41016;",
+        31: "&#41823;",
+        32: "&#41863;",
+        33: "&#41029;",
+        34: "&#41157;",
+        35: "&#40996;",
+        36: "&#41005;",
+        37: "&#40984;",
+        38: "&#42130;",
+        39: "&#41141;",
+        40: "&#41508;",
+        41: "&#41126;",
+        42: "&#41571;",
+        43: "&#41392;",
+        44: "&#41706;",
+        45: "&#41751;",
+        46: "&#42180;",
+        47: "&#40974;",
+        48: "&#41204;",
+        49: "&#41295;",
+        50: "&#41660;",
+        51: "&#41769;",
+        52: "&#41076;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's13': {
-        0x1: _0x187c56(0x2b7),
-        0x2: _0x187c56(0x17a),
-        0x3: _0x187c56(0x118),
-        0x4: _0x187c56(0x139),
-        0x5: _0x187c56(0x500),
-        0x6: _0x187c56(0x114),
-        0x7: '&#41804;',
-        0x8: '&#41053;',
-        0x9: _0x187c56(0x4a7),
-        0xa: _0x187c56(0x4b8),
-        0xb: _0x187c56(0x1e3),
-        0xc: '&#42130;',
-        0xd: '&#41141;',
-        0xe: _0x187c56(0x445),
-        0xf: _0x187c56(0x4f7),
-        0x10: _0x187c56(0x15c),
-        0x11: '&#41392;',
-        0x12: _0x187c56(0x19b),
-        0x13: '&#41433;',
-        0x14: _0x187c56(0x33b),
-        0x15: _0x187c56(0x214),
-        0x16: '&#42150;',
-        0x17: _0x187c56(0x4ef),
-        0x18: _0x187c56(0x33a),
-        0x19: _0x187c56(0x143),
-        0x1a: _0x187c56(0x2a3),
-        0x1b: _0x187c56(0x2b7),
-        0x1c: _0x187c56(0x17a),
-        0x1d: '&#41556;',
-        0x1e: _0x187c56(0x139),
-        0x1f: _0x187c56(0x500),
-        0x20: _0x187c56(0x114),
-        0x21: _0x187c56(0x1c0),
-        0x22: '&#41053;',
-        0x23: _0x187c56(0x4a7),
-        0x24: _0x187c56(0x4b8),
-        0x25: '&#40984;',
-        0x26: _0x187c56(0x2f2),
-        0x27: '&#41141;',
-        0x28: _0x187c56(0x445),
-        0x29: '&#41266;',
-        0x2a: _0x187c56(0x15c),
-        0x2b: '&#41392;',
-        0x2c: _0x187c56(0x19b),
-        0x2d: _0x187c56(0x245),
-        0x2e: _0x187c56(0x33b),
-        0x2f: _0x187c56(0x214),
-        0x30: _0x187c56(0x51),
-        0x31: '&#41296;',
-        0x32: _0x187c56(0x33a),
-        0x33: _0x187c56(0x143),
-        0x34: _0x187c56(0x2a3),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s13: {
+        1: "&#41708;",
+        2: "&#41203;",
+        3: "&#41556;",
+        4: "&#42159;",
+        5: "&#41922;",
+        6: "&#41648;",
+        7: "&#41804;",
+        8: "&#41053;",
+        9: "&#42128;",
+        10: "&#42171;",
+        11: "&#40984;",
+        12: "&#42130;",
+        13: "&#41141;",
+        14: "&#41674;",
+        15: "&#41266;",
+        16: "&#41571;",
+        17: "&#41392;",
+        18: "&#41706;",
+        19: "&#41433;",
+        20: "&#42180;",
+        21: "&#42148;",
+        22: "&#42150;",
+        23: "&#41296;",
+        24: "&#41575;",
+        25: "&#41766;",
+        26: "&#41076;",
+        27: "&#41708;",
+        28: "&#41203;",
+        29: "&#41556;",
+        30: "&#42159;",
+        31: "&#41922;",
+        32: "&#41648;",
+        33: "&#41804;",
+        34: "&#41053;",
+        35: "&#42128;",
+        36: "&#42171;",
+        37: "&#40984;",
+        38: "&#42130;",
+        39: "&#41141;",
+        40: "&#41674;",
+        41: "&#41266;",
+        42: "&#41571;",
+        43: "&#41392;",
+        44: "&#41706;",
+        45: "&#41433;",
+        46: "&#42180;",
+        47: "&#42148;",
+        48: "&#42150;",
+        49: "&#41296;",
+        50: "&#41575;",
+        51: "&#41766;",
+        52: "&#41076;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's14': {
-        0x1: _0x187c56(0xfd),
-        0x2: _0x187c56(0x17e),
-        0x3: _0x187c56(0x258),
-        0x4: _0x187c56(0x221),
-        0x5: _0x187c56(0x2f6),
-        0x6: 'F',
-        0x7: _0x187c56(0x243),
-        0x8: _0x187c56(0x27e),
-        0x9: _0x187c56(0x1a5),
-        0xa: _0x187c56(0x405),
-        0xb: _0x187c56(0x169),
-        0xc: _0x187c56(0x457),
-        0xd: _0x187c56(0x44),
-        0xe: _0x187c56(0x81),
-        0xf: _0x187c56(0x383),
-        0x10: _0x187c56(0x3a),
-        0x11: _0x187c56(0xc6),
-        0x12: _0x187c56(0x4d9),
-        0x13: _0x187c56(0x172),
-        0x14: _0x187c56(0x100),
-        0x15: _0x187c56(0x1f1),
-        0x16: _0x187c56(0x3da),
-        0x17: '&#412;',
-        0x18: _0x187c56(0x27c),
-        0x19: _0x187c56(0x260),
-        0x1a: _0x187c56(0x524),
-        0x1b: _0x187c56(0xfd),
-        0x1c: _0x187c56(0x17e),
-        0x1d: _0x187c56(0x258),
-        0x1e: '&ETH;',
-        0x1f: '&#400;',
-        0x20: 'F',
-        0x21: _0x187c56(0x243),
-        0x22: _0x187c56(0x27e),
-        0x23: '&#618;',
-        0x24: _0x187c56(0x405),
-        0x25: _0x187c56(0x169),
-        0x26: _0x187c56(0x457),
-        0x27: '&#3057;',
-        0x28: _0x187c56(0x81),
-        0x29: _0x187c56(0x383),
-        0x2a: _0x187c56(0x3a),
-        0x2b: _0x187c56(0xc6),
-        0x2c: _0x187c56(0x4d9),
-        0x2d: _0x187c56(0x172),
-        0x2e: _0x187c56(0x100),
-        0x2f: '&#1062;',
-        0x30: _0x187c56(0x3da),
-        0x31: _0x187c56(0xe0),
-        0x32: '&chi;',
-        0x33: _0x187c56(0x260),
-        0x34: _0x187c56(0x524),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s14: {
+        1: "&Lambda;",
+        2: "&#998;",
+        3: "&#12552;",
+        4: "&ETH;",
+        5: "&#400;",
+        6: "F",
+        7: "&#403;",
+        8: "&#1085;",
+        9: "&#618;",
+        10: "&#65420;",
+        11: "&#1178;",
+        12: "&#321;",
+        13: "&#3057;",
+        14: "&#1051;",
+        15: "&Oslash;",
+        16: "&thorn;",
+        17: "&#1192;",
+        18: "&#23610;",
+        19: "&#12425;",
+        20: "&#356;",
+        21: "&#1062;",
+        22: "&#404;",
+        23: "&#412;",
+        24: "&chi;",
+        25: "&#996;",
+        26: "&#7828;",
+        27: "&Lambda;",
+        28: "&#998;",
+        29: "&#12552;",
+        30: "&ETH;",
+        31: "&#400;",
+        32: "F",
+        33: "&#403;",
+        34: "&#1085;",
+        35: "&#618;",
+        36: "&#65420;",
+        37: "&#1178;",
+        38: "&#321;",
+        39: "&#3057;",
+        40: "&#1051;",
+        41: "&Oslash;",
+        42: "&thorn;",
+        43: "&#1192;",
+        44: "&#23610;",
+        45: "&#12425;",
+        46: "&#356;",
+        47: "&#1062;",
+        48: "&#404;",
+        49: "&#412;",
+        50: "&chi;",
+        51: "&#996;",
+        52: "&#7828;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's15': {
-        0x1: _0x187c56(0x4e5),
-        0x2: _0x187c56(0x3f2),
-        0x3: '&#391;',
-        0x4: '&#394;',
-        0x5: _0x187c56(0x449),
-        0x6: '&#401;',
-        0x7: '&#403;',
-        0x8: _0x187c56(0x398),
-        0x9: '&#406;',
-        0xa: _0x187c56(0x2ee),
-        0xb: _0x187c56(0x102),
-        0xc: _0x187c56(0x1e1),
-        0xd: 'M',
-        0xe: _0x187c56(0x1e0),
-        0xf: _0x187c56(0x295),
-        0x10: _0x187c56(0x231),
-        0x11: '&#418;',
-        0x12: '&#422;',
-        0x13: _0x187c56(0xad),
-        0x14: _0x187c56(0x35b),
-        0x15: '&#434;',
-        0x16: '&#404;',
-        0x17: '&#412;',
-        0x18: _0x187c56(0x25b),
-        0x19: _0x187c56(0x117),
-        0x1a: _0x187c56(0x1b),
-        0x1b: _0x187c56(0x4e5),
-        0x1c: _0x187c56(0x3f2),
-        0x1d: _0x187c56(0x146),
-        0x1e: _0x187c56(0x209),
-        0x1f: '&#1028;',
-        0x20: _0x187c56(0x43c),
-        0x21: _0x187c56(0x243),
-        0x22: '&#1223;',
-        0x23: _0x187c56(0x2e7),
-        0x24: '&#646;',
-        0x25: _0x187c56(0x102),
-        0x26: _0x187c56(0x1e1),
-        0x27: 'M',
-        0x28: _0x187c56(0x1e0),
-        0x29: _0x187c56(0x295),
-        0x2a: _0x187c56(0x231),
-        0x2b: _0x187c56(0x17c),
-        0x2c: '&#422;',
-        0x2d: _0x187c56(0xad),
-        0x2e: '&#428;',
-        0x2f: _0x187c56(0x202),
-        0x30: _0x187c56(0x3da),
-        0x31: _0x187c56(0xe0),
-        0x32: _0x187c56(0x25b),
-        0x33: _0x187c56(0x117),
-        0x34: '&#548;',
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s15: {
+        1: "&#411;",
+        2: "&#385;",
+        3: "&#391;",
+        4: "&#394;",
+        5: "&#1028;",
+        6: "&#401;",
+        7: "&#403;",
+        8: "&#1223;",
+        9: "&#406;",
+        10: "&#646;",
+        11: "&#408;",
+        12: "&#1340;",
+        13: "M",
+        14: "&#413;",
+        15: "&#416;",
+        16: "&#420;",
+        17: "&#418;",
+        18: "&#422;",
+        19: "&#423;",
+        20: "&#428;",
+        21: "&#434;",
+        22: "&#404;",
+        23: "&#412;",
+        24: "&#1202;",
+        25: "&#435;",
+        26: "&#548;",
+        27: "&#411;",
+        28: "&#385;",
+        29: "&#391;",
+        30: "&#394;",
+        31: "&#1028;",
+        32: "&#401;",
+        33: "&#403;",
+        34: "&#1223;",
+        35: "&#406;",
+        36: "&#646;",
+        37: "&#408;",
+        38: "&#1340;",
+        39: "M",
+        40: "&#413;",
+        41: "&#416;",
+        42: "&#420;",
+        43: "&#418;",
+        44: "&#422;",
+        45: "&#423;",
+        46: "&#428;",
+        47: "&#434;",
+        48: "&#404;",
+        49: "&#412;",
+        50: "&#1202;",
+        51: "&#435;",
+        52: "&#548;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's16': {
-        0x1: '&#41074;',
-        0x2: _0x187c56(0x266),
-        0x3: _0x187c56(0x236),
-        0x4: _0x187c56(0x35),
-        0x5: _0x187c56(0x2d4),
-        0x6: _0x187c56(0x482),
-        0x7: _0x187c56(0x2c7),
-        0x8: _0x187c56(0x27f),
-        0x9: '&#41105;',
-        0xa: _0x187c56(0x4b8),
-        0xb: '&#40983;',
-        0xc: '&#42130;',
-        0xd: _0x187c56(0x204),
-        0xe: _0x187c56(0x445),
-        0xf: _0x187c56(0x16d),
-        0x10: _0x187c56(0x15c),
-        0x11: _0x187c56(0x182),
-        0x12: _0x187c56(0x263),
-        0x13: _0x187c56(0x170),
-        0x14: '&#41686;',
-        0x15: _0x187c56(0x2ca),
-        0x16: _0x187c56(0x2c0),
-        0x17: _0x187c56(0x14c),
-        0x18: _0x187c56(0x7d),
-        0x19: _0x187c56(0x4fa),
-        0x1a: '&#41076;',
-        0x1b: '&#41074;',
-        0x1c: _0x187c56(0x266),
-        0x1d: _0x187c56(0x236),
-        0x1e: '&#41120;',
-        0x1f: _0x187c56(0x2d4),
-        0x20: _0x187c56(0x482),
-        0x21: _0x187c56(0x2c7),
-        0x22: _0x187c56(0x27f),
-        0x23: _0x187c56(0x225),
-        0x24: _0x187c56(0x4b8),
-        0x25: _0x187c56(0x3a6),
-        0x26: '&#42130;',
-        0x27: _0x187c56(0x204),
-        0x28: _0x187c56(0x445),
-        0x29: _0x187c56(0x16d),
-        0x2a: _0x187c56(0x15c),
-        0x2b: _0x187c56(0x182),
-        0x2c: '&#41733;',
-        0x2d: _0x187c56(0x170),
-        0x2e: _0x187c56(0x6f),
-        0x2f: _0x187c56(0x2ca),
-        0x30: _0x187c56(0x2c0),
-        0x31: '&#41295;',
-        0x32: _0x187c56(0x7d),
-        0x33: '&#42014;',
-        0x34: _0x187c56(0x2a3),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s16: {
+        1: "&#41074;",
+        2: "&#41712;",
+        3: "&#41007;",
+        4: "&#41120;",
+        5: "&#41532;",
+        6: "&#41246;",
+        7: "&#41029;",
+        8: "&#41833;",
+        9: "&#41105;",
+        10: "&#42171;",
+        11: "&#40983;",
+        12: "&#42130;",
+        13: "&#41141;",
+        14: "&#41674;",
+        15: "&#41126;",
+        16: "&#41571;",
+        17: "&#41079;",
+        18: "&#41733;",
+        19: "&#41754;",
+        20: "&#41686;",
+        21: "&#41991;",
+        22: "&#41008;",
+        23: "&#41295;",
+        24: "&#41426;",
+        25: "&#42014;",
+        26: "&#41076;",
+        27: "&#41074;",
+        28: "&#41712;",
+        29: "&#41007;",
+        30: "&#41120;",
+        31: "&#41532;",
+        32: "&#41246;",
+        33: "&#41029;",
+        34: "&#41833;",
+        35: "&#41105;",
+        36: "&#42171;",
+        37: "&#40983;",
+        38: "&#42130;",
+        39: "&#41141;",
+        40: "&#41674;",
+        41: "&#41126;",
+        42: "&#41571;",
+        43: "&#41079;",
+        44: "&#41733;",
+        45: "&#41754;",
+        46: "&#41686;",
+        47: "&#41991;",
+        48: "&#41008;",
+        49: "&#41295;",
+        50: "&#41426;",
+        51: "&#42014;",
+        52: "&#41076;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's17': {
-        0x1: _0x187c56(0xb8),
-        0x2: _0x187c56(0x3d7),
-        0x3: _0x187c56(0xc8),
-        0x4: _0x187c56(0x496),
-        0x5: _0x187c56(0x3ad),
-        0x6: _0x187c56(0x42e),
-        0x7: _0x187c56(0x79),
-        0x8: _0x187c56(0x4cc),
-        0x9: _0x187c56(0x4cf),
-        0xa: _0x187c56(0x321),
-        0xb: _0x187c56(0xe4),
-        0xc: '&#645;',
-        0xd: _0x187c56(0x201),
-        0xe: _0x187c56(0xff),
-        0xf: _0x187c56(0x178),
-        0x10: _0x187c56(0x3c0),
-        0x11: '&phi;',
-        0x12: _0x187c56(0x438),
-        0x13: '&#1359;',
-        0x14: _0x187c56(0x32),
-        0x15: _0x187c56(0x87),
-        0x16: _0x187c56(0x29c),
-        0x17: _0x187c56(0x5e),
-        0x18: '&#1347;',
-        0x19: '&#1358;',
-        0x1a: _0x187c56(0x2e1),
-        0x1b: _0x187c56(0xb8),
-        0x1c: _0x187c56(0x3d7),
-        0x1d: _0x187c56(0xc8),
-        0x1e: _0x187c56(0x496),
-        0x1f: _0x187c56(0x3ad),
-        0x20: _0x187c56(0x42e),
-        0x21: _0x187c56(0x79),
-        0x22: '&#615;',
-        0x23: _0x187c56(0x4cf),
-        0x24: _0x187c56(0x321),
-        0x25: '&#409;',
-        0x26: _0x187c56(0x198),
-        0x27: _0x187c56(0x201),
-        0x28: '&#1356;',
-        0x29: '&#1342;',
-        0x2a: _0x187c56(0x3c0),
-        0x2b: _0x187c56(0x2a),
-        0x2c: _0x187c56(0x438),
-        0x2d: _0x187c56(0x1d3),
-        0x2e: _0x187c56(0x32),
-        0x2f: _0x187c56(0x87),
-        0x30: _0x187c56(0x29c),
-        0x31: _0x187c56(0x5e),
-        0x32: _0x187c56(0x2f5),
-        0x33: _0x187c56(0x3bd),
-        0x34: _0x187c56(0x2e1),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s17: {
+        1: "&#1337;",
+        2: "&#1349;",
+        3: "&#1351;",
+        4: "&#1338;",
+        5: "&#541;",
+        6: "&#1330;",
+        7: "&#1331;",
+        8: "&#615;",
+        9: "&#639;",
+        10: "&#669;",
+        11: "&#409;",
+        12: "&#645;",
+        13: "&#653;",
+        14: "&#1356;",
+        15: "&#1342;",
+        16: "&rho;",
+        17: "&phi;",
+        18: "&#1360;",
+        19: "&#1359;",
+        20: "&#1333;",
+        21: "&#1348;",
+        22: "&#1506;",
+        23: "&#1377;",
+        24: "&#1347;",
+        25: "&#1358;",
+        26: "&#1344;",
+        27: "&#1337;",
+        28: "&#1349;",
+        29: "&#1351;",
+        30: "&#1338;",
+        31: "&#541;",
+        32: "&#1330;",
+        33: "&#1331;",
+        34: "&#615;",
+        35: "&#639;",
+        36: "&#669;",
+        37: "&#409;",
+        38: "&#645;",
+        39: "&#653;",
+        40: "&#1356;",
+        41: "&#1342;",
+        42: "&rho;",
+        43: "&phi;",
+        44: "&#1360;",
+        45: "&#1359;",
+        46: "&#1333;",
+        47: "&#1348;",
+        48: "&#1506;",
+        49: "&#1377;",
+        50: "&#1347;",
+        51: "&#1358;",
+        52: "&#1344;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's18': {
-        0x1: '&alpha;',
-        0x2: '&szlig;',
-        0x3: _0x187c56(0x2b6),
-        0x4: 'd',
-        0x5: '&epsilon;',
-        0x6: _0x187c56(0x39f),
-        0x7: 'g',
-        0x8: 'h',
-        0x9: _0x187c56(0x23f),
-        0xa: _0x187c56(0x109),
-        0xb: _0x187c56(0x4a6),
-        0xc: _0x187c56(0x2b4),
-        0xd: 'm',
-        0xe: _0x187c56(0x284),
-        0xf: _0x187c56(0x2e9),
-        0x10: 'p',
-        0x11: _0x187c56(0x4),
-        0x12: 'r',
-        0x13: _0x187c56(0x26b),
-        0x14: '&dagger;',
-        0x15: 'u',
-        0x16: _0x187c56(0xbb),
-        0x17: _0x187c56(0xc),
-        0x18: 'x',
-        0x19: _0x187c56(0x384),
-        0x1a: 'z',
-        0x1b: _0x187c56(0x88),
-        0x1c: _0x187c56(0x451),
-        0x1d: _0x187c56(0x2b6),
-        0x1e: 'd',
-        0x1f: '&epsilon;',
-        0x20: '&fnof;',
-        0x21: 'g',
-        0x22: 'h',
-        0x23: _0x187c56(0x23f),
-        0x24: '&#1397;',
-        0x25: _0x187c56(0x4a6),
-        0x26: '&#65434;',
-        0x27: 'm',
-        0x28: '&eta;',
-        0x29: _0x187c56(0x2e9),
-        0x2a: 'p',
-        0x2b: _0x187c56(0x4),
-        0x2c: 'r',
-        0x2d: '&scaron;',
-        0x2e: _0x187c56(0x4c),
-        0x2f: 'u',
-        0x30: _0x187c56(0xbb),
-        0x31: _0x187c56(0xc),
-        0x32: 'x',
-        0x33: '&psi;',
-        0x34: 'z',
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s18: {
+        1: "&alpha;",
+        2: "&szlig;",
+        3: "&sigmaf;",
+        4: "d",
+        5: "&epsilon;",
+        6: "&fnof;",
+        7: "g",
+        8: "h",
+        9: "&iuml;",
+        10: "&#1397;",
+        11: "&kappa;",
+        12: "&#65434;",
+        13: "m",
+        14: "&eta;",
+        15: "&oplus;",
+        16: "p",
+        17: "&Omega;",
+        18: "r",
+        19: "&scaron;",
+        20: "&dagger;",
+        21: "u",
+        22: "&forall;",
+        23: "&omega;",
+        24: "x",
+        25: "&psi;",
+        26: "z",
+        27: "&alpha;",
+        28: "&szlig;",
+        29: "&sigmaf;",
+        30: "d",
+        31: "&epsilon;",
+        32: "&fnof;",
+        33: "g",
+        34: "h",
+        35: "&iuml;",
+        36: "&#1397;",
+        37: "&kappa;",
+        38: "&#65434;",
+        39: "m",
+        40: "&eta;",
+        41: "&oplus;",
+        42: "p",
+        43: "&Omega;",
+        44: "r",
+        45: "&scaron;",
+        46: "&dagger;",
+        47: "u",
+        48: "&forall;",
+        49: "&omega;",
+        50: "x",
+        51: "&psi;",
+        52: "z",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's19': {
-        0x1: _0x187c56(0x99),
-        0x2: _0x187c56(0x4c4),
-        0x3: _0x187c56(0x1f6),
-        0x4: _0x187c56(0x20b),
-        0x5: _0x187c56(0x63),
-        0x6: _0x187c56(0x42e),
-        0x7: _0x187c56(0x44f),
-        0x8: _0x187c56(0x3cb),
-        0x9: _0x187c56(0x4cf),
-        0xa: '&#646;',
-        0xb: _0x187c56(0x158),
-        0xc: _0x187c56(0xbe),
-        0xd: _0x187c56(0x129),
-        0xe: _0x187c56(0x1cd),
-        0xf: _0x187c56(0xdc),
-        0x10: _0x187c56(0x1df),
-        0x11: _0x187c56(0x251),
-        0x12: _0x187c56(0x438),
-        0x13: '&sigmaf;',
-        0x14: _0x187c56(0xe7),
-        0x15: _0x187c56(0xc7),
-        0x16: '&#3182;',
-        0x17: _0x187c56(0xc),
-        0x18: _0x187c56(0x486),
-        0x19: _0x187c56(0x29c),
-        0x1a: _0x187c56(0x4d5),
-        0x1b: '&#3588;',
-        0x1c: _0x187c56(0x4c4),
-        0x1d: _0x187c56(0x1f6),
-        0x1e: _0x187c56(0x20b),
-        0x1f: '&#2799;',
-        0x20: _0x187c56(0x42e),
-        0x21: _0x187c56(0x44f),
-        0x22: _0x187c56(0x3cb),
-        0x23: '&#639;',
-        0x24: _0x187c56(0x2ee),
-        0x25: _0x187c56(0x158),
-        0x26: _0x187c56(0xbe),
-        0x27: _0x187c56(0x129),
-        0x28: _0x187c56(0x1cd),
-        0x29: '&#2790;',
-        0x2a: '&#447;',
-        0x2b: _0x187c56(0x251),
-        0x2c: '&#1360;',
-        0x2d: _0x187c56(0x2b6),
-        0x2e: _0x187c56(0xe7),
-        0x2f: '&upsilon;',
-        0x30: _0x187c56(0x3e5),
-        0x31: _0x187c56(0xc),
-        0x32: '&#2794;',
-        0x33: '&#1506;',
-        0x34: _0x187c56(0x4d5),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s19: {
+        1: "&#3588;",
+        2: "&#4330;",
+        3: "&#2414;",
+        4: "&#4331;",
+        5: "&#2799;",
+        6: "&#1330;",
+        7: "&#2797;",
+        8: "&#1210;",
+        9: "&#639;",
+        10: "&#646;",
+        11: "&#1179;",
+        12: "&#1350;",
+        13: "&#625;",
+        14: "&#1352;",
+        15: "&#2790;",
+        16: "&#447;",
+        17: "&#1193;",
+        18: "&#1360;",
+        19: "&sigmaf;",
+        20: "&#2670;",
+        21: "&upsilon;",
+        22: "&#3182;",
+        23: "&omega;",
+        24: "&#2794;",
+        25: "&#1506;",
+        26: "&#2749;",
+        27: "&#3588;",
+        28: "&#4330;",
+        29: "&#2414;",
+        30: "&#4331;",
+        31: "&#2799;",
+        32: "&#1330;",
+        33: "&#2797;",
+        34: "&#1210;",
+        35: "&#639;",
+        36: "&#646;",
+        37: "&#1179;",
+        38: "&#1350;",
+        39: "&#625;",
+        40: "&#1352;",
+        41: "&#2790;",
+        42: "&#447;",
+        43: "&#1193;",
+        44: "&#1360;",
+        45: "&sigmaf;",
+        46: "&#2670;",
+        47: "&upsilon;",
+        48: "&#3182;",
+        49: "&omega;",
+        50: "&#2794;",
+        51: "&#1506;",
+        52: "&#2749;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's20': {
-        0x1: _0x187c56(0x2ab),
-        0x2: _0x187c56(0x407),
-        0x3: 'c',
-        0x4: _0x187c56(0x473),
-        0x5: _0x187c56(0x31a),
-        0x6: 'f',
-        0x7: 'g',
-        0x8: _0x187c56(0x27e),
-        0x9: _0x187c56(0x310),
-        0xa: 'j',
-        0xb: _0x187c56(0x1b0),
-        0xc: '&#1075;',
-        0xd: _0x187c56(0x41b),
-        0xe: _0x187c56(0x2ec),
-        0xf: _0x187c56(0x89),
-        0x10: 'p',
-        0x11: '&#1092;',
-        0x12: '&#1103;',
-        0x13: '$',
-        0x14: _0x187c56(0x1c6),
-        0x15: _0x187c56(0x4eb),
-        0x16: _0x187c56(0x6e),
-        0x17: _0x187c56(0x1d6),
-        0x18: _0x187c56(0x32f),
-        0x19: _0x187c56(0x3a2),
-        0x1a: _0x187c56(0x42d),
-        0x1b: '&#1040;',
-        0x1c: _0x187c56(0x248),
-        0x1d: 'C',
-        0x1e: _0x187c56(0x9),
-        0x1f: _0x187c56(0x449),
-        0x20: 'F',
-        0x21: 'G',
-        0x22: 'H',
-        0x23: _0x187c56(0x4f8),
-        0x24: 'J',
-        0x25: _0x187c56(0x30),
-        0x26: _0x187c56(0x373),
-        0x27: _0x187c56(0x387),
-        0x28: _0x187c56(0x3ce),
-        0x29: _0x187c56(0x287),
-        0x2a: 'P',
-        0x2b: '&#1060;',
-        0x2c: _0x187c56(0x314),
-        0x2d: '$',
-        0x2e: 'T',
-        0x2f: _0x187c56(0x1f1),
-        0x30: '&#1140;',
-        0x31: _0x187c56(0x3c6),
-        0x32: _0x187c56(0x28b),
-        0x33: _0x187c56(0x347),
-        0x34: _0x187c56(0x365),
-        0x35: '1',
-        0x36: '2',
-        0x37: '3',
-        0x38: '4',
-        0x39: '5',
-        0x3a: '6',
-        0x3b: '7',
-        0x3c: '8',
-        0x3d: '9',
-        0x3e: '0'
+    s20: {
+        1: "&#1072;",
+        2: "&#1073;",
+        3: "c",
+        4: "&#1076;",
+        5: "&#1105;",
+        6: "f",
+        7: "g",
+        8: "&#1085;",
+        9: "&#1111;",
+        10: "j",
+        11: "&#1082;",
+        12: "&#1075;",
+        13: "&#1131;",
+        14: "&#1087;",
+        15: "&#1139;",
+        16: "p",
+        17: "&#1092;",
+        18: "&#1103;",
+        19: "$",
+        20: "&#1090;",
+        21: "&#1094;",
+        22: "&#1141;",
+        23: "&#1097;",
+        24: "&#1078;",
+        25: "&#1095;",
+        26: "&#1079;",
+        27: "&#1040;",
+        28: "&#1041;",
+        29: "C",
+        30: "&#1044;",
+        31: "&#1028;",
+        32: "F",
+        33: "G",
+        34: "H",
+        35: "&#1031;",
+        36: "J",
+        37: "&#1050;",
+        38: "&#1043;",
+        39: "&#1130;",
+        40: "&#1049;",
+        41: "&#1138;",
+        42: "P",
+        43: "&#1060;",
+        44: "&#1071;",
+        45: "$",
+        46: "T",
+        47: "&#1062;",
+        48: "&#1140;",
+        49: "&#1064;",
+        50: "&#1046;",
+        51: "&#1063;",
+        52: "&#1047;",
+        53: "1",
+        54: "2",
+        55: "3",
+        56: "4",
+        57: "5",
+        58: "6",
+        59: "7",
+        60: "8",
+        61: "9",
+        62: "0"
     },
-    's21': {
-        0x1: _0x187c56(0xd4),
-        0x2: _0x187c56(0x234),
-        0x3: _0x187c56(0x331),
-        0x4: _0x187c56(0x21a),
-        0x5: _0x187c56(0x58),
-        0x6: _0x187c56(0x17),
-        0x7: _0x187c56(0x26f),
-        0x8: 'h&#830;',
-        0x9: _0x187c56(0xaf),
-        0xa: _0x187c56(0x2dd),
-        0xb: 'k&#830;',
-        0xc: _0x187c56(0x235),
-        0xd: _0x187c56(0x485),
-        0xe: 'n&#830;',
-        0xf: _0x187c56(0x43a),
-        0x10: _0x187c56(0x1b8),
-        0x11: _0x187c56(0x2d5),
-        0x12: 'r&#830;',
-        0x13: 's&#830;',
-        0x14: _0x187c56(0x45c),
-        0x15: _0x187c56(0x4b5),
-        0x16: _0x187c56(0x452),
-        0x17: 'w&#830;',
-        0x18: _0x187c56(0x0),
-        0x19: _0x187c56(0x4dd),
-        0x1a: _0x187c56(0xe8),
-        0x1b: 'A&#830;',
-        0x1c: _0x187c56(0x1ba),
-        0x1d: 'C&#830;',
-        0x1e: _0x187c56(0x491),
-        0x1f: _0x187c56(0x1dd),
-        0x20: _0x187c56(0x14b),
-        0x21: _0x187c56(0x2a9),
-        0x22: _0x187c56(0x4d6),
-        0x23: _0x187c56(0x4aa),
-        0x24: 'J&#830;',
-        0x25: _0x187c56(0x291),
-        0x26: _0x187c56(0x1ee),
-        0x27: _0x187c56(0x3dd),
-        0x28: _0x187c56(0x1f9),
-        0x29: _0x187c56(0x2f3),
-        0x2a: _0x187c56(0x52b),
-        0x2b: _0x187c56(0xfb),
-        0x2c: _0x187c56(0x521),
-        0x2d: _0x187c56(0x513),
-        0x2e: _0x187c56(0x305),
-        0x2f: _0x187c56(0x4b),
-        0x30: _0x187c56(0x72),
-        0x31: _0x187c56(0x4b2),
-        0x32: _0x187c56(0x49f),
-        0x33: 'Y&#830;',
-        0x34: 'Z&#830;',
-        0x35: '1&#830;',
-        0x36: _0x187c56(0x3a4),
-        0x37: _0x187c56(0x312),
-        0x38: _0x187c56(0x7f),
-        0x39: _0x187c56(0x472),
-        0x3a: _0x187c56(0x506),
-        0x3b: _0x187c56(0x13),
-        0x3c: '8&#830;',
-        0x3d: _0x187c56(0xf2),
-        0x3e: _0x187c56(0x38e)
+    s21: {
+        1: "a&#830;",
+        2: "b&#830;",
+        3: "c&#830;",
+        4: "d&#830;",
+        5: "e&#830;",
+        6: "f&#830;",
+        7: "g&#830;",
+        8: "h&#830;",
+        9: "i&#830;",
+        10: "j&#830;",
+        11: "k&#830;",
+        12: "l&#830;",
+        13: "m&#830;",
+        14: "n&#830;",
+        15: "o&#830;",
+        16: "p&#830;",
+        17: "q&#830;",
+        18: "r&#830;",
+        19: "s&#830;",
+        20: "t&#830;",
+        21: "u&#830;",
+        22: "v&#830;",
+        23: "w&#830;",
+        24: "x&#830;",
+        25: "y&#830;",
+        26: "z&#830;",
+        27: "A&#830;",
+        28: "B&#830;",
+        29: "C&#830;",
+        30: "D&#830;",
+        31: "E&#830;",
+        32: "F&#830;",
+        33: "G&#830;",
+        34: "H&#830;",
+        35: "I&#830;",
+        36: "J&#830;",
+        37: "K&#830;",
+        38: "L&#830;",
+        39: "M&#830;",
+        40: "N&#830;",
+        41: "O&#830;",
+        42: "P&#830;",
+        43: "Q&#830;",
+        44: "R&#830;",
+        45: "S&#830;",
+        46: "T&#830;",
+        47: "U&#830;",
+        48: "V&#830;",
+        49: "W&#830;",
+        50: "X&#830;",
+        51: "Y&#830;",
+        52: "Z&#830;",
+        53: "1&#830;",
+        54: "2&#830;",
+        55: "3&#830;",
+        56: "4&#830;",
+        57: "5&#830;",
+        58: "6&#830;",
+        59: "7&#830;",
+        60: "8&#830;",
+        61: "9&#830;",
+        62: "0&#830;"
     },
-    's22': {
-        0x1: _0x187c56(0x3fd),
-        0x2: _0x187c56(0x529),
-        0x3: _0x187c56(0x4ab),
-        0x4: _0x187c56(0x3cd),
-        0x5: _0x187c56(0x43f),
-        0x6: 'f&#838;',
-        0x7: _0x187c56(0x1cf),
-        0x8: _0x187c56(0x51f),
-        0x9: 'i&#838;',
-        0xa: 'j&#838;',
-        0xb: _0x187c56(0x25e),
-        0xc: 'l&#838;',
-        0xd: _0x187c56(0x46),
-        0xe: 'n&#838;',
-        0xf: _0x187c56(0x113),
-        0x10: _0x187c56(0x174),
-        0x11: _0x187c56(0x86),
-        0x12: _0x187c56(0x428),
-        0x13: 's&#838;',
-        0x14: _0x187c56(0x328),
-        0x15: _0x187c56(0x46c),
-        0x16: _0x187c56(0x13d),
-        0x17: 'w&#838;',
-        0x18: _0x187c56(0xa0),
-        0x19: _0x187c56(0x224),
-        0x1a: _0x187c56(0x200),
-        0x1b: _0x187c56(0x334),
-        0x1c: _0x187c56(0xa2),
-        0x1d: _0x187c56(0x285),
-        0x1e: 'D&#838;',
-        0x1f: _0x187c56(0x165),
-        0x20: 'F&#838;',
-        0x21: _0x187c56(0x3d),
-        0x22: _0x187c56(0x2bc),
-        0x23: 'I&#838;',
-        0x24: _0x187c56(0x217),
-        0x25: 'K&#838;',
-        0x26: 'L&#838;',
-        0x27: 'M&#838;',
-        0x28: 'N&#838;',
-        0x29: 'O&#838;',
-        0x2a: _0x187c56(0x1ae),
-        0x2b: _0x187c56(0x13c),
-        0x2c: 'R&#838;',
-        0x2d: _0x187c56(0x389),
-        0x2e: _0x187c56(0x388),
-        0x2f: 'U&#838;',
-        0x30: _0x187c56(0x400),
-        0x31: 'W&#838;',
-        0x32: _0x187c56(0xcd),
-        0x33: 'Y&#838;',
-        0x34: 'Z&#838;',
-        0x35: _0x187c56(0x1fd),
-        0x36: _0x187c56(0x48a),
-        0x37: '3&#838;',
-        0x38: _0x187c56(0x1d5),
-        0x39: _0x187c56(0x2a5),
-        0x3a: _0x187c56(0x20),
-        0x3b: _0x187c56(0x319),
-        0x3c: '8&#838;',
-        0x3d: _0x187c56(0x51b),
-        0x3e: _0x187c56(0x459)
+    s22: {
+        1: "a&#838;",
+        2: "b&#838;",
+        3: "c&#838;",
+        4: "d&#838;",
+        5: "e&#838;",
+        6: "f&#838;",
+        7: "g&#838;",
+        8: "h&#838;",
+        9: "i&#838;",
+        10: "j&#838;",
+        11: "k&#838;",
+        12: "l&#838;",
+        13: "m&#838;",
+        14: "n&#838;",
+        15: "o&#838;",
+        16: "p&#838;",
+        17: "q&#838;",
+        18: "r&#838;",
+        19: "s&#838;",
+        20: "t&#838;",
+        21: "u&#838;",
+        22: "v&#838;",
+        23: "w&#838;",
+        24: "x&#838;",
+        25: "y&#838;",
+        26: "z&#838;",
+        27: "A&#838;",
+        28: "B&#838;",
+        29: "C&#838;",
+        30: "D&#838;",
+        31: "E&#838;",
+        32: "F&#838;",
+        33: "G&#838;",
+        34: "H&#838;",
+        35: "I&#838;",
+        36: "J&#838;",
+        37: "K&#838;",
+        38: "L&#838;",
+        39: "M&#838;",
+        40: "N&#838;",
+        41: "O&#838;",
+        42: "P&#838;",
+        43: "Q&#838;",
+        44: "R&#838;",
+        45: "S&#838;",
+        46: "T&#838;",
+        47: "U&#838;",
+        48: "V&#838;",
+        49: "W&#838;",
+        50: "X&#838;",
+        51: "Y&#838;",
+        52: "Z&#838;",
+        53: "1&#838;",
+        54: "2&#838;",
+        55: "3&#838;",
+        56: "4&#838;",
+        57: "5&#838;",
+        58: "6&#838;",
+        59: "7&#838;",
+        60: "8&#838;",
+        61: "9&#838;",
+        62: "0&#838;"
     },
-    's23': {
-        0x1: _0x187c56(0x3fb),
-        0x2: 'b&#826;',
-        0x3: _0x187c56(0x120),
-        0x4: 'd&#826;',
-        0x5: _0x187c56(0x528),
-        0x6: 'f&#826;',
-        0x7: 'g&#826;',
-        0x8: 'h&#826;',
-        0x9: _0x187c56(0x18e),
-        0xa: _0x187c56(0x1ca),
-        0xb: _0x187c56(0x1d4),
-        0xc: _0x187c56(0x105),
-        0xd: _0x187c56(0x92),
-        0xe: _0x187c56(0x1ce),
-        0xf: _0x187c56(0x3d0),
-        0x10: _0x187c56(0x17f),
-        0x11: _0x187c56(0x18c),
-        0x12: _0x187c56(0xe),
-        0x13: _0x187c56(0x39),
-        0x14: _0x187c56(0x351),
-        0x15: _0x187c56(0x39a),
-        0x16: _0x187c56(0x36a),
-        0x17: _0x187c56(0x104),
-        0x18: 'x&#826;',
-        0x19: 'y&#826;',
-        0x1a: _0x187c56(0x356),
-        0x1b: _0x187c56(0x35a),
-        0x1c: _0x187c56(0x3c7),
-        0x1d: _0x187c56(0x463),
-        0x1e: _0x187c56(0x10e),
-        0x1f: _0x187c56(0x375),
-        0x20: _0x187c56(0x430),
-        0x21: _0x187c56(0x1b2),
-        0x22: _0x187c56(0x3f9),
-        0x23: 'I&#826;',
-        0x24: _0x187c56(0x3e7),
-        0x25: _0x187c56(0x2ea),
-        0x26: _0x187c56(0x186),
-        0x27: _0x187c56(0x3f6),
-        0x28: _0x187c56(0xb2),
-        0x29: _0x187c56(0x42a),
-        0x2a: _0x187c56(0xce),
-        0x2b: _0x187c56(0x283),
-        0x2c: 'R&#826;',
-        0x2d: _0x187c56(0x16e),
-        0x2e: _0x187c56(0x50b),
-        0x2f: _0x187c56(0x75),
-        0x30: _0x187c56(0x259),
-        0x31: _0x187c56(0x23e),
-        0x32: 'X&#826;',
-        0x33: _0x187c56(0x1aa),
-        0x34: _0x187c56(0x471),
-        0x35: _0x187c56(0x4c6),
-        0x36: '2&#826;',
-        0x37: _0x187c56(0x3de),
-        0x38: '4&#826;',
-        0x39: '5&#826;',
-        0x3a: _0x187c56(0x330),
-        0x3b: _0x187c56(0x4b3),
-        0x3c: _0x187c56(0x367),
-        0x3d: _0x187c56(0x2c),
-        0x3e: _0x187c56(0xb7)
+    s23: {
+        1: "a&#826;",
+        2: "b&#826;",
+        3: "c&#826;",
+        4: "d&#826;",
+        5: "e&#826;",
+        6: "f&#826;",
+        7: "g&#826;",
+        8: "h&#826;",
+        9: "i&#826;",
+        10: "j&#826;",
+        11: "k&#826;",
+        12: "l&#826;",
+        13: "m&#826;",
+        14: "n&#826;",
+        15: "o&#826;",
+        16: "p&#826;",
+        17: "q&#826;",
+        18: "r&#826;",
+        19: "s&#826;",
+        20: "t&#826;",
+        21: "u&#826;",
+        22: "v&#826;",
+        23: "w&#826;",
+        24: "x&#826;",
+        25: "y&#826;",
+        26: "z&#826;",
+        27: "A&#826;",
+        28: "B&#826;",
+        29: "C&#826;",
+        30: "D&#826;",
+        31: "E&#826;",
+        32: "F&#826;",
+        33: "G&#826;",
+        34: "H&#826;",
+        35: "I&#826;",
+        36: "J&#826;",
+        37: "K&#826;",
+        38: "L&#826;",
+        39: "M&#826;",
+        40: "N&#826;",
+        41: "O&#826;",
+        42: "P&#826;",
+        43: "Q&#826;",
+        44: "R&#826;",
+        45: "S&#826;",
+        46: "T&#826;",
+        47: "U&#826;",
+        48: "V&#826;",
+        49: "W&#826;",
+        50: "X&#826;",
+        51: "Y&#826;",
+        52: "Z&#826;",
+        53: "1&#826;",
+        54: "2&#826;",
+        55: "3&#826;",
+        56: "4&#826;",
+        57: "5&#826;",
+        58: "6&#826;",
+        59: "7&#826;",
+        60: "8&#826;",
+        61: "9&#826;",
+        62: "0&#826;"
     },
-    's24': {
-        0x1: _0x187c56(0x293),
-        0x2: _0x187c56(0x1b7),
-        0x3: _0x187c56(0xfe),
-        0x4: _0x187c56(0x149),
-        0x5: _0x187c56(0x30b),
-        0x6: _0x187c56(0x2b1),
-        0x7: _0x187c56(0x353),
-        0x8: 'h&#857;',
-        0x9: _0x187c56(0x7a),
-        0xa: _0x187c56(0x1a4),
-        0xb: _0x187c56(0x35c),
-        0xc: _0x187c56(0x520),
-        0xd: 'm&#857;',
-        0xe: _0x187c56(0x2b),
-        0xf: _0x187c56(0x8e),
-        0x10: 'p&#857;',
-        0x11: _0x187c56(0x1a8),
-        0x12: _0x187c56(0x514),
-        0x13: _0x187c56(0x1c5),
-        0x14: _0x187c56(0x155),
-        0x15: _0x187c56(0x490),
-        0x16: _0x187c56(0x4cd),
-        0x17: _0x187c56(0x290),
-        0x18: 'x&#857;',
-        0x19: _0x187c56(0x98),
-        0x1a: _0x187c56(0x94),
-        0x1b: _0x187c56(0x15a),
-        0x1c: _0x187c56(0x154),
-        0x1d: _0x187c56(0x7b),
-        0x1e: _0x187c56(0x18f),
-        0x1f: _0x187c56(0x216),
-        0x20: _0x187c56(0x46f),
-        0x21: _0x187c56(0x3c1),
-        0x22: 'H&#857;',
-        0x23: _0x187c56(0x15d),
-        0x24: 'J&#857;',
-        0x25: 'K&#857;',
-        0x26: _0x187c56(0x2bf),
-        0x27: _0x187c56(0x31d),
-        0x28: _0x187c56(0x107),
-        0x29: 'O&#857;',
-        0x2a: _0x187c56(0x364),
-        0x2b: _0x187c56(0xf4),
-        0x2c: _0x187c56(0x1dc),
-        0x2d: 'S&#857;',
-        0x2e: _0x187c56(0x42c),
-        0x2f: _0x187c56(0x468),
-        0x30: _0x187c56(0xc4),
-        0x31: _0x187c56(0x22f),
-        0x32: _0x187c56(0x3a0),
-        0x33: _0x187c56(0x17b),
-        0x34: _0x187c56(0x481),
-        0x35: '1&#857;',
-        0x36: _0x187c56(0x15),
-        0x37: '3&#857;',
-        0x38: _0x187c56(0x14a),
-        0x39: _0x187c56(0x510),
-        0x3a: _0x187c56(0x2a2),
-        0x3b: _0x187c56(0x123),
-        0x3c: '8&#857;',
-        0x3d: '9&#857;',
-        0x3e: _0x187c56(0xbd)
+    s24: {
+        1: "a&#857;",
+        2: "b&#857;",
+        3: "c&#857;",
+        4: "d&#857;",
+        5: "e&#857;",
+        6: "f&#857;",
+        7: "g&#857;",
+        8: "h&#857;",
+        9: "i&#857;",
+        10: "j&#857;",
+        11: "k&#857;",
+        12: "l&#857;",
+        13: "m&#857;",
+        14: "n&#857;",
+        15: "o&#857;",
+        16: "p&#857;",
+        17: "q&#857;",
+        18: "r&#857;",
+        19: "s&#857;",
+        20: "t&#857;",
+        21: "u&#857;",
+        22: "v&#857;",
+        23: "w&#857;",
+        24: "x&#857;",
+        25: "y&#857;",
+        26: "z&#857;",
+        27: "A&#857;",
+        28: "B&#857;",
+        29: "C&#857;",
+        30: "D&#857;",
+        31: "E&#857;",
+        32: "F&#857;",
+        33: "G&#857;",
+        34: "H&#857;",
+        35: "I&#857;",
+        36: "J&#857;",
+        37: "K&#857;",
+        38: "L&#857;",
+        39: "M&#857;",
+        40: "N&#857;",
+        41: "O&#857;",
+        42: "P&#857;",
+        43: "Q&#857;",
+        44: "R&#857;",
+        45: "S&#857;",
+        46: "T&#857;",
+        47: "U&#857;",
+        48: "V&#857;",
+        49: "W&#857;",
+        50: "X&#857;",
+        51: "Y&#857;",
+        52: "Z&#857;",
+        53: "1&#857;",
+        54: "2&#857;",
+        55: "3&#857;",
+        56: "4&#857;",
+        57: "5&#857;",
+        58: "6&#857;",
+        59: "7&#857;",
+        60: "8&#857;",
+        61: "9&#857;",
+        62: "0&#857;"
     },
-    's25': {
-        0x1: _0x187c56(0x2d2),
-        0x2: _0x187c56(0x409),
-        0x3: _0x187c56(0x3b8),
-        0x4: _0x187c56(0xc2),
-        0x5: _0x187c56(0x127),
-        0x6: _0x187c56(0x116),
-        0x7: _0x187c56(0x336),
-        0x8: _0x187c56(0x223),
-        0x9: _0x187c56(0x280),
-        0xa: _0x187c56(0x23d),
-        0xb: _0x187c56(0x65),
-        0xc: _0x187c56(0x4ae),
-        0xd: _0x187c56(0x3d4),
-        0xe: _0x187c56(0x1fb),
-        0xf: _0x187c56(0x4c2),
-        0x10: _0x187c56(0x288),
-        0x11: _0x187c56(0x1d7),
-        0x12: _0x187c56(0x4bf),
-        0x13: _0x187c56(0x18b),
-        0x14: _0x187c56(0x12b),
-        0x15: _0x187c56(0x142),
-        0x16: _0x187c56(0x2d9),
-        0x17: _0x187c56(0x74),
-        0x18: _0x187c56(0x492),
-        0x19: _0x187c56(0x433),
-        0x1a: 'z&#799;',
-        0x1b: _0x187c56(0x25),
-        0x1c: 'B&#799;',
-        0x1d: _0x187c56(0x145),
-        0x1e: _0x187c56(0x1bf),
-        0x1f: 'E&#799;',
-        0x20: 'F&#799;',
-        0x21: _0x187c56(0x3b),
-        0x22: 'H&#799;',
-        0x23: _0x187c56(0x511),
-        0x24: _0x187c56(0x26a),
-        0x25: 'K&#799;',
-        0x26: _0x187c56(0x498),
-        0x27: _0x187c56(0x14d),
-        0x28: _0x187c56(0x394),
-        0x29: _0x187c56(0x2a6),
-        0x2a: _0x187c56(0x84),
-        0x2b: _0x187c56(0x3f0),
-        0x2c: _0x187c56(0x4a5),
-        0x2d: _0x187c56(0x369),
-        0x2e: _0x187c56(0x133),
-        0x2f: _0x187c56(0x1db),
-        0x30: _0x187c56(0x4f9),
-        0x31: _0x187c56(0x1d),
-        0x32: 'X&#799;',
-        0x33: 'Y&#799;',
-        0x34: _0x187c56(0x349),
-        0x35: _0x187c56(0x51c),
-        0x36: _0x187c56(0x2eb),
-        0x37: _0x187c56(0x1c1),
-        0x38: _0x187c56(0x188),
-        0x39: _0x187c56(0x4ee),
-        0x3a: _0x187c56(0x1c4),
-        0x3b: '7&#799;',
-        0x3c: _0x187c56(0x320),
-        0x3d: _0x187c56(0x2ef),
-        0x3e: _0x187c56(0x2d3)
+    s25: {
+        1: "a&#799;",
+        2: "b&#799;",
+        3: "c&#799;",
+        4: "d&#799;",
+        5: "e&#799;",
+        6: "f&#799;",
+        7: "g&#799;",
+        8: "h&#799;",
+        9: "i&#799;",
+        10: "j&#799;",
+        11: "k&#799;",
+        12: "l&#799;",
+        13: "m&#799;",
+        14: "n&#799;",
+        15: "o&#799;",
+        16: "p&#799;",
+        17: "q&#799;",
+        18: "r&#799;",
+        19: "s&#799;",
+        20: "t&#799;",
+        21: "u&#799;",
+        22: "v&#799;",
+        23: "w&#799;",
+        24: "x&#799;",
+        25: "y&#799;",
+        26: "z&#799;",
+        27: "A&#799;",
+        28: "B&#799;",
+        29: "C&#799;",
+        30: "D&#799;",
+        31: "E&#799;",
+        32: "F&#799;",
+        33: "G&#799;",
+        34: "H&#799;",
+        35: "I&#799;",
+        36: "J&#799;",
+        37: "K&#799;",
+        38: "L&#799;",
+        39: "M&#799;",
+        40: "N&#799;",
+        41: "O&#799;",
+        42: "P&#799;",
+        43: "Q&#799;",
+        44: "R&#799;",
+        45: "S&#799;",
+        46: "T&#799;",
+        47: "U&#799;",
+        48: "V&#799;",
+        49: "W&#799;",
+        50: "X&#799;",
+        51: "Y&#799;",
+        52: "Z&#799;",
+        53: "1&#799;",
+        54: "2&#799;",
+        55: "3&#799;",
+        56: "4&#799;",
+        57: "5&#799;",
+        58: "6&#799;",
+        59: "7&#799;",
+        60: "8&#799;",
+        61: "9&#799;",
+        62: "0&#799;"
     },
-    's26': {
-        0x1: _0x187c56(0x392),
-        0x2: _0x187c56(0x1bb),
-        0x3: _0x187c56(0x390),
-        0x4: _0x187c56(0x2d0),
-        0x5: _0x187c56(0x8d),
-        0x6: _0x187c56(0x61),
-        0x7: _0x187c56(0x21b),
-        0x8: _0x187c56(0x1d1),
-        0x9: 'i&#846;',
-        0xa: _0x187c56(0x397),
-        0xb: _0x187c56(0x379),
-        0xc: _0x187c56(0xd0),
-        0xd: _0x187c56(0x399),
-        0xe: 'n&#846;',
-        0xf: 'o&#846;',
-        0x10: _0x187c56(0x4be),
-        0x11: _0x187c56(0x40f),
-        0x12: 'r&#846;',
-        0x13: _0x187c56(0x215),
-        0x14: 't&#846;',
-        0x15: _0x187c56(0x3c8),
-        0x16: _0x187c56(0x39d),
-        0x17: _0x187c56(0x60),
-        0x18: _0x187c56(0x1ad),
-        0x19: 'y&#846;',
-        0x1a: _0x187c56(0x4e1),
-        0x1b: _0x187c56(0x3a9),
-        0x1c: _0x187c56(0x247),
-        0x1d: _0x187c56(0x26d),
-        0x1e: _0x187c56(0xda),
-        0x1f: _0x187c56(0x6),
-        0x20: _0x187c56(0x2ac),
-        0x21: _0x187c56(0x38a),
-        0x22: 'H&#846;',
-        0x23: _0x187c56(0x333),
-        0x24: _0x187c56(0x3df),
-        0x25: _0x187c56(0x435),
-        0x26: 'L&#846;',
-        0x27: _0x187c56(0x2c1),
-        0x28: _0x187c56(0xca),
-        0x29: 'O&#846;',
-        0x2a: 'P&#846;',
-        0x2b: _0x187c56(0x3fc),
-        0x2c: _0x187c56(0x345),
-        0x2d: _0x187c56(0x2da),
-        0x2e: _0x187c56(0x50c),
-        0x2f: _0x187c56(0x93),
-        0x30: 'V&#846;',
-        0x31: _0x187c56(0x3e3),
-        0x32: _0x187c56(0xb),
-        0x33: _0x187c56(0x410),
-        0x34: _0x187c56(0x1f7),
-        0x35: _0x187c56(0x426),
-        0x36: '2&#846;',
-        0x37: '3&#846;',
-        0x38: _0x187c56(0x1c8),
-        0x39: _0x187c56(0x516),
-        0x3a: _0x187c56(0xb5),
-        0x3b: _0x187c56(0x268),
-        0x3c: _0x187c56(0x10a),
-        0x3d: _0x187c56(0x3c),
-        0x3e: '0&#846;'
+    s26: {
+        1: "a&#846;",
+        2: "b&#846;",
+        3: "c&#846;",
+        4: "d&#846;",
+        5: "e&#846;",
+        6: "f&#846;",
+        7: "g&#846;",
+        8: "h&#846;",
+        9: "i&#846;",
+        10: "j&#846;",
+        11: "k&#846;",
+        12: "l&#846;",
+        13: "m&#846;",
+        14: "n&#846;",
+        15: "o&#846;",
+        16: "p&#846;",
+        17: "q&#846;",
+        18: "r&#846;",
+        19: "s&#846;",
+        20: "t&#846;",
+        21: "u&#846;",
+        22: "v&#846;",
+        23: "w&#846;",
+        24: "x&#846;",
+        25: "y&#846;",
+        26: "z&#846;",
+        27: "A&#846;",
+        28: "B&#846;",
+        29: "C&#846;",
+        30: "D&#846;",
+        31: "E&#846;",
+        32: "F&#846;",
+        33: "G&#846;",
+        34: "H&#846;",
+        35: "I&#846;",
+        36: "J&#846;",
+        37: "K&#846;",
+        38: "L&#846;",
+        39: "M&#846;",
+        40: "N&#846;",
+        41: "O&#846;",
+        42: "P&#846;",
+        43: "Q&#846;",
+        44: "R&#846;",
+        45: "S&#846;",
+        46: "T&#846;",
+        47: "U&#846;",
+        48: "V&#846;",
+        49: "W&#846;",
+        50: "X&#846;",
+        51: "Y&#846;",
+        52: "Z&#846;",
+        53: "1&#846;",
+        54: "2&#846;",
+        55: "3&#846;",
+        56: "4&#846;",
+        57: "5&#846;",
+        58: "6&#846;",
+        59: "7&#846;",
+        60: "8&#846;",
+        61: "9&#846;",
+        62: "0&#846;"
     },
-    's27': {
-        0x1: _0x187c56(0x30c),
-        0x2: _0x187c56(0x18a),
-        0x3: _0x187c56(0x2b5),
-        0x4: _0x187c56(0x3f),
-        0x5: _0x187c56(0x462),
-        0x6: _0x187c56(0x271),
-        0x7: _0x187c56(0x125),
-        0x8: _0x187c56(0x199),
-        0x9: 'i&#829;&#851;',
-        0xa: 'j&#829;&#851;',
-        0xb: 'k&#829;&#851;',
-        0xc: 'l&#829;&#851;',
-        0xd: _0x187c56(0x41f),
-        0xe: 'n&#829;&#851;',
-        0xf: _0x187c56(0x45f),
-        0x10: _0x187c56(0x24b),
-        0x11: _0x187c56(0x163),
-        0x12: _0x187c56(0xec),
-        0x13: _0x187c56(0x4a4),
-        0x14: _0x187c56(0xd),
-        0x15: _0x187c56(0x3bb),
-        0x16: _0x187c56(0x14),
-        0x17: _0x187c56(0x91),
-        0x18: 'x&#829;&#851;',
-        0x19: _0x187c56(0x35e),
-        0x1a: _0x187c56(0x13f),
-        0x1b: 'A&#829;&#851;',
-        0x1c: _0x187c56(0x525),
-        0x1d: _0x187c56(0x1c3),
-        0x1e: _0x187c56(0x2d),
-        0x1f: _0x187c56(0x70),
-        0x20: _0x187c56(0x3b2),
-        0x21: _0x187c56(0x51d),
-        0x22: _0x187c56(0x49),
-        0x23: 'I&#829;&#851;',
-        0x24: 'J&#829;&#851;',
-        0x25: _0x187c56(0x437),
-        0x26: 'L&#829;&#851;',
-        0x27: _0x187c56(0x40c),
-        0x28: _0x187c56(0x14e),
-        0x29: 'O&#829;&#851;',
-        0x2a: _0x187c56(0x185),
-        0x2b: _0x187c56(0xef),
-        0x2c: _0x187c56(0x159),
-        0x2d: _0x187c56(0x241),
-        0x2e: _0x187c56(0x300),
-        0x2f: _0x187c56(0x450),
-        0x30: 'V&#829;&#851;',
-        0x31: _0x187c56(0x303),
-        0x32: _0x187c56(0x252),
-        0x33: 'Y&#829;&#851;',
-        0x34: 'Z&#829;&#851;',
-        0x35: _0x187c56(0x307),
-        0x36: '2&#829;&#851;',
-        0x37: _0x187c56(0x119),
-        0x38: _0x187c56(0x1e4),
-        0x39: _0x187c56(0x324),
-        0x3a: _0x187c56(0x1a7),
-        0x3b: _0x187c56(0x173),
-        0x3c: '8&#829;&#851;',
-        0x3d: '9&#829;&#851;',
-        0x3e: _0x187c56(0x50)
+    s27: {
+        1: "a&#829;&#851;",
+        2: "b&#829;&#851;",
+        3: "c&#829;&#851;",
+        4: "d&#829;&#851;",
+        5: "e&#829;&#851;",
+        6: "f&#829;&#851;",
+        7: "g&#829;&#851;",
+        8: "h&#829;&#851;",
+        9: "i&#829;&#851;",
+        10: "j&#829;&#851;",
+        11: "k&#829;&#851;",
+        12: "l&#829;&#851;",
+        13: "m&#829;&#851;",
+        14: "n&#829;&#851;",
+        15: "o&#829;&#851;",
+        16: "p&#829;&#851;",
+        17: "q&#829;&#851;",
+        18: "r&#829;&#851;",
+        19: "s&#829;&#851;",
+        20: "t&#829;&#851;",
+        21: "u&#829;&#851;",
+        22: "v&#829;&#851;",
+        23: "w&#829;&#851;",
+        24: "x&#829;&#851;",
+        25: "y&#829;&#851;",
+        26: "z&#829;&#851;",
+        27: "A&#829;&#851;",
+        28: "B&#829;&#851;",
+        29: "C&#829;&#851;",
+        30: "D&#829;&#851;",
+        31: "E&#829;&#851;",
+        32: "F&#829;&#851;",
+        33: "G&#829;&#851;",
+        34: "H&#829;&#851;",
+        35: "I&#829;&#851;",
+        36: "J&#829;&#851;",
+        37: "K&#829;&#851;",
+        38: "L&#829;&#851;",
+        39: "M&#829;&#851;",
+        40: "N&#829;&#851;",
+        41: "O&#829;&#851;",
+        42: "P&#829;&#851;",
+        43: "Q&#829;&#851;",
+        44: "R&#829;&#851;",
+        45: "S&#829;&#851;",
+        46: "T&#829;&#851;",
+        47: "U&#829;&#851;",
+        48: "V&#829;&#851;",
+        49: "W&#829;&#851;",
+        50: "X&#829;&#851;",
+        51: "Y&#829;&#851;",
+        52: "Z&#829;&#851;",
+        53: "1&#829;&#851;",
+        54: "2&#829;&#851;",
+        55: "3&#829;&#851;",
+        56: "4&#829;&#851;",
+        57: "5&#829;&#851;",
+        58: "6&#829;&#851;",
+        59: "7&#829;&#851;",
+        60: "8&#829;&#851;",
+        61: "9&#829;&#851;",
+        62: "0&#829;&#851;"
     },
-    's29': {
-        0x1: '&#120458;&#823;',
-        0x2: '&#120459;&#823;',
-        0x3: '&#120460;&#823;',
-        0x4: _0x187c56(0x4fc),
-        0x5: _0x187c56(0x43e),
-        0x6: _0x187c56(0xeb),
-        0x7: '&#120464;&#823;',
-        0x8: _0x187c56(0x4a1),
-        0x9: '&#120466;&#823;',
-        0xa: '&#120467;&#823;',
-        0xb: _0x187c56(0x1a1),
-        0xc: _0x187c56(0x96),
-        0xd: _0x187c56(0x151),
-        0xe: '&#120471;&#823;',
-        0xf: _0x187c56(0x2f9),
-        0x10: _0x187c56(0xe3),
-        0x11: _0x187c56(0x13b),
-        0x12: _0x187c56(0x47d),
-        0x13: '&#120476;&#823;',
-        0x14: '&#120477;&#823;',
-        0x15: _0x187c56(0x162),
-        0x16: _0x187c56(0x132),
-        0x17: _0x187c56(0x179),
-        0x18: _0x187c56(0x1cb),
-        0x19: _0x187c56(0x3ae),
-        0x1a: '&#120483;&#823;',
-        0x1b: '&#120432;&#823;',
-        0x1c: '&#120433;&#823;',
-        0x1d: '&#120434;&#823;',
-        0x1e: _0x187c56(0x23a),
-        0x1f: _0x187c56(0x294),
-        0x20: _0x187c56(0x22d),
-        0x21: _0x187c56(0x2aa),
-        0x22: _0x187c56(0x1f8),
-        0x23: '&#120440;&#823;',
-        0x24: _0x187c56(0x45a),
-        0x25: _0x187c56(0x5),
-        0x26: _0x187c56(0x3f4),
-        0x27: _0x187c56(0x15b),
-        0x28: _0x187c56(0x1e5),
-        0x29: _0x187c56(0x298),
-        0x2a: _0x187c56(0x4e7),
-        0x2b: _0x187c56(0x122),
-        0x2c: _0x187c56(0x34c),
-        0x2d: '&#120450;&#823;',
-        0x2e: '&#120451;&#823;',
-        0x2f: '&#120452;&#823;',
-        0x30: _0x187c56(0x2e5),
-        0x31: _0x187c56(0x396),
-        0x32: _0x187c56(0x34f),
-        0x33: _0x187c56(0x4ba),
-        0x34: _0x187c56(0x329),
-        0x35: '&#120823;&#823;',
-        0x36: _0x187c56(0x1d2),
-        0x37: _0x187c56(0x66),
-        0x38: '&#120826;&#823;',
-        0x39: _0x187c56(0x41a),
-        0x3a: _0x187c56(0x301),
-        0x3b: _0x187c56(0x50e),
-        0x3c: '&#120830;&#823;',
-        0x3d: _0x187c56(0x1bc),
-        0x3e: _0x187c56(0x296)
+    s29: {
+        1: "&#120458;&#823;",
+        2: "&#120459;&#823;",
+        3: "&#120460;&#823;",
+        4: "&#120461;&#823;",
+        5: "&#120462;&#823;",
+        6: "&#120463;&#823;",
+        7: "&#120464;&#823;",
+        8: "&#120465;&#823;",
+        9: "&#120466;&#823;",
+        10: "&#120467;&#823;",
+        11: "&#120468;&#823;",
+        12: "&#120469;&#823;",
+        13: "&#120470;&#823;",
+        14: "&#120471;&#823;",
+        15: "&#120472;&#823;",
+        16: "&#120473;&#823;",
+        17: "&#120474;&#823;",
+        18: "&#120475;&#823;",
+        19: "&#120476;&#823;",
+        20: "&#120477;&#823;",
+        21: "&#120478;&#823;",
+        22: "&#120479;&#823;",
+        23: "&#120480;&#823;",
+        24: "&#120481;&#823;",
+        25: "&#120482;&#823;",
+        26: "&#120483;&#823;",
+        27: "&#120432;&#823;",
+        28: "&#120433;&#823;",
+        29: "&#120434;&#823;",
+        30: "&#120435;&#823;",
+        31: "&#120436;&#823;",
+        32: "&#120437;&#823;",
+        33: "&#120438;&#823;",
+        34: "&#120439;&#823;",
+        35: "&#120440;&#823;",
+        36: "&#120441;&#823;",
+        37: "&#120442;&#823;",
+        38: "&#120443;&#823;",
+        39: "&#120444;&#823;",
+        40: "&#120445;&#823;",
+        41: "&#120446;&#823;",
+        42: "&#120447;&#823;",
+        43: "&#120448;&#823;",
+        44: "&#120449;&#823;",
+        45: "&#120450;&#823;",
+        46: "&#120451;&#823;",
+        47: "&#120452;&#823;",
+        48: "&#120453;&#823;",
+        49: "&#120454;&#823;",
+        50: "&#120455;&#823;",
+        51: "&#120456;&#823;",
+        52: "&#120457;&#823;",
+        53: "&#120823;&#823;",
+        54: "&#120824;&#823;",
+        55: "&#120825;&#823;",
+        56: "&#120826;&#823;",
+        57: "&#120827;&#823;",
+        58: "&#120828;&#823;",
+        59: "&#120829;&#823;",
+        60: "&#120830;&#823;",
+        61: "&#120831;&#823;",
+        62: "&#120822;&#823;"
     },
-    's30': {
-        0x1: _0x187c56(0x97),
-        0x2: _0x187c56(0x1ac),
-        0x3: 'c&#866;',
-        0x4: 'd&#866;',
-        0x5: 'e&#866;',
-        0x6: _0x187c56(0x3d8),
-        0x7: _0x187c56(0x103),
-        0x8: _0x187c56(0xea),
-        0x9: _0x187c56(0xc3),
-        0xa: _0x187c56(0x31),
-        0xb: _0x187c56(0x4e3),
-        0xc: _0x187c56(0x12e),
-        0xd: 'm&#866;',
-        0xe: 'n&#866;',
-        0xf: _0x187c56(0x499),
-        0x10: _0x187c56(0x1),
-        0x11: _0x187c56(0x254),
-        0x12: _0x187c56(0x197),
-        0x13: 's&#866;',
-        0x14: _0x187c56(0x193),
-        0x15: _0x187c56(0x507),
-        0x16: 'v&#866;',
-        0x17: 'w&#866;',
-        0x18: _0x187c56(0x253),
-        0x19: _0x187c56(0x1f5),
-        0x1a: _0x187c56(0x1a2),
-        0x1b: _0x187c56(0x161),
-        0x1c: 'B&#866;',
-        0x1d: _0x187c56(0x8),
-        0x1e: _0x187c56(0x2f0),
-        0x1f: _0x187c56(0x28a),
-        0x20: _0x187c56(0x41),
-        0x21: _0x187c56(0x95),
-        0x22: _0x187c56(0xd7),
-        0x23: _0x187c56(0x4f4),
-        0x24: _0x187c56(0x9e),
-        0x25: _0x187c56(0x279),
-        0x26: _0x187c56(0x2c2),
-        0x27: _0x187c56(0x315),
-        0x28: _0x187c56(0x192),
-        0x29: _0x187c56(0xe9),
-        0x2a: _0x187c56(0x286),
-        0x2b: _0x187c56(0xc0),
-        0x2c: 'R&#866;',
-        0x2d: _0x187c56(0x23),
-        0x2e: _0x187c56(0x1bd),
-        0x2f: _0x187c56(0x1ea),
-        0x30: _0x187c56(0x37b),
-        0x31: _0x187c56(0x2fb),
-        0x32: _0x187c56(0x4c1),
-        0x33: _0x187c56(0x2c8),
-        0x34: _0x187c56(0x37),
-        0x35: '1&#866;',
-        0x36: _0x187c56(0x4ac),
-        0x37: '3&#866;',
-        0x38: _0x187c56(0x228),
-        0x39: _0x187c56(0x30e),
-        0x3a: _0x187c56(0x29),
-        0x3b: _0x187c56(0x355),
-        0x3c: _0x187c56(0x4de),
-        0x3d: _0x187c56(0x238),
-        0x3e: '0&#866;'
+    s30: {
+        1: "a&#866;",
+        2: "b&#866;",
+        3: "c&#866;",
+        4: "d&#866;",
+        5: "e&#866;",
+        6: "f&#866;",
+        7: "g&#866;",
+        8: "h&#866;",
+        9: "i&#866;",
+        10: "j&#866;",
+        11: "k&#866;",
+        12: "l&#866;",
+        13: "m&#866;",
+        14: "n&#866;",
+        15: "o&#866;",
+        16: "p&#866;",
+        17: "q&#866;",
+        18: "r&#866;",
+        19: "s&#866;",
+        20: "t&#866;",
+        21: "u&#866;",
+        22: "v&#866;",
+        23: "w&#866;",
+        24: "x&#866;",
+        25: "y&#866;",
+        26: "z&#866;",
+        27: "A&#866;",
+        28: "B&#866;",
+        29: "C&#866;",
+        30: "D&#866;",
+        31: "E&#866;",
+        32: "F&#866;",
+        33: "G&#866;",
+        34: "H&#866;",
+        35: "I&#866;",
+        36: "J&#866;",
+        37: "K&#866;",
+        38: "L&#866;",
+        39: "M&#866;",
+        40: "N&#866;",
+        41: "O&#866;",
+        42: "P&#866;",
+        43: "Q&#866;",
+        44: "R&#866;",
+        45: "S&#866;",
+        46: "T&#866;",
+        47: "U&#866;",
+        48: "V&#866;",
+        49: "W&#866;",
+        50: "X&#866;",
+        51: "Y&#866;",
+        52: "Z&#866;",
+        53: "1&#866;",
+        54: "2&#866;",
+        55: "3&#866;",
+        56: "4&#866;",
+        57: "5&#866;",
+        58: "6&#866;",
+        59: "7&#866;",
+        60: "8&#866;",
+        61: "9&#866;",
+        62: "0&#866;"
     },
-    's31': {
-        0x1: _0x187c56(0xee),
-        0x2: _0x187c56(0xf0),
-        0x3: _0x187c56(0x3eb),
-        0x4: _0x187c56(0x22a),
-        0x5: 'e&#828;',
-        0x6: _0x187c56(0x313),
-        0x7: _0x187c56(0x115),
-        0x8: 'h&#828;',
-        0x9: 'i&#828;',
-        0xa: _0x187c56(0x4f2),
-        0xb: _0x187c56(0xfa),
-        0xc: _0x187c56(0x2d8),
-        0xd: _0x187c56(0x42f),
-        0xe: 'n&#828;',
-        0xf: 'o&#828;',
-        0x10: 'p&#828;',
-        0x11: _0x187c56(0x8a),
-        0x12: 'r&#828;',
-        0x13: _0x187c56(0x1b6),
-        0x14: _0x187c56(0x71),
-        0x15: _0x187c56(0xd8),
-        0x16: 'v&#828;',
-        0x17: _0x187c56(0x31b),
-        0x18: _0x187c56(0x504),
-        0x19: _0x187c56(0x526),
-        0x1a: _0x187c56(0xde),
-        0x1b: _0x187c56(0x357),
-        0x1c: 'B&#828;',
-        0x1d: _0x187c56(0x354),
-        0x1e: _0x187c56(0x220),
-        0x1f: _0x187c56(0x458),
-        0x20: _0x187c56(0x503),
-        0x21: _0x187c56(0x469),
-        0x22: _0x187c56(0xe5),
-        0x23: _0x187c56(0x13e),
-        0x24: 'J&#828;',
-        0x25: _0x187c56(0x12f),
-        0x26: _0x187c56(0x32d),
-        0x27: _0x187c56(0xd1),
-        0x28: _0x187c56(0x29b),
-        0x29: 'O&#828;',
-        0x2a: _0x187c56(0xbf),
-        0x2b: 'Q&#828;',
-        0x2c: _0x187c56(0x44a),
-        0x2d: _0x187c56(0xd2),
-        0x2e: 'T&#828;',
-        0x2f: _0x187c56(0x447),
-        0x30: _0x187c56(0x4d3),
-        0x31: _0x187c56(0x7),
-        0x32: _0x187c56(0x156),
-        0x33: _0x187c56(0x40b),
-        0x34: _0x187c56(0x2cf),
-        0x35: _0x187c56(0x11),
-        0x36: '2&#828;',
-        0x37: _0x187c56(0x47f),
-        0x38: _0x187c56(0x203),
-        0x39: _0x187c56(0x436),
-        0x3a: _0x187c56(0x264),
-        0x3b: _0x187c56(0x4d4),
-        0x3c: _0x187c56(0x7c),
-        0x3d: _0x187c56(0x261),
-        0x3e: '0&#828;'
+    s31: {
+        1: "a&#828;",
+        2: "b&#828;",
+        3: "c&#828;",
+        4: "d&#828;",
+        5: "e&#828;",
+        6: "f&#828;",
+        7: "g&#828;",
+        8: "h&#828;",
+        9: "i&#828;",
+        10: "j&#828;",
+        11: "k&#828;",
+        12: "l&#828;",
+        13: "m&#828;",
+        14: "n&#828;",
+        15: "o&#828;",
+        16: "p&#828;",
+        17: "q&#828;",
+        18: "r&#828;",
+        19: "s&#828;",
+        20: "t&#828;",
+        21: "u&#828;",
+        22: "v&#828;",
+        23: "w&#828;",
+        24: "x&#828;",
+        25: "y&#828;",
+        26: "z&#828;",
+        27: "A&#828;",
+        28: "B&#828;",
+        29: "C&#828;",
+        30: "D&#828;",
+        31: "E&#828;",
+        32: "F&#828;",
+        33: "G&#828;",
+        34: "H&#828;",
+        35: "I&#828;",
+        36: "J&#828;",
+        37: "K&#828;",
+        38: "L&#828;",
+        39: "M&#828;",
+        40: "N&#828;",
+        41: "O&#828;",
+        42: "P&#828;",
+        43: "Q&#828;",
+        44: "R&#828;",
+        45: "S&#828;",
+        46: "T&#828;",
+        47: "U&#828;",
+        48: "V&#828;",
+        49: "W&#828;",
+        50: "X&#828;",
+        51: "Y&#828;",
+        52: "Z&#828;",
+        53: "1&#828;",
+        54: "2&#828;",
+        55: "3&#828;",
+        56: "4&#828;",
+        57: "5&#828;",
+        58: "6&#828;",
+        59: "7&#828;",
+        60: "8&#828;",
+        61: "9&#828;",
+        62: "0&#828;"
     }
 };
 
-function Change(_0x5f2985, _0x1b2932) {
-    var _0x4d6ec7 = _0x187c56,
-        _0x1942ac = '',
-        _0x5f2985 = _0x5f2985;
-    if (_0x5f2985[_0x4d6ec7(0x5f)] == 0x0) return;
-    for (i = 0x0; i < _0x5f2985[_0x4d6ec7(0x5f)]; i++) {
-        var _0x455ae1 = _0x5f2985['charAt'](i),
-            _0x32f691 = normal['indexOf'](_0x455ae1) + 0x1;
-        if (_0x455ae1 == '\x20') _0x1942ac += '\x20';
-        else !_0x32f691 ? _0x1942ac += _0x455ae1 : _0x1942ac += newtext[_0x1b2932][_0x32f691];
+function Change(_0x59eex9e, _0x59eex9f) {
+    var _0x59eex4 = "";
+    var _0x59eex9e = _0x59eex9e;
+    if (_0x59eex9e["length"] == 0) {
+        return
     }
-    return _0x1942ac;
+    for (i = 0; i < _0x59eex9e["length"]; i++) {
+        var _0x59eex6 = _0x59eex9e["charAt"](i),
+            _0x59eexa0 = normal["indexOf"](_0x59eex6) + 1;
+        if (_0x59eex6 == " ") {
+            _0x59eex4 += " "
+        } else {
+            if (!_0x59eexa0) {
+                _0x59eex4 += _0x59eex6
+            } else {
+                _0x59eex4 += newtext[_0x59eex9f][_0x59eexa0]
+            }
+        }
+    }
+    return _0x59eex4
 }
 const futureAlienCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ᗩ',
-        'b': 'ᗷ',
-        'c': 'ᑢ',
-        'd': 'ᕲ',
-        'e': 'ᘿ',
-        'f': 'ᖴ',
-        'g': 'ᘜ',
-        'h': 'ᕼ',
-        'i': 'ᓰ',
-        'j': 'ᒚ',
-        'k': 'ᖽᐸ',
-        'l': 'ᒪ',
-        'm': 'ᘻ',
-        'n': 'ᘉ',
-        'o': 'ᓍ',
-        'p': 'ᕵ',
-        'q': 'ᕴ',
-        'r': 'ᖇ',
-        's': 'S',
-        't': 'ᖶ',
-        'u': 'ᑘ',
-        'v': 'ᐺ',
-        'w': 'ᘺ',
-        'x': '᙭',
-        'y': 'ᖻ',
-        'z': 'ᗱ',
-        'A': 'ᗩ',
-        'B': 'ᗷ',
-        'C': 'ᑢ',
-        'D': 'ᕲ',
-        'E': 'ᘿ',
-        'F': 'ᖴ',
-        'G': 'ᘜ',
-        'H': 'ᕼ',
-        'I': 'ᓰ',
-        'J': 'ᒚ',
-        'K': 'ᖽᐸ',
-        'L': 'ᒪ',
-        'M': 'ᘻ',
-        'N': 'ᘉ',
-        'O': 'ᓍ',
-        'P': 'ᕵ',
-        'Q': 'ᕴ',
-        'R': 'ᖇ',
-        'S': 'S',
-        'T': 'ᖶ',
-        'U': 'ᑘ',
-        'V': 'ᐺ',
-        'W': 'ᘺ',
-        'X': '᙭',
-        'Y': 'ᖻ',
-        'Z': 'ᗱ'
-    },
-    squiggle6CharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ค',
-        'b': '๖',
-        'c': '¢',
-        'd': '໓',
-        'e': 'ē',
-        'f': 'f',
-        'g': 'ງ',
-        'h': 'h',
-        'i': 'i',
-        'j': 'ว',
-        'k': 'k',
-        'l': 'l',
-        'm': '๓',
-        'n': 'ຖ',
-        'o': '໐',
-        'p': 'p',
-        'q': '๑',
-        'r': 'r',
-        's': 'Ş',
-        't': 't',
-        'u': 'น',
-        'v': 'ง',
-        'w': 'ຟ',
-        'x': 'x',
-        'y': 'ฯ',
-        'z': 'ຊ',
-        'A': 'ค',
-        'B': '๖',
-        'C': '¢',
-        'D': '໓',
-        'E': 'ē',
-        'F': 'f',
-        'G': 'ງ',
-        'H': 'h',
-        'I': 'i',
-        'J': 'ว',
-        'K': 'k',
-        'L': 'l',
-        'M': '๓',
-        'N': 'ຖ',
-        'O': '໐',
-        'P': 'p',
-        'Q': '๑',
-        'R': 'r',
-        'S': 'Ş',
-        'T': 't',
-        'U': 'น',
-        'V': 'ง',
-        'W': 'ຟ',
-        'X': 'x',
-        'Y': 'ฯ',
-        'Z': 'ຊ'
-    },
-    squiggle5CharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ą',
-        'b': 'ც',
-        'c': 'ƈ',
-        'd': 'ɖ',
-        'e': 'ɛ',
-        'f': 'ʄ',
-        'g': 'ɠ',
-        'h': 'ɧ',
-        'i': 'ı',
-        'j': 'ʝ',
-        'k': 'ƙ',
-        'l': 'Ɩ',
-        'm': 'ɱ',
-        'n': 'ŋ',
-        'o': 'ơ',
-        'p': '℘',
-        'q': 'զ',
-        'r': 'ཞ',
-        's': 'ʂ',
-        't': 'ɬ',
-        'u': 'ų',
-        'v': '۷',
-        'w': 'ῳ',
-        'x': 'ҳ',
-        'y': 'ყ',
-        'z': 'ʑ',
-        'A': 'ą',
-        'B': 'ც',
-        'C': 'ƈ',
-        'D': 'ɖ',
-        'E': 'ɛ',
-        'F': 'ʄ',
-        'G': 'ɠ',
-        'H': 'ɧ',
-        'I': 'ı',
-        'J': 'ʝ',
-        'K': 'ƙ',
-        'L': 'Ɩ',
-        'M': 'ɱ',
-        'N': 'ŋ',
-        'O': 'ơ',
-        'P': '℘',
-        'Q': 'զ',
-        'R': 'ཞ',
-        'S': 'ʂ',
-        'T': 'ɬ',
-        'U': 'ų',
-        'V': '۷',
-        'W': 'ῳ',
-        'X': 'ҳ',
-        'Y': 'ყ',
-        'Z': 'ʑ'
-    },
-    asianStyle2CharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ﾑ',
-        'b': '乃',
-        'c': 'ᄃ',
-        'd': 'り',
-        'e': '乇',
-        'f': 'ｷ',
-        'g': 'ム',
-        'h': 'ん',
-        'i': 'ﾉ',
-        'j': 'ﾌ',
-        'k': 'ズ',
-        'l': 'ﾚ',
-        'm': 'ﾶ',
-        'n': '刀',
-        'o': 'の',
-        'p': 'ｱ',
-        'q': 'ゐ',
-        'r': '尺',
-        's': '丂',
-        't': 'ｲ',
-        'u': 'ひ',
-        'v': '√',
-        'w': 'W',
-        'x': 'ﾒ',
-        'y': 'ﾘ',
-        'z': '乙',
-        'A': 'ﾑ',
-        'B': '乃',
-        'C': 'ᄃ',
-        'D': 'り',
-        'E': '乇',
-        'F': 'ｷ',
-        'G': 'ム',
-        'H': 'ん',
-        'I': 'ﾉ',
-        'J': 'ﾌ',
-        'K': 'ズ',
-        'L': 'ﾚ',
-        'M': 'ﾶ',
-        'N': '刀',
-        'O': 'の',
-        'P': 'ｱ',
-        'Q': 'ゐ',
-        'R': '尺',
-        'S': '丂',
-        'T': 'ｲ',
-        'U': 'ひ',
-        'V': '√',
-        'W': 'W',
-        'X': 'ﾒ',
-        'Y': 'ﾘ',
-        'Z': '乙'
-    },
-    asianStyleCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '卂',
-        'b': '乃',
-        'c': '匚',
-        'd': 'ᗪ',
-        'e': '乇',
-        'f': '千',
-        'g': 'Ꮆ',
-        'h': '卄',
-        'i': '丨',
-        'j': 'ﾌ',
-        'k': 'Ҝ',
-        'l': 'ㄥ',
-        'm': '爪',
-        'n': '几',
-        'o': 'ㄖ',
-        'p': '卩',
-        'q': 'Ɋ',
-        'r': '尺',
-        's': '丂',
-        't': 'ㄒ',
-        'u': 'ㄩ',
-        'v': 'ᐯ',
-        'w': '山',
-        'x': '乂',
-        'y': 'ㄚ',
-        'z': '乙',
-        'A': '卂',
-        'B': '乃',
-        'C': '匚',
-        'D': 'ᗪ',
-        'E': '乇',
-        'F': '千',
-        'G': 'Ꮆ',
-        'H': '卄',
-        'I': '丨',
-        'J': 'ﾌ',
-        'K': 'Ҝ',
-        'L': 'ㄥ',
-        'M': '爪',
-        'N': '几',
-        'O': 'ㄖ',
-        'P': '卩',
-        'Q': 'Ɋ',
-        'R': '尺',
-        'S': '丂',
-        'T': 'ㄒ',
-        'U': 'ㄩ',
-        'V': 'ᐯ',
-        'W': '山',
-        'X': '乂',
-        'Y': 'ㄚ',
-        'Z': '乙'
-    },
-    squaresCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '🄰',
-        'b': '🄱',
-        'c': '🄲',
-        'd': '🄳',
-        'e': '🄴',
-        'f': '🄵',
-        'g': '🄶',
-        'h': '🄷',
-        'i': '🄸',
-        'j': '🄹',
-        'k': '🄺',
-        'l': '🄻',
-        'm': '🄼',
-        'n': '🄽',
-        'o': '🄾',
-        'p': '🄿',
-        'q': '🅀',
-        'r': '🅁',
-        's': '🅂',
-        't': '🅃',
-        'u': '🅄',
-        'v': '🅅',
-        'w': '🅆',
-        'x': '🅇',
-        'y': '🅈',
-        'z': '🅉',
-        'A': '🄰',
-        'B': '🄱',
-        'C': '🄲',
-        'D': '🄳',
-        'E': '🄴',
-        'F': '🄵',
-        'G': '🄶',
-        'H': '🄷',
-        'I': '🄸',
-        'J': '🄹',
-        'K': '🄺',
-        'L': '🄻',
-        'M': '🄼',
-        'N': '🄽',
-        'O': '🄾',
-        'P': '🄿',
-        'Q': '🅀',
-        'R': '🅁',
-        'S': '🅂',
-        'T': '🅃',
-        'U': '🅄',
-        'V': '🅅',
-        'W': '🅆',
-        'X': '🅇',
-        'Y': '🅈',
-        'Z': '🅉'
-    },
-    squiggle4CharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'Ꮧ',
-        'b': 'Ᏸ',
-        'c': 'ፈ',
-        'd': 'Ꮄ',
-        'e': 'Ꮛ',
-        'f': 'Ꭶ',
-        'g': 'Ꮆ',
-        'h': 'Ꮒ',
-        'i': 'Ꭵ',
-        'j': 'Ꮰ',
-        'k': 'Ꮶ',
-        'l': 'Ꮭ',
-        'm': 'Ꮇ',
-        'n': 'Ꮑ',
-        'o': 'Ꭷ',
-        'p': 'Ꭾ',
-        'q': 'Ꭴ',
-        'r': 'Ꮢ',
-        's': 'Ꮥ',
-        't': 'Ꮦ',
-        'u': 'Ꮼ',
-        'v': 'Ꮙ',
-        'w': 'Ꮗ',
-        'x': 'ጀ',
-        'y': 'Ꭹ',
-        'z': 'ፚ',
-        'A': 'Ꮧ',
-        'B': 'Ᏸ',
-        'C': 'ፈ',
-        'D': 'Ꮄ',
-        'E': 'Ꮛ',
-        'F': 'Ꭶ',
-        'G': 'Ꮆ',
-        'H': 'Ꮒ',
-        'I': 'Ꭵ',
-        'J': 'Ꮰ',
-        'K': 'Ꮶ',
-        'L': 'Ꮭ',
-        'M': 'Ꮇ',
-        'N': 'Ꮑ',
-        'O': 'Ꭷ',
-        'P': 'Ꭾ',
-        'Q': 'Ꭴ',
-        'R': 'Ꮢ',
-        'S': 'Ꮥ',
-        'T': 'Ꮦ',
-        'U': 'Ꮼ',
-        'V': 'Ꮙ',
-        'W': 'Ꮗ',
-        'X': 'ጀ',
-        'Y': 'Ꭹ',
-        'Z': 'ፚ'
-    },
-    neonCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ᗩ',
-        'b': 'ᗷ',
-        'c': 'ᑕ',
-        'd': 'ᗪ',
-        'e': 'E',
-        'f': 'ᖴ',
-        'g': 'G',
-        'h': 'ᕼ',
-        'i': 'I',
-        'j': 'ᒍ',
-        'k': 'K',
-        'l': 'ᒪ',
-        'm': 'ᗰ',
-        'n': 'ᑎ',
-        'o': 'O',
-        'p': 'ᑭ',
-        'q': 'ᑫ',
-        'r': 'ᖇ',
-        's': 'ᔕ',
-        't': 'T',
-        'u': 'ᑌ',
-        'v': 'ᐯ',
-        'w': 'ᗯ',
-        'x': '᙭',
-        'y': 'Y',
-        'z': 'ᘔ',
-        'A': 'ᗩ',
-        'B': 'ᗷ',
-        'C': 'ᑕ',
-        'D': 'ᗪ',
-        'E': 'E',
-        'F': 'ᖴ',
-        'G': 'G',
-        'H': 'ᕼ',
-        'I': 'I',
-        'J': 'ᒍ',
-        'K': 'K',
-        'L': 'ᒪ',
-        'M': 'ᗰ',
-        'N': 'ᑎ',
-        'O': 'O',
-        'P': 'ᑭ',
-        'Q': 'ᑫ',
-        'R': 'ᖇ',
-        'S': 'ᔕ',
-        'T': 'T',
-        'U': 'ᑌ',
-        'V': 'ᐯ',
-        'W': 'ᗯ',
-        'X': '᙭',
-        'Y': 'Y',
-        'Z': 'ᘔ'
-    },
-    squiggle3CharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ǟ',
-        'b': 'ɮ',
-        'c': 'ƈ',
-        'd': 'ɖ',
-        'e': 'ɛ',
-        'f': 'ʄ',
-        'g': 'ɢ',
-        'h': 'ɦ',
-        'i': 'ɨ',
-        'j': 'ʝ',
-        'k': 'ӄ',
-        'l': 'ʟ',
-        'm': 'ʍ',
-        'n': 'ռ',
-        'o': 'օ',
-        'p': 'ք',
-        'q': 'զ',
-        'r': 'ʀ',
-        's': 'ֆ',
-        't': 'ȶ',
-        'u': 'ʊ',
-        'v': 'ʋ',
-        'w': 'ա',
-        'x': 'Ӽ',
-        'y': 'ʏ',
-        'z': 'ʐ',
-        'A': 'ǟ',
-        'B': 'ɮ',
-        'C': 'ƈ',
-        'D': 'ɖ',
-        'E': 'ɛ',
-        'F': 'ʄ',
-        'G': 'ɢ',
-        'H': 'ɦ',
-        'I': 'ɨ',
-        'J': 'ʝ',
-        'K': 'ӄ',
-        'L': 'ʟ',
-        'M': 'ʍ',
-        'N': 'ռ',
-        'O': 'օ',
-        'P': 'ք',
-        'Q': 'զ',
-        'R': 'ʀ',
-        'S': 'ֆ',
-        'T': 'ȶ',
-        'U': 'ʊ',
-        'V': 'ʋ',
-        'W': 'ա',
-        'X': 'Ӽ',
-        'Y': 'ʏ',
-        'Z': 'ʐ'
-    },
-    monospaceCharMap = {
-        0x0: '𝟶',
-        0x1: '𝟷',
-        0x2: '𝟸',
-        0x3: '𝟹',
-        0x4: '𝟺',
-        0x5: '𝟻',
-        0x6: '𝟼',
-        0x7: '𝟽',
-        0x8: '𝟾',
-        0x9: '𝟿',
-        'a': '𝚊',
-        'b': '𝚋',
-        'c': '𝚌',
-        'd': '𝚍',
-        'e': '𝚎',
-        'f': '𝚏',
-        'g': '𝚐',
-        'h': '𝚑',
-        'i': '𝚒',
-        'j': '𝚓',
-        'k': '𝚔',
-        'l': '𝚕',
-        'm': '𝚖',
-        'n': '𝚗',
-        'o': '𝚘',
-        'p': '𝚙',
-        'q': '𝚚',
-        'r': '𝚛',
-        's': '𝚜',
-        't': '𝚝',
-        'u': '𝚞',
-        'v': '𝚟',
-        'w': '𝚠',
-        'x': '𝚡',
-        'y': '𝚢',
-        'z': '𝚣',
-        'A': '𝙰',
-        'B': '𝙱',
-        'C': '𝙲',
-        'D': '𝙳',
-        'E': '𝙴',
-        'F': '𝙵',
-        'G': '𝙶',
-        'H': '𝙷',
-        'I': '𝙸',
-        'J': '𝙹',
-        'K': '𝙺',
-        'L': '𝙻',
-        'M': '𝙼',
-        'N': '𝙽',
-        'O': '𝙾',
-        'P': '𝙿',
-        'Q': '𝚀',
-        'R': '𝚁',
-        'S': '𝚂',
-        'T': '𝚃',
-        'U': '𝚄',
-        'V': '𝚅',
-        'W': '𝚆',
-        'X': '𝚇',
-        'Y': '𝚈',
-        'Z': '𝚉'
-    },
-    boldItalicCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '𝙖',
-        'b': '𝙗',
-        'c': '𝙘',
-        'd': '𝙙',
-        'e': '𝙚',
-        'f': '𝙛',
-        'g': '𝙜',
-        'h': '𝙝',
-        'i': '𝙞',
-        'j': '𝙟',
-        'k': '𝙠',
-        'l': '𝙡',
-        'm': '𝙢',
-        'n': '𝙣',
-        'o': '𝙤',
-        'p': '𝙥',
-        'q': '𝙦',
-        'r': '𝙧',
-        's': '𝙨',
-        't': '𝙩',
-        'u': '𝙪',
-        'v': '𝙫',
-        'w': '𝙬',
-        'x': '𝙭',
-        'y': '𝙮',
-        'z': '𝙯',
-        'A': '𝘼',
-        'B': '𝘽',
-        'C': '𝘾',
-        'D': '𝘿',
-        'E': '𝙀',
-        'F': '𝙁',
-        'G': '𝙂',
-        'H': '𝙃',
-        'I': '𝙄',
-        'J': '𝙅',
-        'K': '𝙆',
-        'L': '𝙇',
-        'M': '𝙈',
-        'N': '𝙉',
-        'O': '𝙊',
-        'P': '𝙋',
-        'Q': '𝙌',
-        'R': '𝙍',
-        'S': '𝙎',
-        'T': '𝙏',
-        'U': '𝙐',
-        'V': '𝙑',
-        'W': '𝙒',
-        'X': '𝙓',
-        'Y': '𝙔',
-        'Z': '𝙕'
-    },
-    boldCharMap = {
-        0x0: '𝟎',
-        0x1: '𝟏',
-        0x2: '𝟐',
-        0x3: '𝟑',
-        0x4: '𝟒',
-        0x5: '𝟓',
-        0x6: '𝟔',
-        0x7: '𝟕',
-        0x8: '𝟖',
-        0x9: '𝟗',
-        'a': '𝐚',
-        'b': '𝐛',
-        'c': '𝐜',
-        'd': '𝐝',
-        'e': '𝐞',
-        'f': '𝐟',
-        'g': '𝐠',
-        'h': '𝐡',
-        'i': '𝐢',
-        'j': '𝐣',
-        'k': '𝐤',
-        'l': '𝐥',
-        'm': '𝐦',
-        'n': '𝐧',
-        'o': '𝐨',
-        'p': '𝐩',
-        'q': '𝐪',
-        'r': '𝐫',
-        's': '𝐬',
-        't': '𝐭',
-        'u': '𝐮',
-        'v': '𝐯',
-        'w': '𝐰',
-        'x': '𝐱',
-        'y': '𝐲',
-        'z': '𝐳',
-        'A': '𝐀',
-        'B': '𝐁',
-        'C': '𝐂',
-        'D': '𝐃',
-        'E': '𝐄',
-        'F': '𝐅',
-        'G': '𝐆',
-        'H': '𝐇',
-        'I': '𝐈',
-        'J': '𝐉',
-        'K': '𝐊',
-        'L': '𝐋',
-        'M': '𝐌',
-        'N': '𝐍',
-        'O': '𝐎',
-        'P': '𝐏',
-        'Q': '𝐐',
-        'R': '𝐑',
-        'S': '𝐒',
-        'T': '𝐓',
-        'U': '𝐔',
-        'V': '𝐕',
-        'W': '𝐖',
-        'X': '𝐗',
-        'Y': '𝐘',
-        'Z': '𝐙'
-    },
-    italicCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '𝘢',
-        'b': '𝘣',
-        'c': '𝘤',
-        'd': '𝘥',
-        'e': '𝘦',
-        'f': '𝘧',
-        'g': '𝘨',
-        'h': '𝘩',
-        'i': '𝘪',
-        'j': '𝘫',
-        'k': '𝘬',
-        'l': '𝘭',
-        'm': '𝘮',
-        'n': '𝘯',
-        'o': '𝘰',
-        'p': '𝘱',
-        'q': '𝘲',
-        'r': '𝘳',
-        's': '𝘴',
-        't': '𝘵',
-        'u': '𝘶',
-        'v': '𝘷',
-        'w': '𝘸',
-        'x': '𝘹',
-        'y': '𝘺',
-        'z': '𝘻',
-        'A': '𝘈',
-        'B': '𝘉',
-        'C': '𝘊',
-        'D': '𝘋',
-        'E': '𝘌',
-        'F': '𝘍',
-        'G': '𝘎',
-        'H': '𝘏',
-        'I': '𝘐',
-        'J': '𝘑',
-        'K': '𝘒',
-        'L': '𝘓',
-        'M': '𝘔',
-        'N': '𝘕',
-        'O': '𝘖',
-        'P': '𝘗',
-        'Q': '𝘘',
-        'R': '𝘙',
-        'S': '𝘚',
-        'T': '𝘛',
-        'U': '𝘜',
-        'V': '𝘝',
-        'W': '𝘞',
-        'X': '𝘟',
-        'Y': '𝘠',
-        'Z': '𝘡'
-    },
-    squiggle2CharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'α',
-        'b': 'Ⴆ',
-        'c': 'ƈ',
-        'd': 'ԃ',
-        'e': 'ҽ',
-        'f': 'ϝ',
-        'g': 'ɠ',
-        'h': 'ԋ',
-        'i': 'ι',
-        'j': 'ʝ',
-        'k': 'ƙ',
-        'l': 'ʅ',
-        'm': 'ɱ',
-        'n': 'ɳ',
-        'o': 'σ',
-        'p': 'ρ',
-        'q': 'ϙ',
-        'r': 'ɾ',
-        's': 'ʂ',
-        't': 'ƚ',
-        'u': 'υ',
-        'v': 'ʋ',
-        'w': 'ɯ',
-        'x': 'x',
-        'y': 'ყ',
-        'z': 'ȥ',
-        'A': 'A',
-        'B': 'B',
-        'C': 'C',
-        'D': 'D',
-        'E': 'E',
-        'F': 'F',
-        'G': 'G',
-        'H': 'H',
-        'I': 'I',
-        'J': 'J',
-        'K': 'K',
-        'L': 'L',
-        'M': 'M',
-        'N': 'N',
-        'O': 'O',
-        'P': 'P',
-        'Q': 'Q',
-        'R': 'R',
-        'S': 'S',
-        'T': 'T',
-        'U': 'U',
-        'V': 'V',
-        'W': 'W',
-        'X': 'X',
-        'Y': 'Y',
-        'Z': 'Z'
-    },
-    currencyCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '₳',
-        'b': '฿',
-        'c': '₵',
-        'd': 'Đ',
-        'e': 'Ɇ',
-        'f': '₣',
-        'g': '₲',
-        'h': 'Ⱨ',
-        'i': 'ł',
-        'j': 'J',
-        'k': '₭',
-        'l': 'Ⱡ',
-        'm': '₥',
-        'n': '₦',
-        'o': 'Ø',
-        'p': '₱',
-        'q': 'Q',
-        'r': 'Ɽ',
-        's': '₴',
-        't': '₮',
-        'u': 'Ʉ',
-        'v': 'V',
-        'w': '₩',
-        'x': 'Ӿ',
-        'y': 'Ɏ',
-        'z': 'Ⱬ',
-        'A': '₳',
-        'B': '฿',
-        'C': '₵',
-        'D': 'Đ',
-        'E': 'Ɇ',
-        'F': '₣',
-        'G': '₲',
-        'H': 'Ⱨ',
-        'I': 'ł',
-        'J': 'J',
-        'K': '₭',
-        'L': 'Ⱡ',
-        'M': '₥',
-        'N': '₦',
-        'O': 'Ø',
-        'P': '₱',
-        'Q': 'Q',
-        'R': 'Ɽ',
-        'S': '₴',
-        'T': '₮',
-        'U': 'Ʉ',
-        'V': 'V',
-        'W': '₩',
-        'X': 'Ӿ',
-        'Y': 'Ɏ',
-        'Z': 'Ⱬ'
-    },
-    symbolsCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'å',
-        'b': 'ß',
-        'c': '¢',
-        'd': 'Ð',
-        'e': 'ê',
-        'f': '£',
-        'g': 'g',
-        'h': 'h',
-        'i': 'ï',
-        'j': 'j',
-        'k': 'k',
-        'l': 'l',
-        'm': 'm',
-        'n': 'ñ',
-        'o': 'ð',
-        'p': 'þ',
-        'q': 'q',
-        'r': 'r',
-        's': '§',
-        't': '†',
-        'u': 'µ',
-        'v': 'v',
-        'w': 'w',
-        'x': 'x',
-        'y': '¥',
-        'z': 'z',
-        'A': 'Ä',
-        'B': 'ß',
-        'C': 'Ç',
-        'D': 'Ð',
-        'E': 'È',
-        'F': '£',
-        'G': 'G',
-        'H': 'H',
-        'I': 'Ì',
-        'J': 'J',
-        'K': 'K',
-        'L': 'L',
-        'M': 'M',
-        'N': 'ñ',
-        'O': 'Ö',
-        'P': 'þ',
-        'Q': 'Q',
-        'R': 'R',
-        'S': '§',
-        'T': '†',
-        'U': 'Ú',
-        'V': 'V',
-        'W': 'W',
-        'X': '×',
-        'Y': '¥',
-        'Z': 'Z'
-    },
-    greekCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'α',
-        'b': 'в',
-        'c': '¢',
-        'd': '∂',
-        'e': 'є',
-        'f': 'ƒ',
-        'g': 'g',
-        'h': 'н',
-        'i': 'ι',
-        'j': 'נ',
-        'k': 'к',
-        'l': 'ℓ',
-        'm': 'м',
-        'n': 'η',
-        'o': 'σ',
-        'p': 'ρ',
-        'q': 'q',
-        'r': 'я',
-        's': 'ѕ',
-        't': 'т',
-        'u': 'υ',
-        'v': 'ν',
-        'w': 'ω',
-        'x': 'χ',
-        'y': 'у',
-        'z': 'z',
-        'A': 'α',
-        'B': 'в',
-        'C': '¢',
-        'D': '∂',
-        'E': 'є',
-        'F': 'ƒ',
-        'G': 'g',
-        'H': 'н',
-        'I': 'ι',
-        'J': 'נ',
-        'K': 'к',
-        'L': 'ℓ',
-        'M': 'м',
-        'N': 'η',
-        'O': 'σ',
-        'P': 'ρ',
-        'Q': 'q',
-        'R': 'я',
-        'S': 'ѕ',
-        'T': 'т',
-        'U': 'υ',
-        'V': 'ν',
-        'W': 'ω',
-        'X': 'χ',
-        'Y': 'у',
-        'Z': 'z'
-    },
-    bentTextCharMap = {
-        0x0: '⊘',
-        0x1: '𝟙',
-        0x2: 'ϩ',
-        0x3: 'Ӡ',
-        0x4: '५',
-        0x5: 'Ƽ',
-        0x6: 'Ϭ',
-        0x7: '7',
-        0x8: '𝟠',
-        0x9: '९',
-        'a': 'ą',
-        'b': 'ҍ',
-        'c': 'ç',
-        'd': 'ժ',
-        'e': 'ҽ',
-        'f': 'ƒ',
-        'g': 'ց',
-        'h': 'հ',
-        'i': 'ì',
-        'j': 'ʝ',
-        'k': 'ҟ',
-        'l': 'Ӏ',
-        'm': 'ʍ',
-        'n': 'ղ',
-        'o': 'օ',
-        'p': 'ք',
-        'q': 'զ',
-        'r': 'ɾ',
-        's': 'ʂ',
-        't': 'է',
-        'u': 'մ',
-        'v': 'ѵ',
-        'w': 'ա',
-        'x': '×',
-        'y': 'վ',
-        'z': 'Հ',
-        'A': 'Ⱥ',
-        'B': 'β',
-        'C': '↻',
-        'D': 'Ꭰ',
-        'E': 'Ɛ',
-        'F': 'Ƒ',
-        'G': 'Ɠ',
-        'H': 'Ƕ',
-        'I': 'į',
-        'J': 'ل',
-        'K': 'Ҡ',
-        'L': 'Ꝉ',
-        'M': 'Ɱ',
-        'N': 'ហ',
-        'O': 'ට',
-        'P': 'φ',
-        'Q': 'Ҩ',
-        'R': 'འ',
-        'S': 'Ϛ',
-        'T': 'Ͳ',
-        'U': 'Ա',
-        'V': 'Ỽ',
-        'W': 'చ',
-        'X': 'ჯ',
-        'Y': 'Ӌ',
-        'Z': 'ɀ'
-    },
-    upperAnglesCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'Λ',
-        'b': 'B',
-        'c': 'ᄃ',
-        'd': 'D',
-        'e': 'Σ',
-        'f': 'F',
-        'g': 'G',
-        'h': 'Ή',
-        'i': 'I',
-        'j': 'J',
-        'k': 'K',
-        'l': 'ᄂ',
-        'm': 'M',
-        'n': 'П',
-        'o': 'Ө',
-        'p': 'P',
-        'q': 'Q',
-        'r': 'Я',
-        's': 'Ƨ',
-        't': 'Ƭ',
-        'u': 'Ц',
-        'v': 'V',
-        'w': 'Щ',
-        'x': 'X',
-        'y': 'Y',
-        'z': 'Z',
-        'A': 'Λ',
-        'B': 'B',
-        'C': 'ᄃ',
-        'D': 'D',
-        'E': 'Σ',
-        'F': 'F',
-        'G': 'G',
-        'H': 'Ή',
-        'I': 'I',
-        'J': 'J',
-        'K': 'K',
-        'L': 'ᄂ',
-        'M': 'M',
-        'N': 'П',
-        'O': 'Ө',
-        'P': 'P',
-        'Q': 'Q',
-        'R': 'Я',
-        'S': 'Ƨ',
-        'T': 'Ƭ',
-        'U': 'Ц',
-        'V': 'V',
-        'W': 'Щ',
-        'X': 'X',
-        'Y': 'Y',
-        'Z': 'Z'
-    },
-    subscriptCharMap = {
-        0x0: '₀',
-        0x1: '₁',
-        0x2: '₂',
-        0x3: '₃',
-        0x4: '₄',
-        0x5: '₅',
-        0x6: '₆',
-        0x7: '₇',
-        0x8: '₈',
-        0x9: '₉',
-        'a': 'ₐ',
-        'b': 'b',
-        'c': 'c',
-        'd': 'd',
-        'e': 'ₑ',
-        'f': 'f',
-        'g': 'g',
-        'h': 'ₕ',
-        'i': 'ᵢ',
-        'j': 'ⱼ',
-        'k': 'ₖ',
-        'l': 'ₗ',
-        'm': 'ₘ',
-        'n': 'ₙ',
-        'o': 'ₒ',
-        'p': 'ₚ',
-        'q': 'q',
-        'r': 'ᵣ',
-        's': 'ₛ',
-        't': 'ₜ',
-        'u': 'ᵤ',
-        'v': 'ᵥ',
-        'w': 'w',
-        'x': 'ₓ',
-        'y': 'y',
-        'z': 'z',
-        'A': 'ₐ',
-        'B': 'B',
-        'C': 'C',
-        'D': 'D',
-        'E': 'ₑ',
-        'F': 'F',
-        'G': 'G',
-        'H': 'ₕ',
-        'I': 'ᵢ',
-        'J': 'ⱼ',
-        'K': 'ₖ',
-        'L': 'ₗ',
-        'M': 'ₘ',
-        'N': 'ₙ',
-        'O': 'ₒ',
-        'P': 'ₚ',
-        'Q': 'Q',
-        'R': 'ᵣ',
-        'S': 'ₛ',
-        'T': 'ₜ',
-        'U': 'ᵤ',
-        'V': 'ᵥ',
-        'W': 'W',
-        'X': 'ₓ',
-        'Y': 'Y',
-        'Z': 'Z',
-        '+': '₊',
-        '-': '₋',
-        '=': '₌',
-        '(': '₍',
-        ')': '₎'
-    },
-    superscriptCharMap = {
-        0x0: '⁰',
-        0x1: '¹',
-        0x2: '²',
-        0x3: '³',
-        0x4: '⁴',
-        0x5: '⁵',
-        0x6: '⁶',
-        0x7: '⁷',
-        0x8: '⁸',
-        0x9: '⁹',
-        'a': 'ᵃ',
-        'b': 'ᵇ',
-        'c': 'ᶜ',
-        'd': 'ᵈ',
-        'e': 'ᵉ',
-        'f': 'ᶠ',
-        'g': 'ᵍ',
-        'h': 'ʰ',
-        'i': 'ⁱ',
-        'j': 'ʲ',
-        'k': 'ᵏ',
-        'l': 'ˡ',
-        'm': 'ᵐ',
-        'n': 'ⁿ',
-        'o': 'ᵒ',
-        'p': 'ᵖ',
-        'q': 'q',
-        'r': 'ʳ',
-        's': 'ˢ',
-        't': 'ᵗ',
-        'u': 'ᵘ',
-        'v': 'ᵛ',
-        'w': 'ʷ',
-        'x': 'ˣ',
-        'y': 'ʸ',
-        'z': 'ᶻ',
-        'A': 'ᴬ',
-        'B': 'ᴮ',
-        'C': 'ᶜ',
-        'D': 'ᴰ',
-        'E': 'ᴱ',
-        'F': 'ᶠ',
-        'G': 'ᴳ',
-        'H': 'ᴴ',
-        'I': 'ᴵ',
-        'J': 'ᴶ',
-        'K': 'ᴷ',
-        'L': 'ᴸ',
-        'M': 'ᴹ',
-        'N': 'ᴺ',
-        'O': 'ᴼ',
-        'P': 'ᴾ',
-        'Q': 'Q',
-        'R': 'ᴿ',
-        'S': 'ˢ',
-        'T': 'ᵀ',
-        'U': 'ᵁ',
-        'V': 'ⱽ',
-        'W': 'ᵂ',
-        'X': 'ˣ',
-        'Y': 'ʸ',
-        'Z': 'ᶻ',
-        '+': '⁺',
-        '-': '⁻',
-        '=': '⁼',
-        '(': '⁽',
-        ')': '⁾'
-    },
-    squiggleCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': 'ค',
-        'b': '๒',
-        'c': 'ς',
-        'd': '๔',
-        'e': 'є',
-        'f': 'Ŧ',
-        'g': 'ﻮ',
-        'h': 'ђ',
-        'i': 'เ',
-        'j': 'ן',
-        'k': 'к',
-        'l': 'ɭ',
-        'm': '๓',
-        'n': 'ภ',
-        'o': '๏',
-        'p': 'ק',
-        'q': 'ợ',
-        'r': 'г',
-        's': 'ร',
-        't': 'Շ',
-        'u': 'ย',
-        'v': 'ש',
-        'w': 'ฬ',
-        'x': 'א',
-        'y': 'ץ',
-        'z': 'չ',
-        'A': 'ค',
-        'B': '๒',
-        'C': 'ς',
-        'D': '๔',
-        'E': 'є',
-        'F': 'Ŧ',
-        'G': 'ﻮ',
-        'H': 'ђ',
-        'I': 'เ',
-        'J': 'ן',
-        'K': 'к',
-        'L': 'ɭ',
-        'M': '๓',
-        'N': 'ภ',
-        'O': '๏',
-        'P': 'ק',
-        'Q': 'ợ',
-        'R': 'г',
-        'S': 'ร',
-        'T': 'Շ',
-        'U': 'ย',
-        'V': 'ש',
-        'W': 'ฬ',
-        'X': 'א',
-        'Y': 'ץ',
-        'Z': 'չ'
-    },
-    doubleStruckCharMap = {
-        0x0: '𝟘',
-        0x1: '𝟙',
-        0x2: '𝟚',
-        0x3: '𝟛',
-        0x4: '𝟜',
-        0x5: '𝟝',
-        0x6: '𝟞',
-        0x7: '𝟟',
-        0x8: '𝟠',
-        0x9: '𝟡',
-        'a': '𝕒',
-        'b': '𝕓',
-        'c': '𝕔',
-        'd': '𝕕',
-        'e': '𝕖',
-        'f': '𝕗',
-        'g': '𝕘',
-        'h': '𝕙',
-        'i': '𝕚',
-        'j': '𝕛',
-        'k': '𝕜',
-        'l': '𝕝',
-        'm': '𝕞',
-        'n': '𝕟',
-        'o': '𝕠',
-        'p': '𝕡',
-        'q': '𝕢',
-        'r': '𝕣',
-        's': '𝕤',
-        't': '𝕥',
-        'u': '𝕦',
-        'v': '𝕧',
-        'w': '𝕨',
-        'x': '𝕩',
-        'y': '𝕪',
-        'z': '𝕫',
-        'A': '𝔸',
-        'B': '𝔹',
-        'C': 'ℂ',
-        'D': '𝔻',
-        'E': '𝔼',
-        'F': '𝔽',
-        'G': '𝔾',
-        'H': 'ℍ',
-        'I': '𝕀',
-        'J': '𝕁',
-        'K': '𝕂',
-        'L': '𝕃',
-        'M': '𝕄',
-        'N': 'ℕ',
-        'O': '𝕆',
-        'P': 'ℙ',
-        'Q': 'ℚ',
-        'R': 'ℝ',
-        'S': '𝕊',
-        'T': '𝕋',
-        'U': '𝕌',
-        'V': '𝕍',
-        'W': '𝕎',
-        'X': '𝕏',
-        'Y': '𝕐',
-        'Z': 'ℤ'
-    },
-    medievalCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '𝖆',
-        'b': '𝖇',
-        'c': '𝖈',
-        'd': '𝖉',
-        'e': '𝖊',
-        'f': '𝖋',
-        'g': '𝖌',
-        'h': '𝖍',
-        'i': '𝖎',
-        'j': '𝖏',
-        'k': '𝖐',
-        'l': '𝖑',
-        'm': '𝖒',
-        'n': '𝖓',
-        'o': '𝖔',
-        'p': '𝖕',
-        'q': '𝖖',
-        'r': '𝖗',
-        's': '𝖘',
-        't': '𝖙',
-        'u': '𝖚',
-        'v': '𝖛',
-        'w': '𝖜',
-        'x': '𝖝',
-        'y': '𝖞',
-        'z': '𝖟',
-        'A': '𝕬',
-        'B': '𝕭',
-        'C': '𝕮',
-        'D': '𝕯',
-        'E': '𝕰',
-        'F': '𝕱',
-        'G': '𝕲',
-        'H': '𝕳',
-        'I': '𝕴',
-        'J': '𝕵',
-        'K': '𝕶',
-        'L': '𝕷',
-        'M': '𝕸',
-        'N': '𝕹',
-        'O': '𝕺',
-        'P': '𝕻',
-        'Q': '𝕼',
-        'R': '𝕽',
-        'S': '𝕾',
-        'T': '𝕿',
-        'U': '𝖀',
-        'V': '𝖁',
-        'W': '𝖂',
-        'X': '𝖃',
-        'Y': '𝖄',
-        'Z': '𝖅'
-    },
-    invertedSquaresCharMap = {
-        'q': '🆀',
-        'w': '🆆',
-        'e': '🅴',
-        'r': '🆁',
-        't': '🆃',
-        'y': '🆈',
-        'u': '🆄',
-        'i': '🅸',
-        'o': '🅾',
-        'p': '🅿',
-        'a': '🅰',
-        's': '🆂',
-        'd': '🅳',
-        'f': '🅵',
-        'g': '🅶',
-        'h': '🅷',
-        'j': '🅹',
-        'k': '🅺',
-        'l': '🅻',
-        'z': '🆉',
-        'x': '🆇',
-        'c': '🅲',
-        'v': '🆅',
-        'b': '🅱',
-        'n': '🅽',
-        'm': '🅼'
-    },
-    cursiveCharMap = {
-        0x0: '0',
-        0x1: '1',
-        0x2: '2',
-        0x3: '3',
-        0x4: '4',
-        0x5: '5',
-        0x6: '6',
-        0x7: '7',
-        0x8: '8',
-        0x9: '9',
-        'a': '𝓪',
-        'b': '𝓫',
-        'c': '𝓬',
-        'd': '𝓭',
-        'e': '𝓮',
-        'f': '𝓯',
-        'g': '𝓰',
-        'h': '𝓱',
-        'i': '𝓲',
-        'j': '𝓳',
-        'k': '𝓴',
-        'l': '𝓵',
-        'm': '𝓶',
-        'n': '𝓷',
-        'o': '𝓸',
-        'p': '𝓹',
-        'q': '𝓺',
-        'r': '𝓻',
-        's': '𝓼',
-        't': '𝓽',
-        'u': '𝓾',
-        'v': '𝓿',
-        'w': '𝔀',
-        'x': '𝔁',
-        'y': '𝔂',
-        'z': '𝔃',
-        'A': '𝓐',
-        'B': '𝓑',
-        'C': '𝓒',
-        'D': '𝓓',
-        'E': '𝓔',
-        'F': '𝓕',
-        'G': '𝓖',
-        'H': '𝓗',
-        'I': '𝓘',
-        'J': '𝓙',
-        'K': '𝓚',
-        'L': '𝓛',
-        'M': '𝓜',
-        'N': '𝓝',
-        'O': '𝓞',
-        'P': '𝓟',
-        'Q': '𝓠',
-        'R': '𝓡',
-        'S': '𝓢',
-        'T': '𝓣',
-        'U': '𝓤',
-        'V': '𝓥',
-        'W': '𝓦',
-        'X': '𝓧',
-        'Y': '𝓨',
-        'Z': '𝓩'
-    },
-    oldEnglishCharMap = {
-        'a': '𝔞',
-        'b': '𝔟',
-        'c': '𝔠',
-        'd': '𝔡',
-        'e': '𝔢',
-        'f': '𝔣',
-        'g': '𝔤',
-        'h': '𝔥',
-        'i': '𝔦',
-        'j': '𝔧',
-        'k': '𝔨',
-        'l': '𝔩',
-        'm': '𝔪',
-        'n': '𝔫',
-        'o': '𝔬',
-        'p': '𝔭',
-        'q': '𝔮',
-        'r': '𝔯',
-        's': '𝔰',
-        't': '𝔱',
-        'u': '𝔲',
-        'v': '𝔳',
-        'w': '𝔴',
-        'x': '𝔵',
-        'y': '𝔶',
-        'z': '𝔷',
-        'A': '𝔄',
-        'B': '𝔅',
-        'C': 'ℭ',
-        'D': '𝔇',
-        'E': '𝔈',
-        'F': '𝔉',
-        'G': '𝔊',
-        'H': 'ℌ',
-        'I': 'ℑ',
-        'J': '𝔍',
-        'K': '𝔎',
-        'L': '𝔏',
-        'M': '𝔐',
-        'N': '𝔑',
-        'O': '𝔒',
-        'P': '𝔓',
-        'Q': '𝔔',
-        'R': 'ℜ',
-        'S': '𝔖',
-        'T': '𝔗',
-        'U': '𝔘',
-        'V': '𝔙',
-        'W': '𝔚',
-        'X': '𝔛',
-        'Y': '𝔜',
-        'Z': 'ℨ'
-    },
-    wideTextCharMap = {
-        '`': '`',
-        0x1: '１',
-        0x2: '２',
-        0x3: '３',
-        0x4: '４',
-        0x5: '５',
-        0x6: '６',
-        0x7: '７',
-        0x8: '８',
-        0x9: '９',
-        0x0: '０',
-        '-': '－',
-        '=': '＝',
-        '~': '~',
-        '!': '！',
-        '@': '＠',
-        '#': '＃',
-        '$': '＄',
-        '%': '％',
-        '^': '^',
-        '&': '＆',
-        '*': '＊',
-        '(': '（',
-        ')': '）',
-        '_': '_',
-        '+': '＋',
-        'q': 'ｑ',
-        'w': 'ｗ',
-        'e': 'ｅ',
-        'r': 'ｒ',
-        't': 'ｔ',
-        'y': 'ｙ',
-        'u': 'ｕ',
-        'i': 'ｉ',
-        'o': 'ｏ',
-        'p': 'ｐ',
-        '[': '[',
-        ']': ']',
-        '\x5c': '\x5c',
-        'Q': 'Ｑ',
-        'W': 'Ｗ',
-        'E': 'Ｅ',
-        'R': 'Ｒ',
-        'T': 'Ｔ',
-        'Y': 'Ｙ',
-        'U': 'Ｕ',
-        'I': 'Ｉ',
-        'O': 'Ｏ',
-        'P': 'Ｐ',
-        '{': '{',
-        '}': '}',
-        '|': '|',
-        'a': 'ａ',
-        's': 'ｓ',
-        'd': 'ｄ',
-        'f': 'ｆ',
-        'g': 'ｇ',
-        'h': 'ｈ',
-        'j': 'ｊ',
-        'k': 'ｋ',
-        'l': 'ｌ',
-        ';': '；',
-        '\x27': '＇',
-        'A': 'Ａ',
-        'S': 'Ｓ',
-        'D': 'Ｄ',
-        'F': 'Ｆ',
-        'G': 'Ｇ',
-        'H': 'Ｈ',
-        'J': 'Ｊ',
-        'K': 'Ｋ',
-        'L': 'Ｌ',
-        ':': '：',
-        '\x22': '\x22',
-        'z': 'ｚ',
-        'x': 'ｘ',
-        'c': 'ｃ',
-        'v': 'ｖ',
-        'b': 'ｂ',
-        'n': 'ｎ',
-        'm': 'ｍ',
-        ',': '，',
-        '.': '．',
-        '/': '／',
-        'Z': 'Ｚ',
-        'X': 'Ｘ',
-        'C': 'Ｃ',
-        'V': 'Ｖ',
-        'B': 'Ｂ',
-        'N': 'Ｎ',
-        'M': 'Ｍ',
-        '<': '<',
-        '>': '>',
-        '?': '？'
-    };
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u15e9",
+    b: "\u15f7",
+    c: "\u1462",
+    d: "\u1572",
+    e: "\u163f",
+    f: "\u15b4",
+    g: "\u161c",
+    h: "\u157c",
+    i: "\u14f0",
+    j: "\u149a",
+    k: "\u15bd\u1438",
+    l: "\u14aa",
+    m: "\u163b",
+    n: "\u1609",
+    o: "\u14cd",
+    p: "\u1575",
+    q: "\u1574",
+    r: "\u1587",
+    s: "S",
+    t: "\u15b6",
+    u: "\u1458",
+    v: "\u143a",
+    w: "\u163a",
+    x: "\u166d",
+    y: "\u15bb",
+    z: "\u15f1",
+    A: "\u15e9",
+    B: "\u15f7",
+    C: "\u1462",
+    D: "\u1572",
+    E: "\u163f",
+    F: "\u15b4",
+    G: "\u161c",
+    H: "\u157c",
+    I: "\u14f0",
+    J: "\u149a",
+    K: "\u15bd\u1438",
+    L: "\u14aa",
+    M: "\u163b",
+    N: "\u1609",
+    O: "\u14cd",
+    P: "\u1575",
+    Q: "\u1574",
+    R: "\u1587",
+    S: "S",
+    T: "\u15b6",
+    U: "\u1458",
+    V: "\u143a",
+    W: "\u163a",
+    X: "\u166d",
+    Y: "\u15bb",
+    Z: "\u15f1"
+};
+const squiggle6CharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u0e04",
+    b: "\u0e56",
+    c: "\xA2",
+    d: "\u0ed3",
+    e: "\u0113",
+    f: "f",
+    g: "\u0e87",
+    h: "h",
+    i: "i",
+    j: "\u0e27",
+    k: "k",
+    l: "l",
+    m: "\u0e53",
+    n: "\u0e96",
+    o: "\u0ed0",
+    p: "p",
+    q: "\u0e51",
+    r: "r",
+    s: "\u015e",
+    t: "t",
+    u: "\u0e19",
+    v: "\u0e07",
+    w: "\u0e9f",
+    x: "x",
+    y: "\u0e2f",
+    z: "\u0e8a",
+    A: "\u0e04",
+    B: "\u0e56",
+    C: "\xA2",
+    D: "\u0ed3",
+    E: "\u0113",
+    F: "f",
+    G: "\u0e87",
+    H: "h",
+    I: "i",
+    J: "\u0e27",
+    K: "k",
+    L: "l",
+    M: "\u0e53",
+    N: "\u0e96",
+    O: "\u0ed0",
+    P: "p",
+    Q: "\u0e51",
+    R: "r",
+    S: "\u015e",
+    T: "t",
+    U: "\u0e19",
+    V: "\u0e07",
+    W: "\u0e9f",
+    X: "x",
+    Y: "\u0e2f",
+    Z: "\u0e8a"
+};
+const squiggle5CharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u0105",
+    b: "\u10ea",
+    c: "\u0188",
+    d: "\u0256",
+    e: "\u025b",
+    f: "\u0284",
+    g: "\u0260",
+    h: "\u0267",
+    i: "\u0131",
+    j: "\u029d",
+    k: "\u0199",
+    l: "\u0196",
+    m: "\u0271",
+    n: "\u014b",
+    o: "\u01a1",
+    p: "\u2118",
+    q: "\u0566",
+    r: "\u0f5e",
+    s: "\u0282",
+    t: "\u026c",
+    u: "\u0173",
+    v: "\u06f7",
+    w: "\u1ff3",
+    x: "\u04b3",
+    y: "\u10e7",
+    z: "\u0291",
+    A: "\u0105",
+    B: "\u10ea",
+    C: "\u0188",
+    D: "\u0256",
+    E: "\u025b",
+    F: "\u0284",
+    G: "\u0260",
+    H: "\u0267",
+    I: "\u0131",
+    J: "\u029d",
+    K: "\u0199",
+    L: "\u0196",
+    M: "\u0271",
+    N: "\u014b",
+    O: "\u01a1",
+    P: "\u2118",
+    Q: "\u0566",
+    R: "\u0f5e",
+    S: "\u0282",
+    T: "\u026c",
+    U: "\u0173",
+    V: "\u06f7",
+    W: "\u1ff3",
+    X: "\u04b3",
+    Y: "\u10e7",
+    Z: "\u0291"
+};
+const asianStyle2CharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\uff91",
+    b: "\u4e43",
+    c: "\u1103",
+    d: "\u308a",
+    e: "\u4e47",
+    f: "\uff77",
+    g: "\u30e0",
+    h: "\u3093",
+    i: "\uff89",
+    j: "\uff8c",
+    k: "\u30ba",
+    l: "\uff9a",
+    m: "\uffb6",
+    n: "\u5200",
+    o: "\u306e",
+    p: "\uff71",
+    q: "\u3090",
+    r: "\u5c3a",
+    s: "\u4e02",
+    t: "\uff72",
+    u: "\u3072",
+    v: "\u221a",
+    w: "W",
+    x: "\uff92",
+    y: "\uff98",
+    z: "\u4e59",
+    A: "\uff91",
+    B: "\u4e43",
+    C: "\u1103",
+    D: "\u308a",
+    E: "\u4e47",
+    F: "\uff77",
+    G: "\u30e0",
+    H: "\u3093",
+    I: "\uff89",
+    J: "\uff8c",
+    K: "\u30ba",
+    L: "\uff9a",
+    M: "\uffb6",
+    N: "\u5200",
+    O: "\u306e",
+    P: "\uff71",
+    Q: "\u3090",
+    R: "\u5c3a",
+    S: "\u4e02",
+    T: "\uff72",
+    U: "\u3072",
+    V: "\u221a",
+    W: "W",
+    X: "\uff92",
+    Y: "\uff98",
+    Z: "\u4e59"
+};
+const asianStyleCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u5342",
+    b: "\u4e43",
+    c: "\u531a",
+    d: "\u15ea",
+    e: "\u4e47",
+    f: "\u5343",
+    g: "\u13b6",
+    h: "\u5344",
+    i: "\u4e28",
+    j: "\uff8c",
+    k: "\u049c",
+    l: "\u3125",
+    m: "\u722a",
+    n: "\u51e0",
+    o: "\u3116",
+    p: "\u5369",
+    q: "\u024a",
+    r: "\u5c3a",
+    s: "\u4e02",
+    t: "\u3112",
+    u: "\u3129",
+    v: "\u142f",
+    w: "\u5c71",
+    x: "\u4e42",
+    y: "\u311a",
+    z: "\u4e59",
+    A: "\u5342",
+    B: "\u4e43",
+    C: "\u531a",
+    D: "\u15ea",
+    E: "\u4e47",
+    F: "\u5343",
+    G: "\u13b6",
+    H: "\u5344",
+    I: "\u4e28",
+    J: "\uff8c",
+    K: "\u049c",
+    L: "\u3125",
+    M: "\u722a",
+    N: "\u51e0",
+    O: "\u3116",
+    P: "\u5369",
+    Q: "\u024a",
+    R: "\u5c3a",
+    S: "\u4e02",
+    T: "\u3112",
+    U: "\u3129",
+    V: "\u142f",
+    W: "\u5c71",
+    X: "\u4e42",
+    Y: "\u311a",
+    Z: "\u4e59"
+};
+const squaresCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\ud83c\udd30",
+    b: "\ud83c\udd31",
+    c: "\ud83c\udd32",
+    d: "\ud83c\udd33",
+    e: "\ud83c\udd34",
+    f: "\ud83c\udd35",
+    g: "\ud83c\udd36",
+    h: "\ud83c\udd37",
+    i: "\ud83c\udd38",
+    j: "\ud83c\udd39",
+    k: "\ud83c\udd3a",
+    l: "\ud83c\udd3b",
+    m: "\ud83c\udd3c",
+    n: "\ud83c\udd3d",
+    o: "\ud83c\udd3e",
+    p: "\ud83c\udd3f",
+    q: "\ud83c\udd40",
+    r: "\ud83c\udd41",
+    s: "\ud83c\udd42",
+    t: "\ud83c\udd43",
+    u: "\ud83c\udd44",
+    v: "\ud83c\udd45",
+    w: "\ud83c\udd46",
+    x: "\ud83c\udd47",
+    y: "\ud83c\udd48",
+    z: "\ud83c\udd49",
+    A: "\ud83c\udd30",
+    B: "\ud83c\udd31",
+    C: "\ud83c\udd32",
+    D: "\ud83c\udd33",
+    E: "\ud83c\udd34",
+    F: "\ud83c\udd35",
+    G: "\ud83c\udd36",
+    H: "\ud83c\udd37",
+    I: "\ud83c\udd38",
+    J: "\ud83c\udd39",
+    K: "\ud83c\udd3a",
+    L: "\ud83c\udd3b",
+    M: "\ud83c\udd3c",
+    N: "\ud83c\udd3d",
+    O: "\ud83c\udd3e",
+    P: "\ud83c\udd3f",
+    Q: "\ud83c\udd40",
+    R: "\ud83c\udd41",
+    S: "\ud83c\udd42",
+    T: "\ud83c\udd43",
+    U: "\ud83c\udd44",
+    V: "\ud83c\udd45",
+    W: "\ud83c\udd46",
+    X: "\ud83c\udd47",
+    Y: "\ud83c\udd48",
+    Z: "\ud83c\udd49"
+};
+const squiggle4CharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u13d7",
+    b: "\u13f0",
+    c: "\u1348",
+    d: "\u13b4",
+    e: "\u13cb",
+    f: "\u13a6",
+    g: "\u13b6",
+    h: "\u13c2",
+    i: "\u13a5",
+    j: "\u13e0",
+    k: "\u13e6",
+    l: "\u13dd",
+    m: "\u13b7",
+    n: "\u13c1",
+    o: "\u13a7",
+    p: "\u13ae",
+    q: "\u13a4",
+    r: "\u13d2",
+    s: "\u13d5",
+    t: "\u13d6",
+    u: "\u13ec",
+    v: "\u13c9",
+    w: "\u13c7",
+    x: "\u1300",
+    y: "\u13a9",
+    z: "\u135a",
+    A: "\u13d7",
+    B: "\u13f0",
+    C: "\u1348",
+    D: "\u13b4",
+    E: "\u13cb",
+    F: "\u13a6",
+    G: "\u13b6",
+    H: "\u13c2",
+    I: "\u13a5",
+    J: "\u13e0",
+    K: "\u13e6",
+    L: "\u13dd",
+    M: "\u13b7",
+    N: "\u13c1",
+    O: "\u13a7",
+    P: "\u13ae",
+    Q: "\u13a4",
+    R: "\u13d2",
+    S: "\u13d5",
+    T: "\u13d6",
+    U: "\u13ec",
+    V: "\u13c9",
+    W: "\u13c7",
+    X: "\u1300",
+    Y: "\u13a9",
+    Z: "\u135a"
+};
+const neonCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u15e9",
+    b: "\u15f7",
+    c: "\u1455",
+    d: "\u15ea",
+    e: "E",
+    f: "\u15b4",
+    g: "G",
+    h: "\u157c",
+    i: "I",
+    j: "\u148d",
+    k: "K",
+    l: "\u14aa",
+    m: "\u15f0",
+    n: "\u144e",
+    o: "O",
+    p: "\u146d",
+    q: "\u146b",
+    r: "\u1587",
+    s: "\u1515",
+    t: "T",
+    u: "\u144c",
+    v: "\u142f",
+    w: "\u15ef",
+    x: "\u166d",
+    y: "Y",
+    z: "\u1614",
+    A: "\u15e9",
+    B: "\u15f7",
+    C: "\u1455",
+    D: "\u15ea",
+    E: "E",
+    F: "\u15b4",
+    G: "G",
+    H: "\u157c",
+    I: "I",
+    J: "\u148d",
+    K: "K",
+    L: "\u14aa",
+    M: "\u15f0",
+    N: "\u144e",
+    O: "O",
+    P: "\u146d",
+    Q: "\u146b",
+    R: "\u1587",
+    S: "\u1515",
+    T: "T",
+    U: "\u144c",
+    V: "\u142f",
+    W: "\u15ef",
+    X: "\u166d",
+    Y: "Y",
+    Z: "\u1614"
+};
+const squiggle3CharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u01df",
+    b: "\u026e",
+    c: "\u0188",
+    d: "\u0256",
+    e: "\u025b",
+    f: "\u0284",
+    g: "\u0262",
+    h: "\u0266",
+    i: "\u0268",
+    j: "\u029d",
+    k: "\u04c4",
+    l: "\u029f",
+    m: "\u028d",
+    n: "\u057c",
+    o: "\u0585",
+    p: "\u0584",
+    q: "\u0566",
+    r: "\u0280",
+    s: "\u0586",
+    t: "\u0236",
+    u: "\u028a",
+    v: "\u028b",
+    w: "\u0561",
+    x: "\u04fc",
+    y: "\u028f",
+    z: "\u0290",
+    A: "\u01df",
+    B: "\u026e",
+    C: "\u0188",
+    D: "\u0256",
+    E: "\u025b",
+    F: "\u0284",
+    G: "\u0262",
+    H: "\u0266",
+    I: "\u0268",
+    J: "\u029d",
+    K: "\u04c4",
+    L: "\u029f",
+    M: "\u028d",
+    N: "\u057c",
+    O: "\u0585",
+    P: "\u0584",
+    Q: "\u0566",
+    R: "\u0280",
+    S: "\u0586",
+    T: "\u0236",
+    U: "\u028a",
+    V: "\u028b",
+    W: "\u0561",
+    X: "\u04fc",
+    Y: "\u028f",
+    Z: "\u0290"
+};
+const monospaceCharMap = {
+    0: "\ud835\udff6",
+    1: "\ud835\udff7",
+    2: "\ud835\udff8",
+    3: "\ud835\udff9",
+    4: "\ud835\udffa",
+    5: "\ud835\udffb",
+    6: "\ud835\udffc",
+    7: "\ud835\udffd",
+    8: "\ud835\udffe",
+    9: "\ud835\udfff",
+    a: "\ud835\ude8a",
+    b: "\ud835\ude8b",
+    c: "\ud835\ude8c",
+    d: "\ud835\ude8d",
+    e: "\ud835\ude8e",
+    f: "\ud835\ude8f",
+    g: "\ud835\ude90",
+    h: "\ud835\ude91",
+    i: "\ud835\ude92",
+    j: "\ud835\ude93",
+    k: "\ud835\ude94",
+    l: "\ud835\ude95",
+    m: "\ud835\ude96",
+    n: "\ud835\ude97",
+    o: "\ud835\ude98",
+    p: "\ud835\ude99",
+    q: "\ud835\ude9a",
+    r: "\ud835\ude9b",
+    s: "\ud835\ude9c",
+    t: "\ud835\ude9d",
+    u: "\ud835\ude9e",
+    v: "\ud835\ude9f",
+    w: "\ud835\udea0",
+    x: "\ud835\udea1",
+    y: "\ud835\udea2",
+    z: "\ud835\udea3",
+    A: "\ud835\ude70",
+    B: "\ud835\ude71",
+    C: "\ud835\ude72",
+    D: "\ud835\ude73",
+    E: "\ud835\ude74",
+    F: "\ud835\ude75",
+    G: "\ud835\ude76",
+    H: "\ud835\ude77",
+    I: "\ud835\ude78",
+    J: "\ud835\ude79",
+    K: "\ud835\ude7a",
+    L: "\ud835\ude7b",
+    M: "\ud835\ude7c",
+    N: "\ud835\ude7d",
+    O: "\ud835\ude7e",
+    P: "\ud835\ude7f",
+    Q: "\ud835\ude80",
+    R: "\ud835\ude81",
+    S: "\ud835\ude82",
+    T: "\ud835\ude83",
+    U: "\ud835\ude84",
+    V: "\ud835\ude85",
+    W: "\ud835\ude86",
+    X: "\ud835\ude87",
+    Y: "\ud835\ude88",
+    Z: "\ud835\ude89"
+};
+const boldItalicCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\ud835\ude56",
+    b: "\ud835\ude57",
+    c: "\ud835\ude58",
+    d: "\ud835\ude59",
+    e: "\ud835\ude5a",
+    f: "\ud835\ude5b",
+    g: "\ud835\ude5c",
+    h: "\ud835\ude5d",
+    i: "\ud835\ude5e",
+    j: "\ud835\ude5f",
+    k: "\ud835\ude60",
+    l: "\ud835\ude61",
+    m: "\ud835\ude62",
+    n: "\ud835\ude63",
+    o: "\ud835\ude64",
+    p: "\ud835\ude65",
+    q: "\ud835\ude66",
+    r: "\ud835\ude67",
+    s: "\ud835\ude68",
+    t: "\ud835\ude69",
+    u: "\ud835\ude6a",
+    v: "\ud835\ude6b",
+    w: "\ud835\ude6c",
+    x: "\ud835\ude6d",
+    y: "\ud835\ude6e",
+    z: "\ud835\ude6f",
+    A: "\ud835\ude3c",
+    B: "\ud835\ude3d",
+    C: "\ud835\ude3e",
+    D: "\ud835\ude3f",
+    E: "\ud835\ude40",
+    F: "\ud835\ude41",
+    G: "\ud835\ude42",
+    H: "\ud835\ude43",
+    I: "\ud835\ude44",
+    J: "\ud835\ude45",
+    K: "\ud835\ude46",
+    L: "\ud835\ude47",
+    M: "\ud835\ude48",
+    N: "\ud835\ude49",
+    O: "\ud835\ude4a",
+    P: "\ud835\ude4b",
+    Q: "\ud835\ude4c",
+    R: "\ud835\ude4d",
+    S: "\ud835\ude4e",
+    T: "\ud835\ude4f",
+    U: "\ud835\ude50",
+    V: "\ud835\ude51",
+    W: "\ud835\ude52",
+    X: "\ud835\ude53",
+    Y: "\ud835\ude54",
+    Z: "\ud835\ude55"
+};
+const boldCharMap = {
+    0: "\ud835\udfce",
+    1: "\ud835\udfcf",
+    2: "\ud835\udfd0",
+    3: "\ud835\udfd1",
+    4: "\ud835\udfd2",
+    5: "\ud835\udfd3",
+    6: "\ud835\udfd4",
+    7: "\ud835\udfd5",
+    8: "\ud835\udfd6",
+    9: "\ud835\udfd7",
+    a: "\ud835\udc1a",
+    b: "\ud835\udc1b",
+    c: "\ud835\udc1c",
+    d: "\ud835\udc1d",
+    e: "\ud835\udc1e",
+    f: "\ud835\udc1f",
+    g: "\ud835\udc20",
+    h: "\ud835\udc21",
+    i: "\ud835\udc22",
+    j: "\ud835\udc23",
+    k: "\ud835\udc24",
+    l: "\ud835\udc25",
+    m: "\ud835\udc26",
+    n: "\ud835\udc27",
+    o: "\ud835\udc28",
+    p: "\ud835\udc29",
+    q: "\ud835\udc2a",
+    r: "\ud835\udc2b",
+    s: "\ud835\udc2c",
+    t: "\ud835\udc2d",
+    u: "\ud835\udc2e",
+    v: "\ud835\udc2f",
+    w: "\ud835\udc30",
+    x: "\ud835\udc31",
+    y: "\ud835\udc32",
+    z: "\ud835\udc33",
+    A: "\ud835\udc00",
+    B: "\ud835\udc01",
+    C: "\ud835\udc02",
+    D: "\ud835\udc03",
+    E: "\ud835\udc04",
+    F: "\ud835\udc05",
+    G: "\ud835\udc06",
+    H: "\ud835\udc07",
+    I: "\ud835\udc08",
+    J: "\ud835\udc09",
+    K: "\ud835\udc0a",
+    L: "\ud835\udc0b",
+    M: "\ud835\udc0c",
+    N: "\ud835\udc0d",
+    O: "\ud835\udc0e",
+    P: "\ud835\udc0f",
+    Q: "\ud835\udc10",
+    R: "\ud835\udc11",
+    S: "\ud835\udc12",
+    T: "\ud835\udc13",
+    U: "\ud835\udc14",
+    V: "\ud835\udc15",
+    W: "\ud835\udc16",
+    X: "\ud835\udc17",
+    Y: "\ud835\udc18",
+    Z: "\ud835\udc19"
+};
+const italicCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\ud835\ude22",
+    b: "\ud835\ude23",
+    c: "\ud835\ude24",
+    d: "\ud835\ude25",
+    e: "\ud835\ude26",
+    f: "\ud835\ude27",
+    g: "\ud835\ude28",
+    h: "\ud835\ude29",
+    i: "\ud835\ude2a",
+    j: "\ud835\ude2b",
+    k: "\ud835\ude2c",
+    l: "\ud835\ude2d",
+    m: "\ud835\ude2e",
+    n: "\ud835\ude2f",
+    o: "\ud835\ude30",
+    p: "\ud835\ude31",
+    q: "\ud835\ude32",
+    r: "\ud835\ude33",
+    s: "\ud835\ude34",
+    t: "\ud835\ude35",
+    u: "\ud835\ude36",
+    v: "\ud835\ude37",
+    w: "\ud835\ude38",
+    x: "\ud835\ude39",
+    y: "\ud835\ude3a",
+    z: "\ud835\ude3b",
+    A: "\ud835\ude08",
+    B: "\ud835\ude09",
+    C: "\ud835\ude0a",
+    D: "\ud835\ude0b",
+    E: "\ud835\ude0c",
+    F: "\ud835\ude0d",
+    G: "\ud835\ude0e",
+    H: "\ud835\ude0f",
+    I: "\ud835\ude10",
+    J: "\ud835\ude11",
+    K: "\ud835\ude12",
+    L: "\ud835\ude13",
+    M: "\ud835\ude14",
+    N: "\ud835\ude15",
+    O: "\ud835\ude16",
+    P: "\ud835\ude17",
+    Q: "\ud835\ude18",
+    R: "\ud835\ude19",
+    S: "\ud835\ude1a",
+    T: "\ud835\ude1b",
+    U: "\ud835\ude1c",
+    V: "\ud835\ude1d",
+    W: "\ud835\ude1e",
+    X: "\ud835\ude1f",
+    Y: "\ud835\ude20",
+    Z: "\ud835\ude21"
+};
+const squiggle2CharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u03b1",
+    b: "\u10a6",
+    c: "\u0188",
+    d: "\u0503",
+    e: "\u04bd",
+    f: "\u03dd",
+    g: "\u0260",
+    h: "\u050b",
+    i: "\u03b9",
+    j: "\u029d",
+    k: "\u0199",
+    l: "\u0285",
+    m: "\u0271",
+    n: "\u0273",
+    o: "\u03c3",
+    p: "\u03c1",
+    q: "\u03d9",
+    r: "\u027e",
+    s: "\u0282",
+    t: "\u019a",
+    u: "\u03c5",
+    v: "\u028b",
+    w: "\u026f",
+    x: "x",
+    y: "\u10e7",
+    z: "\u0225",
+    A: "A",
+    B: "B",
+    C: "C",
+    D: "D",
+    E: "E",
+    F: "F",
+    G: "G",
+    H: "H",
+    I: "I",
+    J: "J",
+    K: "K",
+    L: "L",
+    M: "M",
+    N: "N",
+    O: "O",
+    P: "P",
+    Q: "Q",
+    R: "R",
+    S: "S",
+    T: "T",
+    U: "U",
+    V: "V",
+    W: "W",
+    X: "X",
+    Y: "Y",
+    Z: "Z"
+};
+const currencyCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u20b3",
+    b: "\u0e3f",
+    c: "\u20b5",
+    d: "\u0110",
+    e: "\u0246",
+    f: "\u20a3",
+    g: "\u20b2",
+    h: "\u2c67",
+    i: "\u0142",
+    j: "J",
+    k: "\u20ad",
+    l: "\u2c60",
+    m: "\u20a5",
+    n: "\u20a6",
+    o: "\xD8",
+    p: "\u20b1",
+    q: "Q",
+    r: "\u2c64",
+    s: "\u20b4",
+    t: "\u20ae",
+    u: "\u0244",
+    v: "V",
+    w: "\u20a9",
+    x: "\u04fe",
+    y: "\u024e",
+    z: "\u2c6b",
+    A: "\u20b3",
+    B: "\u0e3f",
+    C: "\u20b5",
+    D: "\u0110",
+    E: "\u0246",
+    F: "\u20a3",
+    G: "\u20b2",
+    H: "\u2c67",
+    I: "\u0142",
+    J: "J",
+    K: "\u20ad",
+    L: "\u2c60",
+    M: "\u20a5",
+    N: "\u20a6",
+    O: "\xD8",
+    P: "\u20b1",
+    Q: "Q",
+    R: "\u2c64",
+    S: "\u20b4",
+    T: "\u20ae",
+    U: "\u0244",
+    V: "V",
+    W: "\u20a9",
+    X: "\u04fe",
+    Y: "\u024e",
+    Z: "\u2c6b"
+};
+const symbolsCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\xE5",
+    b: "\xDF",
+    c: "\xA2",
+    d: "\xD0",
+    e: "\xEA",
+    f: "\xA3",
+    g: "g",
+    h: "h",
+    i: "\xEF",
+    j: "j",
+    k: "k",
+    l: "l",
+    m: "m",
+    n: "\xF1",
+    o: "\xF0",
+    p: "\xFE",
+    q: "q",
+    r: "r",
+    s: "\xA7",
+    t: "\u2020",
+    u: "\xB5",
+    v: "v",
+    w: "w",
+    x: "x",
+    y: "\xA5",
+    z: "z",
+    A: "\xC4",
+    B: "\xDF",
+    C: "\xC7",
+    D: "\xD0",
+    E: "\xC8",
+    F: "\xA3",
+    G: "G",
+    H: "H",
+    I: "\xCC",
+    J: "J",
+    K: "K",
+    L: "L",
+    M: "M",
+    N: "\xF1",
+    O: "\xD6",
+    P: "\xFE",
+    Q: "Q",
+    R: "R",
+    S: "\xA7",
+    T: "\u2020",
+    U: "\xDA",
+    V: "V",
+    W: "W",
+    X: "\xD7",
+    Y: "\xA5",
+    Z: "Z"
+};
+const greekCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u03b1",
+    b: "\u0432",
+    c: "\xA2",
+    d: "\u2202",
+    e: "\u0454",
+    f: "\u0192",
+    g: "g",
+    h: "\u043d",
+    i: "\u03b9",
+    j: "\u05e0",
+    k: "\u043a",
+    l: "\u2113",
+    m: "\u043c",
+    n: "\u03b7",
+    o: "\u03c3",
+    p: "\u03c1",
+    q: "q",
+    r: "\u044f",
+    s: "\u0455",
+    t: "\u0442",
+    u: "\u03c5",
+    v: "\u03bd",
+    w: "\u03c9",
+    x: "\u03c7",
+    y: "\u0443",
+    z: "z",
+    A: "\u03b1",
+    B: "\u0432",
+    C: "\xA2",
+    D: "\u2202",
+    E: "\u0454",
+    F: "\u0192",
+    G: "g",
+    H: "\u043d",
+    I: "\u03b9",
+    J: "\u05e0",
+    K: "\u043a",
+    L: "\u2113",
+    M: "\u043c",
+    N: "\u03b7",
+    O: "\u03c3",
+    P: "\u03c1",
+    Q: "q",
+    R: "\u044f",
+    S: "\u0455",
+    T: "\u0442",
+    U: "\u03c5",
+    V: "\u03bd",
+    W: "\u03c9",
+    X: "\u03c7",
+    Y: "\u0443",
+    Z: "z"
+};
+const bentTextCharMap = {
+    0: "\u2298",
+    1: "\ud835\udfd9",
+    2: "\u03e9",
+    3: "\u04e0",
+    4: "\u096b",
+    5: "\u01bc",
+    6: "\u03ec",
+    7: "7",
+    8: "\ud835\udfe0",
+    9: "\u096f",
+    a: "\u0105",
+    b: "\u048d",
+    c: "\xE7",
+    d: "\u056a",
+    e: "\u04bd",
+    f: "\u0192",
+    g: "\u0581",
+    h: "\u0570",
+    i: "\xEC",
+    j: "\u029d",
+    k: "\u049f",
+    l: "\u04c0",
+    m: "\u028d",
+    n: "\u0572",
+    o: "\u0585",
+    p: "\u0584",
+    q: "\u0566",
+    r: "\u027e",
+    s: "\u0282",
+    t: "\u0567",
+    u: "\u0574",
+    v: "\u0475",
+    w: "\u0561",
+    x: "\xD7",
+    y: "\u057e",
+    z: "\u0540",
+    A: "\u023a",
+    B: "\u03b2",
+    C: "\u21bb",
+    D: "\u13a0",
+    E: "\u0190",
+    F: "\u0191",
+    G: "\u0193",
+    H: "\u01f6",
+    I: "\u012f",
+    J: "\u0644",
+    K: "\u04a0",
+    L: "\ua748",
+    M: "\u2c6e",
+    N: "\u17a0",
+    O: "\u0da7",
+    P: "\u03c6",
+    Q: "\u04a8",
+    R: "\u0f60",
+    S: "\u03da",
+    T: "\u0372",
+    U: "\u0531",
+    V: "\u1efc",
+    W: "\u0c1a",
+    X: "\u10ef",
+    Y: "\u04cb",
+    Z: "\u0240"
+};
+const upperAnglesCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u039b",
+    b: "B",
+    c: "\u1103",
+    d: "D",
+    e: "\u03a3",
+    f: "F",
+    g: "G",
+    h: "\u0389",
+    i: "I",
+    j: "J",
+    k: "K",
+    l: "\u1102",
+    m: "M",
+    n: "\u041f",
+    o: "\u04e8",
+    p: "P",
+    q: "Q",
+    r: "\u042f",
+    s: "\u01a7",
+    t: "\u01ac",
+    u: "\u0426",
+    v: "V",
+    w: "\u0429",
+    x: "X",
+    y: "Y",
+    z: "Z",
+    A: "\u039b",
+    B: "B",
+    C: "\u1103",
+    D: "D",
+    E: "\u03a3",
+    F: "F",
+    G: "G",
+    H: "\u0389",
+    I: "I",
+    J: "J",
+    K: "K",
+    L: "\u1102",
+    M: "M",
+    N: "\u041f",
+    O: "\u04e8",
+    P: "P",
+    Q: "Q",
+    R: "\u042f",
+    S: "\u01a7",
+    T: "\u01ac",
+    U: "\u0426",
+    V: "V",
+    W: "\u0429",
+    X: "X",
+    Y: "Y",
+    Z: "Z"
+};
+const subscriptCharMap = {
+    0: "\u2080",
+    1: "\u2081",
+    2: "\u2082",
+    3: "\u2083",
+    4: "\u2084",
+    5: "\u2085",
+    6: "\u2086",
+    7: "\u2087",
+    8: "\u2088",
+    9: "\u2089",
+    a: "\u2090",
+    b: "b",
+    c: "c",
+    d: "d",
+    e: "\u2091",
+    f: "f",
+    g: "g",
+    h: "\u2095",
+    i: "\u1d62",
+    j: "\u2c7c",
+    k: "\u2096",
+    l: "\u2097",
+    m: "\u2098",
+    n: "\u2099",
+    o: "\u2092",
+    p: "\u209a",
+    q: "q",
+    r: "\u1d63",
+    s: "\u209b",
+    t: "\u209c",
+    u: "\u1d64",
+    v: "\u1d65",
+    w: "w",
+    x: "\u2093",
+    y: "y",
+    z: "z",
+    A: "\u2090",
+    B: "B",
+    C: "C",
+    D: "D",
+    E: "\u2091",
+    F: "F",
+    G: "G",
+    H: "\u2095",
+    I: "\u1d62",
+    J: "\u2c7c",
+    K: "\u2096",
+    L: "\u2097",
+    M: "\u2098",
+    N: "\u2099",
+    O: "\u2092",
+    P: "\u209a",
+    Q: "Q",
+    R: "\u1d63",
+    S: "\u209b",
+    T: "\u209c",
+    U: "\u1d64",
+    V: "\u1d65",
+    W: "W",
+    X: "\u2093",
+    Y: "Y",
+    Z: "Z",
+    "+": "\u208a",
+    "-": "\u208b",
+    "=": "\u208c",
+    "(": "\u208d",
+    ")": "\u208e"
+};
+const superscriptCharMap = {
+    0: "\u2070",
+    1: "\xB9",
+    2: "\xB2",
+    3: "\xB3",
+    4: "\u2074",
+    5: "\u2075",
+    6: "\u2076",
+    7: "\u2077",
+    8: "\u2078",
+    9: "\u2079",
+    a: "\u1d43",
+    b: "\u1d47",
+    c: "\u1d9c",
+    d: "\u1d48",
+    e: "\u1d49",
+    f: "\u1da0",
+    g: "\u1d4d",
+    h: "\u02b0",
+    i: "\u2071",
+    j: "\u02b2",
+    k: "\u1d4f",
+    l: "\u02e1",
+    m: "\u1d50",
+    n: "\u207f",
+    o: "\u1d52",
+    p: "\u1d56",
+    q: "q",
+    r: "\u02b3",
+    s: "\u02e2",
+    t: "\u1d57",
+    u: "\u1d58",
+    v: "\u1d5b",
+    w: "\u02b7",
+    x: "\u02e3",
+    y: "\u02b8",
+    z: "\u1dbb",
+    A: "\u1d2c",
+    B: "\u1d2e",
+    C: "\u1d9c",
+    D: "\u1d30",
+    E: "\u1d31",
+    F: "\u1da0",
+    G: "\u1d33",
+    H: "\u1d34",
+    I: "\u1d35",
+    J: "\u1d36",
+    K: "\u1d37",
+    L: "\u1d38",
+    M: "\u1d39",
+    N: "\u1d3a",
+    O: "\u1d3c",
+    P: "\u1d3e",
+    Q: "Q",
+    R: "\u1d3f",
+    S: "\u02e2",
+    T: "\u1d40",
+    U: "\u1d41",
+    V: "\u2c7d",
+    W: "\u1d42",
+    X: "\u02e3",
+    Y: "\u02b8",
+    Z: "\u1dbb",
+    "+": "\u207a",
+    "-": "\u207b",
+    "=": "\u207c",
+    "(": "\u207d",
+    ")": "\u207e"
+};
+const squiggleCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\u0e04",
+    b: "\u0e52",
+    c: "\u03c2",
+    d: "\u0e54",
+    e: "\u0454",
+    f: "\u0166",
+    g: "\ufeee",
+    h: "\u0452",
+    i: "\u0e40",
+    j: "\u05df",
+    k: "\u043a",
+    l: "\u026d",
+    m: "\u0e53",
+    n: "\u0e20",
+    o: "\u0e4f",
+    p: "\u05e7",
+    q: "\u1ee3",
+    r: "\u0433",
+    s: "\u0e23",
+    t: "\u0547",
+    u: "\u0e22",
+    v: "\u05e9",
+    w: "\u0e2c",
+    x: "\u05d0",
+    y: "\u05e5",
+    z: "\u0579",
+    A: "\u0e04",
+    B: "\u0e52",
+    C: "\u03c2",
+    D: "\u0e54",
+    E: "\u0454",
+    F: "\u0166",
+    G: "\ufeee",
+    H: "\u0452",
+    I: "\u0e40",
+    J: "\u05df",
+    K: "\u043a",
+    L: "\u026d",
+    M: "\u0e53",
+    N: "\u0e20",
+    O: "\u0e4f",
+    P: "\u05e7",
+    Q: "\u1ee3",
+    R: "\u0433",
+    S: "\u0e23",
+    T: "\u0547",
+    U: "\u0e22",
+    V: "\u05e9",
+    W: "\u0e2c",
+    X: "\u05d0",
+    Y: "\u05e5",
+    Z: "\u0579"
+};
+const doubleStruckCharMap = {
+    0: "\ud835\udfd8",
+    1: "\ud835\udfd9",
+    2: "\ud835\udfda",
+    3: "\ud835\udfdb",
+    4: "\ud835\udfdc",
+    5: "\ud835\udfdd",
+    6: "\ud835\udfde",
+    7: "\ud835\udfdf",
+    8: "\ud835\udfe0",
+    9: "\ud835\udfe1",
+    a: "\ud835\udd52",
+    b: "\ud835\udd53",
+    c: "\ud835\udd54",
+    d: "\ud835\udd55",
+    e: "\ud835\udd56",
+    f: "\ud835\udd57",
+    g: "\ud835\udd58",
+    h: "\ud835\udd59",
+    i: "\ud835\udd5a",
+    j: "\ud835\udd5b",
+    k: "\ud835\udd5c",
+    l: "\ud835\udd5d",
+    m: "\ud835\udd5e",
+    n: "\ud835\udd5f",
+    o: "\ud835\udd60",
+    p: "\ud835\udd61",
+    q: "\ud835\udd62",
+    r: "\ud835\udd63",
+    s: "\ud835\udd64",
+    t: "\ud835\udd65",
+    u: "\ud835\udd66",
+    v: "\ud835\udd67",
+    w: "\ud835\udd68",
+    x: "\ud835\udd69",
+    y: "\ud835\udd6a",
+    z: "\ud835\udd6b",
+    A: "\ud835\udd38",
+    B: "\ud835\udd39",
+    C: "\u2102",
+    D: "\ud835\udd3b",
+    E: "\ud835\udd3c",
+    F: "\ud835\udd3d",
+    G: "\ud835\udd3e",
+    H: "\u210d",
+    I: "\ud835\udd40",
+    J: "\ud835\udd41",
+    K: "\ud835\udd42",
+    L: "\ud835\udd43",
+    M: "\ud835\udd44",
+    N: "\u2115",
+    O: "\ud835\udd46",
+    P: "\u2119",
+    Q: "\u211a",
+    R: "\u211d",
+    S: "\ud835\udd4a",
+    T: "\ud835\udd4b",
+    U: "\ud835\udd4c",
+    V: "\ud835\udd4d",
+    W: "\ud835\udd4e",
+    X: "\ud835\udd4f",
+    Y: "\ud835\udd50",
+    Z: "\u2124"
+};
+const medievalCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\ud835\udd86",
+    b: "\ud835\udd87",
+    c: "\ud835\udd88",
+    d: "\ud835\udd89",
+    e: "\ud835\udd8a",
+    f: "\ud835\udd8b",
+    g: "\ud835\udd8c",
+    h: "\ud835\udd8d",
+    i: "\ud835\udd8e",
+    j: "\ud835\udd8f",
+    k: "\ud835\udd90",
+    l: "\ud835\udd91",
+    m: "\ud835\udd92",
+    n: "\ud835\udd93",
+    o: "\ud835\udd94",
+    p: "\ud835\udd95",
+    q: "\ud835\udd96",
+    r: "\ud835\udd97",
+    s: "\ud835\udd98",
+    t: "\ud835\udd99",
+    u: "\ud835\udd9a",
+    v: "\ud835\udd9b",
+    w: "\ud835\udd9c",
+    x: "\ud835\udd9d",
+    y: "\ud835\udd9e",
+    z: "\ud835\udd9f",
+    A: "\ud835\udd6c",
+    B: "\ud835\udd6d",
+    C: "\ud835\udd6e",
+    D: "\ud835\udd6f",
+    E: "\ud835\udd70",
+    F: "\ud835\udd71",
+    G: "\ud835\udd72",
+    H: "\ud835\udd73",
+    I: "\ud835\udd74",
+    J: "\ud835\udd75",
+    K: "\ud835\udd76",
+    L: "\ud835\udd77",
+    M: "\ud835\udd78",
+    N: "\ud835\udd79",
+    O: "\ud835\udd7a",
+    P: "\ud835\udd7b",
+    Q: "\ud835\udd7c",
+    R: "\ud835\udd7d",
+    S: "\ud835\udd7e",
+    T: "\ud835\udd7f",
+    U: "\ud835\udd80",
+    V: "\ud835\udd81",
+    W: "\ud835\udd82",
+    X: "\ud835\udd83",
+    Y: "\ud835\udd84",
+    Z: "\ud835\udd85"
+};
+const invertedSquaresCharMap = {
+    q: "\ud83c\udd80",
+    w: "\ud83c\udd86",
+    e: "\ud83c\udd74",
+    r: "\ud83c\udd81",
+    t: "\ud83c\udd83",
+    y: "\ud83c\udd88",
+    u: "\ud83c\udd84",
+    i: "\ud83c\udd78",
+    o: "\ud83c\udd7e",
+    p: "\ud83c\udd7f",
+    a: "\ud83c\udd70",
+    s: "\ud83c\udd82",
+    d: "\ud83c\udd73",
+    f: "\ud83c\udd75",
+    g: "\ud83c\udd76",
+    h: "\ud83c\udd77",
+    j: "\ud83c\udd79",
+    k: "\ud83c\udd7a",
+    l: "\ud83c\udd7b",
+    z: "\ud83c\udd89",
+    x: "\ud83c\udd87",
+    c: "\ud83c\udd72",
+    v: "\ud83c\udd85",
+    b: "\ud83c\udd71",
+    n: "\ud83c\udd7d",
+    m: "\ud83c\udd7c"
+};
+const cursiveCharMap = {
+    0: "0",
+    1: "1",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    a: "\ud835\udcea",
+    b: "\ud835\udceb",
+    c: "\ud835\udcec",
+    d: "\ud835\udced",
+    e: "\ud835\udcee",
+    f: "\ud835\udcef",
+    g: "\ud835\udcf0",
+    h: "\ud835\udcf1",
+    i: "\ud835\udcf2",
+    j: "\ud835\udcf3",
+    k: "\ud835\udcf4",
+    l: "\ud835\udcf5",
+    m: "\ud835\udcf6",
+    n: "\ud835\udcf7",
+    o: "\ud835\udcf8",
+    p: "\ud835\udcf9",
+    q: "\ud835\udcfa",
+    r: "\ud835\udcfb",
+    s: "\ud835\udcfc",
+    t: "\ud835\udcfd",
+    u: "\ud835\udcfe",
+    v: "\ud835\udcff",
+    w: "\ud835\udd00",
+    x: "\ud835\udd01",
+    y: "\ud835\udd02",
+    z: "\ud835\udd03",
+    A: "\ud835\udcd0",
+    B: "\ud835\udcd1",
+    C: "\ud835\udcd2",
+    D: "\ud835\udcd3",
+    E: "\ud835\udcd4",
+    F: "\ud835\udcd5",
+    G: "\ud835\udcd6",
+    H: "\ud835\udcd7",
+    I: "\ud835\udcd8",
+    J: "\ud835\udcd9",
+    K: "\ud835\udcda",
+    L: "\ud835\udcdb",
+    M: "\ud835\udcdc",
+    N: "\ud835\udcdd",
+    O: "\ud835\udcde",
+    P: "\ud835\udcdf",
+    Q: "\ud835\udce0",
+    R: "\ud835\udce1",
+    S: "\ud835\udce2",
+    T: "\ud835\udce3",
+    U: "\ud835\udce4",
+    V: "\ud835\udce5",
+    W: "\ud835\udce6",
+    X: "\ud835\udce7",
+    Y: "\ud835\udce8",
+    Z: "\ud835\udce9"
+};
+const oldEnglishCharMap = {
+    a: "\ud835\udd1e",
+    b: "\ud835\udd1f",
+    c: "\ud835\udd20",
+    d: "\ud835\udd21",
+    e: "\ud835\udd22",
+    f: "\ud835\udd23",
+    g: "\ud835\udd24",
+    h: "\ud835\udd25",
+    i: "\ud835\udd26",
+    j: "\ud835\udd27",
+    k: "\ud835\udd28",
+    l: "\ud835\udd29",
+    m: "\ud835\udd2a",
+    n: "\ud835\udd2b",
+    o: "\ud835\udd2c",
+    p: "\ud835\udd2d",
+    q: "\ud835\udd2e",
+    r: "\ud835\udd2f",
+    s: "\ud835\udd30",
+    t: "\ud835\udd31",
+    u: "\ud835\udd32",
+    v: "\ud835\udd33",
+    w: "\ud835\udd34",
+    x: "\ud835\udd35",
+    y: "\ud835\udd36",
+    z: "\ud835\udd37",
+    A: "\ud835\udd04",
+    B: "\ud835\udd05",
+    C: "\u212d",
+    D: "\ud835\udd07",
+    E: "\ud835\udd08",
+    F: "\ud835\udd09",
+    G: "\ud835\udd0a",
+    H: "\u210c",
+    I: "\u2111",
+    J: "\ud835\udd0d",
+    K: "\ud835\udd0e",
+    L: "\ud835\udd0f",
+    M: "\ud835\udd10",
+    N: "\ud835\udd11",
+    O: "\ud835\udd12",
+    P: "\ud835\udd13",
+    Q: "\ud835\udd14",
+    R: "\u211c",
+    S: "\ud835\udd16",
+    T: "\ud835\udd17",
+    U: "\ud835\udd18",
+    V: "\ud835\udd19",
+    W: "\ud835\udd1a",
+    X: "\ud835\udd1b",
+    Y: "\ud835\udd1c",
+    Z: "\u2128"
+};
+const wideTextCharMap = {
+    "`": "`",
+    1: "\uff11",
+    2: "\uff12",
+    3: "\uff13",
+    4: "\uff14",
+    5: "\uff15",
+    6: "\uff16",
+    7: "\uff17",
+    8: "\uff18",
+    9: "\uff19",
+    0: "\uff10",
+    "-": "\uff0d",
+    "=": "\uff1d",
+    "~": "~",
+    "!": "\uff01",
+    "@": "\uff20",
+    "#": "\uff03",
+    $: "\uff04",
+    "%": "\uff05",
+    "^": "^",
+    "&": "\uff06",
+    "*": "\uff0a",
+    "(": "\uff08",
+    ")": "\uff09",
+    _: "_",
+    "+": "\uff0b",
+    q: "\uff51",
+    w: "\uff57",
+    e: "\uff45",
+    r: "\uff52",
+    t: "\uff54",
+    y: "\uff59",
+    u: "\uff55",
+    i: "\uff49",
+    o: "\uff4f",
+    p: "\uff50",
+    "[": "[",
+    "]": "]",
+    "\\": "\\",
+    Q: "\uff31",
+    W: "\uff37",
+    E: "\uff25",
+    R: "\uff32",
+    T: "\uff34",
+    Y: "\uff39",
+    U: "\uff35",
+    I: "\uff29",
+    O: "\uff2f",
+    P: "\uff30",
+    "{": "{",
+    "}": "}",
+    "|": "|",
+    a: "\uff41",
+    s: "\uff53",
+    d: "\uff44",
+    f: "\uff46",
+    g: "\uff47",
+    h: "\uff48",
+    j: "\uff4a",
+    k: "\uff4b",
+    l: "\uff4c",
+    ";": "\uff1b",
+    "\'": "\uff07",
+    A: "\uff21",
+    S: "\uff33",
+    D: "\uff24",
+    F: "\uff26",
+    G: "\uff27",
+    H: "\uff28",
+    J: "\uff2a",
+    K: "\uff2b",
+    L: "\uff2c",
+    ":": "\uff1a",
+    '\"': '\"',
+    z: "\uff5a",
+    x: "\uff58",
+    c: "\uff43",
+    v: "\uff56",
+    b: "\uff42",
+    n: "\uff4e",
+    m: "\uff4d",
+    ",": "\uff0c",
+    ".": "\uff0e",
+    "/": "\uff0f",
+    Z: "\uff3a",
+    X: "\uff38",
+    C: "\uff23",
+    V: "\uff36",
+    B: "\uff22",
+    N: "\uff2e",
+    M: "\uff2d",
+    "<": "<",
+    ">": ">",
+    "?": "\uff1f"
+};
 
 function Lunicode() {
-    var _0x39ba67 = _0x187c56;
-    this['tools'] = {
-        'flip': {
-            'init': function() {
-                var _0x1aca4c = _0x2856;
-                for (i in this[_0x1aca4c(0x21e)]) this[_0x1aca4c(0x21e)][this[_0x1aca4c(0x21e)][i]] = i;
-            },
-            'encode': function(_0x4d695b) {
-                var _0x14a186 = _0x2856;
-                for (var _0x551b95, _0x540f89 = [], _0x4318cd = 0x0, _0x555f7a = _0x4d695b[_0x14a186(0x5f)]; _0x555f7a > _0x4318cd; _0x4318cd++) _0x551b95 = _0x4d695b[_0x14a186(0x4af)](_0x4318cd), _0x4318cd > 0x0 && ('̤' == _0x551b95 || '̗' == _0x551b95 || '̖' == _0x551b95 || '̮' == _0x551b95) ? (_0x551b95 = this[_0x14a186(0x21e)][_0x4d695b[_0x14a186(0x4af)](_0x4318cd - 0x1) + _0x551b95], _0x540f89[_0x14a186(0x46b)]()) : (_0x551b95 = this[_0x14a186(0x21e)][_0x551b95], 'undefined' == typeof _0x551b95 && (_0x551b95 = _0x4d695b[_0x14a186(0x4af)](_0x4318cd))), _0x540f89[_0x14a186(0x302)](_0x551b95);
-                return _0x540f89['reverse']()['join']('');
-            },
-            'decode': function(_0x73235c) {
-                var _0x292976 = _0x2856;
-                for (var _0x2d5f70, _0x267d14 = [], _0x4a5c3b = 0x0, _0xeae8fc = _0x73235c[_0x292976(0x5f)]; _0xeae8fc > _0x4a5c3b; _0x4a5c3b++) _0x2d5f70 = _0x73235c[_0x292976(0x4af)](_0x4a5c3b), _0x4a5c3b > 0x0 && ('̤' == _0x2d5f70 || '̗' == _0x2d5f70 || '̖' == _0x2d5f70 || '̮' == _0x2d5f70) ? (_0x2d5f70 = this[_0x292976(0x21e)][_0x73235c['charAt'](_0x4a5c3b - 0x1) + _0x2d5f70], _0x267d14[_0x292976(0x46b)]()) : (_0x2d5f70 = this[_0x292976(0x21e)][_0x2d5f70], _0x292976(0x15f) == typeof _0x2d5f70 && (_0x2d5f70 = _0x73235c['charAt'](_0x4a5c3b))), _0x267d14['push'](_0x2d5f70);
-                return _0x267d14[_0x292976(0x32b)]()[_0x292976(0x211)]('');
-            },
-            'map': {
-                'a': 'ɐ',
-                'b': 'q',
-                'c': 'ɔ',
-                'd': 'p',
-                'e': 'ǝ',
-                'f': 'ɟ',
-                'g': 'ɓ',
-                'h': 'ɥ',
-                'i': 'ı',
-                'j': 'ɾ',
-                'k': 'ʞ',
-                'l': 'l',
-                'm': 'ɯ',
-                'n': 'u',
-                'r': 'ɹ',
-                't': 'ʇ',
-                'v': 'ʌ',
-                'w': 'ʍ',
-                'y': 'ʎ',
-                'A': '∀',
-                'B': 'ᙠ',
-                'C': 'Ɔ',
-                'D': 'ᗡ',
-                'E': 'Ǝ',
-                'F': 'Ⅎ',
-                'G': '⅁',
-                'J': 'ſ',
-                'K': '⋊',
-                'L': '˥',
-                'M': 'W',
-                'P': 'Ԁ',
-                'Q': 'Ό',
-                'R': 'ᴚ',
-                'T': '⊥',
-                'U': '∩',
-                'V': 'Λ',
-                'Y': '⅄',
-                0x1: '⇂',
-                0x2: 'ᄅ',
-                0x3: 'Ɛ',
-                0x4: 'ㄣ',
-                0x5: 'ގ',
-                0x6: '9',
-                0x7: 'ㄥ',
-                '&': '⅋',
-                '.': '˙',
-                '\x22': '„',
-                ';': '؛',
-                '[': ']',
-                '(': ')',
-                '{': '}',
-                '?': '¿',
-                '!': '¡',
-                '\x27': ',',
-                '<': '>',
-                '‾': '_',
-                '¯': '_',
-                '‿': '⁀',
-                '⁅': '⁆',
-                '∴': '∵',
-                '\x0d': '\x0a',
-                'ß': 'ᙠ',
-                '̈': '̤',
-                'ä': 'ɐ̤',
-                'ö': 'o̤',
-                'ü': 'n̤',
-                'Ä': '∀̤',
-                'Ö': 'O̤',
-                'Ü': '∩̤',
-                '´': '\x20̗',
-                'é': 'ǝ̗',
-                'á': 'ɐ̗',
-                'ó': 'o̗',
-                'ú': 'n̗',
-                'É': 'Ǝ̗',
-                'Á': '∀̗',
-                'Ó': 'O̗',
-                'Ú': '∩̗',
-                '`': '\x20̖',
-                'è': 'ǝ̖',
-                'à': 'ɐ̖',
-                'ò': 'o̖',
-                'ù': 'n̖',
-                'È': 'Ǝ̖',
-                'À': '∀̖',
-                'Ò': 'O̖',
-                'Ù': '∩̖',
-                '^': '\x20̮',
-                'ê': 'ǝ̮',
-                'â': 'ɐ̮',
-                'ô': 'o̮',
-                'û': 'n̮',
-                'Ê': 'Ǝ̮',
-                'Â': '∀̮',
-                'Ô': 'O̮',
-                'Û': '∩̮'
-            }
-        },
-        'mirror': {
-            'init': function() {
-                var _0x3a9c5a = _0x2856;
-                for (i in this[_0x3a9c5a(0x21e)]) this[_0x3a9c5a(0x21e)][this[_0x3a9c5a(0x21e)][i]] = i;
-            },
-            'encode': function(_0x563d7a) {
-                var _0x451082 = _0x2856;
-                for (var _0x1272b7, _0x1a25be = [], _0x4a4554 = [], _0x1dd88c = 0x0, _0x22e5d1 = _0x563d7a[_0x451082(0x5f)]; _0x22e5d1 > _0x1dd88c; _0x1dd88c++) _0x1272b7 = _0x563d7a[_0x451082(0x4af)](_0x1dd88c), _0x1dd88c > 0x0 && ('̈' == _0x1272b7 || '̀' == _0x1272b7 || '́' == _0x1272b7 || '̂' == _0x1272b7) ? (_0x1272b7 = this[_0x451082(0x21e)][_0x563d7a[_0x451082(0x4af)](_0x1dd88c - 0x1) + _0x1272b7], _0x1a25be[_0x451082(0x46b)]()) : (_0x1272b7 = this[_0x451082(0x21e)][_0x1272b7], _0x451082(0x15f) == typeof _0x1272b7 && (_0x1272b7 = _0x563d7a['charAt'](_0x1dd88c))), '\x0a' == _0x1272b7 ? (_0x4a4554[_0x451082(0x302)](_0x1a25be[_0x451082(0x32b)]()[_0x451082(0x211)]('')), _0x1a25be = []) : _0x1a25be['push'](_0x1272b7);
-                return _0x4a4554[_0x451082(0x302)](_0x1a25be[_0x451082(0x32b)]()[_0x451082(0x211)]('')), _0x4a4554['join']('\x0a');
-            },
-            'decode': function(_0x4c3585) {
-                var _0xf3c676 = _0x2856;
-                for (var _0x374449, _0x5266d9 = [], _0x2a355d = [], _0x57abd6 = 0x0, _0x56e709 = _0x4c3585[_0xf3c676(0x5f)]; _0x56e709 > _0x57abd6; _0x57abd6++) _0x374449 = _0x4c3585[_0xf3c676(0x4af)](_0x57abd6), _0x57abd6 > 0x0 && ('̈' == _0x374449 || '̀' == _0x374449 || '́' == _0x374449 || '̂' == _0x374449) ? (_0x374449 = this[_0xf3c676(0x21e)][_0x4c3585['charAt'](_0x57abd6 - 0x1) + _0x374449], _0x5266d9[_0xf3c676(0x46b)]()) : (_0x374449 = this[_0xf3c676(0x21e)][_0x374449], _0xf3c676(0x15f) == typeof _0x374449 && (_0x374449 = _0x4c3585[_0xf3c676(0x4af)](_0x57abd6))), '\x0a' == _0x374449 ? (_0x2a355d['push'](_0x5266d9['reverse']()['join']('')), _0x5266d9 = []) : _0x5266d9[_0xf3c676(0x302)](_0x374449);
-                return _0x2a355d[_0xf3c676(0x302)](_0x5266d9[_0xf3c676(0x32b)]()['join']('')), _0x2a355d[_0xf3c676(0x211)]('\x0a');
-            },
-            'map': {
-                'a': 'ɒ',
-                'b': 'd',
-                'c': 'ɔ',
-                'e': 'ɘ',
-                'f': 'Ꮈ',
-                'g': 'ǫ',
-                'h': 'ʜ',
-                'j': 'ꞁ',
-                'k': 'ʞ',
-                'l': '|',
-                'n': 'ᴎ',
-                'p': 'q',
-                'r': 'ɿ',
-                's': 'ꙅ',
-                't': 'ƚ',
-                'y': 'ʏ',
-                'z': 'ƹ',
-                'B': 'ᙠ',
-                'C': 'Ɔ',
-                'D': 'ᗡ',
-                'E': 'Ǝ',
-                'F': 'ꟻ',
-                'G': 'Ꭾ',
-                'J': 'Ⴑ',
-                'K': '⋊',
-                'L': '⅃',
-                'N': 'Ͷ',
-                'P': 'ꟼ',
-                'Q': 'Ọ',
-                'R': 'Я',
-                'S': 'Ꙅ',
-                'Z': 'Ƹ',
-                0x1: '',
-                0x2: '',
-                0x3: '',
-                0x4: '',
-                0x5: '',
-                0x6: '',
-                0x7: '',
-                '&': '',
-                ';': '',
-                '[': ']',
-                '(': ')',
-                '{': '}',
-                '?': '⸮',
-                '<': '>',
-                'ä': 'ɒ̈',
-                'ß': 'ᙠ',
-                '´': '`',
-                'é': 'ɘ̀',
-                'á': 'ɒ̀',
-                'ó': 'ò',
-                'ú': 'ù',
-                'É': 'Ǝ̀',
-                'Á': 'À',
-                'Ó': 'Ò',
-                'Ú': 'Ù',
-                '`': '´',
-                'è': 'ɘ́',
-                'à': 'ɒ́',
-                'È': 'Ǝ́',
-                'ê': 'ɘ̂',
-                'â': 'ɒ̂',
-                'Ê': 'Ǝ̂',
-                'Ø': 'ᴓ',
-                'ø': 'ᴓ'
-            }
-        },
-        'creepify': {
-            'init': function() {
-                var _0xa03803 = _0x2856;
-                for (var _0xb30636 = 0x300; 0x315 >= _0xb30636; _0xb30636++) this[_0xa03803(0x3f5)]['push'](String[_0xa03803(0x19d)](_0xb30636));
-                for (var _0xb30636 = 0x316; 0x333 >= _0xb30636; _0xb30636++) 0x31a != _0xb30636 && 0x31b != _0xb30636 && this['diacriticsBottom']['push'](String['fromCharCode'](_0xb30636));
-                this[_0xa03803(0x3f5)]['push'](String[_0xa03803(0x19d)](0x31a)), this['diacriticsTop'][_0xa03803(0x302)](String['fromCharCode'](0x31b));
-                for (var _0xb30636 = 0x334; 0x338 >= _0xb30636; _0xb30636++) this['diacriticsMiddle']['push'](String['fromCharCode'](_0xb30636));
-                for (var _0xb30636 = 0x339; 0x33c >= _0xb30636; _0xb30636++) this['diacriticsBottom']['push'](String[_0xa03803(0x19d)](_0xb30636));
-                for (var _0xb30636 = 0x33d; 0x344 >= _0xb30636; _0xb30636++) this[_0xa03803(0x3f5)][_0xa03803(0x302)](String['fromCharCode'](_0xb30636));
-                this[_0xa03803(0x3f5)][_0xa03803(0x302)](String['fromCharCode'](0x344)), this[_0xa03803(0x20c)]['push'](String[_0xa03803(0x19d)](0x345)), this[_0xa03803(0x3f5)]['push'](String[_0xa03803(0x19d)](0x346)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x347)), this[_0xa03803(0x20c)]['push'](String['fromCharCode'](0x348)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String['fromCharCode'](0x349)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x34a)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x34b)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String['fromCharCode'](0x34c)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x34d)), this['diacriticsBottom'][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x34e)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x350)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x351)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x352)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x353)), this['diacriticsBottom']['push'](String[_0xa03803(0x19d)](0x354)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x355)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x356)), this['diacriticsTop']['push'](String[_0xa03803(0x19d)](0x357)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x358)), this['diacriticsBottom'][_0xa03803(0x302)](String['fromCharCode'](0x359)), this['diacriticsBottom'][_0xa03803(0x302)](String['fromCharCode'](0x35a)), this['diacriticsTop'][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x35b)), this[_0xa03803(0x20c)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x35c)), this['diacriticsTop'][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x35d)), this['diacriticsTop']['push'](String['fromCharCode'](0x35d)), this[_0xa03803(0x20c)]['push'](String[_0xa03803(0x19d)](0x35f)), this[_0xa03803(0x3f5)][_0xa03803(0x302)](String[_0xa03803(0x19d)](0x360)), this['diacriticsTop'][_0xa03803(0x302)](String['fromCharCode'](0x361));
-            },
-            'encode': function(_0x1312cd) {
-                var _0x56833e = _0x2856,
-                    _0x4357b8, _0x79220b = '';
-                for (i in _0x1312cd) {
-                    if (_0x4357b8 = _0x1312cd[i], this[_0x56833e(0x152)]['middle'] && (_0x4357b8 += this[_0x56833e(0x311)][Math[_0x56833e(0x4bd)](Math[_0x56833e(0xe6)]() * this[_0x56833e(0x311)][_0x56833e(0x5f)])]), this[_0x56833e(0x152)][_0x56833e(0x35d)]) {
-                        for (var _0x582a37 = this[_0x56833e(0x3f5)]['length'] - 0x1, _0x11ce7c = 0x0, _0x46c1b2 = this['options'][_0x56833e(0x4b4)] - Math['random']() * (this['options'][_0x56833e(0x1c2)] / 0x64 * this['options'][_0x56833e(0x4b4)]); _0x46c1b2 > _0x11ce7c; _0x11ce7c++) _0x4357b8 += this['diacriticsTop'][Math['floor'](Math['random']() * _0x582a37)];
-                    }
-                    if (this[_0x56833e(0x152)][_0x56833e(0x4da)]) {
-                        for (var _0x4d540a = this[_0x56833e(0x20c)][_0x56833e(0x5f)] - 0x1, _0x11ce7c = 0x0, _0x46c1b2 = this[_0x56833e(0x152)][_0x56833e(0x4b4)] - Math[_0x56833e(0xe6)]() * (this[_0x56833e(0x152)][_0x56833e(0x1c2)] / 0x64 * this[_0x56833e(0x152)][_0x56833e(0x4b4)]); _0x46c1b2 > _0x11ce7c; _0x11ce7c++) _0x4357b8 += this[_0x56833e(0x20c)][Math['floor'](Math[_0x56833e(0xe6)]() * _0x4d540a)];
-                    }
-                    _0x79220b += _0x4357b8;
+    this["tools"] = {
+        flip: {
+            init: function() {
+                for (i in this["map"]) {
+                    this["map"][this["map"][i]] = i
                 }
-                return _0x79220b;
             },
-            'decode': function(_0x14b76f) {
-                var _0x2cd7d6 = _0x2856,
-                    _0x304994, _0x1e270f = '';
-                for (i in _0x14b76f) _0x304994 = _0x14b76f[i][_0x2cd7d6(0x466)](0x0), (0x300 > _0x304994 || _0x304994 > 0x361) && (_0x1e270f += _0x14b76f[i]);
-                return _0x1e270f;
+            encode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = [], _0x59eexc0 = 0, _0x59eexc1 = _0x59eex43["length"]; _0x59eexc1 > _0x59eexc0; _0x59eexc0++) {
+                    (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0)), _0x59eexc0 > 0 && ("\u0324" == _0x59eexbe || "\u0317" == _0x59eexbe || "\u0316" == _0x59eexbe || "\u032e" == _0x59eexbe) ? ((_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc0 - 1) + _0x59eexbe]), _0x59eexbf["pop"]()) : ((_0x59eexbe = this["map"][_0x59eexbe]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0))), _0x59eexbf["push"](_0x59eexbe)
+                }
+                return _0x59eexbf["reverse"]()["join"]("")
             },
-            'diacriticsTop': [],
-            'diacriticsMiddle': [],
-            'diacriticsBottom': [],
-            'options': {
-                'top': !0x0,
-                'middle': !0x0,
-                'bottom': !0x0,
-                'maxHeight': 0xf,
-                'randomization': 0x64
+            decode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = [], _0x59eexc0 = 0, _0x59eexc1 = _0x59eex43["length"]; _0x59eexc1 > _0x59eexc0; _0x59eexc0++) {
+                    (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0)), _0x59eexc0 > 0 && ("\u0324" == _0x59eexbe || "\u0317" == _0x59eexbe || "\u0316" == _0x59eexbe || "\u032e" == _0x59eexbe) ? ((_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc0 - 1) + _0x59eexbe]), _0x59eexbf["pop"]()) : ((_0x59eexbe = this["map"][_0x59eexbe]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0))), _0x59eexbf["push"](_0x59eexbe)
+                }
+                return _0x59eexbf["reverse"]()["join"]("")
+            },
+            map: {
+                a: "\u0250",
+                b: "q",
+                c: "\u0254",
+                d: "p",
+                e: "\u01dd",
+                f: "\u025f",
+                g: "\u0253",
+                h: "\u0265",
+                i: "\u0131",
+                j: "\u027e",
+                k: "\u029e",
+                l: "l",
+                m: "\u026f",
+                n: "u",
+                r: "\u0279",
+                t: "\u0287",
+                v: "\u028c",
+                w: "\u028d",
+                y: "\u028e",
+                A: "\u2200",
+                B: "\u1660",
+                C: "\u0186",
+                D: "\u15e1",
+                E: "\u018e",
+                F: "\u2132",
+                G: "\u2141",
+                J: "\u017f",
+                K: "\u22ca",
+                L: "\u02e5",
+                M: "W",
+                P: "\u0500",
+                Q: "\u038c",
+                R: "\u1d1a",
+                T: "\u22a5",
+                U: "\u2229",
+                V: "\u039b",
+                Y: "\u2144",
+                1: "\u21c2",
+                2: "\u1105",
+                3: "\u0190",
+                4: "\u3123",
+                5: "\u078e",
+                6: "9",
+                7: "\u3125",
+                "&": "\u214b",
+                ".": "\u02d9",
+                '\"': "\u201e",
+                ";": "\u061b",
+                "[": "]",
+                "(": ")",
+                "{": "}",
+                "?": "\xBF",
+                "!": "\xA1",
+                "\'": ",",
+                "<": ">",
+                "\u203e": "_",
+                "\xAF": "_",
+                "\u203f": "\u2040",
+                "\u2045": "\u2046",
+                "\u2234": "\u2235",
+                "\x0D": "\x0A",
+                ß: "\u1660",
+                "\u0308": "\u0324",
+                ä: "\u0250\u0324",
+                ö: "o\u0324",
+                ü: "n\u0324",
+                Ä: "\u2200\u0324",
+                Ö: "O\u0324",
+                Ü: "\u2229\u0324",
+                "\xB4": " \u0317",
+                é: "\u01dd\u0317",
+                á: "\u0250\u0317",
+                ó: "o\u0317",
+                ú: "n\u0317",
+                É: "\u018e\u0317",
+                Á: "\u2200\u0317",
+                Ó: "O\u0317",
+                Ú: "\u2229\u0317",
+                "`": " \u0316",
+                è: "\u01dd\u0316",
+                à: "\u0250\u0316",
+                ò: "o\u0316",
+                ù: "n\u0316",
+                È: "\u018e\u0316",
+                À: "\u2200\u0316",
+                Ò: "O\u0316",
+                Ù: "\u2229\u0316",
+                "^": " \u032e",
+                ê: "\u01dd\u032e",
+                â: "\u0250\u032e",
+                ô: "o\u032e",
+                û: "n\u032e",
+                Ê: "\u018e\u032e",
+                Â: "\u2200\u032e",
+                Ô: "O\u032e",
+                Û: "\u2229\u032e"
             }
         },
-        'bubbles': {
-            'init': function() {
-                var _0x3be3c6 = _0x2856;
-                for (var _0x5ce9da = 0x31; 0x39 >= _0x5ce9da; _0x5ce9da++) this[_0x3be3c6(0x21e)][String[_0x3be3c6(0x19d)](_0x5ce9da)] = String[_0x3be3c6(0x19d)](_0x5ce9da + 0x242f);
-                this[_0x3be3c6(0x21e)][0x0] = '⓪';
-                for (var _0x5ce9da = 0x41; 0x5a >= _0x5ce9da; _0x5ce9da++) this[_0x3be3c6(0x21e)][String['fromCharCode'](_0x5ce9da)] = String[_0x3be3c6(0x19d)](_0x5ce9da + 0x2475);
-                for (var _0x5ce9da = 0x61; 0x7a >= _0x5ce9da; _0x5ce9da++) this[_0x3be3c6(0x21e)][String['fromCharCode'](_0x5ce9da)] = String['fromCharCode'](_0x5ce9da + 0x246f);
-                for (_0x5ce9da in this[_0x3be3c6(0x21e)]) this[_0x3be3c6(0x27a)][this[_0x3be3c6(0x21e)][_0x5ce9da]] = _0x5ce9da;
+        mirror: {
+            init: function() {
+                for (i in this["map"]) {
+                    this["map"][this["map"][i]] = i
+                }
             },
-            'encode': function(_0x41f02e) {
-                var _0x478067 = _0x2856,
-                    _0x3a1caa, _0x47ee99 = '',
-                    _0x2f380d = !0x0;
-                for (i in _0x41f02e) _0x3a1caa = this[_0x478067(0x21e)][_0x41f02e[i]], 'undefined' == typeof _0x3a1caa && (_0x41f02e[i][_0x478067(0x466)](0x0) >= 0x21 ? (_0x3a1caa = _0x41f02e[i] + String['fromCharCode'](0x20dd), _0x2f380d || (_0x3a1caa = String['fromCharCode'](0x202f) + String['fromCharCode'](0xa0) + String[_0x478067(0x19d)](0xa0) + String['fromCharCode'](0x202f) + _0x3a1caa)) : _0x3a1caa = _0x41f02e[i]), _0x47ee99 += _0x3a1caa, _0x2f380d = '\x0a' == _0x3a1caa;
-                return _0x47ee99;
+            encode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = [], _0x59eexc0 = [], _0x59eexc1 = 0, _0x59eex40 = _0x59eex43["length"]; _0x59eex40 > _0x59eexc1; _0x59eexc1++) {
+                    (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc1)), _0x59eexc1 > 0 && ("\u0308" == _0x59eexbe || "\u0300" == _0x59eexbe || "\u0301" == _0x59eexbe || "\u0302" == _0x59eexbe) ? ((_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc1 - 1) + _0x59eexbe]), _0x59eexbf["pop"]()) : ((_0x59eexbe = this["map"][_0x59eexbe]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc1))), "\x0A" == _0x59eexbe ? (_0x59eexc0["push"](_0x59eexbf["reverse"]()["join"]("")), (_0x59eexbf = [])) : _0x59eexbf["push"](_0x59eexbe)
+                }
+                return _0x59eexc0["push"](_0x59eexbf["reverse"]()["join"]("")), _0x59eexc0["join"]("\x0A")
             },
-            'decode': function(_0x5b323b) {
-                var _0x149975 = _0x2856,
-                    _0x22f575, _0x3a8b45 = '',
-                    _0x48dce5 = '';
-                for (i in _0x5b323b) _0x22f575 = this[_0x149975(0x27a)][_0x5b323b[i]], _0x3a8b45 += _0x149975(0x15f) == typeof _0x22f575 ? _0x5b323b[i] : _0x22f575;
-                for (i in _0x3a8b45) _0x22f575 = _0x3a8b45[i][_0x149975(0x466)](0x0), 0xa0 != _0x22f575 && 0x202f != _0x22f575 && 0x20dd != _0x22f575 && (_0x48dce5 += _0x3a8b45[i]);
-                return _0x48dce5;
+            decode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = [], _0x59eexc0 = [], _0x59eexc1 = 0, _0x59eex40 = _0x59eex43["length"]; _0x59eex40 > _0x59eexc1; _0x59eexc1++) {
+                    (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc1)), _0x59eexc1 > 0 && ("\u0308" == _0x59eexbe || "\u0300" == _0x59eexbe || "\u0301" == _0x59eexbe || "\u0302" == _0x59eexbe) ? ((_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc1 - 1) + _0x59eexbe]), _0x59eexbf["pop"]()) : ((_0x59eexbe = this["map"][_0x59eexbe]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc1))), "\x0A" == _0x59eexbe ? (_0x59eexc0["push"](_0x59eexbf["reverse"]()["join"]("")), (_0x59eexbf = [])) : _0x59eexbf["push"](_0x59eexbe)
+                }
+                return _0x59eexc0["push"](_0x59eexbf["reverse"]()["join"]("")), _0x59eexc0["join"]("\x0A")
             },
-            'map': {},
-            'mapInverse': {}
-        },
-        'squares': {
-            'init': function() {},
-            'encode': function(_0x5852a0) {
-                var _0x295f39 = _0x2856,
-                    _0x28d782, _0x4febe7 = '',
-                    _0x3b676f = !0x0;
-                for (i in _0x5852a0) _0x5852a0[i][_0x295f39(0x466)](0x0) >= 0x21 ? (_0x28d782 = _0x5852a0[i] + String['fromCharCode'](0x20de), _0x3b676f || (_0x28d782 = String[_0x295f39(0x19d)](0x202f) + String['fromCharCode'](0xa0) + String['fromCharCode'](0xa0) + String[_0x295f39(0x19d)](0x202f) + _0x28d782)) : _0x28d782 = _0x5852a0[i], _0x4febe7 += _0x28d782, _0x3b676f = '\x0a' == _0x28d782;
-                return _0x4febe7;
-            },
-            'decode': function(_0xca0e08) {
-                var _0x2d6704 = _0x2856,
-                    _0x16c01d, _0x3c319a = '';
-                for (i in _0xca0e08) _0x16c01d = _0xca0e08[i][_0x2d6704(0x466)](0x0), 0xa0 != _0x16c01d && 0x202f != _0x16c01d && 0x20de != _0x16c01d && (_0x3c319a += _0xca0e08[i]);
-                return _0x3c319a;
+            map: {
+                a: "\u0252",
+                b: "d",
+                c: "\u0254",
+                e: "\u0258",
+                f: "\u13b8",
+                g: "\u01eb",
+                h: "\u029c",
+                j: "\ua781",
+                k: "\u029e",
+                l: "|",
+                n: "\u1d0e",
+                p: "q",
+                r: "\u027f",
+                s: "\ua645",
+                t: "\u019a",
+                y: "\u028f",
+                z: "\u01b9",
+                B: "\u1660",
+                C: "\u0186",
+                D: "\u15e1",
+                E: "\u018e",
+                F: "\ua7fb",
+                G: "\u13ae",
+                J: "\u10b1",
+                K: "\u22ca",
+                L: "\u2143",
+                N: "\u0376",
+                P: "\ua7fc",
+                Q: "\u1ecc",
+                R: "\u042f",
+                S: "\ua644",
+                Z: "\u01b8",
+                1: "",
+                2: "",
+                3: "",
+                4: "",
+                5: "",
+                6: "",
+                7: "",
+                "&": "",
+                ";": "",
+                "[": "]",
+                "(": ")",
+                "{": "}",
+                "?": "\u2e2e",
+                "<": ">",
+                ä: "\u0252\u0308",
+                ß: "\u1660",
+                "\xB4": "`",
+                é: "\u0258\u0300",
+                á: "\u0252\u0300",
+                ó: "\xF2",
+                ú: "\xF9",
+                É: "\u018e\u0300",
+                Á: "\xC0",
+                Ó: "\xD2",
+                Ú: "\xD9",
+                "`": "\xB4",
+                è: "\u0258\u0301",
+                à: "\u0252\u0301",
+                È: "\u018e\u0301",
+                ê: "\u0258\u0302",
+                â: "\u0252\u0302",
+                Ê: "\u018e\u0302",
+                Ø: "\u1d13",
+                ø: "\u1d13"
             }
         },
-        'roundsquares': {
-            'init': function() {},
-            'encode': function(_0x1cdda1) {
-                var _0x8405bd = _0x2856,
-                    _0x39f52f, _0x27d213 = '',
-                    _0x1b0850 = !0x0;
-                for (i in _0x1cdda1) _0x1cdda1[i][_0x8405bd(0x466)](0x0) >= 0x21 ? (_0x39f52f = _0x1cdda1[i] + String[_0x8405bd(0x19d)](0x20e3), _0x1b0850 || (_0x39f52f = String[_0x8405bd(0x19d)](0xa0) + String[_0x8405bd(0x19d)](0xa0) + String[_0x8405bd(0x19d)](0xa0) + _0x39f52f)) : _0x39f52f = _0x1cdda1[i], _0x27d213 += _0x39f52f, _0x1b0850 = '\x0a' == _0x39f52f;
-                return _0x27d213;
+        creepify: {
+            init: function() {
+                for (var _0x59eex43 = 768; 789 >= _0x59eex43; _0x59eex43++) {
+                    this["diacriticsTop"]["push"](String["fromCharCode"](_0x59eex43))
+                }
+                for (var _0x59eex43 = 790; 819 >= _0x59eex43; _0x59eex43++) {
+                    794 != _0x59eex43 && 795 != _0x59eex43 && this["diacriticsBottom"]["push"](String["fromCharCode"](_0x59eex43))
+                }
+                this["diacriticsTop"]["push"](String["fromCharCode"](794)), this["diacriticsTop"]["push"](String["fromCharCode"](795));
+                for (var _0x59eex43 = 820; 824 >= _0x59eex43; _0x59eex43++) {
+                    this["diacriticsMiddle"]["push"](String["fromCharCode"](_0x59eex43))
+                }
+                for (var _0x59eex43 = 825; 828 >= _0x59eex43; _0x59eex43++) {
+                    this["diacriticsBottom"]["push"](String["fromCharCode"](_0x59eex43))
+                }
+                for (var _0x59eex43 = 829; 836 >= _0x59eex43; _0x59eex43++) {
+                    this["diacriticsTop"]["push"](String["fromCharCode"](_0x59eex43))
+                }
+                this["diacriticsTop"]["push"](String["fromCharCode"](836)), this["diacriticsBottom"]["push"](String["fromCharCode"](837)), this["diacriticsTop"]["push"](String["fromCharCode"](838)), this["diacriticsBottom"]["push"](String["fromCharCode"](839)), this["diacriticsBottom"]["push"](String["fromCharCode"](840)), this["diacriticsBottom"]["push"](String["fromCharCode"](841)), this["diacriticsTop"]["push"](String["fromCharCode"](842)), this["diacriticsTop"]["push"](String["fromCharCode"](843)), this["diacriticsTop"]["push"](String["fromCharCode"](844)), this["diacriticsBottom"]["push"](String["fromCharCode"](845)), this["diacriticsBottom"]["push"](String["fromCharCode"](846)), this["diacriticsTop"]["push"](String["fromCharCode"](848)), this["diacriticsTop"]["push"](String["fromCharCode"](849)), this["diacriticsTop"]["push"](String["fromCharCode"](850)), this["diacriticsBottom"]["push"](String["fromCharCode"](851)), this["diacriticsBottom"]["push"](String["fromCharCode"](852)), this["diacriticsBottom"]["push"](String["fromCharCode"](853)), this["diacriticsBottom"]["push"](String["fromCharCode"](854)), this["diacriticsTop"]["push"](String["fromCharCode"](855)), this["diacriticsTop"]["push"](String["fromCharCode"](856)), this["diacriticsBottom"]["push"](String["fromCharCode"](857)), this["diacriticsBottom"]["push"](String["fromCharCode"](858)), this["diacriticsTop"]["push"](String["fromCharCode"](859)), this["diacriticsBottom"]["push"](String["fromCharCode"](860)), this["diacriticsTop"]["push"](String["fromCharCode"](861)), this["diacriticsTop"]["push"](String["fromCharCode"](861)), this["diacriticsBottom"]["push"](String["fromCharCode"](863)), this["diacriticsTop"]["push"](String["fromCharCode"](864)), this["diacriticsTop"]["push"](String["fromCharCode"](865))
             },
-            'decode': function(_0x226971) {
-                var _0x3db852 = _0x2856,
-                    _0x12a19f, _0x122755 = '';
-                for (i in _0x226971) _0x12a19f = _0x226971[i][_0x3db852(0x466)](0x0), 0xa0 != _0x12a19f && 0x202f != _0x12a19f && 0x20e3 != _0x12a19f && (_0x122755 += _0x226971[i]);
-                return _0x122755;
+            encode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "";
+                for (i in _0x59eexbe) {
+                    if (((_0x59eexbf = _0x59eexbe[i]), this["options"]["middle"] && (_0x59eexbf += this["diacriticsMiddle"][Math["floor"](Math["random"]() * this["diacriticsMiddle"]["length"])]), this["options"]["top"])) {
+                        for (var _0x59eexc1 = this["diacriticsTop"]["length"] - 1, _0x59eex40 = 0, _0x59eex37 = this["options"]["maxHeight"] - Math["random"]() * ((this["options"]["randomization"] / 100) * this["options"]["maxHeight"]); _0x59eex37 > _0x59eex40; _0x59eex40++) {
+                            _0x59eexbf += this["diacriticsTop"][Math["floor"](Math["random"]() * _0x59eexc1)]
+                        }
+                    }
+                    if (this["options"]["bottom"]) {
+                        for (var _0x59eexc2 = this["diacriticsBottom"]["length"] - 1, _0x59eex40 = 0, _0x59eex37 = this["options"]["maxHeight"] - Math["random"]() * ((this["options"]["randomization"] / 100) * this["options"]["maxHeight"]); _0x59eex37 > _0x59eex40; _0x59eex40++) {
+                            _0x59eexbf += this["diacriticsBottom"][Math["floor"](Math["random"]() * _0x59eexc2)]
+                        }
+                    }
+                    _0x59eexc0 += _0x59eexbf
+                }
+                return _0x59eexc0
+            },
+            decode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "";
+                for (i in _0x59eexbe) {
+                    (_0x59eexbf = _0x59eexbe[i]["charCodeAt"](0)), (768 > _0x59eexbf || _0x59eexbf > 865) && (_0x59eexc0 += _0x59eexbe[i])
+                }
+                return _0x59eexc0
+            },
+            diacriticsTop: [],
+            diacriticsMiddle: [],
+            diacriticsBottom: [],
+            options: {
+                top: !0,
+                middle: !0,
+                bottom: !0,
+                maxHeight: 15,
+                randomization: 100
             }
         },
-        'bent': {
-            'init': function() {
-                var _0x3ba377 = _0x2856;
-                for (i in this['map']) this[_0x3ba377(0x21e)][this[_0x3ba377(0x21e)][i]] = i;
+        bubbles: {
+            init: function() {
+                for (var _0x59eex43 = 49; 57 >= _0x59eex43; _0x59eex43++) {
+                    this["map"][String["fromCharCode"](_0x59eex43)] = String["fromCharCode"](_0x59eex43 + 9263)
+                }
+                this["map"][0] = "\u24ea";
+                for (var _0x59eex43 = 65; 90 >= _0x59eex43; _0x59eex43++) {
+                    this["map"][String["fromCharCode"](_0x59eex43)] = String["fromCharCode"](_0x59eex43 + 9333)
+                }
+                for (var _0x59eex43 = 97; 122 >= _0x59eex43; _0x59eex43++) {
+                    this["map"][String["fromCharCode"](_0x59eex43)] = String["fromCharCode"](_0x59eex43 + 9327)
+                }
+                for (_0x59eex43 in this["map"]) {
+                    this["mapInverse"][this["map"][_0x59eex43]] = _0x59eex43
+                }
             },
-            'encode': function(_0x5611c0) {
-                var _0x2bd389 = _0x2856;
-                for (var _0x3b1bb5, _0x584d66 = '', _0x477b0c = 0x0, _0x2bd066 = _0x5611c0[_0x2bd389(0x5f)]; _0x2bd066 > _0x477b0c; _0x477b0c++) _0x3b1bb5 = this[_0x2bd389(0x21e)][_0x5611c0['charAt'](_0x477b0c)], _0x2bd389(0x15f) == typeof _0x3b1bb5 && (_0x3b1bb5 = _0x5611c0[_0x2bd389(0x4af)](_0x477b0c)), _0x584d66 += _0x3b1bb5;
-                return _0x584d66;
+            encode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "",
+                    _0x59eexc1 = !0;
+                for (i in _0x59eexbe) {
+                    (_0x59eexbf = this["map"][_0x59eexbe[i]]), "undefined" == typeof _0x59eexbf && (_0x59eexbe[i]["charCodeAt"](0) >= 33 ? ((_0x59eexbf = _0x59eexbe[i] + String["fromCharCode"](8413)), _0x59eexc1 || (_0x59eexbf = String["fromCharCode"](8239) + String["fromCharCode"](160) + String["fromCharCode"](160) + String["fromCharCode"](8239) + _0x59eexbf)) : (_0x59eexbf = _0x59eexbe[i])), (_0x59eexc0 += _0x59eexbf), (_0x59eexc1 = "\x0A" == _0x59eexbf)
+                }
+                return _0x59eexc0
             },
-            'decode': function(_0x371d45) {
-                var _0x36775f = _0x2856;
-                for (var _0x20518f, _0x47fe84 = '', _0x554dda = 0x0, _0x4c444c = _0x371d45[_0x36775f(0x5f)]; _0x4c444c > _0x554dda; _0x554dda++) _0x20518f = this[_0x36775f(0x21e)][_0x371d45[_0x36775f(0x4af)](_0x554dda)], _0x36775f(0x15f) == typeof _0x20518f && (_0x20518f = _0x371d45[_0x36775f(0x4af)](_0x554dda)), _0x47fe84 += _0x20518f;
-                return _0x47fe84;
+            decode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "",
+                    _0x59eexc1 = "";
+                for (i in _0x59eexbe) {
+                    (_0x59eexbf = this["mapInverse"][_0x59eexbe[i]]), (_0x59eexc0 += "undefined" == typeof _0x59eexbf ? _0x59eexbe[i] : _0x59eexbf)
+                }
+                for (i in _0x59eexc0) {
+                    (_0x59eexbf = _0x59eexc0[i]["charCodeAt"](0)), 160 != _0x59eexbf && 8239 != _0x59eexbf && 8413 != _0x59eexbf && (_0x59eexc1 += _0x59eexc0[i])
+                }
+                return _0x59eexc1
             },
-            'map': {
-                'a': 'ą',
-                'b': 'ҍ',
-                'c': 'ç',
-                'd': 'ժ',
-                'e': 'ҽ',
-                'f': 'ƒ',
-                'g': 'ց',
-                'h': 'հ',
-                'i': 'ì',
-                'j': 'ʝ',
-                'k': 'ҟ',
-                'l': 'Ӏ',
-                'm': 'ʍ',
-                'n': 'ղ',
-                'o': 'օ',
-                'p': 'ք',
-                'q': 'զ',
-                'r': 'ɾ',
-                's': 'ʂ',
-                't': 'է',
-                'u': 'մ',
-                'v': 'ѵ',
-                'w': 'ա',
-                'x': '×',
-                'y': 'վ',
-                'z': 'Հ',
-                'A': 'Ⱥ',
-                'B': 'β',
-                'C': '↻',
-                'D': 'Ꭰ',
-                'E': 'Ɛ',
-                'F': 'Ƒ',
-                'G': 'Ɠ',
-                'H': 'Ƕ',
-                'I': 'į',
-                'J': 'ل',
-                'K': 'Ҡ',
-                'L': 'Ꝉ',
-                'M': 'Ɱ',
-                'N': 'ហ',
-                'O': 'ට',
-                'P': 'φ',
-                'Q': 'Ҩ',
-                'R': 'འ',
-                'S': 'Ϛ',
-                'T': 'Ͳ',
-                'U': 'Ա',
-                'V': 'Ỽ',
-                'W': 'చ',
-                'X': 'ჯ',
-                'Y': 'Ӌ',
-                'Z': 'ɀ',
-                0x0: '⊘',
-                0x1: '������',
-                0x2: 'ϩ',
-                0x3: 'Ӡ',
-                0x4: '५',
-                0x5: 'Ƽ',
-                0x6: 'Ϭ',
-                0x7: '7',
-                0x8: _0x39ba67(0x2f),
-                0x9: '९',
-                '&': '⅋',
-                '(': '{',
-                ')': '}',
-                '{': '(',
-                '}': ')',
-                'ä': 'ą̈',
-                'ö': 'օ̈',
-                'ü': 'մ̈',
-                'Ä': 'Ⱥ̈',
-                'Ö': 'ට̈',
-                'Ü': 'Ա̈',
-                'é': 'ҽ́',
-                'á': 'ą́',
-                'ó': 'օ́',
-                'ú': 'մ́',
-                'É': 'Ɛ́',
-                'Á': 'Ⱥ́',
-                'Ó': 'ට́',
-                'Ú': 'Ա́',
-                'è': 'ҽ̀',
-                'à': 'ą̀',
-                'ò': 'օ̀',
-                'ù': 'մ̀',
-                'È': 'Ɛ̀',
-                'À': 'Ⱥ̀',
-                'Ò': 'ට̀',
-                'Ù': 'Ա̀',
-                'ê': 'ҽ̂',
-                'â': 'ą̂',
-                'ô': 'օ̂',
-                'û': 'մ̂',
-                'Ê': 'Ɛ̂',
-                'Â': 'Ⱥ̂',
-                'Ô': 'ට̂',
-                'Û': 'Ա̂'
+            map: {},
+            mapInverse: {}
+        },
+        squares: {
+            init: function() {},
+            encode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "",
+                    _0x59eexc1 = !0;
+                for (i in _0x59eexbe) {
+                    _0x59eexbe[i]["charCodeAt"](0) >= 33 ? ((_0x59eexbf = _0x59eexbe[i] + String["fromCharCode"](8414)), _0x59eexc1 || (_0x59eexbf = String["fromCharCode"](8239) + String["fromCharCode"](160) + String["fromCharCode"](160) + String["fromCharCode"](8239) + _0x59eexbf)) : (_0x59eexbf = _0x59eexbe[i]), (_0x59eexc0 += _0x59eexbf), (_0x59eexc1 = "\x0A" == _0x59eexbf)
+                }
+                return _0x59eexc0
+            },
+            decode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "";
+                for (i in _0x59eexbe) {
+                    (_0x59eexbf = _0x59eexbe[i]["charCodeAt"](0)), 160 != _0x59eexbf && 8239 != _0x59eexbf && 8414 != _0x59eexbf && (_0x59eexc0 += _0x59eexbe[i])
+                }
+                return _0x59eexc0
             }
         },
-        'tiny': {
-            'init': function() {
-                var _0x3fdb36 = _0x39ba67;
-                for (i in this[_0x3fdb36(0x21e)]) this[_0x3fdb36(0x21e)][this['map'][i]] = i;
+        roundsquares: {
+            init: function() {},
+            encode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "",
+                    _0x59eexc1 = !0;
+                for (i in _0x59eexbe) {
+                    _0x59eexbe[i]["charCodeAt"](0) >= 33 ? ((_0x59eexbf = _0x59eexbe[i] + String["fromCharCode"](8419)), _0x59eexc1 || (_0x59eexbf = String["fromCharCode"](160) + String["fromCharCode"](160) + String["fromCharCode"](160) + _0x59eexbf)) : (_0x59eexbf = _0x59eexbe[i]), (_0x59eexc0 += _0x59eexbf), (_0x59eexc1 = "\x0A" == _0x59eexbf)
+                }
+                return _0x59eexc0
             },
-            'encode': function(_0xa49d38) {
-                var _0x453320 = _0x39ba67,
-                    _0x1d5b54, _0xd39e52 = '';
-                _0xa49d38 = _0xa49d38[_0x453320(0x191)]();
-                for (var _0x4a902e = 0x0, _0x5435e4 = _0xa49d38['length']; _0x5435e4 > _0x4a902e; _0x4a902e++) _0x1d5b54 = this[_0x453320(0x21e)][_0xa49d38[_0x453320(0x4af)](_0x4a902e)], _0x453320(0x15f) == typeof _0x1d5b54 && (_0x1d5b54 = _0xa49d38[_0x453320(0x4af)](_0x4a902e)), _0xd39e52 += _0x1d5b54;
-                return _0xd39e52;
+            decode: function(_0x59eexbe) {
+                var _0x59eexbf, _0x59eexc0 = "";
+                for (i in _0x59eexbe) {
+                    (_0x59eexbf = _0x59eexbe[i]["charCodeAt"](0)), 160 != _0x59eexbf && 8239 != _0x59eexbf && 8419 != _0x59eexbf && (_0x59eexc0 += _0x59eexbe[i])
+                }
+                return _0x59eexc0
+            }
+        },
+        bent: {
+            init: function() {
+                for (i in this["map"]) {
+                    this["map"][this["map"][i]] = i
+                }
             },
-            'decode': function(_0x35b557) {
-                var _0x4f7dc8 = _0x39ba67;
-                for (var _0xe44dbe, _0x246d09 = '', _0x3525eb = 0x0, _0xae7a1f = _0x35b557[_0x4f7dc8(0x5f)]; _0xae7a1f > _0x3525eb; _0x3525eb++) _0xe44dbe = this[_0x4f7dc8(0x21e)][_0x35b557[_0x4f7dc8(0x4af)](_0x3525eb)], _0x4f7dc8(0x15f) == typeof _0xe44dbe && (_0xe44dbe = _0x35b557[_0x4f7dc8(0x4af)](_0x3525eb)), _0x246d09 += _0xe44dbe;
-                return _0x246d09;
+            encode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = "", _0x59eexc0 = 0, _0x59eexc1 = _0x59eex43["length"]; _0x59eexc1 > _0x59eexc0; _0x59eexc0++) {
+                    (_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc0)]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0)), (_0x59eexbf += _0x59eexbe)
+                }
+                return _0x59eexbf
             },
-            'map': {
-                'A': 'ᴀ',
-                'B': 'ʙ',
-                'C': 'ᴄ',
-                'D': 'ᴅ',
-                'E': 'ᴇ',
-                'F': 'ꜰ',
-                'G': 'ɢ',
-                'H': 'ʜ',
-                'I': 'ɪ',
-                'J': 'ᴊ',
-                'K': 'ᴋ',
-                'L': 'ʟ',
-                'M': 'ᴍ',
-                'N': 'ɴ',
-                'O': 'ᴏ',
-                'P': 'ᴘ',
-                'Q': 'Q',
-                'R': 'ʀ',
-                'S': 'ꜱ',
-                'T': 'ᴛ',
-                'U': 'ᴜ',
-                'V': 'ᴠ',
-                'W': 'ᴡ',
-                'X': 'x',
-                'Y': 'ʏ',
-                'Z': 'ᴢ'
+            decode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = "", _0x59eexc0 = 0, _0x59eexc1 = _0x59eex43["length"]; _0x59eexc1 > _0x59eexc0; _0x59eexc0++) {
+                    (_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc0)]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0)), (_0x59eexbf += _0x59eexbe)
+                }
+                return _0x59eexbf
+            },
+            map: {
+                a: "\u0105",
+                b: "\u048d",
+                c: "\xE7",
+                d: "\u056a",
+                e: "\u04bd",
+                f: "\u0192",
+                g: "\u0581",
+                h: "\u0570",
+                i: "\xEC",
+                j: "\u029d",
+                k: "\u049f",
+                l: "\u04c0",
+                m: "\u028d",
+                n: "\u0572",
+                o: "\u0585",
+                p: "\u0584",
+                q: "\u0566",
+                r: "\u027e",
+                s: "\u0282",
+                t: "\u0567",
+                u: "\u0574",
+                v: "\u0475",
+                w: "\u0561",
+                x: "\xD7",
+                y: "\u057e",
+                z: "\u0540",
+                A: "\u023a",
+                B: "\u03b2",
+                C: "\u21bb",
+                D: "\u13a0",
+                E: "\u0190",
+                F: "\u0191",
+                G: "\u0193",
+                H: "\u01f6",
+                I: "\u012f",
+                J: "\u0644",
+                K: "\u04a0",
+                L: "\ua748",
+                M: "\u2c6e",
+                N: "\u17a0",
+                O: "\u0da7",
+                P: "\u03c6",
+                Q: "\u04a8",
+                R: "\u0f60",
+                S: "\u03da",
+                T: "\u0372",
+                U: "\u0531",
+                V: "\u1efc",
+                W: "\u0c1a",
+                X: "\u10ef",
+                Y: "\u04cb",
+                Z: "\u0240",
+                0: "\u2298",
+                1: "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                2: "\u03e9",
+                3: "\u04e0",
+                4: "\u096b",
+                5: "\u01bc",
+                6: "\u03ec",
+                7: "7",
+                8: "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                9: "\u096f",
+                "&": "\u214b",
+                "(": "{",
+                ")": "}",
+                "{": "(",
+                "}": ")",
+                ä: "\u0105\u0308",
+                ö: "\u0585\u0308",
+                ü: "\u0574\u0308",
+                Ä: "\u023a\u0308",
+                Ö: "\u0da7\u0308",
+                Ü: "\u0531\u0308",
+                é: "\u04bd\u0301",
+                á: "\u0105\u0301",
+                ó: "\u0585\u0301",
+                ú: "\u0574\u0301",
+                É: "\u0190\u0301",
+                Á: "\u023a\u0301",
+                Ó: "\u0da7\u0301",
+                Ú: "\u0531\u0301",
+                è: "\u04bd\u0300",
+                à: "\u0105\u0300",
+                ò: "\u0585\u0300",
+                ù: "\u0574\u0300",
+                È: "\u0190\u0300",
+                À: "\u023a\u0300",
+                Ò: "\u0da7\u0300",
+                Ù: "\u0531\u0300",
+                ê: "\u04bd\u0302",
+                â: "\u0105\u0302",
+                ô: "\u0585\u0302",
+                û: "\u0574\u0302",
+                Ê: "\u0190\u0302",
+                Â: "\u023a\u0302",
+                Ô: "\u0da7\u0302",
+                Û: "\u0531\u0302"
+            }
+        },
+        tiny: {
+            init: function() {
+                for (i in this["map"]) {
+                    this["map"][this["map"][i]] = i
+                }
+            },
+            encode: function(_0x59eex43) {
+                var _0x59eexbe, _0x59eexbf = "";
+                _0x59eex43 = _0x59eex43["toUpperCase"]();
+                for (var _0x59eexc0 = 0, _0x59eexc1 = _0x59eex43["length"]; _0x59eexc1 > _0x59eexc0; _0x59eexc0++) {
+                    (_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc0)]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0)), (_0x59eexbf += _0x59eexbe)
+                }
+                return _0x59eexbf
+            },
+            decode: function(_0x59eex43) {
+                for (var _0x59eexbe, _0x59eexbf = "", _0x59eexc0 = 0, _0x59eexc1 = _0x59eex43["length"]; _0x59eexc1 > _0x59eexc0; _0x59eexc0++) {
+                    (_0x59eexbe = this["map"][_0x59eex43["charAt"](_0x59eexc0)]), "undefined" == typeof _0x59eexbe && (_0x59eexbe = _0x59eex43["charAt"](_0x59eexc0)), (_0x59eexbf += _0x59eexbe)
+                }
+                return _0x59eexbf
+            },
+            map: {
+                A: "\u1d00",
+                B: "\u0299",
+                C: "\u1d04",
+                D: "\u1d05",
+                E: "\u1d07",
+                F: "\ua730",
+                G: "\u0262",
+                H: "\u029c",
+                I: "\u026a",
+                J: "\u1d0a",
+                K: "\u1d0b",
+                L: "\u029f",
+                M: "\u1d0d",
+                N: "\u0274",
+                O: "\u1d0f",
+                P: "\u1d18",
+                Q: "Q",
+                R: "\u0280",
+                S: "\ua731",
+                T: "\u1d1b",
+                U: "\u1d1c",
+                V: "\u1d20",
+                W: "\u1d21",
+                X: "x",
+                Y: "\u028f",
+                Z: "\u1d22"
             }
         }
     };
-    for (i in this[_0x39ba67(0x1e6)]) this[_0x39ba67(0x1e6)][i][_0x39ba67(0x112)]();
-    this[_0x39ba67(0x34e)] = function(_0x509ab8) {
-        var _0x416d3a = _0x39ba67;
-        for (var _0x52486b, _0x4e0264 = '', _0x17b91e = !0x0, _0x5e40f1 = 0x0, _0x2be84b = 0x0, _0x4a134f = 0x0, _0x258470 = _0x509ab8[_0x416d3a(0x5f)]; _0x258470 > _0x4a134f; _0x4a134f++) _0x52486b = _0x509ab8[_0x416d3a(0x466)](_0x4a134f), 0xa == _0x52486b || 0xd == _0x52486b ? (_0x4e0264 += '<br>\x0a', _0x17b91e = !0x0) : 0x20 == _0x52486b ? _0x17b91e ? (_0x4e0264 += '\x20', _0x17b91e = !0x1) : (_0x4e0264 += '\x20', _0x17b91e = !0x0) : (_0x52486b >= 0xd800 && 0xdbff >= _0x52486b ? (_0x5e40f1 = _0x52486b, _0x2be84b = 0x0) : _0x5e40f1 > 0x0 ? (_0x52486b >= 0xdc00 && 0xdfff >= _0x52486b && (_0x2be84b = 0x400 * (_0x5e40f1 - 0xd800) + (_0x52486b - 0xdc00) + 0x10000), _0x5e40f1 = 0x0) : _0x2be84b = _0x52486b, 0x0 != _0x2be84b && (_0x4e0264 += _0x416d3a(0x29f) + _0x2be84b[_0x416d3a(0x49d)](0x10) + ';', _0x17b91e = !0x0));
-        return _0x4e0264;
-    };
+    for (i in this["tools"]) {
+        this["tools"][i]["init"]()
+    }
+    this["getHTML"] = function(_0x59eex43) {
+        for (var _0x59eexbe, _0x59eexbf = "", _0x59eexc0 = !0, _0x59eexc1 = 0, _0x59eex40 = 0, _0x59eex37 = 0, _0x59eexc2 = _0x59eex43["length"]; _0x59eexc2 > _0x59eex37; _0x59eex37++) {
+            (_0x59eexbe = _0x59eex43["charCodeAt"](_0x59eex37)), 10 == _0x59eexbe || 13 == _0x59eexbe ? ((_0x59eexbf += "<br>\x0A"), (_0x59eexc0 = !0)) : 32 == _0x59eexbe ? _0x59eexc0 ? ((_0x59eexbf += " "), (_0x59eexc0 = !1)) : ((_0x59eexbf += " "), (_0x59eexc0 = !0)) : (_0x59eexbe >= 55296 && 56319 >= _0x59eexbe ? ((_0x59eexc1 = _0x59eexbe), (_0x59eex40 = 0)) : _0x59eexc1 > 0 ? (_0x59eexbe >= 56320 && 57343 >= _0x59eexbe && (_0x59eex40 = 1024 * (_0x59eexc1 - 55296) + (_0x59eexbe - 56320) + 65536), (_0x59eexc1 = 0)) : (_0x59eex40 = _0x59eexbe), 0 != _0x59eex40 && ((_0x59eexbf += "&#x" + _0x59eex40.toString(16) + ";"), (_0x59eexc0 = !0)))
+        }
+        return _0x59eexbf
+    }
 }
 
-function cuteText(_0x1ec4eb) {
-    var _0x6615d5 = _0x187c56;
-    if (_0x1ec4eb[_0x6615d5(0x431)]() === '') return '';
-    qi = -0x1;
-    var _0x1bb4d3 = boundingString(Math['floor'](Math[_0x6615d5(0xe6)]() * 0x2) + 0x1);
-    return _0x1bb4d3 + _0x6615d5(0x402) + _0x1ec4eb['split'](/([!?.]+)/gi)['map'](cuteSentence)['join']('') + _0x6615d5(0x402) + esrever[_0x6615d5(0x32b)](_0x1bb4d3);
+function cuteText(_0x59eex4) {
+    if (_0x59eex4["trim"]() === "") {
+        return ""
+    }
+    qi = -1;
+    var _0x59eexc4 = boundingString(Math["floor"](Math["random"]() * 2) + 1);
+    return (_0x59eexc4 + "  \ud83c\udf80  " + _0x59eex4["split"](/([!?.]+)/gi)["map"](cuteSentence)["join"]("") + "  \ud83c\udf80  " + esrever["reverse"](_0x59eexc4))
 }
 
-function cuteSentence(_0x38c0e4) {
-    var _0x535e76 = _0x187c56;
-    return _0x38c0e4['split'](/([\s,]+)/gi)[_0x535e76(0x21e)](cuteWord)[_0x535e76(0x211)]('');
+function cuteSentence(_0x59eexc6) {
+    return _0x59eexc6["split"](/([\s,]+)/gi)["map"](cuteWord)["join"]("")
 }
 
-function cuteWord(_0x53d7d9) {
-    var _0x15dadf = _0x187c56;
-    if (_0x53d7d9 === '' || /[[!?.\s,]+]/gi [_0x15dadf(0x475)](_0x53d7d9)) return _0x53d7d9;
-    return _0x53d7d9 = roundReplace(_0x53d7d9), _0x53d7d9 = punctReplace(_0x53d7d9), _0x53d7d9 = emojiReplace(_0x53d7d9), scriptify(_0x53d7d9);
+function cuteWord(_0x59eexc8) {
+    if (_0x59eexc8 === "" || /[[!?.\s,]+]/gi ["test"](_0x59eexc8)) {
+        return _0x59eexc8
+    }
+    _0x59eexc8 = roundReplace(_0x59eexc8);
+    _0x59eexc8 = punctReplace(_0x59eexc8);
+    _0x59eexc8 = emojiReplace(_0x59eexc8);
+    return scriptify(_0x59eexc8)
 }
-var qi = -0x1,
-    qa = ['❝', '❞'];
+var qi = -1;
+var qa = ["\u275d", "\u275e"];
 
 function quotes() {
     qi++;
-    if (qi === 0x2) qi = 0x0;
-    return qa[qi];
+    if (qi === 2) {
+        qi = 0
+    }
+    return qa[qi]
 }
 
-function punctReplace(_0x23fab5) {
-    var _0x5ad1e1 = _0x187c56;
-    return _0x23fab5['split']('')[_0x5ad1e1(0x21e)](function(_0x53cf29) {
-        if (_0x53cf29 === '!') return randomElement(['❣', '❢']);
-        else {
-            if (_0x53cf29 === '?') return randomElement(['¿', '?']);
-            else {
-                if (_0x53cf29 === '\x22') return quotes();
-                else return _0x53cf29;
+function punctReplace(_0x59eexc8) {
+    return _0x59eexc8["split"]("")["map"](function(_0x59eex37) {
+        if (_0x59eex37 === "!") {
+            return randomElement(["\u2763", "\u2762"])
+        } else {
+            if (_0x59eex37 === "?") {
+                return randomElement(["\xBF", "?"])
+            } else {
+                if (_0x59eex37 === '\"') {
+                    return quotes()
+                } else {
+                    return _0x59eex37
+                }
             }
         }
-    })['join']('');
+    })["join"]("")
 }
 
-function emojiReplace(_0x5165f3) {
-    var _0xee38a3 = _0x187c56;
-    return _0x5165f3['replace'](':)', randomElement(emoji[':)']))[_0xee38a3(0x9f)]('(:', randomElement(emoji[':)']))[_0xee38a3(0x9f)]('^^', randomElement(emoji['^^']))[_0xee38a3(0x9f)](':P', randomElement(emoji[':p']))['replace'](':p', randomElement(emoji[':p']))[_0xee38a3(0x9f)](':D', randomElement(emoji[':D']))[_0xee38a3(0x9f)]('<3', randomElement(emoji['<3']))['replace'](_0xee38a3(0x3e0), randomElement(emoji[_0xee38a3(0x3e0)]))[_0xee38a3(0x9f)]('(Y)', randomElement(emoji['(y)']));
+function emojiReplace(_0x59eexc8) {
+    return _0x59eexc8["replace"](":)", randomElement(emoji[":)"]))["replace"]("(:", randomElement(emoji[":)"]))["replace"]("^^", randomElement(emoji["^^"]))["replace"](":P", randomElement(emoji[":p"]))["replace"](":p", randomElement(emoji[":p"]))["replace"](":D", randomElement(emoji[":D"]))["replace"]("<3", randomElement(emoji["<3"]))["replace"]("(y)", randomElement(emoji["(y)"]))["replace"]("(Y)", randomElement(emoji["(y)"]))
 }
 
-function roundReplace(_0xe4d513) {
-    var _0x3909c9 = _0x187c56;
-    return _0xe4d513[_0x3909c9(0x3d3)]('')[_0x3909c9(0x21e)](function(_0x1d5036) {
-        var _0x33058d = _0x3909c9;
-        return _0x1d5036[_0x33058d(0x187)]() === 'o' || _0x1d5036 === '0' ? randomElement(round) : _0x1d5036;
-    })[_0x3909c9(0x211)]('');
+function roundReplace(_0x59eex4) {
+    return _0x59eex4["split"]("")["map"](function(_0x59eex37) {
+        if (_0x59eex37["toLowerCase"]() === "o" || _0x59eex37 === "0") {
+            return randomElement(round)
+        } else {
+            return _0x59eex37
+        }
+    })["join"]("")
 }
 var emoji = {
-        ':)': [_0x187c56(0x382), '(•◡•)', _0x187c56(0x42b), _0x187c56(0x1a), _0x187c56(0x10), _0x187c56(0x2f4), _0x187c56(0x206), '😍', 'ツ', '(✿ヘᴥヘ)', _0x187c56(0x385), _0x187c56(0xa), _0x187c56(0x2ae), _0x187c56(0x3f3), _0x187c56(0x380), '(✿╹◡╹)', '◔◡◔'],
-        '^^': [_0x187c56(0x68), _0x187c56(0x4a8), _0x187c56(0x4a), _0x187c56(0x3ec), _0x187c56(0x25f), _0x187c56(0x1b3), _0x187c56(0x5d), _0x187c56(0x31f), _0x187c56(0x446), _0x187c56(0x332), ''],
-        ':p': [':Þ', ''],
-        ':D': [_0x187c56(0x189), '(✿◕ᗜ◕)━♫.*･｡ﾟ', 'ᕕ(ᐛ)ᕗ'],
-        '<3': ['♡', '❤', '♥', '❥', '💘', '💙', '💗', '💖', '💕', '💓', '💞', '💝', '💟'],
-        '(y)': ['👍', '👌']
-    },
-    round = ['❁', '🌺', '❀', '💮', '🏵', '🌸', '☯', '😍', '♡', '🍩', '🍬', '💙', '🌞', '💍', '🍪', '❤', '💗', '🍑', '💞'],
-    food = ['🍬', '🍭', '🍒', '🍎', '🍉', '🍇', '🍓', '🍌', '🍑', '🍰', '🎂', '🍩', '🍪', '🍧', '🍦', '🍫', '🍡'],
-    flowers = ['✿', '⚘', '❦', '❧', '✾', '❁', '❀', '💐', '🌸', '💮', '🏵', '🌹', '🌺', '🌻', '🌷', '☘', '🌱', '🌲', '🌳', '🌴', '🌿', '🍂'],
-    twinkles = ['⚛', '🌌', '🌠', '*', ':', '｡', '･ﾟ', '✧', '✮', '★', '✩', '⋆', '.', '°', '`', '✴', '｡', '✴', '⋆', '✳', '✶', '✷', '❈'],
-    animals = ['🐯', '🐎', '🐖', '🐷', '🐏', '🐑', '🐐', '🐫', '🐘', '🐭', '🐁', '🐀', '🐹', '🐰', '🐇', '🐿', '🐻', '🐨', '🐼', '🐾', '🐔', '🐓', '🐣', '🐤', '🐥', '🐦', '🐧', '🕊', '🐸', '🐢', '🐳', '🐋', '🐬', '🐟', '🐠', '🐡', '🐙', '🐚', '🐌', '🐞'],
-    plants = ['✿', '⚘', '❦', '❧', '✾', '❁', '❀', '💐', '🌸', '💮', '🏵', '🌹', '🌺', '🌻', '🌷', '☘', '🌱', '🌲', '🌳', '🌴', '🌿', '🍂'],
-    misc = ['🌌', '🌠', '🎉', '🎊', '🎈', '💌', '🎎', '🎁', '🎀', '🕯', '🔮', '🛀', '🎖', '🏆', '🏅', '👑', '💍', '👶', '👼', '👸', '👯', '👒', '👻'],
-    music = ['♫', '♬', '♪', '♩', '°', '｡', '✧', '🎻', '🎺', '🎸', '🎷', '📯'],
-    flourish = [_0x187c56(0x140), 'ıllıllı\x20', _0x187c56(0x406), _0x187c56(0x403), '•´¯`•.\x20', _0x187c56(0x33c), _0x187c56(0x26c), _0x187c56(0x257), _0x187c56(0x232), _0x187c56(0x3ef), '(¯`·.¸¸.·´¯`·.¸¸.->\x20', '*´¯`*.¸¸.*´¯`*\x20', '(¯`·.¸¸.->\x20°º\x20', '°·.¸.·°¯°·.¸.·°¯°·.¸.->\x20', '•._.••´¯``•.¸¸.•`\x20', '¸„.-•~¹°”ˆ˜¨\x20', _0x187c56(0x50f), _0x187c56(0x136), '•´¯`•»\x20', _0x187c56(0x1a0), _0x187c56(0x416), _0x187c56(0xdb), ',-*\x27^\x27~*-.,_,.-*~\x20', _0x187c56(0x4d8), _0x187c56(0x21c), '¤¸¸.•´¯`•¸¸.•..>>\x20', _0x187c56(0x4c0), _0x187c56(0xdd), _0x187c56(0x470), _0x187c56(0x190), _0x187c56(0x22), _0x187c56(0x4e9), _0x187c56(0x497), _0x187c56(0x237)];
+    ":)": ["\u0669(\u02d8\u25e1\u02d8)\u06f6", "(\u2022\u25e1\u2022)", "(\u0254\u25d4\u203f\u25d4)\u0254", "\u2740\u25d5\u203f\u25d5\u2740", "(\uff61\u25d5\u203f\u25d5\uff61)", "\u25cf\u203f\u25cf", "\u25d5\u203f\u25d5", "\ud83d\ude0d", "\u30c4", "(\u273f\u30d8\u1d25\u30d8)", "\ud83c\udf18\u203f\ud83c\udf18", "(\u3065\uff61\u25d5\u203f\u203f\u25d5\uff61)\u3065", "(/\u25d4\u25e1\u25d4)/", "s(^\u203f^)-b", "(\u4eba\u25d5\u203f\u25d5)", "(\u273f\u2579\u25e1\u2579)", "\u25d4\u25e1\u25d4"],
+    "^^": ["(^\u25bd^)", "(\u273f^\u25bd^)", "\u1d54\u2323\u1d54", "\u1d54\u1d25\u1d54", "(\u2267\u25e1\u2266)", "^\u3145^", "^\u3142^", "(\u2312\u203f\u2312)", "\u25e0\u25e1\u25e0", "\u2040\u203f\u2040", ""],
+    ":p": [":\xDE", ""],
+    ":D": ["(\uff89\u25d5\u30ee\u25d5)\uff89*:\uff65\uff9f\u2727", "(\u273f\u25d5\u15dc\u25d5)\u2501\u266b.*\uff65\uff61\uff9f", "\u1555(\u141b)\u1557"],
+    "<3": ["\u2661", "\u2764", "\u2665", "\u2765", "\ud83d\udc98", "\ud83d\udc99", "\ud83d\udc97", "\ud83d\udc96", "\ud83d\udc95", "\ud83d\udc93", "\ud83d\udc9e", "\ud83d\udc9d", "\ud83d\udc9f"],
+    "(y)": ["\ud83d\udc4d", "\ud83d\udc4c"]
+};
+var round = ["\u2741", "\ud83c\udf3a", "\u2740", "\ud83d\udcae", "\ud83c\udff5", "\ud83c\udf38", "\u262f", "\ud83d\ude0d", "\u2661", "\ud83c\udf69", "\ud83c\udf6c", "\ud83d\udc99", "\ud83c\udf1e", "\ud83d\udc8d", "\ud83c\udf6a", "\u2764", "\ud83d\udc97", "\ud83c\udf51", "\ud83d\udc9e"];
+var food = ["\ud83c\udf6c", "\ud83c\udf6d", "\ud83c\udf52", "\ud83c\udf4e", "\ud83c\udf49", "\ud83c\udf47", "\ud83c\udf53", "\ud83c\udf4c", "\ud83c\udf51", "\ud83c\udf70", "\ud83c\udf82", "\ud83c\udf69", "\ud83c\udf6a", "\ud83c\udf67", "\ud83c\udf66", "\ud83c\udf6b", "\ud83c\udf61"];
+var flowers = ["\u273f", "\u2698", "\u2766", "\u2767", "\u273e", "\u2741", "\u2740", "\ud83d\udc90", "\ud83c\udf38", "\ud83d\udcae", "\ud83c\udff5", "\ud83c\udf39", "\ud83c\udf3a", "\ud83c\udf3b", "\ud83c\udf37", "\u2618", "\ud83c\udf31", "\ud83c\udf32", "\ud83c\udf33", "\ud83c\udf34", "\ud83c\udf3f", "\ud83c\udf42"];
+var twinkles = ["\u269b", "\ud83c\udf0c", "\ud83c\udf20", "*", ":", "\uff61", "\uff65\uff9f", "\u2727", "\u272e", "\u2605", "\u2729", "\u22c6", ".", "\xB0", "`", "\u2734", "\uff61", "\u2734", "\u22c6", "\u2733", "\u2736", "\u2737", "\u2748"];
+var animals = ["\ud83d\udc2f", "\ud83d\udc0e", "\ud83d\udc16", "\ud83d\udc37", "\ud83d\udc0f", "\ud83d\udc11", "\ud83d\udc10", "\ud83d\udc2b", "\ud83d\udc18", "\ud83d\udc2d", "\ud83d\udc01", "\ud83d\udc00", "\ud83d\udc39", "\ud83d\udc30", "\ud83d\udc07", "\ud83d\udc3f", "\ud83d\udc3b", "\ud83d\udc28", "\ud83d\udc3c", "\ud83d\udc3e", "\ud83d\udc14", "\ud83d\udc13", "\ud83d\udc23", "\ud83d\udc24", "\ud83d\udc25", "\ud83d\udc26", "\ud83d\udc27", "\ud83d\udd4a", "\ud83d\udc38", "\ud83d\udc22", "\ud83d\udc33", "\ud83d\udc0b", "\ud83d\udc2c", "\ud83d\udc1f", "\ud83d\udc20", "\ud83d\udc21", "\ud83d\udc19", "\ud83d\udc1a", "\ud83d\udc0c", "\ud83d\udc1e"];
+var plants = ["\u273f", "\u2698", "\u2766", "\u2767", "\u273e", "\u2741", "\u2740", "\ud83d\udc90", "\ud83c\udf38", "\ud83d\udcae", "\ud83c\udff5", "\ud83c\udf39", "\ud83c\udf3a", "\ud83c\udf3b", "\ud83c\udf37", "\u2618", "\ud83c\udf31", "\ud83c\udf32", "\ud83c\udf33", "\ud83c\udf34", "\ud83c\udf3f", "\ud83c\udf42"];
+var misc = ["\ud83c\udf0c", "\ud83c\udf20", "\ud83c\udf89", "\ud83c\udf8a", "\ud83c\udf88", "\ud83d\udc8c", "\ud83c\udf8e", "\ud83c\udf81", "\ud83c\udf80", "\ud83d\udd6f", "\ud83d\udd2e", "\ud83d\udec0", "\ud83c\udf96", "\ud83c\udfc6", "\ud83c\udfc5", "\ud83d\udc51", "\ud83d\udc8d", "\ud83d\udc76", "\ud83d\udc7c", "\ud83d\udc78", "\ud83d\udc6f", "\ud83d\udc52", "\ud83d\udc7b"];
+var music = ["\u266b", "\u266c", "\u266a", "\u2669", "\xB0", "\uff61", "\u2727", "\ud83c\udfbb", "\ud83c\udfba", "\ud83c\udfb8", "\ud83c\udfb7", "\ud83d\udcef"];
+var flourish = ["\u2022?((\xAF\xB0\xB7._.\u2022 ", "\u0131ll\u0131ll\u0131 ", "\xB8,\xF8\xA4\xBA\xB0`\xB0\xBA\xA4\xF8,\xB8\xB8,\xF8\xA4\xBA\xB0 ", "\xB0\xB0\xB0\xB7.\xB0\xB7..\xB7\xB0\xAF\xB0\xB7._.\xB7 ", "\u2022\xB4\xAF`\u2022. ", "\xD7\xBA\xB0\u201d\u02dc`\u201d\xB0\xBA\xD7 ", "\u2022]\u2022\u2022\xB4\xBA\xB4\u2022\xBB ", "]|I{\u2022------\xBB ", "\xA7.\u2022\xB4\xA8\'\xB0\xF7\u2022..\xD7 ", "\u2022\xB0\xAF`\u2022\u2022 ", "(\xAF`\xB7.\xB8\xB8.\xB7\xB4\xAF`\xB7.\xB8\xB8.-> ", "*\xB4\xAF`*.\xB8\xB8.*\xB4\xAF`* ", "(\xAF`\xB7.\xB8\xB8.-> \xB0\xBA ", "\xB0\xB7.\xB8.\xB7\xB0\xAF\xB0\xB7.\xB8.\xB7\xB0\xAF\xB0\xB7.\xB8.-> ", "\u2022._.\u2022\u2022\xB4\xAF``\u2022.\xB8\xB8.\u2022` ", "\xB8\u201e.-\u2022~\xB9\xB0\u201d\u02c6\u02dc\xA8 ", "(\xAF\xB4\u2022._.\u2022 ", "\u2022\u2022\xA4(`\xD7", "\u2022\xB4\xAF`\u2022\xBB ", "`\u2022.,\xB8\xB8,.\u2022\xB4\xAF ", "\xB8,\xF8\xA4\xBA\xB0`\xB0\xBA\xA4\xF8,\xB8 ", ".o0\xD7X\xD70o. ", ",-*\'^\'~*-.,_,.-*~ ", "`\u2022.\xB8\xB8.\u2022\xB4\xB4\xAF`\u2022\u2022._.\u2022 ", "\u2014(\u2022\u2022\xF7", "\xA4\xB8\xB8.\u2022\xB4\xAF`\u2022\xB8\xB8.\u2022..>> ", "\u2022\u2022.\u2022\xB4\xAF`\u2022.\u2022\u2022 ", ".\u2022\xB0\xA4*(\xAF`\u2605\xB4\xAF)*\xA4\xB0 ", "\u0e51\u06de\u0e51,\xB8\xB8,\xF8\xA4\xBA\xB0`\xB0\u0e51\u06e9 ", "-\u6f2b~*\'\xA8\xAF\xA8\'*\xB7\u821e~ ", "\u2605\xB7.\xB7\xB4\xAF`\xB7.\xB7\u2605 ", "\u2581 \u2582 \u2584 \u2585 \u2586 \u2587 \u2588 ", "\u2580\u2584\u2580\u2584\u2580\u2584 ", "\u258c\u2502\u2588\u2551\u258c\u2551\u258c\u2551 "];
 
-function boundingString(_0x2a78d3) {
-    return randomElement([foodString, twinkleString, animalString, flourishString])(_0x2a78d3);
+function boundingString(_0x59eex40) {
+    return randomElement([foodString, twinkleString, animalString, flourishString])(_0x59eex40)
 }
 
-function foodString(_0x20b2b9) {
-    var _0x675f8c = _0x187c56;
-    return new Array(_0x20b2b9 + 0x1)['join']('0')[_0x675f8c(0x3d3)]('')[_0x675f8c(0x21e)](function(_0x4ffb17) {
-        return randomElement(food);
-    })[_0x675f8c(0x211)](_0x675f8c(0x2e0));
+function foodString(_0x59eex40) {
+    return new Array(_0x59eex40 + 1)["join"]("0")["split"]("")["map"](function(_0x59eex37) {
+        return randomElement(food)
+    })["join"](" \u22c6 ")
 }
 
-function twinkleString(_0x38df80) {
-    var _0x441903 = _0x187c56;
-    return new Array(_0x38df80 + 0x1)[_0x441903(0x211)]('0')['split']('')[_0x441903(0x21e)](function() {
-        return randomElement(twinkles);
-    })[_0x441903(0x211)]('');
+function twinkleString(_0x59eex40) {
+    return new Array(_0x59eex40 + 1)["join"]("0")["split"]("")["map"](function() {
+        return randomElement(twinkles)
+    })["join"]("")
 }
 
-function animalString(_0x217505) {
-    var _0x2228a3 = _0x187c56;
-    return new Array(_0x217505 + 0x1)[_0x2228a3(0x211)]('0')['split']('')[_0x2228a3(0x21e)](function(_0x55f2df) {
-        return randomElement(animals);
-    })[_0x2228a3(0x211)](_0x2228a3(0x2e0));
+function animalString(_0x59eex40) {
+    return new Array(_0x59eex40 + 1)["join"]("0")["split"]("")["map"](function(_0x59eex37) {
+        return randomElement(animals)
+    })["join"](" \u22c6 ")
 }
 
-function flourishString(_0x4b3ae3) {
-    return randomElement(flourish);
+function flourishString(_0x59eex40) {
+    return randomElement(flourish)
 }
 
-function scriptify(_0x4c1347) {
-    var _0x596990 = _0x187c56,
-        _0x5a66c4 = {
-            0x0: '𝟢',
-            0x1: '𝟣',
-            0x2: '𝟤',
-            0x3: '𝟥',
-            0x4: '𝟦',
-            0x5: '𝟧',
-            0x6: '𝟨',
-            0x7: '𝟩',
-            0x8: '𝟪',
-            0x9: '𝟫',
-            'a': '𝒶',
-            'b': '𝒷',
-            'c': '𝒸',
-            'd': '𝒹',
-            'e': '𝑒',
-            'f': '𝒻',
-            'g': '𝑔',
-            'h': '𝒽',
-            'i': '𝒾',
-            'j': '𝒿',
-            'k': '𝓀',
-            'l': '𝓁',
-            'm': '𝓂',
-            'n': '𝓃',
-            'o': '𝑜',
-            'p': '𝓅',
-            'q': '𝓆',
-            'r': '𝓇',
-            's': '𝓈',
-            't': '𝓉',
-            'u': '𝓊',
-            'v': '𝓋',
-            'w': '𝓌',
-            'x': '𝓍',
-            'y': '𝓎',
-            'z': '𝓏',
-            'A': '𝒜',
-            'B': '𝐵',
-            'C': '𝒞',
-            'D': '𝒟',
-            'E': '𝐸',
-            'F': '𝐹',
-            'G': '𝒢',
-            'H': '𝐻',
-            'I': '𝐼',
-            'J': '𝒥',
-            'K': '𝒦',
-            'L': '𝐿',
-            'M': '𝑀',
-            'N': '𝒩',
-            'O': '𝒪',
-            'P': '𝒫',
-            'Q': '𝒬',
-            'R': '𝑅',
-            'S': '𝒮',
-            'T': '𝒯',
-            'U': '𝒰',
-            'V': '𝒱',
-            'W': '𝒲',
-            'X': '𝒳',
-            'Y': '𝒴',
-            'Z': '𝒵'
-        },
-        _0xec54f1 = _0x4c1347[_0x596990(0x3d3)]('');
-    for (var _0xa0d645 = 0x0; _0xa0d645 < _0xec54f1[_0x596990(0x5f)]; _0xa0d645++) {
-        _0x5a66c4[_0xec54f1[_0xa0d645][_0x596990(0x187)]()] && (_0xec54f1[_0xa0d645] = _0x5a66c4[_0xec54f1[_0xa0d645]]);
-    }
-    return _0x4c1347 = _0xec54f1[_0x596990(0x211)](''), _0x4c1347;
-}
-
-function shuffleArray(_0x546889) {
-    var _0x21c58f = _0x187c56,
-        _0x3d1f6b = _0x546889[_0x21c58f(0x5f)],
-        _0x12cc05, _0xa5aba7;
-    while (0x0 !== _0x3d1f6b) {
-        _0xa5aba7 = Math['floor'](Math[_0x21c58f(0xe6)]() * _0x3d1f6b), _0x3d1f6b -= 0x1, _0x12cc05 = _0x546889[_0x3d1f6b], _0x546889[_0x3d1f6b] = _0x546889[_0xa5aba7], _0x546889[_0xa5aba7] = _0x12cc05;
-    }
-    return _0x546889;
-}
-
-function randomElement(_0x42837b) {
-    var _0x184002 = _0x187c56;
-    return _0x42837b[Math['floor'](Math[_0x184002(0xe6)]() * _0x42837b[_0x184002(0x5f)])];
-}! function(_0x5cebbd) {
-    var _0x571b93 = _0x187c56,
-        _0x5bb75e = _0x571b93(0x49c) == typeof exports && exports,
-        _0x51db62 = _0x571b93(0x49c) == typeof module && module && module[_0x571b93(0x1ed)] == _0x5bb75e && module,
-        _0x32e065 = 'object' == typeof global && global;
-    (_0x32e065[_0x571b93(0x44d)] === _0x32e065 || _0x32e065['window'] === _0x32e065) && (_0x5cebbd = _0x32e065);
-    var _0x20dc62 = /(<%= allExceptCombiningMarks %>)(<%= combiningMarks %>+)/g,
-        _0x342274 = /([\uD800-\uDBFF])([\uDC00-\uDFFF])/g,
-        _0x11d051 = function(_0xc02b56) {
-            var _0x323d4b = _0x571b93;
-            _0xc02b56 = _0xc02b56[_0x323d4b(0x9f)](_0x20dc62, function(_0x430f36, _0x584b40, _0x46e7bd) {
-                return _0x11d051(_0x46e7bd) + _0x584b40;
-            })[_0x323d4b(0x9f)](_0x342274, _0x323d4b(0x4d));
-            for (var _0x4487ec = '', _0x5149da = _0xc02b56[_0x323d4b(0x5f)]; _0x5149da--;) _0x4487ec += _0xc02b56[_0x323d4b(0x4af)](_0x5149da);
-            return _0x4487ec;
-        },
-        _0x34143f = {
-            'version': _0x571b93(0x6c),
-            'reverse': _0x11d051
-        };
-    if (_0x571b93(0x55) == typeof define && _0x571b93(0x49c) == typeof define[_0x571b93(0x348)] && define[_0x571b93(0x348)]) define(function() {
-        return _0x34143f;
-    });
-    else {
-        if (_0x5bb75e && !_0x5bb75e[_0x571b93(0x289)]) {
-            if (_0x51db62) _0x51db62[_0x571b93(0x1ed)] = _0x34143f;
-            else {
-                for (var _0x195bec in _0x34143f) _0x34143f[_0x571b93(0x41d)](_0x195bec) && (_0x5bb75e[_0x195bec] = _0x34143f[_0x195bec]);
-            }
-        } else _0x5cebbd['esrever'] = _0x34143f;
-    }
-}(this);
-
-function fullCrazy(_0x38aa70) {
-    if (_0x38aa70['trim']() === '') return '';
-    return randomSymbols(0x2) + '\x20\x20' + crazifyText(_0x38aa70) + '\x20\x20' + randomSymbols(0x2);
-}
-
-function crazifyText(_0x5de7b3) {
-    var _0x57b360 = _0x187c56;
-    _0x5de7b3 = _0x5de7b3[_0x57b360(0x3d3)]('');
-    for (var _0x5671a4 = 0x0; _0x5671a4 < _0x5de7b3[_0x57b360(0x5f)]; _0x5671a4++) {
-        _0x5de7b3[_0x5671a4] = crazifyCharacter(_0x5de7b3[_0x5671a4]);
-    }
-    return _0x5de7b3[_0x57b360(0x211)]('');
-}
-
-function crazifyCharacter(_0x518deb) {
-    var _0x224b31 = _0x187c56;
-    _0x518deb = _0x518deb[_0x224b31(0x187)]();
-    var _0x13e8e4 = {
-        '&': '⅋',
-        '%': ['⅍', '℀', '℁', '℆', '℅'],
-        0x0: ['０', 'Ѳ', 'ʘ'],
-        0x1: ['➀', '❶', '１'],
-        0x2: ['２', '❷', '➁'],
-        0x3: ['３', '❸', '➂'],
-        0x4: ['４', '❹', '➃'],
-        0x5: ['❺', '➄', '５'],
-        0x6: ['６', '❻', '➅'],
-        0x7: ['７', '❼', '➆'],
-        0x8: ['８', '➇', '❽'],
-        0x9: ['➈', '❾', '９'],
-        '<': ['≼', '≺', '≪', '☾', '≾', '⋜', '⋞', '⋐', '⊂', '⊏', '⊑', '《', '＜', '❮', '❰', '⫷'],
-        '>': _0x224b31(0x2e6),
-        '[': '【〖〘〚［',
-        ']': _0x224b31(0x42),
-        '*': _0x224b31(0x346),
-        'a': ['Ⓐ', 'ⓐ', 'α', 'Ａ', 'ａ', 'ᗩ', '卂', 'Δ', 'ค', 'α', 'ά', 'Ã', '𝔞', '𝓪', '𝒶', '𝓐', '𝐀', '𝐚', '𝔸', '𝕒', 'ᵃ'],
-        'b': ['Ⓑ', 'ⓑ', 'в', 'Ｂ', '乃', 'ｂ', 'ᗷ', 'β', '๒', 'в', 'в', 'β', '𝔟', '𝓫', '𝒷', '𝓑', '𝐁', '𝐛', '𝔹', '𝕓', 'ᵇ'],
-        'c': ['Ⓒ', 'ⓒ', '匚', '¢', 'Ｃ', 'ｃ', 'ᑕ', 'Ć', 'ς', 'c', 'ς', 'Č', '℃', '𝔠', '𝓬', '𝒸', '𝓒', '𝐂', '𝐜', 'ℂ', '𝕔', 'ᶜ'],
-        'd': ['Ⓓ', 'ⓓ', '∂', 'Ｄ', 'ｄ', 'ᗪ', 'Đ', '๔', '∂', 'đ', 'Ď', '𝔡', '𝓭', '𝒹', '𝓓', '𝐃', 'ᗪ', '𝐝', '𝔻', '𝕕', 'ᵈ'],
-        'e': ['Ⓔ', '乇', 'ⓔ', 'є', 'Ｅ', 'ｅ', 'ᗴ', '€', 'є', 'ε', 'έ', 'Ẹ', '𝔢', '𝒆', '𝑒', '𝓔', '𝐄', '𝐞', '𝔼', '𝕖', 'ᵉ'],
-        'f': ['Ⓕ', 'ⓕ', 'ƒ', 'Ｆ', 'ｆ', '千', 'ᖴ', 'ℱ', 'Ŧ', 'ғ', 'ғ', 'Ƒ', '𝔣', '𝒇', '𝒻', '𝓕', '𝐅', '𝐟', '𝔽', '𝕗', 'ᶠ'],
-        'g': ['Ⓖ', 'ⓖ', 'ق', 'g', 'Ｇ', 'ｇ', 'Ǥ', 'Ꮆ', 'ﻮ', 'g', 'ģ', 'Ğ', '𝔤', '𝓰', '𝑔', '𝓖', '𝐆', '𝐠', '𝔾', '𝕘', 'ᵍ', 'Ꮆ'],
-        'h': ['Ⓗ', '卄', 'ⓗ', 'н', 'Ｈ', 'ｈ', 'ᕼ', 'Ħ', 'ђ', 'н', 'ħ', 'Ĥ', '𝔥', '𝓱', '𝒽', '𝓗', '𝐇', '𝐡', 'ℍ', '𝕙', 'ʰ'],
-        'i': ['Ⓘ', 'ⓘ', 'ι', 'Ｉ', 'ｉ', 'Ꭵ', '丨', 'Ɨ', 'เ', 'ι', 'ί', 'Į', '𝔦', '𝓲', '𝒾', '𝓘', '𝐈', '𝐢', '𝕀', '𝕚', 'ᶤ'],
-        'j': ['Ⓙ', 'ⓙ', 'נ', 'Ｊ', 'ڶ', 'ｊ', 'ᒎ', 'Ĵ', 'ן', 'נ', 'ј', 'Ĵ', '𝔧', '𝓳', '𝒿', '𝓙', '𝐉', '𝐣', '𝕁', '𝕛', 'ʲ'],
-        'k': ['Ⓚ', 'ⓚ', 'к', 'Ｋ', 'ｋ', 'ᛕ', 'Ҝ', 'к', 'к', 'ķ', 'Ќ', '𝔨', '𝓴', '𝓀', '𝓚', '𝐊', '𝐤', '𝕂', '𝕜', 'ᵏ', 'Ҝ'],
-        'l': ['Ⓛ', 'ⓛ', 'ℓ', 'ㄥ', 'Ｌ', 'ｌ', 'ᒪ', 'Ł', 'l', 'ℓ', 'Ļ', 'Ĺ', '𝔩', '𝓵', '𝓁', '𝓛', '𝐋', '𝐥', '𝕃', '𝕝', 'ˡ'],
-        'm': ['Ⓜ', 'ⓜ', 'м', 'Ｍ', 'ｍ', 'ᗰ', 'Μ', '๓', 'м', 'м', 'ϻ', '𝔪', '𝓶', '𝓂', '𝓜', '𝐌', '𝐦', '𝕄', '𝕞', 'ᵐ', '爪'],
-        'n': ['Ⓝ', '几', 'ⓝ', 'η', 'Ｎ', 'ｎ', 'ᑎ', 'Ň', 'ภ', 'η', 'ή', 'Ň', '𝔫', '𝓷', '𝓃', '𝓝', '𝐍', '𝐧', 'ℕ', '𝕟', 'ᶰ'],
-        'o': ['Ⓞ', 'ㄖ', 'ⓞ', 'σ', 'Ｏ', 'ｏ', 'ᗝ', 'Ø', '๏', 'σ', 'ό', 'Ỗ', '𝔬', '𝓸', '𝑜', '𝓞', '𝐎', '𝐨', '𝕆', '𝕠', 'ᵒ'],
-        'p': ['Ⓟ', 'ⓟ', 'ρ', 'Ｐ', 'ｐ', '卩', 'ᑭ', 'Ƥ', 'ק', 'ρ', 'ρ', 'Ƥ', '𝔭', '𝓹', '𝓅', '𝓟', '𝐏', '𝐩', 'ℙ', '𝕡', 'ᵖ'],
-        'q': ['Ⓠ', 'ⓠ', 'q', 'Ｑ', 'ｑ', 'Ɋ', 'Ω', 'ợ', 'q', 'q', 'Ǫ', '𝔮', '𝓺', '𝓆', '𝓠', '𝐐', '𝐪', 'ℚ', '𝕢', 'ᵠ'],
-        'r': ['Ⓡ', 'ⓡ', 'я', '尺', 'Ｒ', 'ｒ', 'ᖇ', 'Ř', 'г', 'я', 'ŕ', 'Ř', '𝔯', '𝓻', '𝓇', '𝓡', '𝐑', '𝐫', 'ℝ', '𝕣', 'ʳ'],
-        's': ['Ⓢ', 'ⓢ', 'ѕ', 'Ｓ', '丂', 'ｓ', 'ᔕ', 'Ş', 'ร', 's', 'ş', 'Ŝ', '𝔰', '𝓼', '𝓈', '𝓢', '𝐒', '𝐬', '𝕊', '𝕤', 'ˢ'],
-        't': ['Ⓣ', 'ⓣ', 'т', 'Ｔ', 'ｔ', '丅', 'Ŧ', 't', 'т', 'ţ', 'Ť', '𝔱', '𝓽', '𝓉', '𝓣', '𝐓', '𝐭', '𝕋', '𝕥', 'ᵗ'],
-        'u': ['Ⓤ', 'ⓤ', 'υ', 'Ｕ', 'ｕ', 'ᑌ', 'Ữ', 'ย', 'υ', 'ù', 'Ǘ', '𝔲', '𝓾', '𝓊', '𝓤', '𝐔', '𝐮', '𝕌', '𝕦', 'ᵘ'],
-        'v': ['Ⓥ', 'ⓥ', 'ν', 'Ｖ', 'ｖ', 'ᐯ', 'V', 'ש', 'v', 'ν', 'Ѷ', '𝔳', '𝓿', '𝓋', '𝓥', '𝐕', '𝐯', '𝕍', '𝕧', 'ᵛ'],
-        'w': ['Ⓦ', 'ⓦ', 'ω', 'Ｗ', 'ｗ', 'ᗯ', 'Ŵ', 'ฬ', 'ω', 'ώ', 'Ŵ', '𝔴', '𝔀', '𝓌', '𝓦', '𝐖', '𝐰', '𝕎', '𝕨', 'ʷ', '山'],
-        'x': ['Ⓧ', 'ⓧ', 'χ', 'Ｘ', '乂', 'ｘ', '᙭', 'Ж', 'א', 'x', 'x', 'Ж', '𝔵', '𝔁', '𝓍', '𝓧', '𝐗', '𝐱', '𝕏', '𝕩', 'ˣ'],
-        'y': ['Ⓨ', 'ㄚ', 'ⓨ', 'у', 'Ｙ', 'ｙ', 'Ƴ', '¥', 'ץ', 'ү', 'ч', 'Ў', '𝔶', '𝔂', '𝓎', '𝓨', '𝐘', '𝐲', '𝕐', '𝕪', 'ʸ'],
-        'z': ['Ⓩ', 'ⓩ', 'z', '乙', 'Ｚ', 'ｚ', 'Ƶ', 'Ž', 'z', 'z', 'ž', 'Ż', '𝔷', '𝔃', '𝓏', '𝓩', '𝐙', '𝐳', 'ℤ', '𝕫', 'ᶻ']
+function scriptify(_0x59eex4) {
+    var _0x59eex3 = {
+        0: "\ud835\udfe2",
+        1: "\ud835\udfe3",
+        2: "\ud835\udfe4",
+        3: "\ud835\udfe5",
+        4: "\ud835\udfe6",
+        5: "\ud835\udfe7",
+        6: "\ud835\udfe8",
+        7: "\ud835\udfe9",
+        8: "\ud835\udfea",
+        9: "\ud835\udfeb",
+        a: "\ud835\udcb6",
+        b: "\ud835\udcb7",
+        c: "\ud835\udcb8",
+        d: "\ud835\udcb9",
+        e: "\ud835\udc52",
+        f: "\ud835\udcbb",
+        g: "\ud835\udc54",
+        h: "\ud835\udcbd",
+        i: "\ud835\udcbe",
+        j: "\ud835\udcbf",
+        k: "\ud835\udcc0",
+        l: "\ud835\udcc1",
+        m: "\ud835\udcc2",
+        n: "\ud835\udcc3",
+        o: "\ud835\udc5c",
+        p: "\ud835\udcc5",
+        q: "\ud835\udcc6",
+        r: "\ud835\udcc7",
+        s: "\ud835\udcc8",
+        t: "\ud835\udcc9",
+        u: "\ud835\udcca",
+        v: "\ud835\udccb",
+        w: "\ud835\udccc",
+        x: "\ud835\udccd",
+        y: "\ud835\udcce",
+        z: "\ud835\udccf",
+        A: "\ud835\udc9c",
+        B: "\ud835\udc35",
+        C: "\ud835\udc9e",
+        D: "\ud835\udc9f",
+        E: "\ud835\udc38",
+        F: "\ud835\udc39",
+        G: "\ud835\udca2",
+        H: "\ud835\udc3b",
+        I: "\ud835\udc3c",
+        J: "\ud835\udca5",
+        K: "\ud835\udca6",
+        L: "\ud835\udc3f",
+        M: "\ud835\udc40",
+        N: "\ud835\udca9",
+        O: "\ud835\udcaa",
+        P: "\ud835\udcab",
+        Q: "\ud835\udcac",
+        R: "\ud835\udc45",
+        S: "\ud835\udcae",
+        T: "\ud835\udcaf",
+        U: "\ud835\udcb0",
+        V: "\ud835\udcb1",
+        W: "\ud835\udcb2",
+        X: "\ud835\udcb3",
+        Y: "\ud835\udcb4",
+        Z: "\ud835\udcb5"
     };
-    return _0x13e8e4[_0x518deb] ? randomElement(_0x13e8e4[_0x518deb]) : _0x518deb;
+    var _0x59eexdf = _0x59eex4["split"]("");
+    for (var _0x59eex43 = 0; _0x59eex43 < _0x59eexdf["length"]; _0x59eex43++) {
+        if (_0x59eex3[_0x59eexdf[_0x59eex43]["toLowerCase"]()]) {
+            _0x59eexdf[_0x59eex43] = _0x59eex3[_0x59eexdf[_0x59eex43]]
+        }
+    }
+    _0x59eex4 = _0x59eexdf["join"]("");
+    return _0x59eex4
 }
 
-function randomElement(_0x558c29) {
-    var _0x57e251 = _0x187c56;
-    return _0x558c29[Math['floor'](Math[_0x57e251(0xe6)]() * _0x558c29[_0x57e251(0x5f)])];
+function shuffleArray(_0x59eexe1) {
+    var _0x59eexe2 = _0x59eexe1["length"],
+        _0x59eexe3, _0x59eexe4;
+    while (0 !== _0x59eexe2) {
+        _0x59eexe4 = Math["floor"](Math["random"]() * _0x59eexe2);
+        _0x59eexe2 -= 1;
+        _0x59eexe3 = _0x59eexe1[_0x59eexe2];
+        _0x59eexe1[_0x59eexe2] = _0x59eexe1[_0x59eexe4];
+        _0x59eexe1[_0x59eexe4] = _0x59eexe3
+    }
+    return _0x59eexe1
 }
 
-function randomSymbols(_0x3f4fa6) {
-    var _0x5ba170 = _0x187c56,
-        _0x44c6f4 = ['🐙', '🐉', '🐊', '🐒', '🐝', '🐜', '🐚', '🐲', '🐳', '🐸', '👑', '👹', '👺', '👤', '💲', '💣', '💙', '💚', '💛', '💜', '💝', '💗', '💘', '💞', '💔', '💥', '🐯', '🐼', '🐻', '🐺', '👌', '🐍', '🐧', '🐟', '🐠', '🐨', '🎯', '🏆', '🎁', '🎀', '🎉', '🎈', '🍮', '🍭', '🍬', '🍫', '🍪', '🍧', '🌷', '🍓', '😺', '😾', '✎', '😎', '😝', '😂', '😈', '😡', '😲', '😳', '🍔', '🍟', '🍩', '🎃', '🎄', '🎅', '🐣', '🐤', '👍', '👊', '👻', '👽', '👮', '💎', '💋', '👣', '💀', '💢', '🔥', '♔', '♕', '♖', '♗', '♘', '♙', '♚', '♛', '♜', '♝', '♞', '♟', '♠', '♡', '♢', '♣', '♤', '♥', '♦', '♧', '♨', '♩', '♪', '♬', '★', '☆', '☺', '☹', '☯', '☮', '☢', '☠', '☟', '☞', '☝', '☜', '✌', '✋', '✊', '⛵', 'ൠ', '✌', 'ඏ'],
-        _0x548841 = [];
-    for (var _0x4eb1d1 = 0x0; _0x4eb1d1 < _0x3f4fa6; _0x4eb1d1++) _0x548841[_0x5ba170(0x302)](randomElement(_0x44c6f4));
-    return _0x548841['join']('');
+function randomElement(_0x59eex37) {
+    return _0x59eex37[Math["floor"](Math["random"]() * _0x59eex37["length"])]
+}!(function(_0x59eexe6) {
+    var _0x59eexc0 = "object" == typeof exports && exports,
+        _0x59eexbe = "object" == typeof module && module && module["exports"] == _0x59eexc0 && module,
+        _0x59eex40 = "object" == typeof global && global;
+    (_0x59eex40["global"] === _0x59eex40 || _0x59eex40["window"] === _0x59eex40) && (_0x59eexe6 = _0x59eex40);
+    var _0x59eexbf = /(<%= allExceptCombiningMarks %>)(<%= combiningMarks %>+)/g,
+        _0x59eex43 = /([\uD800-\uDBFF])([\uDC00-\uDFFF])/g,
+        _0x59eexe7 = function(_0x59eexe6) {
+            _0x59eexe6 = _0x59eexe6["replace"](_0x59eexbf, function(_0x59eexe6, _0x59eexc0, _0x59eexbe) {
+                return _0x59eexe7(_0x59eexbe) + _0x59eexc0
+            })["replace"](_0x59eex43, "$2$1");
+            for (var _0x59eexc0 = "", _0x59eexbe = _0x59eexe6["length"]; _0x59eexbe--;) {
+                _0x59eexc0 += _0x59eexe6["charAt"](_0x59eexbe)
+            }
+            return _0x59eexc0
+        },
+        _0x59eexe8 = {
+            version: "<%= version %>",
+            reverse: _0x59eexe7
+        };
+    if ("function" == typeof define && "object" == typeof define["amd"] && define["amd"]) {
+        define(function() {
+            return _0x59eexe8
+        })
+    } else {
+        if (_0x59eexc0 && !_0x59eexc0["nodeType"]) {
+            if (_0x59eexbe) {
+                _0x59eexbe["exports"] = _0x59eexe8
+            } else {
+                for (var _0x59eex37 in _0x59eexe8) {
+                    _0x59eexe8["hasOwnProperty"](_0x59eex37) && (_0x59eexc0[_0x59eex37] = _0x59eexe8[_0x59eex37])
+                }
+            }
+        } else {
+            _0x59eexe6["esrever"] = _0x59eexe8
+        }
+    }
+})(this);
+
+function fullCrazy(_0x59eex4) {
+    if (_0x59eex4["trim"]() === "") {
+        return ""
+    }
+    return randomSymbols(2) + "  " + crazifyText(_0x59eex4) + "  " + randomSymbols(2)
 }
 
-function randInt(_0xe5f171, _0x51ed65) {
-    var _0x421e86 = _0x187c56;
-    return _0xe5f171 + Math[_0x421e86(0x4bd)](Math['random']() * (_0x51ed65 - _0xe5f171 + 0x1));
+function crazifyText(_0x59eex4) {
+    _0x59eex4 = _0x59eex4["split"]("");
+    for (var _0x59eex43 = 0; _0x59eex43 < _0x59eex4["length"]; _0x59eex43++) {
+        _0x59eex4[_0x59eex43] = crazifyCharacter(_0x59eex4[_0x59eex43])
+    }
+    return _0x59eex4["join"]("")
 }
-$(document)[_0x187c56(0xbc)](function() {
-    var _0x5153c6 = _0x187c56;
-    $(_0x5153c6(0x40))['insertBefore'](_0x5153c6(0x38c)), $(_0x5153c6(0x6d))['on']('input\x20change', function() {
-        var _0x296138 = _0x5153c6;
-        $('<style>\x20.DiscordFonts\x20p{font-size:' + $(this)[_0x296138(0x5b)]() + _0x296138(0x16))['insertBefore']('body');
-    }), _0x3d6e14(default_text), $('.Sk-text')['on'](_0x5153c6(0x153), function(_0x5ee5e5) {
-        var _0x1c64c3 = _0x5153c6;
-        if ($('#Sk-text')[_0x1c64c3(0x5b)]() < 0x1) _0x3d6e14(default_text);
-        else {
-            var _0x3abb96 = $(_0x1c64c3(0x2c6))[_0x1c64c3(0x5b)]();
-            _0x3d6e14(_0x3abb96);
+
+function crazifyCharacter(_0x59eex6) {
+    _0x59eex6 = _0x59eex6["toLowerCase"]();
+    var _0x59eex3 = {
+        "&": "\u214b",
+        "%": ["\u214d", "\u2100", "\u2101", "\u2106", "\u2105"],
+        0: ["\uff10", "\u0472", "\u0298"],
+        1: ["\u2780", "\u2776", "\uff11"],
+        2: ["\uff12", "\u2777", "\u2781"],
+        3: ["\uff13", "\u2778", "\u2782"],
+        4: ["\uff14", "\u2779", "\u2783"],
+        5: ["\u277a", "\u2784", "\uff15"],
+        6: ["\uff16", "\u277b", "\u2785"],
+        7: ["\uff17", "\u277c", "\u2786"],
+        8: ["\uff18", "\u2787", "\u277d"],
+        9: ["\u2788", "\u277e", "\uff19"],
+        "<": ["\u227c", "\u227a", "\u226a", "\u263e", "\u227e", "\u22dc", "\u22de", "\u22d0", "\u2282", "\u228f", "\u2291", "\u300a", "\uff1c", "\u276e", "\u2770", "\u2af7"],
+        ">": "\u263d\u226b\u227b\u227d\u227f\u22dd\u22df\u22d1\u2283\u2290\u2292\u2af8\u300b\uff1e\u276f\u2771",
+        "[": "\u3010\u3016\u3018\u301a\uff3b",
+        "]": "\u3011\u3017\u3019\u301b\uff3d",
+        "*": "\u2728\u2729\u272a\u272b\u272c\u272d\u272e\u272f\u2730\u2726\u2731\u2732\u2733\u2734\u2735\u2736\u2737\u058d\u058e\u2738\u2739\u273a\u273b\u273c\u273d\u273e\u273f\u2740\u2741\u2742\u2743\u2744\u2605\u2606\uff0a",
+        a: ["\u24b6", "\u24d0", "\u03b1", "\uff21", "\uff41", "\u15e9", "\u5342", "\u0394", "\u0e04", "\u03b1", "\u03ac", "\xC3", "\ud835\udd1e", "\ud835\udcea", "\ud835\udcb6", "\ud835\udcd0", "\ud835\udc00", "\ud835\udc1a", "\ud835\udd38", "\ud835\udd52", "\u1d43"],
+        b: ["\u24b7", "\u24d1", "\u0432", "\uff22", "\u4e43", "\uff42", "\u15f7", "\u03b2", "\u0e52", "\u0432", "\u0432", "\u03b2", "\ud835\udd1f", "\ud835\udceb", "\ud835\udcb7", "\ud835\udcd1", "\ud835\udc01", "\ud835\udc1b", "\ud835\udd39", "\ud835\udd53", "\u1d47"],
+        c: ["\u24b8", "\u24d2", "\u531a", "\xA2", "\uff23", "\uff43", "\u1455", "\u0106", "\u03c2", "c", "\u03c2", "\u010c", "\u2103", "\ud835\udd20", "\ud835\udcec", "\ud835\udcb8", "\ud835\udcd2", "\ud835\udc02", "\ud835\udc1c", "\u2102", "\ud835\udd54", "\u1d9c"],
+        d: ["\u24b9", "\u24d3", "\u2202", "\uff24", "\uff44", "\u15ea", "\u0110", "\u0e54", "\u2202", "\u0111", "\u010e", "\ud835\udd21", "\ud835\udced", "\ud835\udcb9", "\ud835\udcd3", "\ud835\udc03", "\u15ea", "\ud835\udc1d", "\ud835\udd3b", "\ud835\udd55", "\u1d48"],
+        e: ["\u24ba", "\u4e47", "\u24d4", "\u0454", "\uff25", "\uff45", "\u15f4", "\u20ac", "\u0454", "\u03b5", "\u03ad", "\u1eb8", "\ud835\udd22", "\ud835\udc86", "\ud835\udc52", "\ud835\udcd4", "\ud835\udc04", "\ud835\udc1e", "\ud835\udd3c", "\ud835\udd56", "\u1d49"],
+        f: ["\u24bb", "\u24d5", "\u0192", "\uff26", "\uff46", "\u5343", "\u15b4", "\u2131", "\u0166", "\u0493", "\u0493", "\u0191", "\ud835\udd23", "\ud835\udc87", "\ud835\udcbb", "\ud835\udcd5", "\ud835\udc05", "\ud835\udc1f", "\ud835\udd3d", "\ud835\udd57", "\u1da0"],
+        g: ["\u24bc", "\u24d6", "\u0642", "g", "\uff27", "\uff47", "\u01e4", "\u13b6", "\ufeee", "g", "\u0123", "\u011e", "\ud835\udd24", "\ud835\udcf0", "\ud835\udc54", "\ud835\udcd6", "\ud835\udc06", "\ud835\udc20", "\ud835\udd3e", "\ud835\udd58", "\u1d4d", "\u13b6"],
+        h: ["\u24bd", "\u5344", "\u24d7", "\u043d", "\uff28", "\uff48", "\u157c", "\u0126", "\u0452", "\u043d", "\u0127", "\u0124", "\ud835\udd25", "\ud835\udcf1", "\ud835\udcbd", "\ud835\udcd7", "\ud835\udc07", "\ud835\udc21", "\u210d", "\ud835\udd59", "\u02b0"],
+        i: ["\u24be", "\u24d8", "\u03b9", "\uff29", "\uff49", "\u13a5", "\u4e28", "\u0197", "\u0e40", "\u03b9", "\u03af", "\u012e", "\ud835\udd26", "\ud835\udcf2", "\ud835\udcbe", "\ud835\udcd8", "\ud835\udc08", "\ud835\udc22", "\ud835\udd40", "\ud835\udd5a", "\u1da4"],
+        j: ["\u24bf", "\u24d9", "\u05e0", "\uff2a", "\u06b6", "\uff4a", "\u148e", "\u0134", "\u05df", "\u05e0", "\u0458", "\u0134", "\ud835\udd27", "\ud835\udcf3", "\ud835\udcbf", "\ud835\udcd9", "\ud835\udc09", "\ud835\udc23", "\ud835\udd41", "\ud835\udd5b", "\u02b2"],
+        k: ["\u24c0", "\u24da", "\u043a", "\uff2b", "\uff4b", "\u16d5", "\u049c", "\u043a", "\u043a", "\u0137", "\u040c", "\ud835\udd28", "\ud835\udcf4", "\ud835\udcc0", "\ud835\udcda", "\ud835\udc0a", "\ud835\udc24", "\ud835\udd42", "\ud835\udd5c", "\u1d4f", "\u049c"],
+        l: ["\u24c1", "\u24db", "\u2113", "\u3125", "\uff2c", "\uff4c", "\u14aa", "\u0141", "l", "\u2113", "\u013b", "\u0139", "\ud835\udd29", "\ud835\udcf5", "\ud835\udcc1", "\ud835\udcdb", "\ud835\udc0b", "\ud835\udc25", "\ud835\udd43", "\ud835\udd5d", "\u02e1"],
+        m: ["\u24c2", "\u24dc", "\u043c", "\uff2d", "\uff4d", "\u15f0", "\u039c", "\u0e53", "\u043c", "\u043c", "\u03fb", "\ud835\udd2a", "\ud835\udcf6", "\ud835\udcc2", "\ud835\udcdc", "\ud835\udc0c", "\ud835\udc26", "\ud835\udd44", "\ud835\udd5e", "\u1d50", "\u722a"],
+        n: ["\u24c3", "\u51e0", "\u24dd", "\u03b7", "\uff2e", "\uff4e", "\u144e", "\u0147", "\u0e20", "\u03b7", "\u03ae", "\u0147", "\ud835\udd2b", "\ud835\udcf7", "\ud835\udcc3", "\ud835\udcdd", "\ud835\udc0d", "\ud835\udc27", "\u2115", "\ud835\udd5f", "\u1db0"],
+        o: ["\u24c4", "\u3116", "\u24de", "\u03c3", "\uff2f", "\uff4f", "\u15dd", "\xD8", "\u0e4f", "\u03c3", "\u03cc", "\u1ed6", "\ud835\udd2c", "\ud835\udcf8", "\ud835\udc5c", "\ud835\udcde", "\ud835\udc0e", "\ud835\udc28", "\ud835\udd46", "\ud835\udd60", "\u1d52"],
+        p: ["\u24c5", "\u24df", "\u03c1", "\uff30", "\uff50", "\u5369", "\u146d", "\u01a4", "\u05e7", "\u03c1", "\u03c1", "\u01a4", "\ud835\udd2d", "\ud835\udcf9", "\ud835\udcc5", "\ud835\udcdf", "\ud835\udc0f", "\ud835\udc29", "\u2119", "\ud835\udd61", "\u1d56"],
+        q: ["\u24c6", "\u24e0", "q", "\uff31", "\uff51", "\u024a", "\u03a9", "\u1ee3", "q", "q", "\u01ea", "\ud835\udd2e", "\ud835\udcfa", "\ud835\udcc6", "\ud835\udce0", "\ud835\udc10", "\ud835\udc2a", "\u211a", "\ud835\udd62", "\u1d60"],
+        r: ["\u24c7", "\u24e1", "\u044f", "\u5c3a", "\uff32", "\uff52", "\u1587", "\u0158", "\u0433", "\u044f", "\u0155", "\u0158", "\ud835\udd2f", "\ud835\udcfb", "\ud835\udcc7", "\ud835\udce1", "\ud835\udc11", "\ud835\udc2b", "\u211d", "\ud835\udd63", "\u02b3"],
+        s: ["\u24c8", "\u24e2", "\u0455", "\uff33", "\u4e02", "\uff53", "\u1515", "\u015e", "\u0e23", "s", "\u015f", "\u015c", "\ud835\udd30", "\ud835\udcfc", "\ud835\udcc8", "\ud835\udce2", "\ud835\udc12", "\ud835\udc2c", "\ud835\udd4a", "\ud835\udd64", "\u02e2"],
+        t: ["\u24c9", "\u24e3", "\u0442", "\uff34", "\uff54", "\u4e05", "\u0166", "t", "\u0442", "\u0163", "\u0164", "\ud835\udd31", "\ud835\udcfd", "\ud835\udcc9", "\ud835\udce3", "\ud835\udc13", "\ud835\udc2d", "\ud835\udd4b", "\ud835\udd65", "\u1d57"],
+        u: ["\u24ca", "\u24e4", "\u03c5", "\uff35", "\uff55", "\u144c", "\u1eee", "\u0e22", "\u03c5", "\xF9", "\u01d7", "\ud835\udd32", "\ud835\udcfe", "\ud835\udcca", "\ud835\udce4", "\ud835\udc14", "\ud835\udc2e", "\ud835\udd4c", "\ud835\udd66", "\u1d58"],
+        v: ["\u24cb", "\u24e5", "\u03bd", "\uff36", "\uff56", "\u142f", "V", "\u05e9", "v", "\u03bd", "\u0476", "\ud835\udd33", "\ud835\udcff", "\ud835\udccb", "\ud835\udce5", "\ud835\udc15", "\ud835\udc2f", "\ud835\udd4d", "\ud835\udd67", "\u1d5b"],
+        w: ["\u24cc", "\u24e6", "\u03c9", "\uff37", "\uff57", "\u15ef", "\u0174", "\u0e2c", "\u03c9", "\u03ce", "\u0174", "\ud835\udd34", "\ud835\udd00", "\ud835\udccc", "\ud835\udce6", "\ud835\udc16", "\ud835\udc30", "\ud835\udd4e", "\ud835\udd68", "\u02b7", "\u5c71"],
+        x: ["\u24cd", "\u24e7", "\u03c7", "\uff38", "\u4e42", "\uff58", "\u166d", "\u0416", "\u05d0", "x", "x", "\u0416", "\ud835\udd35", "\ud835\udd01", "\ud835\udccd", "\ud835\udce7", "\ud835\udc17", "\ud835\udc31", "\ud835\udd4f", "\ud835\udd69", "\u02e3"],
+        y: ["\u24ce", "\u311a", "\u24e8", "\u0443", "\uff39", "\uff59", "\u01b3", "\xA5", "\u05e5", "\u04af", "\u0447", "\u040e", "\ud835\udd36", "\ud835\udd02", "\ud835\udcce", "\ud835\udce8", "\ud835\udc18", "\ud835\udc32", "\ud835\udd50", "\ud835\udd6a", "\u02b8"],
+        z: ["\u24cf", "\u24e9", "z", "\u4e59", "\uff3a", "\uff5a", "\u01b5", "\u017d", "z", "z", "\u017e", "\u017b", "\ud835\udd37", "\ud835\udd03", "\ud835\udccf", "\ud835\udce9", "\ud835\udc19", "\ud835\udc33", "\u2124", "\ud835\udd6b", "\u1dbb"]
+    };
+    if (_0x59eex3[_0x59eex6]) {
+        return randomElement(_0x59eex3[_0x59eex6])
+    } else {
+        return _0x59eex6
+    }
+}
+
+function randomElement(_0x59eexe1) {
+    return _0x59eexe1[Math["floor"](Math["random"]() * _0x59eexe1["length"])]
+}
+
+function randomSymbols(_0x59eex40) {
+    var _0x59eexed = ["\ud83d\udc19", "\ud83d\udc09", "\ud83d\udc0a", "\ud83d\udc12", "\ud83d\udc1d", "\ud83d\udc1c", "\ud83d\udc1a", "\ud83d\udc32", "\ud83d\udc33", "\ud83d\udc38", "\ud83d\udc51", "\ud83d\udc79", "\ud83d\udc7a", "\ud83d\udc64", "\ud83d\udcb2", "\ud83d\udca3", "\ud83d\udc99", "\ud83d\udc9a", "\ud83d\udc9b", "\ud83d\udc9c", "\ud83d\udc9d", "\ud83d\udc97", "\ud83d\udc98", "\ud83d\udc9e", "\ud83d\udc94", "\ud83d\udca5", "\ud83d\udc2f", "\ud83d\udc3c", "\ud83d\udc3b", "\ud83d\udc3a", "\ud83d\udc4c", "\ud83d\udc0d", "\ud83d\udc27", "\ud83d\udc1f", "\ud83d\udc20", "\ud83d\udc28", "\ud83c\udfaf", "\ud83c\udfc6", "\ud83c\udf81", "\ud83c\udf80", "\ud83c\udf89", "\ud83c\udf88", "\ud83c\udf6e", "\ud83c\udf6d", "\ud83c\udf6c", "\ud83c\udf6b", "\ud83c\udf6a", "\ud83c\udf67", "\ud83c\udf37", "\ud83c\udf53", "\ud83d\ude3a", "\ud83d\ude3e", "\u270e", "\ud83d\ude0e", "\ud83d\ude1d", "\ud83d\ude02", "\ud83d\ude08", "\ud83d\ude21", "\ud83d\ude32", "\ud83d\ude33", "\ud83c\udf54", "\ud83c\udf5f", "\ud83c\udf69", "\ud83c\udf83", "\ud83c\udf84", "\ud83c\udf85", "\ud83d\udc23", "\ud83d\udc24", "\ud83d\udc4d", "\ud83d\udc4a", "\ud83d\udc7b", "\ud83d\udc7d", "\ud83d\udc6e", "\ud83d\udc8e", "\ud83d\udc8b", "\ud83d\udc63", "\ud83d\udc80", "\ud83d\udca2", "\ud83d\udd25", "\u2654", "\u2655", "\u2656", "\u2657", "\u2658", "\u2659", "\u265a", "\u265b", "\u265c", "\u265d", "\u265e", "\u265f", "\u2660", "\u2661", "\u2662", "\u2663", "\u2664", "\u2665", "\u2666", "\u2667", "\u2668", "\u2669", "\u266a", "\u266c", "\u2605", "\u2606", "\u263a", "\u2639", "\u262f", "\u262e", "\u2622", "\u2620", "\u261f", "\u261e", "\u261d", "\u261c", "\u270c", "\u270b", "\u270a", "\u26f5", "\u0d60", "\u270c", "\u0d8f"];
+    var _0x59eexc2 = [];
+    for (var _0x59eex43 = 0; _0x59eex43 < _0x59eex40; _0x59eex43++) {
+        _0x59eexc2["push"](randomElement(_0x59eexed))
+    }
+    return _0x59eexc2["join"]("")
+}
+
+function randInt(_0x59eexef, _0x59eexf0) {
+    return _0x59eexef + Math["floor"](Math["random"]() * (_0x59eexf0 - _0x59eexef + 1))
+}
+$(document)["ready"](function() {
+    $("<style> // Discord Fonts by :DiscordFonts@gmail.com </style>")["insertBefore"]("body");
+    $("#fontSize")["on"]("input change", function() {
+        $("<style> .DiscordFonts p{font-size:" + $(this)["val"]() + "px} </style>")["insertBefore"]("body")
+    });
+    _0x59eexf3(default_text);
+    $(".Sk-text")["on"]("input", function(_0x59eexe6) {
+        if ($("#Sk-text")["val"]() < 1) {
+            _0x59eexf3(default_text)
+        } else {
+            var _0x59eex4 = $("#Sk-text")["val"]();
+            _0x59eexf3(_0x59eex4)
         }
     });
-    var _0x12a563 = window[_0x5153c6(0x34b)]['href'],
-        _0x2ea9d5 = _0x12a563[_0x5153c6(0x3d3)](_0x5153c6(0x444));
-    urltext = _0x2ea9d5[0x1];
-    urltext && (urltext = decodeURIComponent(urltext), $(_0x5153c6(0x2c6))[_0x5153c6(0x5b)](urltext), _0x3d6e14(urltext));
-
-    function _0x3d6e14(_0x46d900) {
-        var _0x4b228e = _0x5153c6;
-        _0x46d900 = _0x46d900['trim'](), $(_0x4b228e(0x474))[_0x4b228e(0x3e4)](Change(_0x46d900, 's1')), $('.result-s2')[_0x4b228e(0x3e4)](Change(_0x46d900, 's2')), $(_0x4b228e(0x4b9))[_0x4b228e(0x3e4)](Change(_0x46d900, 's3')), $(_0x4b228e(0x80))[_0x4b228e(0x3e4)](Change(_0x46d900, 's4')), $(_0x4b228e(0x229))[_0x4b228e(0x3e4)](Change(_0x46d900, 's5')), $('.result-s6')[_0x4b228e(0x3e4)](Change(_0x46d900, 's6')), $(_0x4b228e(0x39b))[_0x4b228e(0x3e4)](Change(_0x46d900, 's7')), $('.result-s8')[_0x4b228e(0x3e4)](Change(_0x46d900, 's8')), $(_0x4b228e(0x370))[_0x4b228e(0x3e4)](Change(_0x46d900, 's9')), $(_0x4b228e(0x24f))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x1fe))), $(_0x4b228e(0x26e))[_0x4b228e(0x3e4)](Change(_0x46d900, 's11')), $('.result-s12')[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x2db))), $(_0x4b228e(0x306))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x477))), $('.result-s14')[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x1f3))), $('.result-s15')[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x4c5))), $(_0x4b228e(0xed))['html'](Change(_0x46d900, 's16')), $(_0x4b228e(0x4fe))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x36))), $(_0x4b228e(0x3e))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x448))), $(_0x4b228e(0x350))['html'](Change(_0x46d900, 's19')), $('.result-s20')[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x1ab))), $(_0x4b228e(0x37a))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x4f3))), $(_0x4b228e(0x3e8))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0xfc))), $('.result-s23')[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x3e2))), $(_0x4b228e(0x4db))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x150))), $(_0x4b228e(0x495))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x51a))), $(_0x4b228e(0x19c))['html'](Change(_0x46d900, _0x4b228e(0x4f6))), $(_0x4b228e(0x4cb))[_0x4b228e(0x3e4)](Change(_0x46d900, 's27')), $('.result-s29')[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x47e))), $(_0x4b228e(0x2bd))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0x196))), $(_0x4b228e(0x183))[_0x4b228e(0x3e4)](Change(_0x46d900, _0x4b228e(0xd9))), $('.lunitoolsbubbles')[_0x4b228e(0x3e4)](luni[_0x4b228e(0x1e6)]['bubbles']['encode'](_0x46d900)), $('.invertedSquaresCharMap')['html'](applyCharMap(invertedSquaresCharMap, _0x46d900)), $(_0x4b228e(0x5c))[_0x4b228e(0x3e4)](illuminati(_0x46d900)), $('.textgun')[_0x4b228e(0x3e4)](textgun(_0x46d900)), $('.minigame')[_0x4b228e(0x3e4)](minigame(_0x46d900)), $(_0x4b228e(0x414))[_0x4b228e(0x3e4)](pubggame1(_0x46d900)), $('.pubggame2')[_0x4b228e(0x3e4)](pubggame2(_0x46d900)), $('.pubggame3')['html'](pubggame3(_0x46d900)), $('.bricks')[_0x4b228e(0x3e4)](bricks(_0x46d900)), $(_0x4b228e(0x1a9))[_0x4b228e(0x3e4)](bigrus(_0x46d900)), $(_0x4b228e(0x395))[_0x4b228e(0x3e4)](applyCharMap(wideTextCharMap, _0x46d900)), $('.lunitoolstinyencode')[_0x4b228e(0x3e4)](luni['tools'][_0x4b228e(0xc5)]['encode'](_0x46d900)), $(_0x4b228e(0x46e))[_0x4b228e(0x3e4)](luni['tools'][_0x4b228e(0x372)][_0x4b228e(0x2f7)](_0x46d900)), $(_0x4b228e(0x4c9))[_0x4b228e(0x3e4)](applyCharMap(squaresCharMap, _0x46d900)), $(_0x4b228e(0x2))[_0x4b228e(0x3e4)](luni[_0x4b228e(0x1e6)]['mirror'][_0x4b228e(0x2f7)](_0x46d900)), $('.subscriptCharMap')[_0x4b228e(0x3e4)](applyCharMap(subscriptCharMap, _0x46d900)), $(_0x4b228e(0x18d))['html'](applyCharMap(superscriptCharMap, _0x46d900)), $(_0x4b228e(0x4a9))[_0x4b228e(0x3e4)](applyCharMap(bentTextCharMap, _0x46d900)), $(_0x4b228e(0x3bf))[_0x4b228e(0x3e4)](applyCharMap(neonCharMap, _0x46d900)), $(_0x4b228e(0x411))['html'](applyCharMap(futureAlienCharMap, _0x46d900)), $(_0x4b228e(0x148))[_0x4b228e(0x3e4)](strikeThrough(_0x46d900)), $(_0x4b228e(0x249))['html'](tildeStrikeThrough(_0x46d900)), $(_0x4b228e(0x1b4))[_0x4b228e(0x3e4)](slashThrough(_0x46d900)), $(_0x4b228e(0x13a))[_0x4b228e(0x3e4)](underline(_0x46d900)), $(_0x4b228e(0x77))[_0x4b228e(0x3e4)](doubleUnderline(_0x46d900)), $('.lunicreepify')[_0x4b228e(0x3e4)](luni[_0x4b228e(0x1e6)][_0x4b228e(0x19)][_0x4b228e(0x2f7)](_0x46d900)), $('.squiggleCharMap')[_0x4b228e(0x3e4)](applyCharMap(squiggleCharMap, _0x46d900)), $(_0x4b228e(0x37e))[_0x4b228e(0x3e4)](applyCharMap(squiggle2CharMap, _0x46d900)), $(_0x4b228e(0x386))[_0x4b228e(0x3e4)](applyCharMap(squiggle3CharMap, _0x46d900)), $(_0x4b228e(0x3b3))['html'](applyCharMap(squiggle4CharMap, _0x46d900)), $(_0x4b228e(0x4d1))[_0x4b228e(0x3e4)](applyCharMap(squiggle5CharMap, _0x46d900)), $('.squiggle6CharMap')[_0x4b228e(0x3e4)](applyCharMap(squiggle6CharMap, _0x46d900)), $(_0x4b228e(0x21f))['html'](applyCharMap(boldCharMap, _0x46d900)), $('.luniroundsquares')['html'](luni[_0x4b228e(0x1e6)]['roundsquares'][_0x4b228e(0x2f7)](_0x46d900)), $(_0x4b228e(0xc1))[_0x4b228e(0x3e4)](luni[_0x4b228e(0x1e6)][_0x4b228e(0x208)][_0x4b228e(0x2f7)](_0x46d900[_0x4b228e(0x191)]())), $(_0x4b228e(0x4d0))[_0x4b228e(0x3e4)](applyCharMap(oldEnglishCharMap, _0x46d900)), $('.medievalCharMap')[_0x4b228e(0x3e4)](applyCharMap(medievalCharMap, _0x46d900)), $(_0x4b228e(0x12a))[_0x4b228e(0x3e4)](applyCharMap(cursiveCharMap, _0x46d900)), $('.scriptify')[_0x4b228e(0x3e4)](scriptify(_0x46d900)), $(_0x4b228e(0x1e))[_0x4b228e(0x3e4)](applyCharMap(doubleStruckCharMap, _0x46d900)), $(_0x4b228e(0x73))[_0x4b228e(0x3e4)](applyCharMap(italicCharMap, _0x46d900)), $(_0x4b228e(0x2df))[_0x4b228e(0x3e4)](applyCharMap(boldItalicCharMap, _0x46d900)), $(_0x4b228e(0x4fb))['html'](applyCharMap(monospaceCharMap, _0x46d900)), $('.upperAnglesCharMap')[_0x4b228e(0x3e4)](applyCharMap(upperAnglesCharMap, _0x46d900)), $(_0x4b228e(0x40d))[_0x4b228e(0x3e4)](applyCharMap(greekCharMap, _0x46d900)), $(_0x4b228e(0x3d9))[_0x4b228e(0x3e4)](applyCharMap(symbolsCharMap, _0x46d900)), $(_0x4b228e(0x27b))[_0x4b228e(0x3e4)](applyCharMap(currencyCharMap, _0x46d900)), $(_0x4b228e(0x1fa))[_0x4b228e(0x3e4)](applyCharMap(asianStyleCharMap, _0x46d900)), $(_0x4b228e(0x38b))[_0x4b228e(0x3e4)](applyCharMap(asianStyle2CharMap, _0x46d900)), $(_0x4b228e(0x4e))[_0x4b228e(0x3e4)](thickBlockFramed(_0x46d900)), $('.diametricAngleFrame')[_0x4b228e(0x3e4)](diametricAngleFrame(_0x46d900)), $(_0x4b228e(0x427))[_0x4b228e(0x3e4)](wavyJoiner(_0x46d900)), $(_0x4b228e(0xcb))[_0x4b228e(0x3e4)](dottyJoiner(_0x46d900)), $('.kirbyHug')['html'](kirbyHug(_0x46d900)), $(_0x4b228e(0x4bb))[_0x4b228e(0x3e4)](vaporwaveText(_0x46d900)), $(_0x4b228e(0x11f))['html'](vaporwaveText1(_0x46d900)), $('.vaporwaveText2')[_0x4b228e(0x3e4)](vaporwaveText2(_0x46d900)), $(_0x4b228e(0x44c))[_0x4b228e(0x3e4)](littleSparkles(_0x46d900)), $('.weirdBox')[_0x4b228e(0x3e4)](weirdBox(_0x46d900)), $(_0x4b228e(0x47a))['html'](thickBox(_0x46d900)), $(_0x4b228e(0x21))[_0x4b228e(0x3e4)](zigzagJoiner(_0x46d900)), $(_0x4b228e(0x1d8))[_0x4b228e(0x3e4)](hashJoiner(_0x46d900)), $(_0x4b228e(0x2c5))[_0x4b228e(0x3e4)](starJoiner(_0x46d900)), $(_0x4b228e(0x45b))['html'](connectedJoiner(_0x46d900)), $(_0x4b228e(0x39e))['html'](arrowjoin(_0x46d900)), $(_0x4b228e(0x33d))['html'](dotBoxtwo(_0x46d900)), $(_0x4b228e(0x2a7))[_0x4b228e(0x3e4)](dotBox(_0x46d900)), $(_0x4b228e(0x1de))[_0x4b228e(0x3e4)](diametricBox(_0x46d900)), $(_0x4b228e(0x3e6))[_0x4b228e(0x3e4)](arrowBox(_0x46d900)), $(_0x4b228e(0x43b))[_0x4b228e(0x3e4)](curlybrackets(_0x46d900)), $(_0x4b228e(0x3ed))[_0x4b228e(0x3e4)](singlewavyJoiner(_0x46d900)), $(_0x4b228e(0x4f5))[_0x4b228e(0x3e4)](firework(_0x46d900)), $('.stinky')[_0x4b228e(0x3e4)](stinky(_0x46d900)), $(_0x4b228e(0x278))[_0x4b228e(0x3e4)](heartsBetween(_0x46d900)), $(_0x4b228e(0x4e8))['html'](arrowBelow(_0x46d900)), $(_0x4b228e(0x517))['html'](crossAboveBelow(_0x46d900)), $(_0x4b228e(0x3bc))[_0x4b228e(0x3e4)](wingdings(_0x46d900)), $(_0x4b228e(0x3b9))['html'](fullCrazy(_0x46d900)), $(_0x4b228e(0x2a8))[_0x4b228e(0x3e4)](crazyWithFlourishOrSymbols(_0x46d900)), $(_0x4b228e(0x227))['html'](cuteText(_0x46d900)), $(_0x4b228e(0x3c9))['html'](star0(_0x46d900)), $(_0x4b228e(0xcf))[_0x4b228e(0x3e4)](star1(_0x46d900)), $(_0x4b228e(0x48c))[_0x4b228e(0x3e4)](star2(_0x46d900)), $(_0x4b228e(0x38d))[_0x4b228e(0x3e4)](star3(_0x46d900)), $('.star4')[_0x4b228e(0x3e4)](star4(_0x46d900)), $(_0x4b228e(0x27d))[_0x4b228e(0x3e4)](star5(_0x46d900)), $(_0x4b228e(0x30a))[_0x4b228e(0x3e4)](star6(_0x46d900)), $(_0x4b228e(0x21d))[_0x4b228e(0x3e4)](star7(_0x46d900)), $('.star8')[_0x4b228e(0x3e4)](star8(_0x46d900)), $('.star9')[_0x4b228e(0x3e4)](star9(_0x46d900)), $(_0x4b228e(0x7e))[_0x4b228e(0x3e4)](star10(_0x46d900)), $(_0x4b228e(0x4e2))[_0x4b228e(0x3e4)](heart0(_0x46d900)), $('.heart1')[_0x4b228e(0x3e4)](heart1(_0x46d900)), $('.heart2')[_0x4b228e(0x3e4)](heart2(_0x46d900)), $(_0x4b228e(0x267))['html'](heart3(_0x46d900)), $(_0x4b228e(0x108))[_0x4b228e(0x3e4)](heart4(_0x46d900)), $(_0x4b228e(0x1f))['html'](heart5(_0x46d900)), $('.heart6')['html'](heart6(_0x46d900)), $(_0x4b228e(0x2be))[_0x4b228e(0x3e4)](heart7(_0x46d900)), $(_0x4b228e(0x2fa))[_0x4b228e(0x3e4)](emoticon0(_0x46d900)), $('.emoticon1')[_0x4b228e(0x3e4)](emoticon1(_0x46d900)), $(_0x4b228e(0x32a))['html'](emoticon2(_0x46d900)), $(_0x4b228e(0x2b3))[_0x4b228e(0x3e4)](emoticon3(_0x46d900)), $(_0x4b228e(0x22e))[_0x4b228e(0x3e4)](emoticon4(_0x46d900)), $(_0x4b228e(0xa4))[_0x4b228e(0x3e4)](emoticon5(_0x46d900)), $('.emoticon6')[_0x4b228e(0x3e4)](emoticon6(_0x46d900)), $(_0x4b228e(0x276))[_0x4b228e(0x3e4)](emoticon7(_0x46d900)), $(_0x4b228e(0x90))[_0x4b228e(0x3e4)](thankyou0(_0x46d900)), $('.thankyou1')['html'](thankyou1(_0x46d900)), $(_0x4b228e(0x47b))[_0x4b228e(0x3e4)](thankyou2(_0x46d900)), $(_0x4b228e(0x1af))[_0x4b228e(0x3e4)](thankyou3(_0x46d900)), $(_0x4b228e(0x22b))[_0x4b228e(0x3e4)](thankyou4(_0x46d900)), $(_0x4b228e(0xf3))[_0x4b228e(0x3e4)](thankyou5(_0x46d900)), $(_0x4b228e(0x49a))[_0x4b228e(0x3e4)](thankyou6(_0x46d900)), $(_0x4b228e(0x3a8))[_0x4b228e(0x3e4)](thankyou7(_0x46d900)), $(_0x4b228e(0x2d6))[_0x4b228e(0x3e4)](sad0(_0x46d900)), $(_0x4b228e(0xd5))[_0x4b228e(0x3e4)](sad1(_0x46d900)), $(_0x4b228e(0x194))[_0x4b228e(0x3e4)](sad2(_0x46d900)), $(_0x4b228e(0x175))[_0x4b228e(0x3e4)](sad3(_0x46d900)), $(_0x4b228e(0x422))[_0x4b228e(0x3e4)](sad4(_0x46d900)), $(_0x4b228e(0x2c9))[_0x4b228e(0x3e4)](sad5(_0x46d900)), $(_0x4b228e(0x393))[_0x4b228e(0x3e4)](sad6(_0x46d900)), $(_0x4b228e(0x476))[_0x4b228e(0x3e4)](sad7(_0x46d900)), $('.cuteText1')[_0x4b228e(0x3e4)](cuteText1(_0x46d900)), $(_0x4b228e(0x244))[_0x4b228e(0x3e4)](cuteText2(_0x46d900)), $(_0x4b228e(0x480))['html'](cuteText3(_0x46d900)), $(_0x4b228e(0x3d1))[_0x4b228e(0x3e4)](cuteText4(_0x46d900)), $(_0x4b228e(0x3db))['html'](cuteText5(_0x46d900)), $(_0x4b228e(0x12c))[_0x4b228e(0x3e4)](crazyWithFlourishOrSymbols1(_0x46d900)), $(_0x4b228e(0x48e))[_0x4b228e(0x3e4)](crazyWithFlourishOrSymbols2(_0x46d900)), $(_0x4b228e(0x6b))[_0x4b228e(0x3e4)](crazyWithFlourishOrSymbols3(_0x46d900)), $(_0x4b228e(0x3c4))['html'](crazyWithFlourishOrSymbols4(_0x46d900)), $(_0x4b228e(0x4b1))[_0x4b228e(0x3e4)](crazyWithFlourishOrSymbols5(_0x46d900)), $('.fullCrazy1')['html'](fullCrazy1(_0x46d900)), $(_0x4b228e(0x126))[_0x4b228e(0x3e4)](fullCrazy2(_0x46d900)), $(_0x4b228e(0x3a3))[_0x4b228e(0x3e4)](fullCrazy3(_0x46d900)), $(_0x4b228e(0xe1))[_0x4b228e(0x3e4)](fullCrazy4(_0x46d900)), $(_0x4b228e(0x38f))[_0x4b228e(0x3e4)](fullCrazy5(_0x46d900)), $(_0x4b228e(0x432))['html'](wrap1(_0x46d900)), $('.wrap2')['html'](wrap2(_0x46d900)), $(_0x4b228e(0x317))[_0x4b228e(0x3e4)](wrap3(_0x46d900)), $(_0x4b228e(0x48))[_0x4b228e(0x3e4)](wrap4(_0x46d900)), $(_0x4b228e(0x3f8))['html'](wrap5(_0x46d900));
+    var _0x59eexf1 = window["location"]["href"];
+    var _0x59eexf2 = _0x59eexf1["split"]("https://www.discordfonts.com/?=");
+    urltext = _0x59eexf2[1];
+    if (urltext) {
+        urltext = decodeURIComponent(urltext);
+        $("#Sk-text")["val"](urltext);
+        _0x59eexf3(urltext)
     }
-    $(_0x5153c6(0x4b7))[_0x5153c6(0x2ff)](function() {
-        var _0x26d477 = _0x5153c6;
-        $(_0x26d477(0x2c6))[_0x26d477(0x5b)]('');
+
+    function _0x59eexf3(_0x59eex4) {
+        _0x59eex4 = _0x59eex4["trim"]();
+        $(".result-s1")["html"](Change(_0x59eex4, "s1"));
+        $(".result-s2")["html"](Change(_0x59eex4, "s2"));
+        $(".result-s3")["html"](Change(_0x59eex4, "s3"));
+        $(".result-s4")["html"](Change(_0x59eex4, "s4"));
+        $(".result-s5")["html"](Change(_0x59eex4, "s5"));
+        $(".result-s6")["html"](Change(_0x59eex4, "s6"));
+        $(".result-s7")["html"](Change(_0x59eex4, "s7"));
+        $(".result-s8")["html"](Change(_0x59eex4, "s8"));
+        $(".result-s9")["html"](Change(_0x59eex4, "s9"));
+        $(".result-s10")["html"](Change(_0x59eex4, "s10"));
+        $(".result-s11")["html"](Change(_0x59eex4, "s11"));
+        $(".result-s12")["html"](Change(_0x59eex4, "s12"));
+        $(".result-s13")["html"](Change(_0x59eex4, "s13"));
+        $(".result-s14")["html"](Change(_0x59eex4, "s14"));
+        $(".result-s15")["html"](Change(_0x59eex4, "s15"));
+        $(".result-s16")["html"](Change(_0x59eex4, "s16"));
+        $(".result-s17")["html"](Change(_0x59eex4, "s17"));
+        $(".result-s18")["html"](Change(_0x59eex4, "s18"));
+        $(".result-s19")["html"](Change(_0x59eex4, "s19"));
+        $(".result-s20")["html"](Change(_0x59eex4, "s20"));
+        $(".result-s21")["html"](Change(_0x59eex4, "s21"));
+        $(".result-s22")["html"](Change(_0x59eex4, "s22"));
+        $(".result-s23")["html"](Change(_0x59eex4, "s23"));
+        $(".result-s24")["html"](Change(_0x59eex4, "s24"));
+        $(".result-s25")["html"](Change(_0x59eex4, "s25"));
+        $(".result-s26")["html"](Change(_0x59eex4, "s26"));
+        $(".result-s27")["html"](Change(_0x59eex4, "s27"));
+        $(".result-s29")["html"](Change(_0x59eex4, "s29"));
+        $(".result-s30")["html"](Change(_0x59eex4, "s30"));
+        $(".result-s31")["html"](Change(_0x59eex4, "s31"));
+        $(".lunitoolsbubbles")["html"](luni["tools"]["bubbles"]["encode"](_0x59eex4));
+        $(".invertedSquaresCharMap")["html"](applyCharMap(invertedSquaresCharMap, _0x59eex4));
+        $(".illuminati")["html"](illuminati(_0x59eex4));
+        $(".textgun")["html"](textgun(_0x59eex4));
+        $(".minigame")["html"](minigame(_0x59eex4));
+        $(".pubggame1")["html"](pubggame1(_0x59eex4));
+        $(".pubggame2")["html"](pubggame2(_0x59eex4));
+        $(".pubggame3")["html"](pubggame3(_0x59eex4));
+        $(".bricks")["html"](bricks(_0x59eex4));
+        $(".bigrus")["html"](bigrus(_0x59eex4));
+        $(".wideTextCharMap")["html"](applyCharMap(wideTextCharMap, _0x59eex4));
+        $(".lunitoolstinyencode")["html"](luni["tools"]["tiny"]["encode"](_0x59eex4));
+        $(".lunitoolsflipencode")["html"](luni["tools"]["flip"]["encode"](_0x59eex4));
+        $(".squaresCharMap")["html"](applyCharMap(squaresCharMap, _0x59eex4));
+        $(".lunitoolsmirrorencode")["html"](luni["tools"]["mirror"]["encode"](_0x59eex4));
+        $(".subscriptCharMap")["html"](applyCharMap(subscriptCharMap, _0x59eex4));
+        $(".superscriptCharMap")["html"](applyCharMap(superscriptCharMap, _0x59eex4));
+        $(".bentTextCharMap")["html"](applyCharMap(bentTextCharMap, _0x59eex4));
+        $(".neonCharMap")["html"](applyCharMap(neonCharMap, _0x59eex4));
+        $(".futureAlienCharMap")["html"](applyCharMap(futureAlienCharMap, _0x59eex4));
+        $(".strikeThrough")["html"](strikeThrough(_0x59eex4));
+        $(".tildeStrikeThrough")["html"](tildeStrikeThrough(_0x59eex4));
+        $(".slashThrough")["html"](slashThrough(_0x59eex4));
+        $(".underline")["html"](underline(_0x59eex4));
+        $(".doubleUnderline")["html"](doubleUnderline(_0x59eex4));
+        $(".lunicreepify")["html"](luni["tools"]["creepify"]["encode"](_0x59eex4));
+        $(".squiggleCharMap")["html"](applyCharMap(squiggleCharMap, _0x59eex4));
+        $(".squiggle2CharMap")["html"](applyCharMap(squiggle2CharMap, _0x59eex4));
+        $(".squiggle3CharMap")["html"](applyCharMap(squiggle3CharMap, _0x59eex4));
+        $(".squiggle4CharMap")["html"](applyCharMap(squiggle4CharMap, _0x59eex4));
+        $(".squiggle5CharMap")["html"](applyCharMap(squiggle5CharMap, _0x59eex4));
+        $(".squiggle6CharMap")["html"](applyCharMap(squiggle6CharMap, _0x59eex4));
+        $(".boldCharMap")["html"](applyCharMap(boldCharMap, _0x59eex4));
+        $(".luniroundsquares")["html"](luni["tools"]["roundsquares"]["encode"](_0x59eex4));
+        $(".lunisquares")["html"](luni["tools"]["squares"]["encode"](_0x59eex4["toUpperCase"]()));
+        $(".oldEnglishCharMap")["html"](applyCharMap(oldEnglishCharMap, _0x59eex4));
+        $(".medievalCharMap")["html"](applyCharMap(medievalCharMap, _0x59eex4));
+        $(".cursiveCharMap")["html"](applyCharMap(cursiveCharMap, _0x59eex4));
+        $(".scriptify")["html"](scriptify(_0x59eex4));
+        $(".doubleStruckCharMap")["html"](applyCharMap(doubleStruckCharMap, _0x59eex4));
+        $(".italicCharMap")["html"](applyCharMap(italicCharMap, _0x59eex4));
+        $(".boldItalicCharMap")["html"](applyCharMap(boldItalicCharMap, _0x59eex4));
+        $(".monospaceCharMap")["html"](applyCharMap(monospaceCharMap, _0x59eex4));
+        $(".upperAnglesCharMap")["html"](applyCharMap(upperAnglesCharMap, _0x59eex4));
+        $(".greekCharMap")["html"](applyCharMap(greekCharMap, _0x59eex4));
+        $(".symbolsCharMap")["html"](applyCharMap(symbolsCharMap, _0x59eex4));
+        $(".currencyCharMap")["html"](applyCharMap(currencyCharMap, _0x59eex4));
+        $(".asianStyleCharMap")["html"](applyCharMap(asianStyleCharMap, _0x59eex4));
+        $(".asianStyle2CharMap")["html"](applyCharMap(asianStyle2CharMap, _0x59eex4));
+        $(".thickBlockFramed")["html"](thickBlockFramed(_0x59eex4));
+        $(".diametricAngleFrame")["html"](diametricAngleFrame(_0x59eex4));
+        $(".wavyJoiner")["html"](wavyJoiner(_0x59eex4));
+        $(".dottyJoiner")["html"](dottyJoiner(_0x59eex4));
+        $(".kirbyHug")["html"](kirbyHug(_0x59eex4));
+        $(".vaporwaveText")["html"](vaporwaveText(_0x59eex4));
+        $(".vaporwaveText1")["html"](vaporwaveText1(_0x59eex4));
+        $(".vaporwaveText2")["html"](vaporwaveText2(_0x59eex4));
+        $(".littleSparkles")["html"](littleSparkles(_0x59eex4));
+        $(".weirdBox")["html"](weirdBox(_0x59eex4));
+        $(".thickBox")["html"](thickBox(_0x59eex4));
+        $(".zigzagJoiner")["html"](zigzagJoiner(_0x59eex4));
+        $(".hashJoiner")["html"](hashJoiner(_0x59eex4));
+        $(".starJoiner")["html"](starJoiner(_0x59eex4));
+        $(".connectedJoiner")["html"](connectedJoiner(_0x59eex4));
+        $(".arrowjoin")["html"](arrowjoin(_0x59eex4));
+        $(".dotBoxtwo")["html"](dotBoxtwo(_0x59eex4));
+        $(".dotBox")["html"](dotBox(_0x59eex4));
+        $(".diametricBox")["html"](diametricBox(_0x59eex4));
+        $(".arrowBox")["html"](arrowBox(_0x59eex4));
+        $(".curlybrackets")["html"](curlybrackets(_0x59eex4));
+        $(".singlewavyJoiner")["html"](singlewavyJoiner(_0x59eex4));
+        $(".firework")["html"](firework(_0x59eex4));
+        $(".stinky")["html"](stinky(_0x59eex4));
+        $(".heartsBetween")["html"](heartsBetween(_0x59eex4));
+        $(".arrowBelow")["html"](arrowBelow(_0x59eex4));
+        $(".crossAboveBelow")["html"](crossAboveBelow(_0x59eex4));
+        $(".wingdings")["html"](wingdings(_0x59eex4));
+        $(".fullCrazy")["html"](fullCrazy(_0x59eex4));
+        $(".crazyWithFlourishOrSymbols")["html"](crazyWithFlourishOrSymbols(_0x59eex4));
+        $(".cuteText")["html"](cuteText(_0x59eex4));
+        $(".star0")["html"](star0(_0x59eex4));
+        $(".star1")["html"](star1(_0x59eex4));
+        $(".star2")["html"](star2(_0x59eex4));
+        $(".star3")["html"](star3(_0x59eex4));
+        $(".star4")["html"](star4(_0x59eex4));
+        $(".star5")["html"](star5(_0x59eex4));
+        $(".star6")["html"](star6(_0x59eex4));
+        $(".star7")["html"](star7(_0x59eex4));
+        $(".star8")["html"](star8(_0x59eex4));
+        $(".star9")["html"](star9(_0x59eex4));
+        $(".star10")["html"](star10(_0x59eex4));
+        $(".heart0")["html"](heart0(_0x59eex4));
+        $(".heart1")["html"](heart1(_0x59eex4));
+        $(".heart2")["html"](heart2(_0x59eex4));
+        $(".heart3")["html"](heart3(_0x59eex4));
+        $(".heart4")["html"](heart4(_0x59eex4));
+        $(".heart5")["html"](heart5(_0x59eex4));
+        $(".heart6")["html"](heart6(_0x59eex4));
+        $(".heart7")["html"](heart7(_0x59eex4));
+        $(".emoticon0")["html"](emoticon0(_0x59eex4));
+        $(".emoticon1")["html"](emoticon1(_0x59eex4));
+        $(".emoticon2")["html"](emoticon2(_0x59eex4));
+        $(".emoticon3")["html"](emoticon3(_0x59eex4));
+        $(".emoticon4")["html"](emoticon4(_0x59eex4));
+        $(".emoticon5")["html"](emoticon5(_0x59eex4));
+        $(".emoticon6")["html"](emoticon6(_0x59eex4));
+        $(".emoticon7")["html"](emoticon7(_0x59eex4));
+        $(".thankyou0")["html"](thankyou0(_0x59eex4));
+        $(".thankyou1")["html"](thankyou1(_0x59eex4));
+        $(".thankyou2")["html"](thankyou2(_0x59eex4));
+        $(".thankyou3")["html"](thankyou3(_0x59eex4));
+        $(".thankyou4")["html"](thankyou4(_0x59eex4));
+        $(".thankyou5")["html"](thankyou5(_0x59eex4));
+        $(".thankyou6")["html"](thankyou6(_0x59eex4));
+        $(".thankyou7")["html"](thankyou7(_0x59eex4));
+        $(".sad0")["html"](sad0(_0x59eex4));
+        $(".sad1")["html"](sad1(_0x59eex4));
+        $(".sad2")["html"](sad2(_0x59eex4));
+        $(".sad3")["html"](sad3(_0x59eex4));
+        $(".sad4")["html"](sad4(_0x59eex4));
+        $(".sad5")["html"](sad5(_0x59eex4));
+        $(".sad6")["html"](sad6(_0x59eex4));
+        $(".sad7")["html"](sad7(_0x59eex4));
+        $(".cuteText1")["html"](cuteText1(_0x59eex4));
+        $(".cuteText2")["html"](cuteText2(_0x59eex4));
+        $(".cuteText3")["html"](cuteText3(_0x59eex4));
+        $(".cuteText4")["html"](cuteText4(_0x59eex4));
+        $(".cuteText5")["html"](cuteText5(_0x59eex4));
+        $(".crazyWithFlourishOrSymbols1")["html"](crazyWithFlourishOrSymbols1(_0x59eex4));
+        $(".crazyWithFlourishOrSymbols2")["html"](crazyWithFlourishOrSymbols2(_0x59eex4));
+        $(".crazyWithFlourishOrSymbols3")["html"](crazyWithFlourishOrSymbols3(_0x59eex4));
+        $(".crazyWithFlourishOrSymbols4")["html"](crazyWithFlourishOrSymbols4(_0x59eex4));
+        $(".crazyWithFlourishOrSymbols5")["html"](crazyWithFlourishOrSymbols5(_0x59eex4));
+        $(".fullCrazy1")["html"](fullCrazy1(_0x59eex4));
+        $(".fullCrazy2")["html"](fullCrazy2(_0x59eex4));
+        $(".fullCrazy3")["html"](fullCrazy3(_0x59eex4));
+        $(".fullCrazy4")["html"](fullCrazy4(_0x59eex4));
+        $(".fullCrazy5")["html"](fullCrazy5(_0x59eex4));
+        $(".wrap1")["html"](wrap1(_0x59eex4));
+        $(".wrap2")["html"](wrap2(_0x59eex4));
+        $(".wrap3")["html"](wrap3(_0x59eex4));
+        $(".wrap4")["html"](wrap4(_0x59eex4));
+        $(".wrap5")["html"](wrap5(_0x59eex4))
+    }
+    $(".clear")["click"](function() {
+        $("#Sk-text")["val"]("")
     });
 
-    function _0x4d6a28() {
-        var _0x3aa331 = _0x5153c6,
-            _0x42a669 = document['querySelector'](_0x3aa331(0xe2)),
-            _0x152ae6 = _0x42a669[_0x3aa331(0x455)](_0x3aa331(0x33e));
-        document['querySelectorAll'](_0x3aa331(0x265))['forEach'](_0x3d5233 => {
-            var _0x587721 = _0x3aa331;
-            _0x3d5233[_0x587721(0x36d)]('click', () => {
-                var _0x49c493 = _0x587721;
-                _0x152ae6[_0x49c493(0xac)] = _0x3d5233['querySelector']('p')['innerText'], _0x36207b(_0x152ae6), _0x42a669[_0x49c493(0x41c)][_0x49c493(0x46a)](_0x49c493(0x1b1)), setTimeout(() => {
-                    var _0x2e6350 = _0x49c493;
-                    _0x42a669['classList'][_0x2e6350(0x3b5)](_0x2e6350(0x1b1));
-                }, 0x3e8);
-            });
-        });
+    function _0x59eexf4() {
+        var _0x59eexf4 = document["querySelector"](".copied");
+        var _0x59eexf5 = _0x59eexf4["querySelector"](".text");
+        document["querySelectorAll"](".DiscordFonts")["forEach"]((_0x59eexe6) => {
+            _0x59eexe6["addEventListener"]("click", () => {
+                _0x59eexf5["value"] = _0x59eexe6["querySelector"]("p")["innerText"];
+                _0x59eexf6(_0x59eexf5);
+                _0x59eexf4["classList"]["add"]("copied-show");
+                setTimeout(() => {
+                    _0x59eexf4["classList"]["remove"]("copied-show")
+                }, 1000)
+            })
+        })
     }
-    _0x4d6a28();
+    _0x59eexf4();
 
-    function _0x36207b(_0x17b182) {
-        var _0x1117f7 = _0x5153c6,
-            _0x3ffaf5 = document[_0x1117f7(0x28d)](_0x1117f7(0x69));
-        _0x3ffaf5['value'] = _0x17b182[_0x1117f7(0x1c7)] || _0x17b182[_0x1117f7(0xac)], document[_0x1117f7(0x38c)]['appendChild'](_0x3ffaf5), _0x3ffaf5['select'](), document['execCommand']('copy'), _0x3ffaf5[_0x1117f7(0x3b5)]();
+    function _0x59eexf6(_0x59eex4) {
+        var _0x59eexf7 = document["createElement"]("textarea");
+        _0x59eexf7["value"] = _0x59eex4["innerText"] || _0x59eex4["value"];
+        document["body"]["appendChild"](_0x59eexf7);
+        _0x59eexf7["select"]();
+        document["execCommand"]("copy");
+        _0x59eexf7["remove"]()
     }
-});
+})
