@@ -899,8 +899,8 @@ font-size: 20px;
 position: unset
 }
 #Sk-text {
-min-height: 85px;
-height: 85px;
+min-height: 80px;
+height: 80px;
 line-height: 64px;
 box-shadow: 0 -5px 10px 0 #0000001a
 margin-bottom:20px;
