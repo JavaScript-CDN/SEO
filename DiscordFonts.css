@@ -956,7 +956,7 @@ img {
 footer {
     background-color: black;
     color: white;
-
+}
 #footer-container {
     display: flex;
     width: 100%;
@@ -969,6 +969,8 @@ footer {
     align-content: center;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 #footer-checks-menu {
     float: right;
@@ -992,7 +994,7 @@ footer {
     line-height: 35px;
     padding: 0 10px;
     margin: 0 auto;
-    background: var(--body-color-main);
+    background: #a9a9a9;
     border-radius: 8px;
     border: 1px solid rgb(0 0 0 / 12%);
 }
