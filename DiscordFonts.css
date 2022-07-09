@@ -608,7 +608,6 @@ text-transform: uppercase;
 font-size: calc(1vw + 12px);
 font-weight: 400;
 color: #555;
-display: none;
 }
 h3 {
 letter-spacing: 1px;
